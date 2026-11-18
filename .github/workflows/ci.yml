@@ -50,8 +50,10 @@ jobs:
           node build.mjs --version "$v" --out dist/SGK-Navigator.html
           node scripts/build-site.mjs --version "$v" --file dist/SGK-Navigator.html --out dist/site
 
-      - name: Chromium für Playwright installieren
-        run: npx playwright install --with-deps chromium
+      - name: Chromium für Playwright und pdftotext installieren
+        run: |
+          npx playwright install --with-deps chromium
+          sudo apt-get install --yes --no-install-recommends poppler-utils
 
       - name: Oberflächentests (ohne Netz und ohne Dateien ausserhalb des Repos)
         run: npm run test:app:ci

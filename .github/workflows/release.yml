@@ -84,6 +84,7 @@ jobs:
       - name: Kurzprüfung der Oberfläche (Start, Hinweis auf neue Versionen)
         run: |
           npx playwright install --with-deps chromium
+          sudo apt-get install --yes --no-install-recommends poppler-utils
           npx playwright test -c test/app/playwright.config.mjs app.spec.mjs version.spec.mjs --grep-invert "@netz|@daten"
 
       - name: Download-Seite und version.json bauen
