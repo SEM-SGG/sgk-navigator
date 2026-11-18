@@ -109,7 +109,7 @@ Ohne `/usr/bin/google-chrome`: `npx playwright install chromium` und `SGK_CHROME
 
 ### Release erstellen
 
-Kurz: GitHub → «Actions» → «Release» → «Run workflow», Version (z. B. `2026.12.12`) und optional «Was ist neu» eintragen. Der
+Kurz: GitHub → «Actions» → «Release» → «Run workflow», Version (leer = heutiges Datum, sonst z. B. `2026.12.12`) und optional «Was ist neu» eintragen. Der
 Workflow baut die Datei aus dem Quellcode, testet, legt das Release mit `SGK-Navigator.html` an und aktualisiert die Download-Seite
 samt `version.json`. Die gebaute Datei wird nie ins Repo committet. Einzelheiten in [MAINTAINING.md](MAINTAINING.md#release-erstellen).
 

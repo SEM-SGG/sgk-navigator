@@ -96,6 +96,8 @@ test('Neue Version: Hinweis oben im Inhaltsbereich, Link auf das Release-Asset, 
   // Später erinnern: auch nach dem Neuladen weg; nach Ablauf (7 Tage) wieder da
   await page.locator('#update-later').click();
   await expect(n).toHaveCount(0);
+  // Speichern in IndexedDB ist asynchron: erst neu laden, wenn die Wahl gespeichert ist (auf langsamen Rechnern sonst zu früh)
+  await expect.poll(async () => ((await editState(page)).remind || {}).version, { timeout: 10000 }).toBe('2026.12.12');
   await page.reload();
   await page.waitForFunction(() => window.__sgk && window.__sgk.ready);
   await page.waitForTimeout(300);

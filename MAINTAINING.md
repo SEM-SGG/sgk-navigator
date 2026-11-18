@@ -27,7 +27,7 @@ Ein Release lohnt sich, wenn neue Daten oder Korrekturen im Branch `main` sind u
 1. Auf github.com das Repo `SEM-SGG/sgk-navigator` öffnen.
 2. Oben «Actions» wählen, links «Release», rechts «Run workflow».
 3. «Use workflow from»: `main` lassen.
-4. «Version» eintragen: das heutige Datum im Schema `JJJJ.MM.TT`, z. B. `2026.12.12`.
+4. «Version» leer lassen: Dann gilt das heutige Datum. Wer sie einträgt, schreibt das Datum, z. B. `2026.12.12`; `20261212` und `2026-12-12` gehen auch.
 5. Optional «Was ist neu» auf Deutsch und Französisch in einem bis zwei Sätzen, z. B. «Neu: VIS-VO in der Fassung vom
    1. Dezember 2026.» Leer lassen ergibt einen Standardtext; der Datenstand je Rechtsakt steht ohnehin auf der Download-Seite.
 6. «Run workflow» wählen. Nach rund 10 bis 15 Minuten sind beide Schritte grün («Bauen, testen, Release erstellen» und
