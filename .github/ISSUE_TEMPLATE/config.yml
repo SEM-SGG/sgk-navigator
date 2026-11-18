@@ -1,0 +1,9 @@
+# Auswahl beim Eröffnen eines Issues. Für ein Issue ist ein GitHub-Konto nötig.
+blank_issues_enabled: false
+contact_links:
+  - name: SGK-Navigator herunterladen
+    url: https://sem-sgg.github.io/sgk-navigator/
+    about: Neueste Version, Anleitung in drei Schritten (ohne GitHub-Konto).
+  - name: Wichtig vor dem Eintragen
+    url: https://github.com/SEM-SGG/sgk-navigator#kontakt
+    about: Issues sind öffentlich und brauchen ein GitHub-Konto. Keine vertraulichen, klassifizierten oder internen Inhalte eintragen (keine Positionen, Dossiers, Notizen, Namen). Ohne Konto an die Sektion Grundlagen Grenze (SGG), SEM wenden.

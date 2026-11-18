@@ -1,0 +1,33 @@
+<!-- @dsCard group="Navigation" height=110 -->
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>body{margin:0;background:var(--canvas)}</style>
+</head>
+<body>
+<div class="ui-root" style="padding: 24px; background: var(--canvas)">
+<div class="ui-tabs" role="tablist" aria-label="Positionsdetail"><button type="button" role="tab" class="ui-tab" aria-selected="true">Position</button><button type="button" role="tab" class="ui-tab" aria-selected="false">Verlauf (4)</button><button type="button" role="tab" class="ui-tab" aria-selected="false">Konsultation</button><button type="button" role="tab" class="ui-tab" aria-selected="false">Delegationen</button></div>
+</div>
+<script>
+document.querySelectorAll('.ui-seg').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('[role="tablist"]').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('[role="tab"]'); if (!b) return;
+    g.querySelectorAll('[role="tab"]').forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('.ui-stagebar').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('.ui-stage'); if (!b) return;
+    g.querySelectorAll('.ui-stage').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+</script>
+</body>
+</html>

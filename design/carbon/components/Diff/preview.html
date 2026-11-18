@@ -1,0 +1,38 @@
+<!-- @dsCard group="Rechtsakte" height=330 -->
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>body{margin:0;background:var(--canvas)}</style>
+</head>
+<body>
+<div class="ui-root" style="padding: 24px; background: var(--canvas)">
+<div style="display: flex; flex-direction: column; gap: 24px; max-width: 900px">
+<div class="ui-change" data-act="ees"><div class="ui-change-head"><a href="#">Art. 8 Abs. 3 Bst. a Ziff. i Unterabs. 2 SGK</a><span class="ui-tag ui-tag--info">ersetzt</span></div>
+<div class="ui-change-text">Bei Pässen und Reisedokumenten mit einem <del class="ui-del">Speichermedium</del><ins class="ui-ins">elektronischen Speichermedium (Chip)</ins> wird vorbehaltlich der Verfügbarkeit gültiger Zertifikate die <del class="ui-del">Authentizität</del><ins class="ui-ins">Echtheit und Integrität</ins> der Daten auf dem <del class="ui-del">Chip geprüft;</del><ins class="ui-ins">elektronischen Speichermedium (Chip) geprüft.</ins></div></div>
+<div class="ui-change" data-act="ees"><div class="ui-change-head"><a href="#">Art. 8 Abs. 3 Bst. a Ziff. iiia SGK</a><span class="ui-tag ui-tag--ins">eingefügt</span></div>
+<div class="ui-change-text">iiia) <ins class="ui-ins">Bei Personen, deren Einreise beziehungsweise Einreiseverweigerung gemäß Artikel 6a der vorliegenden Verordnung im EES zu erfassen ist, Überprüfung, ob der Drittstaatsangehörige die zulässige Höchstdauer des Aufenthalts […]</ins></div></div>
+</div>
+</div>
+<script>
+document.querySelectorAll('.ui-seg').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('[role="tablist"]').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('[role="tab"]'); if (!b) return;
+    g.querySelectorAll('[role="tab"]').forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('.ui-stagebar').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('.ui-stage'); if (!b) return;
+    g.querySelectorAll('.ui-stage').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+name: Fassung oder Rechtsakt fehlt
+description: Eine neue konsolidierte Fassung oder ein Änderungsakt ist im Tool noch nicht enthalten.
+title: 'Fassung fehlt: '
+labels: ['fassung']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Eine wöchentliche Prüfung meldet neue Fassungen automatisch im Issue «Neue Fassungen verfügbar». Bitte zuerst dort nachsehen.
+        **Dieses Issue ist öffentlich.** Bitte keine vertraulichen oder internen Inhalte eintragen.
+  - type: dropdown
+    id: werk
+    attributes:
+      label: Rechtsakt
+      options:
+        - Schengener Grenzkodex (SGK), Verordnung (EU) 2016/399
+        - EES-Verordnung (EU) 2017/2226
+        - ETIAS-Verordnung (EU) 2018/1240
+        - VIS-Verordnung (EG) Nr. 767/2008
+        - Interoperabilitäts-Verordnung (EU) 2019/817
+        - anderer Rechtsakt (neu in die Bibliothek aufnehmen)
+    validations:
+      required: true
+  - type: input
+    id: celex
+    attributes:
+      label: CELEX-Nummer oder Link zu EUR-Lex
+      description: z. B. 02016R0399-20251012 (konsolidierte Fassung) oder 32024R1717 (Änderungsakt)
+    validations:
+      required: true
+  - type: textarea
+    id: hinweis
+    attributes:
+      label: Hinweis
+      description: Warum ist die Fassung oder der Akt wichtig, ab wann gilt er? (optional)
+  - type: checkboxes
+    id: vertraulich
+    attributes:
+      label: Bestätigung
+      options:
+        - label: Die Meldung enthält keine vertraulichen oder internen Inhalte.
+          required: true

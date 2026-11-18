@@ -1,0 +1,1191 @@
+{
+ "id": "etias",
+ "celex": "32018R1240",
+ "versionsFrom": "cache",
+ "versions": [
+  "02018R1240-20180919",
+  "02018R1240-20190611",
+  "02018R1240-20210803",
+  "02018R1240-20231231",
+  "02018R1240-20251118",
+  "02018R1240-20260612"
+ ],
+ "skipped": [
+  {
+   "celex": "02018R1240-20231231",
+   "reason": "keine Sprachfassung DE, FR oder EN ladbar"
+  }
+ ],
+ "availability": {
+  "32018R1240": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02018R1240-20180919": [
+   "de"
+  ],
+  "02018R1240-20190611": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02018R1240-20210803": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02018R1240-20231231": [],
+  "02018R1240-20251118": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02018R1240-20260612": [
+   "de",
+   "fr",
+   "en"
+  ]
+ },
+ "stages": [
+  {
+   "id": "s00",
+   "celex": "32018R1240",
+   "date": "2018-09-19",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32018R1240"
+   ],
+   "modifiers": [],
+   "droppedFromList": []
+  },
+  {
+   "id": "s01",
+   "celex": "02018R1240-20180919",
+   "date": "2018-09-19",
+   "langs": [
+    "de"
+   ],
+   "acts": [
+    "32018R1240R(01)"
+   ],
+   "modifiers": [
+    "32018R1240R(01)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s02",
+   "celex": "02018R1240-20190611",
+   "date": "2019-06-11",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32019R0817",
+    "32018R1240R(03)"
+   ],
+   "modifiers": [
+    "32019R0817",
+    "32018R1240R(01)",
+    "32018R1240R(03)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s03",
+   "celex": "02018R1240-20210803",
+   "date": "2021-08-03",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32021R1152",
+    "32018R1240R(06)"
+   ],
+   "modifiers": [
+    "32019R0817",
+    "32021R1152",
+    "32018R1240R(01)",
+    "32018R1240R(03)",
+    "32018R1240R(06)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s04",
+   "celex": "02018R1240-20251118",
+   "date": "2025-11-18",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32025R1411"
+   ],
+   "modifiers": [
+    "32019R0817",
+    "32021R1152",
+    "32025R1411",
+    "32018R1240R(01)",
+    "32018R1240R(03)",
+    "32018R1240R(06)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s05",
+   "celex": "02018R1240-20260612",
+   "date": "2026-06-12",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32024R1356",
+    "32024R1358"
+   ],
+   "modifiers": [
+    "32019R0817",
+    "32021R1152",
+    "32024R1356",
+    "32024R1358",
+    "32025R1411",
+    "32018R1240R(01)",
+    "32018R1240R(03)",
+    "32018R1240R(06)"
+   ],
+   "droppedFromList": []
+  }
+ ],
+ "recitals": {
+  "de": {
+   "recitals": 77,
+   "blocks": 112
+  },
+  "fr": {
+   "recitals": 77,
+   "blocks": 112
+  },
+  "en": {
+   "recitals": 77,
+   "blocks": 112
+  }
+ },
+ "attributions": {
+  "total": 640,
+  "unexplained": [
+   {
+    "stage": "s04",
+    "lang": "de",
+    "unit": "art_8",
+    "key": "p2.g",
+    "change": "editorial",
+    "act": "32018R1240",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s04",
+    "lang": "de",
+    "unit": "art_69",
+    "key": "p1.f",
+    "change": "editorial",
+    "act": "32018R1240",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s04",
+    "lang": "de",
+    "unit": "art_69",
+    "key": "p1.g",
+    "change": "editorial",
+    "act": "32018R1240",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s04",
+    "lang": "de",
+    "unit": "art_75",
+    "key": "p1.b",
+    "change": "editorial",
+    "act": "32018R1240",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s04",
+    "lang": "de",
+    "unit": "art_75",
+    "key": "p1.c",
+    "change": "editorial",
+    "act": "32018R1240",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s04",
+    "lang": "fr",
+    "unit": "art_8",
+    "key": "p2.g",
+    "change": "editorial",
+    "act": "32018R1240",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s04",
+    "lang": "fr",
+    "unit": "art_47",
+    "key": "p2.a",
+    "change": "editorial",
+    "act": "32021R1152",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s04",
+    "lang": "fr",
+    "unit": "art_69",
+    "key": "p1.f",
+    "change": "editorial",
+    "act": "32018R1240",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s04",
+    "lang": "fr",
+    "unit": "art_69",
+    "key": "p1.g",
+    "change": "editorial",
+    "act": "32018R1240",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s04",
+    "lang": "en",
+    "unit": "art_8",
+    "key": "p2.g",
+    "change": "editorial",
+    "act": "32018R1240",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s04",
+    "lang": "en",
+    "unit": "art_69",
+    "key": "p1.f",
+    "change": "editorial",
+    "act": "32018R1240",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s04",
+    "lang": "en",
+    "unit": "art_69",
+    "key": "p1.g",
+    "change": "editorial",
+    "act": "32018R1240",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s04",
+    "lang": "en",
+    "unit": "art_75",
+    "key": "p1.b",
+    "change": "editorial",
+    "act": "32018R1240",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s04",
+    "lang": "en",
+    "unit": "art_75",
+    "key": "p1.c",
+    "change": "editorial",
+    "act": "32018R1240",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s05",
+    "lang": "de",
+    "unit": "art_8",
+    "key": "p2.g",
+    "change": "punct",
+    "act": "32018R1240",
+    "how": "Herkunft o",
+    "x": "punct",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s05",
+    "lang": "fr",
+    "unit": "art_8",
+    "key": "p2.g",
+    "change": "punct",
+    "act": "32018R1240",
+    "how": "Herkunft o",
+    "x": "punct",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s05",
+    "lang": "en",
+    "unit": "art_8",
+    "key": "p2.g",
+    "change": "punct",
+    "act": "32018R1240",
+    "how": "Herkunft o",
+    "x": "punct",
+    "explained": false,
+    "why": null
+   }
+  ]
+ },
+ "meta": {
+  "32018R1240": {
+   "title": {
+    "en": "Regulation (EU) 2018/1240 of the European Parliament and of the Council of 12 September 2018 establishing a European Travel Information and Authorisation System (ETIAS) and amending Regulations (EU) No 1077/2011, (EU) No 515/2014, (EU) 2016/399, (EU) 2016/1624 and (EU) 2017/2226",
+    "de": "Verordnung (EU) 2018/1240 des Europäischen Parlaments und des Rates vom 12. September 2018 über die Einrichtung eines Europäischen Reiseinformations- und -genehmigungssystems (ETIAS) und zur Änderung der Verordnungen (EU) Nr. 1077/2011, (EU) Nr. 515/2014, (EU) 2016/399, (EU) 2016/1624 und (EU) 2017/2226",
+    "fr": "Règlement (UE) 2018/1240 du Parlement européen et du Conseil du 12 septembre 2018 portant création d’un système européen d’information et d’autorisation concernant les voyages (ETIAS) et modifiant les règlements (UE) no 1077/2011, (UE) no 515/2014, (UE) 2016/399, (UE) 2016/1624 et (UE) 2017/2226"
+   },
+   "adopted": "2018-09-12",
+   "eif": [
+    "2018-10-09",
+    "2021-08-03"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2018/1240/oj"
+  },
+  "32019R0817": {
+   "title": {
+    "en": "Regulation (EU) 2019/817 of the European Parliament and of the Council of 20 May 2019 on establishing a framework for interoperability between EU information systems in the field of borders and visa and amending Regulations (EC) No 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 and (EU) 2018/1861 of the European Parliament and of the Council and Council Decisions 2004/512/EC and 2008/633/JHA",
+    "de": "Verordnung (EU) 2019/817 des Europäischen Parlaments und des Rates vom 20. Mai 2019 zur Errichtung eines Rahmens für die Interoperabilität zwischen EU-Informationssystemen in den Bereichen Grenzen und Visa und zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 und (EU) 2018/1861 des Europäischen Parlaments und des Rates, der Entscheidung 2004/512/EG des Rates und des Beschlusses 2008/633/JI des Rates",
+    "fr": "Règlement (UE) 2019/817 du Parlement européen et du Conseil du 20 mai 2019 portant établissement d'un cadre pour l'interopérabilité des systèmes d'information de l'UE dans le domaine des frontières et des visas et modifiant les règlements (CE) n° 767/2008, (UE) 2016/399, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1726 et (UE) 2018/1861 du Parlement européen et du Conseil et les décisions 2004/512/CE et 2008/633/JAI du Conseil"
+   },
+   "adopted": "2019-05-20",
+   "eif": [
+    "2019-06-11",
+    "2025-05-19",
+    "2026-06-12"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2019/817/oj"
+  },
+  "32021R1152": {
+   "title": {
+    "en": "Regulation (EU) 2021/1152 of the European Parliament and of the Council of 7 July 2021 amending Regulations (EC) No 767/2008, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861 and (EU) 2019/817 as regards the establishment of the conditions for accessing other EU information systems for the purposes of the European Travel Information and Authorisation System",
+    "de": "Verordnung (EU) 2021/1152 des Europäischen Parlaments und des Rates vom 7. Juli 2021 zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861 und (EU) 2019/817 hinsichtlich der Festlegung der Bedingungen für den Zugang zu anderen EU-Informationssystemen für die Zwecke des Europäischen Reiseinformations- und -genehmigungssystems",
+    "fr": "Règlement (UE) 2021/1152 du Parlement européen et du Conseil du 7 juillet 2021 modifiant les règlements (CE) no 767/2008, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1860, (UE) 2018/1861 et (UE) 2019/817 en ce qui concerne l’établissement des conditions d’accès aux autres systèmes d’information de l’UE aux fins du système européen d’information et d’autorisation concernant les voyages"
+   },
+   "adopted": "2021-07-07",
+   "eif": [
+    "2021-08-03"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2021/1152/oj"
+  },
+  "32024R1356": {
+   "title": {
+    "en": "Regulation (EU) 2024/1356 of the European Parliament and of the Council of 14 May 2024 introducing the screening of third-country nationals at the external borders and amending Regulations (EC) No 767/2008, (EU) 2017/2226, (EU) 2018/1240 and (EU) 2019/817",
+    "fr": "Règlement (UE) 2024/1356 du Parlement européen et du Conseil du 14 mai 2024 établissant le filtrage des ressortissants de pays tiers aux frontières extérieures et modifiant les règlements (CE) n° 767/2008, (UE) 2017/2226, (UE) 2018/1240 et (UE) 2019/817",
+    "de": "Verordnung (EU) 2024/1356 des Europäischen Parlaments und des Rates vom 14. Mai 2024 zur Einführung der Überprüfung von Drittstaatsangehörigen an den Außengrenzen und zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2017/2226, (EU) 2018/1240 und (EU) 2019/817"
+   },
+   "adopted": "2024-05-14",
+   "eif": [
+    "2024-06-11",
+    "2026-06-12"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2024/1356/oj"
+  },
+  "32024R1358": {
+   "title": {
+    "de": "Verordnung (EU) 2024/1358 des Europäischen Parlaments und des Rates vom 14. Mai 2024 über die Einrichtung von Eurodac für den Abgleich biometrischer Daten zur effektiven Anwendung der Verordnungen (EU) 2024/1351 und (EU) 2024/1350 des Europäischen Parlaments und des Rates und der Richtlinie 2001/55/EG sowie zur Feststellung der Identität illegal aufhältiger Drittstaatsangehöriger oder Staatenloser und über der Gefahrenabwehr und Strafverfolgung dienende Anträge der Gefahrenabwehr- und Strafverfolgungsbehörden der Mitgliedstaaten und Europols auf den Abgleich mit Eurodac-Daten, zur Änderung der Verordnungen (EU) 2018/1240 und (EU) 2019/818 des Europäischen Parlaments und des Rates und zur Aufhebung der Verordnung (EU) Nr. 603/2013 des Europäischen Parlaments und des Rates",
+    "fr": "Règlement (UE) 2024/1358 du Parlement européen et du Conseil du 14 mai 2024 relatif à la création d’«Eurodac» pour la comparaison des données biométriques aux fins de l’application efficace des règlements (UE) 2024/1351 et (UE) 2024/1350 du Parlement européen et du Conseil et de la directive 2001/55/CE du Conseil et aux fins de l’identification des ressortissants de pays tiers et apatrides en séjour irrégulier, et relatif aux demandes de comparaison avec les données d’Eurodac présentées par les autorités répressives des États membres et par Europol à des fins répressives, modifiant les règlements (UE) 2018/1240 et (UE) 2019/818 du Parlement européen et du Conseil et abrogeant le règlement (UE) n° 603/2013 du Parlement européen et du Conseil",
+    "en": "Regulation (EU) 2024/1358 of the European Parliament and of the Council of 14 May 2024 on the establishment of ‘Eurodac’ for the comparison of biometric data in order to effectively apply Regulations (EU) 2024/1351 and (EU) 2024/1350 of the European Parliament and of the Council and Council Directive 2001/55/EC and to identify illegally staying third-country nationals and stateless persons and on requests for the comparison with Eurodac data by Member States’ law enforcement authorities and Europol for law enforcement purposes, amending Regulations (EU) 2018/1240 and (EU) 2019/818 of the European Parliament and of the Council and repealing Regulation (EU) No 603/2013 of the European Parliament and of the Council"
+   },
+   "adopted": "2024-05-14",
+   "eif": [
+    "2024-06-11",
+    "2026-06-12",
+    "2029-06-12"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2024/1358/oj"
+  },
+  "32025R1411": {
+   "title": {
+    "fr": "Règlement délégué (UE) 2025/1411 de la Commission du 16 juillet 2025 modifiant le règlement (UE) 2018/1240 du Parlement européen et du Conseil en ce qui concerne le montant des droits d’autorisation de voyage du système européen d’information et d’autorisation concernant les voyages (ETIAS)",
+    "de": "Delegierte Verordnung (EU) 2025/1411 der Kommission vom 16. Juli 2025 zur Änderung der Verordnung (EU) 2018/1240 des Europäischen Parlaments und des Rates hinsichtlich der Reisegenehmigungsgebühr des Europäischen Reiseinformations- und -genehmigungssystems (ETIAS)",
+    "en": "Commission Delegated Regulation (EU) 2025/1411 of 16 July 2025 amending Regulation (EU) 2018/1240 of the European Parliament and of the Council as regards the amount of the European Travel Information and Authorisation System (ETIAS) travel authorisation fee"
+   },
+   "adopted": "2025-07-16",
+   "eif": [
+    "2025-11-18"
+   ],
+   "eli": "http://data.europa.eu/eli/reg_del/2025/1411/oj"
+  },
+  "32018R1240R(01)": {
+   "title": {
+    "de": "Berichtigung der Verordnung (EU) 2018/1240 des Europäischen Parlaments und des Rates vom 12. September 2018 über die Einrichtung eines Europäischen Reiseinformations- und -genehmigungssystems (ETIAS) und zur Änderung der Verordnungen (EU) Nr. 1077/2011, (EU) Nr. 515/2014, (EU) 2016/399, (EU) 2016/1624 und (EU) 2017/2226 (ABl. L 236 vom 19.9.2018)"
+   },
+   "adopted": "2018-12-19",
+   "eif": [],
+   "eli": "http://data.europa.eu/eli/reg/2018/1240/corrigendum/2018-12-19/oj"
+  },
+  "32018R1240R(03)": {
+   "title": {
+    "de": "Berichtigung der Verordnung (EU) 2018/1240 des Europäischen Parlaments und des Rates vom 12. September 2018 über die Einrichtung eines Europäischen Reiseinformations- und -genehmigungssystems (ETIAS) und zur Änderung der Verordnungen (EU) Nr. 1077/2011, (EU) Nr. 515/2014, (EU) 2016/399, (EU) 2016/1624 und (EU) 2017/2226 (Amtsblatt der Europäischen Union L 236 vom 19. September 2018)",
+    "en": "Corrigendum to Regulation (EU) 2018/1240 of the European Parliament and of the Council of 12 September 2018 establishing a European Travel Information and Authorisation System (ETIAS) and amending Regulations (EU) No 1077/2011, (EU) No 515/2014, (EU) 2016/399, (EU) 2016/1624 and (EU) 2017/2226 (Official Journal of the European Union L 236 of 19 September 2018)",
+    "fr": "Rectificatif au règlement (UE) 2018/1240 du Parlement européen et du Conseil du 12 septembre 2018 portant création d’un système européen d’information et d’autorisation concernant les voyages (ETIAS) et modifiant les règlements (UE) n° 1077/2011, (UE) n° 515/2014, (UE) 2016/399, (UE) 2016/1624 et (UE) 2017/2226 («Journal officiel de l’Union européenne» L 236 du 19 septembre 2018)"
+   },
+   "adopted": "2020-06-17",
+   "eif": [],
+   "eli": "http://data.europa.eu/eli/reg/2018/1240/corrigendum/2020-06-17/oj"
+  },
+  "32018R1240R(06)": {
+   "title": {
+    "de": "Berichtigung der Verordnung (EU) 2018/1240 des Europäischen Parlaments und des Rates vom 12. September 2018 über die Einrichtung eines Europäischen Reiseinformations- und -genehmigungssystems (ETIAS) und zur Änderung der Verordnungen (EU) Nr. 1077/2011, (EU) Nr. 515/2014, (EU) 2016/399, (EU) 2016/1624 und (EU) 2017/2226 (Amtsblatt der Europäischen Union L 236 vom 19. September 2018)"
+   },
+   "adopted": "2022-10-13",
+   "eif": [],
+   "eli": "http://data.europa.eu/eli/reg/2018/1240/corrigendum/2022-10-13/oj"
+  }
+ },
+ "output": {
+  "dataset": {
+   "bytes": 1869740,
+   "sha256": "199ae56d8510b997a9cbb508dbe88942c87f58032b73f5d082c7d9f5531120e4"
+  },
+  "acts": {
+   "bytes": 28459,
+   "sha256": "9eccaf454b1b033098131b18f7585bebdd4a930dd59e9a91b474c4c9544c323d"
+  }
+ },
+ "editorial": [
+  {
+   "unit": "art_3",
+   "key": "p1.n22.c",
+   "lang": "de",
+   "stage": "s02",
+   "kind": "editorial",
+   "before": "die Rückkehr von Drittstaatsangehörigen in ein Herkunfts- oder Transitdrittland vorzunehmen.",
+   "after": "die Rückkehr von Drittstaatsangehörigen in ein Herkunfts- oder Transitdrittland vorzunehmen;"
+  },
+  {
+   "unit": "art_3",
+   "key": "p1.n22.c",
+   "lang": "fr",
+   "stage": "s02",
+   "kind": "editorial",
+   "before": "assurer le retour de ressortissants de pays tiers vers un pays tiers d’origine ou de transit.",
+   "after": "assurer le retour de ressortissants de pays tiers vers un pays tiers d’origine ou de transit;"
+  },
+  {
+   "unit": "art_3",
+   "key": "p1.n22.c",
+   "lang": "en",
+   "stage": "s02",
+   "kind": "editorial",
+   "before": "the return of third-country nationals to a third country of origin or transit.",
+   "after": "the return of third-country nationals to a third country of origin or transit;"
+  },
+  {
+   "unit": "art_4",
+   "key": "f",
+   "lang": "de",
+   "stage": "s02",
+   "kind": "editorial",
+   "before": "einen Beitrag zur Verhütung, Aufdeckung und Untersuchung terroristischer oder sonstiger schwerer Straftaten.",
+   "after": "einen Beitrag zur Verhütung, Aufdeckung und Untersuchung terroristischer oder sonstiger schwerer Straftaten;"
+  },
+  {
+   "unit": "art_4",
+   "key": "f",
+   "lang": "fr",
+   "stage": "s02",
+   "kind": "editorial",
+   "before": "contribue à la prévention et à la détection des infractions terroristes ou d’autres infractions pénales graves, et aux enquêtes en la matière.",
+   "after": "contribue à la prévention et à la détection des infractions terroristes ou d’autres infractions pénales graves, et aux enquêtes en la matière;"
+  },
+  {
+   "unit": "art_4",
+   "key": "f",
+   "lang": "en",
+   "stage": "s02",
+   "kind": "editorial",
+   "before": "contribute to the prevention, detection and investigation of terrorist offences or of other serious criminal offences.",
+   "after": "contribute to the prevention, detection and investigation of terrorist offences or of other serious criminal offences;"
+  },
+  {
+   "unit": "art_3",
+   "key": "p1.n27",
+   "lang": "de",
+   "stage": "s03",
+   "kind": "editorial",
+   "before": "„Reisedokumentendaten“ die in Artikel 17 Absatz 2 Buchstaben d und e genannten Daten sowie den aus drei Buchstaben bestehenden Code des Landes, das das Reisedokument ausgestellt hat, im Sinne des Artikels 19 Absatz 3 Buchstabe c.",
+   "after": "„Reisedokumentendaten“ die in Artikel 17 Absatz 2 Buchstaben d und e genannten Daten sowie den aus drei Buchstaben bestehenden Code des Landes, das das Reisedokument ausgestellt hat, im Sinne des Artikels 19 Absatz 3 Buchstabe c;"
+  },
+  {
+   "unit": "art_3",
+   "key": "p1.n27",
+   "lang": "fr",
+   "stage": "s03",
+   "kind": "editorial",
+   "before": "«données du document de voyage», les données visées à l'article 17, paragraphe 2, points d) et e), et le code à trois lettres du pays de délivrance du document de voyage visé à l'article 19, paragraphe 3, point c).",
+   "after": "«données du document de voyage», les données visées à l'article 17, paragraphe 2, points d) et e), et le code à trois lettres du pays de délivrance du document de voyage visé à l'article 19, paragraphe 3, point c);"
+  },
+  {
+   "unit": "art_8",
+   "key": "p2.g",
+   "lang": "de",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "entsprechend den Artikeln 40 und 41 eine Reisegenehmigung zu annullieren und aufzuheben.",
+   "after": "entsprechend den Artikeln 40 und 41 eine Reisegenehmigung zu annullieren und aufzuhebe."
+  },
+  {
+   "unit": "art_8",
+   "key": "p2.g",
+   "lang": "fr",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "annuler et révoquer une autorisation de voyage conformément aux articles 40 et 41.",
+   "after": "annuler et révoquer une autorisation de voyage conformément aux articles 40 et 4."
+  },
+  {
+   "unit": "art_8",
+   "key": "p2.g",
+   "lang": "en",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "annulling and revoking a travel authorisation as referred to in Articles 40 and 41.",
+   "after": "annulling and revoking a travel authorisation as referred to in Articles 40 and 4."
+  },
+  {
+   "unit": "art_47",
+   "key": "p2.a",
+   "lang": "fr",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "si la personne est ou non en possession d’une autorisation de voyage en cours de validité, y compris si le statut de la personne correspond au statut visé à l’article 2, paragraphe 1, point c), et, dans le cas d’une autorisation de voyage à validité territoriale limitée délivrée en application de l’article 44, l’État membre ou les États membres pour lesquels elle est valable;».",
+   "after": "si la personne est ou non en possession d’une autorisation de voyage en cours de validité, y compris si le statut de la personne correspond au statut visé à l’article 2, paragraphe 1, point c), et, dans le cas d’une autorisation de voyage à validité territoriale limitée délivrée en application de l’article 44, l’État membre ou les États membres pour lesquels elle est valable;"
+  },
+  {
+   "unit": "art_69",
+   "key": "p1.f",
+   "lang": "de",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "die Ergebnisse der Überprüfung nach Artikel 22 und",
+   "after": "die Ergebnisse der Überprüfung nach Artikel 2, und"
+  },
+  {
+   "unit": "art_69",
+   "key": "p1.g",
+   "lang": "de",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "den Bediensteten, der die Überprüfung durchgeführt hat.",
+   "after": "den Bediensteten, der die Überprüfung durchgeführt ha."
+  },
+  {
+   "unit": "art_69",
+   "key": "p1.f",
+   "lang": "fr",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "les résultats du processus de vérification prévu à l’article 22; et",
+   "after": "les résultats du processus de vérification prévu à l’article 2; et"
+  },
+  {
+   "unit": "art_69",
+   "key": "p1.g",
+   "lang": "fr",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "l’identité de l’agent qui a effectué cette vérification.",
+   "after": "l’identité de l’agent qui a effectué cette vérificatio."
+  },
+  {
+   "unit": "art_69",
+   "key": "p1.f",
+   "lang": "en",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "the results of the verification process referred to in Article 22; and",
+   "after": "the results of the verification process referred to in Article 2; and"
+  },
+  {
+   "unit": "art_69",
+   "key": "p1.g",
+   "lang": "en",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "the staff member having performed it.",
+   "after": "the staff member having performed i."
+  },
+  {
+   "unit": "art_75",
+   "key": "p1.b",
+   "lang": "de",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "die automatische Antragsbearbeitung und",
+   "after": "die automatische Antragsbearbeitun, und"
+  },
+  {
+   "unit": "art_75",
+   "key": "p1.c",
+   "lang": "de",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "die ETIAS-Überprüfungsregeln.",
+   "after": "die ETIAS-Überprüfungsregel."
+  },
+  {
+   "unit": "art_75",
+   "key": "p1.b",
+   "lang": "en",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "the automated processing of applications; and",
+   "after": "the automated processing of application; and"
+  },
+  {
+   "unit": "art_75",
+   "key": "p1.c",
+   "lang": "en",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "the ETIAS screening rules.",
+   "after": "the ETIAS screening rule."
+  },
+  {
+   "unit": "art_8",
+   "key": "p2.g",
+   "lang": "de",
+   "stage": "s05",
+   "kind": "editorial",
+   "before": "entsprechend den Artikeln 40 und 41 eine Reisegenehmigung zu annullieren und aufzuhebe.",
+   "after": "entsprechend den Artikeln 40 und 41 eine Reisegenehmigung zu annullieren und aufzuhebe;"
+  },
+  {
+   "unit": "art_8",
+   "key": "p2.g",
+   "lang": "fr",
+   "stage": "s05",
+   "kind": "editorial",
+   "before": "annuler et révoquer une autorisation de voyage conformément aux articles 40 et 4.",
+   "after": "annuler et révoquer une autorisation de voyage conformément aux articles 40 et 4;"
+  },
+  {
+   "unit": "art_8",
+   "key": "p2.g",
+   "lang": "en",
+   "stage": "s05",
+   "kind": "editorial",
+   "before": "annulling and revoking a travel authorisation as referred to in Articles 40 and 4.",
+   "after": "annulling and revoking a travel authorisation as referred to in Articles 40 and 4;"
+  },
+  {
+   "unit": "art_25a",
+   "key": "p1.e",
+   "lang": "de",
+   "stage": "s05",
+   "kind": "editorial",
+   "before": "die in Artikel 4 der Verordnung (EU) 2018/1860 aufgeführten Daten, die für die Zwecke von Artikel 3 der genannten Verordnung verarbeitet wurden.",
+   "after": "die in Artikel 4 der Verordnung (EU) 2018/1860 aufgeführten Daten, die für die Zwecke von Artikel 3 der genannten Verordnung verarbeitet wurden,"
+  },
+  {
+   "unit": "art_25a",
+   "key": "p1.e",
+   "lang": "fr",
+   "stage": "s05",
+   "kind": "editorial",
+   "before": "les données visées à l’article 4 du règlement (UE) 2018/1860 qui sont traitées aux fins de l’article 3 dudit règlement.",
+   "after": "les données visées à l’article 4 du règlement (UE) 2018/1860 qui sont traitées aux fins de l’article 3 dudit règlement;"
+  },
+  {
+   "unit": "art_25a",
+   "key": "p1.e",
+   "lang": "en",
+   "stage": "s05",
+   "kind": "editorial",
+   "before": "the data referred to in Article 4 of Regulation (EU) 2018/1860 processed for the purposes of Article 3 of that Regulation.",
+   "after": "the data referred to in Article 4 of Regulation (EU) 2018/1860 processed for the purposes of Article 3 of that Regulation;"
+  }
+ ],
+ "originKept": [
+  {
+   "unit": "art_20",
+   "lang": "de",
+   "stage": "s03",
+   "key": "p2.a",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "de",
+   "stage": "s03",
+   "key": "p2.b",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "de",
+   "stage": "s03",
+   "key": "p2.c",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "de",
+   "stage": "s03",
+   "key": "p2.d",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "de",
+   "stage": "s03",
+   "key": "p2.e",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "de",
+   "stage": "s03",
+   "key": "p2.f",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "de",
+   "stage": "s03",
+   "key": "p2.g",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "de",
+   "stage": "s03",
+   "key": "p2.h",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "de",
+   "stage": "s03",
+   "key": "p2.i",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "de",
+   "stage": "s03",
+   "key": "p2.j",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "de",
+   "stage": "s03",
+   "key": "p2.k",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "de",
+   "stage": "s03",
+   "key": "p2.l",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "de",
+   "stage": "s03",
+   "key": "p2.m",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "de",
+   "stage": "s03",
+   "key": "p2.m.i",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2.a",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2.c",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2.e",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2.f",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2.g",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2.h",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2.i",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2.j",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2.k",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2.m",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2.m.ii",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.a",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.b",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.c",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.d",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.e",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.f",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.g",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.h",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.i",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.j",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.k",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.l",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.m",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_20",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.m.i",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_23",
+   "lang": "en",
+   "stage": "s02",
+   "key": "p1.a",
+   "marker": "32019R0817",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_23",
+   "lang": "en",
+   "stage": "s02",
+   "key": "p1.b",
+   "marker": "32019R0817",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_23",
+   "lang": "en",
+   "stage": "s02",
+   "key": "p1.c",
+   "marker": "32019R0817",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_23",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p1.a",
+   "marker": "32019R0817",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_23",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p1.b",
+   "marker": "32019R0817",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_73",
+   "lang": "de",
+   "stage": "s03",
+   "key": "p3.a",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_73",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p3.a",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_73",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p3.b.i",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_73",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p3.b.ii",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_73",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p3.b.iii",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_73",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p3.b.iv",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_73",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p3.b.i",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_73",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p3.b.ii",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  },
+  {
+   "unit": "art_73",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p3.b.iv",
+   "marker": "32021R1152",
+   "kept": "32018R1240"
+  }
+ ],
+ "keysAligned": []
+}

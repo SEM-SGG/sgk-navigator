@@ -1,0 +1,49 @@
+# Prüft jede Woche (Montag früh) und auf Knopfdruck beim Amt für Veröffentlichungen der EU, ob es für die fünf Rechtsakte
+# neue konsolidierte Fassungen oder neue Akte gibt, die in den Daten des Repos fehlen. Gleiche Abfragen und Logik wie
+# «Aktualisieren» → «Alle Rechtsakte prüfen» im Tool. Ist etwas neu, eröffnet bzw. aktualisiert der Workflow das Issue
+# «Neue Fassungen verfügbar»; sonst geschieht nichts.
+name: Fassungen prüfen
+
+on:
+  schedule:
+    - cron: '17 4 * * 1'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Nur anzeigen (kein Issue eröffnen oder ändern)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: fassungen
+  cancel-in-progress: false
+
+jobs:
+  check:
+    name: Neue Fassungen suchen
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Abhängigkeiten installieren
+        run: npm ci
+
+      - name: Prüfen und Issue eröffnen bzw. aktualisieren
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          args=()
+          if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
+          node scripts/check-fassungen.mjs "${args[@]}"

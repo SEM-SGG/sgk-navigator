@@ -1,0 +1,17 @@
+{
+  "_doc": "Entscheide zu den Abweichungen zwischen Durchgang 1 und 2 (Schlüssel celex|unit|key|recital). keep = übernehmen (Stärke laut Durchgang), drop = verwerfen. Jede Abweichung aus compare.mjs muss hier stehen.",
+  "32017R2225|anx_IV|n1a|6": { "decision": "drop", "reason": "Nr. 1a regelt nur die Gestaltung der Stempel; kein Bezug zur Abschaffung des Abstempelns erkennbar" },
+  "32017R2225|anx_IV|n2a|6": { "decision": "keep", "reason": "Anbringen des Stempels in den verbleibenden Fällen des Abstempelns" },
+  "32017R2225|anx_IV|n2a|20": { "decision": "keep", "reason": "Abstempelungsmodalitäten gelten auch für das fortgesetzte Abstempeln nach Art. 42a" },
+  "32017R2225|art_11|*|20": { "decision": "drop", "reason": "das fortgesetzte Abstempeln der nicht am EES beteiligten Mitgliedstaaten regelt Art. 42a, nicht Art. 11" },
+  "32017R2225|anx_V|ptA.n1.b|2": { "decision": "keep", "reason": "Einreiseverweigerungsdaten im EES, wie bei Art. 14 Abs. 2 Unterabs. 3" },
+  "32018R1240|art_6|p1.s2|50": { "decision": "keep", "reason": "Erwägungsgrund nennt das gemeinsame Merkblatt, das Art. 6 Abs. 1 Unterabs. 2 vorsieht; nur thematisch" },
+  "32024R1717|art_13|p4|16": { "decision": "keep", "reason": "technische Mittel stehen in Art. 13 Abs. 4; feinerer Schlüssel" },
+  "32024R1717|art_13|*|16": { "decision": "drop", "reason": "ersetzt durch die Zuordnung zu Art. 13 Abs. 4" },
+  "32024R1717|art_23|*|23": { "decision": "keep", "reason": "Ausübung polizeilicher Befugnisse in Grenzgebieten ist Gegenstand von Art. 23 Bst. a; nur thematisch" },
+  "32024R1717|art_25|p2|40": { "decision": "keep", "reason": "«letztes Mittel» und «unbedingt erforderlich» stehen in Art. 25 Abs. 2; feinerer Schlüssel" },
+  "32024R1717|art_25|*|40": { "decision": "drop", "reason": "ersetzt durch die Zuordnung zu Art. 25 Abs. 2" },
+  "32024R1717|art_5|p3.s2|5": { "decision": "keep", "reason": "verschärfte Vorschriften zum Schutz der Aussengrenzen; kein Erwägungsgrund nennt den Unterabsatz, nur thematisch" },
+  "32024R1717|art_25a|*|49": { "decision": "keep", "reason": "Erwägungsgrund nennt den Mechanismus für dringende Fälle und vorhersehbare Bedrohungen (Gegenstand von Art. 25a); Kern ist die Konsultation, darum thematisch" },
+  "32024R1717|art_25a|*|33": { "decision": "keep", "reason": "eindeutig festgelegte Zeiträume; thematisch" }
+}

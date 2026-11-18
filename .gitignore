@@ -1,0 +1,29 @@
+# Abhängigkeiten und Ausgaben
+node_modules/
+scripts/node_modules/
+dist/
+*.zip
+.DS_Store
+
+# Quelldateien der Datenpflege (gross, jederzeit neu ladbar; siehe MAINTAINING.md)
+raw/
+raw-neg/
+test/app/fixtures-live/
+
+# Ausgaben der Skripte und Tests
+scripts/out/*
+!scripts/out/works/
+scripts/neg/out/
+scripts/neg/dev/
+test/app/out/
+test/app/tmp/
+test/app/screenshots/
+test/app/test-results/
+test/neg/out/
+test/export/out/
+test-results/
+playwright-report/
+*.png
+!design/**/*.png
+!src/**/*.png
+feedback/

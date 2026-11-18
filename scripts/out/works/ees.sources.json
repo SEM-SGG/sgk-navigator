@@ -1,0 +1,1644 @@
+{
+ "id": "ees",
+ "celex": "32017R2226",
+ "versionsFrom": "cache",
+ "versions": [
+  "02017R2226-20181009",
+  "02017R2226-20190611",
+  "02017R2226-20210803",
+  "02017R2226-20260612"
+ ],
+ "skipped": [],
+ "availability": {
+  "32017R2226": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02017R2226-20181009": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02017R2226-20190611": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02017R2226-20210803": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02017R2226-20260612": [
+   "de",
+   "fr",
+   "en"
+  ]
+ },
+ "stages": [
+  {
+   "id": "s00",
+   "celex": "32017R2226",
+   "date": "2017-12-09",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32017R2226"
+   ],
+   "modifiers": [],
+   "droppedFromList": []
+  },
+  {
+   "id": "s01",
+   "celex": "02017R2226-20181009",
+   "date": "2018-10-09",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32018R1240",
+    "32017R2226R(01)",
+    "32017R2226R(03)"
+   ],
+   "modifiers": [
+    "32018R1240",
+    "32017R2226R(01)",
+    "32017R2226R(03)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s02",
+   "celex": "02017R2226-20190611",
+   "date": "2019-06-11",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32019R0817"
+   ],
+   "modifiers": [
+    "32018R1240",
+    "32019R0817",
+    "32017R2226R(01)",
+    "32017R2226R(03)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s03",
+   "celex": "02017R2226-20210803",
+   "date": "2021-08-03",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32021R1134",
+    "32021R1152"
+   ],
+   "modifiers": [
+    "32018R1240",
+    "32019R0817",
+    "32021R1134",
+    "32021R1152",
+    "32017R2226R(01)",
+    "32017R2226R(03)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s04",
+   "celex": "02017R2226-20260612",
+   "date": "2026-06-12",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32024R1356"
+   ],
+   "modifiers": [
+    "32018R1240",
+    "32019R0817",
+    "32021R1152",
+    "32024R1356",
+    "32017R2226R(01)",
+    "32017R2226R(03)"
+   ],
+   "droppedFromList": [
+    "32021R1134"
+   ]
+  }
+ ],
+ "recitals": {
+  "de": {
+   "recitals": 60,
+   "blocks": 64
+  },
+  "fr": {
+   "recitals": 60,
+   "blocks": 64
+  },
+  "en": {
+   "recitals": 60,
+   "blocks": 64
+  }
+ },
+ "attributions": {
+  "total": 241,
+  "unexplained": [
+   {
+    "stage": "s04",
+    "lang": "fr",
+    "unit": "art_23",
+    "key": "p4.s2",
+    "change": "editorial",
+    "act": "32017R2226",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   }
+  ]
+ },
+ "meta": {
+  "32018R1240": {
+   "title": {
+    "en": "Regulation (EU) 2018/1240 of the European Parliament and of the Council of 12 September 2018 establishing a European Travel Information and Authorisation System (ETIAS) and amending Regulations (EU) No 1077/2011, (EU) No 515/2014, (EU) 2016/399, (EU) 2016/1624 and (EU) 2017/2226",
+    "de": "Verordnung (EU) 2018/1240 des Europäischen Parlaments und des Rates vom 12. September 2018 über die Einrichtung eines Europäischen Reiseinformations- und -genehmigungssystems (ETIAS) und zur Änderung der Verordnungen (EU) Nr. 1077/2011, (EU) Nr. 515/2014, (EU) 2016/399, (EU) 2016/1624 und (EU) 2017/2226",
+    "fr": "Règlement (UE) 2018/1240 du Parlement européen et du Conseil du 12 septembre 2018 portant création d’un système européen d’information et d’autorisation concernant les voyages (ETIAS) et modifiant les règlements (UE) no 1077/2011, (UE) no 515/2014, (UE) 2016/399, (UE) 2016/1624 et (UE) 2017/2226"
+   },
+   "adopted": "2018-09-12",
+   "eif": [
+    "2018-10-09",
+    "2021-08-03"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2018/1240/oj"
+  },
+  "32017R2226": {
+   "title": {
+    "fr": "Règlement (UE) 2017/2226 du Parlement européen et du Conseil du 30 novembre 2017 portant création d’un système d’entrée/de sortie (EES) pour enregistrer les données relatives aux entrées, aux sorties et aux refus d’entrée concernant les ressortissants de pays tiers qui franchissent les frontières extérieures des États membres et portant détermination des conditions d’accès à l’EES à des fins répressives, et modifiant la convention d’application de l’accord de Schengen et les règlements (CE) no 767/2008 et (UE) no 1077/2011",
+    "de": "Verordnung (EU) 2017/2226 des Europäischen Parlaments und des Rates vom 30. November 2017 über ein Einreise-/Ausreisesystem (EES) zur Erfassung der Ein- und Ausreisedaten sowie der Einreiseverweigerungsdaten von Drittstaatsangehörigen an den Außengrenzen der Mitgliedstaaten und zur Festlegung der Bedingungen für den Zugang zum EES zu Gefahrenabwehr- und Strafverfolgungszwecken und zur Änderung des Übereinkommens zur Durchführung des Übereinkommens von Schengen sowie der Verordnungen (EG) Nr. 767/2008 und (EU) Nr. 1077/2011",
+    "en": "Regulation (EU) 2017/2226 of the European Parliament and of the Council of 30 November 2017 establishing an Entry/Exit System (EES) to register entry and exit data and refusal of entry data of third-country nationals crossing the external borders of the Member States and determining the conditions for access to the EES for law enforcement purposes, and amending the Convention implementing the Schengen Agreement and Regulations (EC) No 767/2008 and (EU) No 1077/2011"
+   },
+   "adopted": "2017-11-30",
+   "eif": [
+    "2017-12-29",
+    "2025-10-12"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2017/2226/oj"
+  },
+  "32019R0817": {
+   "title": {
+    "de": "Verordnung (EU) 2019/817 des Europäischen Parlaments und des Rates vom 20. Mai 2019 zur Errichtung eines Rahmens für die Interoperabilität zwischen EU-Informationssystemen in den Bereichen Grenzen und Visa und zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 und (EU) 2018/1861 des Europäischen Parlaments und des Rates, der Entscheidung 2004/512/EG des Rates und des Beschlusses 2008/633/JI des Rates",
+    "fr": "Règlement (UE) 2019/817 du Parlement européen et du Conseil du 20 mai 2019 portant établissement d'un cadre pour l'interopérabilité des systèmes d'information de l'UE dans le domaine des frontières et des visas et modifiant les règlements (CE) n° 767/2008, (UE) 2016/399, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1726 et (UE) 2018/1861 du Parlement européen et du Conseil et les décisions 2004/512/CE et 2008/633/JAI du Conseil",
+    "en": "Regulation (EU) 2019/817 of the European Parliament and of the Council of 20 May 2019 on establishing a framework for interoperability between EU information systems in the field of borders and visa and amending Regulations (EC) No 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 and (EU) 2018/1861 of the European Parliament and of the Council and Council Decisions 2004/512/EC and 2008/633/JHA"
+   },
+   "adopted": "2019-05-20",
+   "eif": [
+    "2019-06-11",
+    "2025-05-19",
+    "2026-06-12"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2019/817/oj"
+  },
+  "32021R1134": {
+   "title": {
+    "de": "Verordnung (EU) 2021/1134 des Europäischen Parlaments und des Rates vom 7. Juli 2021 zur Änderung der Verordnungen (EG) Nr. 767/2008, (EG) Nr. 810/2009, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861, (EU) 2019/817 und (EU) 2019/1896 des Europäischen Parlaments und des Rates und zur Aufhebung der Entscheidung 2004/512/EG und des Beschlusses 2008/633/JI des Rates zur Reform des Visa-Informationssystems",
+    "en": "Regulation (EU) 2021/1134 of the European Parliament and of the Council of 7 July 2021 amending Regulations (EC) No 767/2008, (EC) No 810/2009, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861, (EU) 2019/817 and (EU) 2019/1896 of the European Parliament and of the Council and repealing Council Decisions 2004/512/EC and 2008/633/JHA, for the purpose of reforming the Visa Information System",
+    "fr": "Règlement (UE) 2021/1134 du Parlement européen et du Conseil du 7 juillet 2021 modifiant les règlements (CE) no 767/2008, (CE) no 810/2009, (UE) 2016/399, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1860, (UE) 2018/1861, (UE) 2019/817 et (UE) 2019/1896 du Parlement européen et du Conseil et abrogeant les décisions 2004/512/CE et 2008/633/JAI du Conseil, aux fins de réformer le système d’information sur les visas"
+   },
+   "adopted": "2021-07-07",
+   "eif": [
+    "2021-08-02",
+    "2022-08-03",
+    "2023-08-03"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2021/1134/oj"
+  },
+  "32021R1152": {
+   "title": {
+    "en": "Regulation (EU) 2021/1152 of the European Parliament and of the Council of 7 July 2021 amending Regulations (EC) No 767/2008, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861 and (EU) 2019/817 as regards the establishment of the conditions for accessing other EU information systems for the purposes of the European Travel Information and Authorisation System",
+    "de": "Verordnung (EU) 2021/1152 des Europäischen Parlaments und des Rates vom 7. Juli 2021 zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861 und (EU) 2019/817 hinsichtlich der Festlegung der Bedingungen für den Zugang zu anderen EU-Informationssystemen für die Zwecke des Europäischen Reiseinformations- und -genehmigungssystems",
+    "fr": "Règlement (UE) 2021/1152 du Parlement européen et du Conseil du 7 juillet 2021 modifiant les règlements (CE) no 767/2008, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1860, (UE) 2018/1861 et (UE) 2019/817 en ce qui concerne l’établissement des conditions d’accès aux autres systèmes d’information de l’UE aux fins du système européen d’information et d’autorisation concernant les voyages"
+   },
+   "adopted": "2021-07-07",
+   "eif": [
+    "2021-08-03"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2021/1152/oj"
+  },
+  "32024R1356": {
+   "title": {
+    "en": "Regulation (EU) 2024/1356 of the European Parliament and of the Council of 14 May 2024 introducing the screening of third-country nationals at the external borders and amending Regulations (EC) No 767/2008, (EU) 2017/2226, (EU) 2018/1240 and (EU) 2019/817",
+    "fr": "Règlement (UE) 2024/1356 du Parlement européen et du Conseil du 14 mai 2024 établissant le filtrage des ressortissants de pays tiers aux frontières extérieures et modifiant les règlements (CE) n° 767/2008, (UE) 2017/2226, (UE) 2018/1240 et (UE) 2019/817",
+    "de": "Verordnung (EU) 2024/1356 des Europäischen Parlaments und des Rates vom 14. Mai 2024 zur Einführung der Überprüfung von Drittstaatsangehörigen an den Außengrenzen und zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2017/2226, (EU) 2018/1240 und (EU) 2019/817"
+   },
+   "adopted": "2024-05-14",
+   "eif": [
+    "2024-06-11",
+    "2026-06-12"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2024/1356/oj"
+  },
+  "32017R2226R(01)": {
+   "title": {
+    "de": "Berichtigung der Verordnung (EU) 2017/2226 des Europäischen Parlaments und des Rates vom 30. November 2017 über ein Einreise-/Ausreisesystem (EES) zur Erfassung der Ein- und Ausreisedaten sowie der Einreiseverweigerungsdaten von Drittstaatsangehörigen an den Außengrenzen der Mitgliedstaaten und zur Festlegung der Bedingungen für den Zugang zum EES zu Gefahrenabwehr- und Strafverfolgungszwecken und zur Änderung des Übereinkommens zur Durchführung des Übereinkommens von Schengen sowie der Verordnungen (EG) Nr. 767/2008 und (EU) Nr. 1077/2011 (ABl. L 327 vom 9.12.2017)",
+    "en": "Corrigendum to Regulation (EU) 2017/2226 of the European Parliament and of the Council of 30 November 2017 establishing an Entry/Exit System (EES) to register entry and exit data and refusal of entry data of third-country nationals crossing the external borders of the Member States and determining the conditions for access to the EES for law enforcement purposes, and amending the Convention implementing the Schengen Agreement and Regulations (EC) No 767/2008 and (EU) No 1077/2011 (OJ L 327, 9.12.2017)",
+    "fr": "Rectificatif au règlement (UE) 2017/2226 du Parlement européen et du Conseil du 30 novembre 2017 portant création d’un système d’entrée/de sortie (EES) pour enregistrer les données relatives aux entrées, aux sorties et aux refus d’entrée concernant les ressortissants de pays tiers qui franchissent les frontières extérieures des États membres et portant détermination des conditions d’accès à l’EES à des fins répressives, et modifiant la convention d’application de l’accord de Schengen et les règlements (CE) no 767/2008 et (UE) no 1077/2011 (JO L 327 du 9.12.2017)"
+   },
+   "adopted": "2018-10-15",
+   "eif": [],
+   "eli": "http://data.europa.eu/eli/reg/2017/2226/corrigendum/2018-10-15/oj"
+  },
+  "32017R2226R(03)": {
+   "title": {
+    "en": "Corrigendum to Regulation (EU) 2017/2226 of the European Parliament and of the Council of 30 November 2017 establishing an Entry/Exit System (EES) to register entry and exit data and refusal of entry data of third-country nationals crossing the external borders of the Member States and determining the conditions for access to the EES for law enforcement purposes, and amending the Convention implementing the Schengen Agreement and Regulations (EC) No 767/2008 and (EU) No 1077/2011 (OJ L 327, 9.12.2017)"
+   },
+   "adopted": "2019-05-03",
+   "eif": [],
+   "eli": "http://data.europa.eu/eli/reg/2017/2226/corrigendum/2019-05-03/oj"
+  }
+ },
+ "output": {
+  "dataset": {
+   "bytes": 1413270,
+   "sha256": "e7dd08ef5f30d9db8bb7647b224f869db44dd8350cf96566dec5bc06eda64561"
+  },
+  "acts": {
+   "bytes": 24296,
+   "sha256": "8a69ee1437ac46db874c5da07d8eb9628755db29bdfcf6ecd6e66ba294125bc8"
+  }
+ },
+ "editorial": [
+  {
+   "unit": "art_3",
+   "key": "p1.n31",
+   "lang": "de",
+   "stage": "s02",
+   "kind": "editorial",
+   "before": "„Quote der falsch negativen Identifizierungen“ den Anteil der nicht erhaltenen Treffer bei einer biometrischen Suche, obwohl die biometrischen Daten des Reisenden registriert waren.",
+   "after": "„Quote der falsch negativen Identifizierungen“ den Anteil der nicht erhaltenen Treffer bei einer biometrischen Suche, obwohl die biometrischen Daten des Reisenden registriert waren;"
+  },
+  {
+   "unit": "art_3",
+   "key": "p1.n31",
+   "lang": "fr",
+   "stage": "s02",
+   "kind": "editorial",
+   "before": "«taux de fausses identifications négatives», la proportion de concordances non constatées lors d’une recherche biométrique bien que les données biométriques du voyageur aient été enregistrées.",
+   "after": "«taux de fausses identifications négatives», la proportion de concordances non constatées lors d’une recherche biométrique bien que les données biométriques du voyageur aient été enregistrées;"
+  },
+  {
+   "unit": "art_3",
+   "key": "p1.n31",
+   "lang": "en",
+   "stage": "s02",
+   "kind": "editorial",
+   "before": "‘False Negative Identification Rate’ (FNIR) means the proportion of missed matches during a biometric search even though the traveller’s biometric data were registered.",
+   "after": "‘False Negative Identification Rate’ (FNIR) means the proportion of missed matches during a biometric search even though the traveller’s biometric data were registered;"
+  },
+  {
+   "unit": "art_6",
+   "key": "p1.i",
+   "lang": "de",
+   "stage": "s02",
+   "kind": "editorial",
+   "before": "Bekämpfung von Identitätsbetrug und von Missbrauch von Reisedokumenten.",
+   "after": "Bekämpfung von Identitätsbetrug und von Missbrauch von Reisedokumenten;"
+  },
+  {
+   "unit": "art_6",
+   "key": "p1.i",
+   "lang": "fr",
+   "stage": "s02",
+   "kind": "editorial",
+   "before": "de lutter contre la fraude à l’identité et contre l’utilisation abusive de documents de voyage.",
+   "after": "de lutter contre la fraude à l’identité et contre l’utilisation abusive de documents de voyage;"
+  },
+  {
+   "unit": "art_6",
+   "key": "p1.i",
+   "lang": "en",
+   "stage": "s02",
+   "kind": "editorial",
+   "before": "combat identity fraud and the misuse of travel documents.",
+   "after": "combat identity fraud and the misuse of travel documents;"
+  },
+  {
+   "unit": "art_46",
+   "key": "p1.d",
+   "lang": "de",
+   "stage": "s02",
+   "kind": "editorial",
+   "before": "die für die Abfrage verwendeten Daten gemäß den Artikeln 23 bis 27 und",
+   "after": "die für die Abfrage verwendeten Daten gemäß den Artikeln 23 bis 27,"
+  },
+  {
+   "unit": "art_46",
+   "key": "p1.e",
+   "lang": "de",
+   "stage": "s02",
+   "kind": "editorial",
+   "before": "den Namen der Behörde, die die Daten eingegeben oder abgefragt hat.",
+   "after": "den Namen der Behörde, die die Daten eingegeben oder abgefragt hat und"
+  },
+  {
+   "unit": "art_46",
+   "key": "p1.e",
+   "lang": "fr",
+   "stage": "s02",
+   "kind": "editorial",
+   "before": "la dénomination de l’autorité qui a introduit ou extrait les données.",
+   "after": "la dénomination de l’autorité qui a introduit ou extrait les données; et"
+  },
+  {
+   "unit": "art_46",
+   "key": "p1.e",
+   "lang": "en",
+   "stage": "s02",
+   "kind": "editorial",
+   "before": "the name of the authority entering or retrieving the data.",
+   "after": "the name of the authority entering or retrieving the data; and"
+  },
+  {
+   "unit": "art_6",
+   "key": "p1.j",
+   "lang": "de",
+   "stage": "s03",
+   "kind": "editorial",
+   "before": "Sicherstellung der korrekten Identifizierung von Personen.",
+   "after": "Sicherstellung der korrekten Identifizierung von Personen;"
+  },
+  {
+   "unit": "art_6",
+   "key": "p1.j",
+   "lang": "fr",
+   "stage": "s03",
+   "kind": "editorial",
+   "before": "assurer l'identification correcte des personnes.",
+   "after": "assurer l'identification correcte des personnes;"
+  },
+  {
+   "unit": "art_6",
+   "key": "p1.j",
+   "lang": "en",
+   "stage": "s03",
+   "kind": "editorial",
+   "before": "ensure the correct identification of persons.",
+   "after": "ensure the correct identification of persons;"
+  },
+  {
+   "unit": "art_6",
+   "key": "p1.k",
+   "lang": "de",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "Unterstützung der Ziele des durch die Verordnung (EU) 2018/1240 des Europäischen Parlaments und des Rates eingerichteten Europäischen Reiseinformations- und -genehmigungssystems (ETIAS).",
+   "after": "Unterstützung der Ziele des durch die Verordnung (EU) 2018/1240 des Europäischen Parlaments und des Rates eingerichteten Europäischen Reiseinformations- und -genehmigungssystems (ETIAS);"
+  },
+  {
+   "unit": "art_6",
+   "key": "p1.k",
+   "lang": "fr",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "de soutenir les objectifs du système européen d’information et d’autorisation concernant les voyages (ETIAS) créé par le règlement (UE) 2018/1240 du Parlement européen et du Conseil.",
+   "after": "de soutenir les objectifs du système européen d’information et d’autorisation concernant les voyages (ETIAS) créé par le règlement (UE) 2018/1240 du Parlement européen et du Conseil;"
+  },
+  {
+   "unit": "art_6",
+   "key": "p1.k",
+   "lang": "en",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "support the objectives of the European Travel Information and Authorisation System (ETIAS) established by Regulation (EU) 2018/1240 of the European Parliament and of the Council.",
+   "after": "support the objectives of the European Travel Information and Authorisation System (ETIAS) established by Regulation (EU) 2018/1240 of the European Parliament and of the Council;"
+  },
+  {
+   "unit": "art_23",
+   "key": "p4.s2",
+   "lang": "fr",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "Outre l’identification visée au premier alinéa du présent paragraphe, les dispositions suivantes s’appliquent:",
+   "after": "ent paragraphe, les disposiOutre l’identification visée au premier alinéa du préstions suivantes s’appliquent:"
+  }
+ ],
+ "originKept": [
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n2",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n2.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n3",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n3.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n4",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n4.a",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n4.a.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n4.a.q2",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n4.b",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n4.b.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n4.b.q2",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.q2",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.q3",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.q4",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.q5",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.q6",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.q7",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.q8",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.q9",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.q10",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.q11",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.q12",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.q13",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.q14",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q2",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q3",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q4",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q5",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q6",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q7",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q8",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q9",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q10",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q11",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q12",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q13",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q14",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q15",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q16",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q17",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q18",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q19",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q20",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q21",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q22",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q23",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q24",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q25",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q26",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n7",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n7.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n7.q2",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n7.q3",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8.q2",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8.q3",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8.q4",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8.q5",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8.q6",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8.q7",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8.q8",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8.q9",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8.q10",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8.q11",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n9",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n9.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n10",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n10.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n11",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n11.a",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n11.a.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n11.a.q2",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n11.a.q3",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n11.a.q4",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n11.a.q5",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n11.a.q6",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n11.a.q7",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n11.b",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_61",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n11.b.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "s1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n1.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n2",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n2.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n2.q2",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n2.q3",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n2.q4",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n2.q5",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n3",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n3.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n3.q2",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n4",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n4.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.a",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.a.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.b",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.b.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.c",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.c.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.d",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.d.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.e",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.e.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n6.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n7",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n7.a",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n7.a.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n7.b",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n7.b.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8.a",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8.a.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8.b",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n8.b.q1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_63",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_63",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p1.a",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_63",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p1.b",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_63",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p1.c",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_63",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p1.d",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_63",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p1.e",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_63",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p1.f",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_63",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p1.g",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_63",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p1.h",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_63",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p1.i",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_63",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p1.s2",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_63",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p2",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_63",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p3",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_63",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p4",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_63",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p5",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_63",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p6",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_64",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p1",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_64",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p2",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_64",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p2.s2",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_64",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p2.a",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_64",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p2.b",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_64",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p2.c",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_64",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p2.d",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_64",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p2.e",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_64",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p2.f",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_64",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p2.g",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_64",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p3",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  },
+  {
+   "unit": "art_64",
+   "lang": "de",
+   "stage": "s01",
+   "key": "p4",
+   "marker": "32017R2226R(01)",
+   "kept": "32017R2226"
+  }
+ ],
+ "keysAligned": [
+  {
+   "unit": "art_9",
+   "stage": "s04",
+   "lang": "fr",
+   "map": {
+    "p2a~2": "p2b"
+   },
+   "labels": "2 bis."
+  }
+ ]
+}

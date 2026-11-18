@@ -1,0 +1,2583 @@
+[
+ {
+  "celex": "32016R0399",
+  "alias": "B",
+  "kind": "base",
+  "number": "(EU) 2016/399",
+  "topic": {
+   "de": "Basisakt",
+   "fr": "Acte de base",
+   "en": "Base act"
+  },
+  "title": {
+   "fr": "Règlement (UE) 2016/399 du Parlement européen et du Conseil du 9 mars 2016 concernant un code de l’Union relatif au régime de franchissement des frontières par les personnes (code frontières Schengen) (texte codifié)",
+   "en": "Regulation (EU) 2016/399 of the European Parliament and of the Council of 9 March 2016 on a Union Code on the rules governing the movement of persons across borders (Schengen Borders Code) (codification)",
+   "de": "Verordnung (EU) 2016/399 des Europäischen Parlaments und des Rates vom 9. März 2016 über einen Unionskodex für das Überschreiten der Grenzen durch Personen (Schengener Grenzkodex) (kodifizierter Text)"
+  },
+  "adopted": "2016-03-09",
+  "published": "2016-03-23",
+  "oj": {
+   "de": "ABl. L 77 vom 23.3.2016, S. 1",
+   "fr": "JO L 77 du 23.3.2016, p. 1",
+   "en": "OJ L 77, 23.3.2016, p. 1"
+  },
+  "inForce": "2016-04-12",
+  "application": {
+   "status": "applicable",
+   "date": "2016-04-12",
+   "basis": {
+    "de": "Art. 45 der VO (EU) 2016/399",
+    "fr": "art. 45 du règlement (UE) 2016/399",
+    "en": "Article 45 of Regulation (EU) 2016/399"
+   },
+   "note": {
+    "de": "Kodifizierter Text; ersetzt die VO (EG) Nr. 562/2006 (Art. 44). Inkrafttreten am zwanzigsten Tag nach der Veröffentlichung; kein gesonderter Geltungsbeginn.",
+    "fr": "Texte codifié; remplace le règlement (CE) nº 562/2006 (art. 44). Entrée en vigueur le vingtième jour suivant la publication; pas de date d’application distincte.",
+    "en": "Codified text; replaces Regulation (EC) No 562/2006 (Article 44). Enters into force on the twentieth day after publication; no separate date of application."
+   },
+   "details": []
+  },
+  "amendingProvision": null,
+  "changes": [],
+  "langs": null,
+  "procedure": "2015/0006(COD)",
+  "proposal": "52015PC0008",
+  "eurlex": "https://eur-lex.europa.eu/eli/reg/2016/399/oj",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0399",
+   "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0399",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0399",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32016R0399",
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0399R(03)"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32016R1624",
+  "kind": "amendment",
+  "number": "(EU) 2016/1624",
+  "topic": {
+   "de": "Frontex-VO",
+   "fr": "Règlement Frontex",
+   "en": "EBCG Regulation"
+  },
+  "title": {
+   "de": "Verordnung (EU) 2016/1624 des Europäischen Parlaments und des Rates vom 14. September 2016 über die Europäische Grenz- und Küstenwache und zur Änderung der Verordnung (EU) 2016/399 des Europäischen Parlaments und des Rates sowie zur Aufhebung der Verordnung (EG) Nr. 863/2007 des Europäischen Parlaments und des Rates, der Verordnung (EG) Nr. 2007/2004 des Rates und der Entscheidung des Rates 2005/267/EG",
+   "fr": "Règlement (UE) 2016/1624 du Parlement européen et du Conseil du 14 septembre 2016 relatif au corps européen de garde-frontières et de garde-côtes, modifiant le règlement (UE) 2016/399 du Parlement européen et du Conseil et abrogeant le règlement (CE) n° 863/2007 du Parlement européen et du Conseil, le règlement (CE) n° 2007/2004 du Conseil et la décision 2005/267/CE du Conseil",
+   "en": "Regulation (EU) 2016/1624 of the European Parliament and of the Council of 14 September 2016 on the European Border and Coast Guard and amending Regulation (EU) 2016/399 of the European Parliament and of the Council and repealing Regulation (EC) No 863/2007 of the European Parliament and of the Council, Council Regulation (EC) No 2007/2004 and Council Decision 2005/267/EC"
+  },
+  "adopted": "2016-09-14",
+  "published": "2016-09-16",
+  "oj": {
+   "de": "ABl. L 251 vom 16.9.2016, S. 1",
+   "fr": "JO L 251 du 16.9.2016, p. 1",
+   "en": "OJ L 251, 16.9.2016, p. 1"
+  },
+  "inForce": "2016-10-06",
+  "application": {
+   "status": "applicable",
+   "date": "2016-10-06",
+   "basis": {
+    "de": "Art. 83 Abs. 1 der VO (EU) 2016/1624 (Art. 80 ist von den späteren Geltungsdaten in Art. 83 Abs. 2 nicht erfasst)",
+    "fr": "art. 83, premier alinéa, du règlement (UE) 2016/1624 (l’art. 80 ne figure pas parmi les dispositions à application différée de l’art. 83, deuxième alinéa)",
+    "en": "first paragraph of Article 83 of Regulation (EU) 2016/1624 (Article 80 is not among the provisions with deferred application in the second paragraph of Article 83)"
+   },
+   "note": {
+    "de": "Art. 80 ersetzt Art. 29 Abs. 1 SGK. Die VO (EU) 2016/1624 wurde durch die VO (EU) 2019/1896 aufgehoben; die Änderung des SGK bleibt bestehen.",
+    "fr": "L’art. 80 remplace l’art. 29, par. 1, CFS. Le règlement (UE) 2016/1624 a été abrogé par le règlement (UE) 2019/1896; la modification du CFS demeure.",
+    "en": "Article 80 replaces Article 29(1) SBC. Regulation (EU) 2016/1624 was repealed by Regulation (EU) 2019/1896; the amendment to the SBC remains."
+   },
+   "details": []
+  },
+  "amendingProvision": {
+   "de": "Art. 80",
+   "fr": "art. 80",
+   "en": "Article 80"
+  },
+  "changes": [
+   {
+    "unit": "art_29",
+    "key": "p1",
+    "action": "replaced",
+    "applicableFrom": null
+   }
+  ],
+  "langs": null,
+  "procedure": "2015/0310(COD)",
+  "proposal": "52015PC0671",
+  "eurlex": "https://eur-lex.europa.eu/eli/reg/2016/1624/oj",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R1624",
+   "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R1624",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R1624",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32016R1624"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32017R0458",
+  "kind": "amendment",
+  "number": "(EU) 2017/458",
+  "topic": {
+   "de": "Systematische Abfragen",
+   "fr": "Vérifications systématiques",
+   "en": "Systematic checks"
+  },
+  "title": {
+   "fr": "Règlement (UE) 2017/458 du Parlement européen et du Conseil du 15 mars 2017 modifiant le règlement (UE) 2016/399 en ce qui concerne le renforcement des vérifications dans les bases de données pertinentes aux frontières extérieures",
+   "de": "Verordnung (EU) 2017/458 des Europäischen Parlaments und des Rates vom 15. März 2017 zur Änderung der Verordnung (EU) 2016/399 hinsichtlich einer verstärkten Abfrage von einschlägigen Datenbanken an den Außengrenzen",
+   "en": "Regulation (EU) 2017/458 of the European Parliament and of the Council of 15 March 2017 amending Regulation (EU) 2016/399 as regards the reinforcement of checks against relevant databases at external borders"
+  },
+  "adopted": "2017-03-15",
+  "published": "2017-03-18",
+  "oj": {
+   "de": "ABl. L 74 vom 18.3.2017, S. 1",
+   "fr": "JO L 74 du 18.3.2017, p. 1",
+   "en": "OJ L 74, 18.3.2017, p. 1"
+  },
+  "inForce": "2017-04-07",
+  "application": {
+   "status": "applicable",
+   "date": "2017-04-07",
+   "basis": {
+    "de": "Art. 2 der VO (EU) 2017/458 (nur Inkrafttreten, kein gesonderter Geltungsbeginn)",
+    "fr": "art. 2 du règlement (UE) 2017/458 (entrée en vigueur seulement, pas de date d’application distincte)",
+    "en": "Article 2 of Regulation (EU) 2017/458 (entry into force only, no separate date of application)"
+   },
+   "note": {
+    "de": "Anwendbar ab Inkrafttreten. Der neue Art. 8 Abs. 2d SGK sah für Luftgrenzen eine Übergangsfrist von sechs Monaten ab 7. April 2017 für gezielte statt systematischer Abfragen vor (für einzelne Flughäfen um höchstens 18 Monate verlängerbar).",
+    "fr": "Applicable dès l’entrée en vigueur. Le nouvel art. 8, par. 2 quinquies, CFS prévoyait pour les frontières aériennes une période transitoire de six mois à compter du 7 avril 2017 pour des vérifications ciblées (prolongeable de 18 mois au plus pour un aéroport donné).",
+    "en": "Applicable from entry into force. The new Article 8(2d) SBC provided, for air borders, a transitional period of six months from 7 April 2017 for targeted instead of systematic checks (extendable by up to 18 months for a particular airport)."
+   },
+   "details": []
+  },
+  "amendingProvision": {
+   "de": "Art. 1",
+   "fr": "art. 1er",
+   "en": "Article 1"
+  },
+  "changes": [
+   {
+    "unit": "art_8",
+    "key": "p2",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p2a",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p2b",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p2c",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p2d",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p2e",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p2f",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.a.i",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.a.ii",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.a.vi",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.g.i",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.g.ii",
+    "action": "replaced",
+    "applicableFrom": null,
+    "note": {
+     "de": "Nr. 4 ersetzt Bst. g Ziff. i und ii durch eine neue Ziff. i; Nr. 5 ersetzt Ziff. iii durch einen Text mit der Bezeichnung „ii)“.",
+     "fr": "Le point 4 remplace les points g) i) et ii) par un nouveau point i); le point 5 remplace le point iii) par un texte numéroté « ii) ».",
+     "en": "Point 4 replaces points (g)(i) and (ii) by a new point (i); point 5 replaces point (iii) by a text numbered ‘(ii)’."
+    }
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.g.iii",
+    "action": "deleted",
+    "applicableFrom": null,
+    "note": {
+     "de": "Durch Umnummerierung entfallen (siehe p3.g.ii); 2017/2225 fügt eine neue Ziff. iii an.",
+     "fr": "Supprimé par renumérotation (voir p3.g.ii); le règlement 2017/2225 ajoute un nouveau point iii).",
+     "en": "Removed by renumbering (see p3.g.ii); Regulation 2017/2225 adds a new point (iii)."
+    }
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.h.iii",
+    "action": "deleted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.ia",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.ib",
+    "action": "inserted",
+    "applicableFrom": null
+   }
+  ],
+  "langs": null,
+  "procedure": "2015/0307(COD)",
+  "proposal": "52015PC0670",
+  "eurlex": "https://eur-lex.europa.eu/eli/reg/2017/458/oj",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R0458",
+   "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32017R0458",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017R0458",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32017R0458"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32017R2225",
+  "kind": "amendment",
+  "number": "(EU) 2017/2225",
+  "topic": {
+   "de": "EES",
+   "fr": "EES",
+   "en": "EES"
+  },
+  "title": {
+   "de": "Verordnung (EU) 2017/2225 des Europäischen Parlaments und des Rates vom 30. November 2017 zur Änderung der Verordnung (EU) 2016/399 in Bezug auf die Nutzung des Einreise-/Ausreisesystems",
+   "en": "Regulation (EU) 2017/2225 of the European Parliament and of the Council of 30 November 2017 amending Regulation (EU) 2016/399 as regards the use of the Entry/Exit System",
+   "fr": "Règlement (UE) 2017/2225 du Parlement européen et du Conseil du 30 novembre 2017 modifiant le règlement (UE) 2016/399 en ce qui concerne l’utilisation du système d’entrée/de sortie"
+  },
+  "adopted": "2017-11-30",
+  "published": "2017-12-09",
+  "oj": {
+   "de": "ABl. L 327 vom 9.12.2017, S. 1",
+   "fr": "JO L 327 du 9.12.2017, p. 1",
+   "en": "OJ L 327, 9.12.2017, p. 1"
+  },
+  "inForce": "2017-12-29",
+  "application": {
+   "status": "applicable",
+   "date": "2025-10-12",
+   "basis": {
+    "de": "Art. 2 Abs. 2 der VO (EU) 2017/2225 i. V. m. Art. 1 des Durchführungsbeschlusses (EU) 2025/1544; Abweichungen: VO (EU) 2025/1534",
+    "fr": "art. 2, par. 2, du règlement (UE) 2017/2225 en liaison avec l’art. 1er de la décision d’exécution (UE) 2025/1544; dérogations: règlement (UE) 2025/1534",
+    "en": "Article 2(2) of Regulation (EU) 2017/2225 in conjunction with Article 1 of Implementing Decision (EU) 2025/1544; derogations: Regulation (EU) 2025/1534"
+   },
+   "note": {
+    "de": "Anwendbar ab Inbetriebnahme des EES am 12. Oktober 2025. Während der schrittweisen Inbetriebnahme (12. Oktober 2025 bis 9. April 2026) galten die Abweichungen der VO (EU) 2025/1534; seit 10. April 2026 gilt der SGK in der Fassung der VO (EU) 2017/2225 an allen Grenzübergangsstellen.",
+    "fr": "Applicable à compter de la mise en service de l’EES le 12 octobre 2025. Pendant la mise en service progressive (12 octobre 2025 au 9 avril 2026), les dérogations du règlement (UE) 2025/1534 s’appliquaient; depuis le 10 avril 2026, le CFS modifié par le règlement (UE) 2017/2225 s’applique à tous les points de passage.",
+    "en": "Applicable from the start of operations of the EES on 12 October 2025. During the progressive start of operations (12 October 2025 to 9 April 2026) the derogations of Regulation (EU) 2025/1534 applied; since 10 April 2026 the SBC as amended by Regulation (EU) 2017/2225 applies at all border crossing points."
+   },
+   "details": [
+    {
+     "scope": {
+      "de": "Schrittweise Inbetriebnahme: Abweichungen nach VO (EU) 2025/1534 (u. a. Art. 8 Abs. 9, Art. 9 Abs. 3 und Art. 12 SGK ausgesetzt; an Grenzübergangsstellen ohne EES galt der SGK in der Fassung vom 11. Oktober 2025)",
+      "fr": "Mise en service progressive: dérogations du règlement (UE) 2025/1534 (notamment art. 8, par. 9, art. 9, par. 3, et art. 12 CFS suspendus; aux points de passage sans EES, application du CFS dans sa version du 11 octobre 2025)",
+      "en": "Progressive start of operations: derogations under Regulation (EU) 2025/1534 (inter alia Article 8(9), Article 9(3) and Article 12 SBC suspended; at border crossing points without the EES the SBC as applicable on 11 October 2025 applied)"
+     },
+     "date": "2025-10-12",
+     "until": "2026-04-09",
+     "status": "applicable"
+    },
+    {
+     "scope": {
+      "de": "Art. 12a SGK (Übergangszeitraum und Übergangsmassnahmen): Beginn nach Art. 5 Abs. 13 VO (EU) 2025/1534 auf den ersten Tag nach Ende der schrittweisen Inbetriebnahme verschoben; 180 Tage (berechnet: 10. April bis 6. Oktober 2026)",
+      "fr": "Art. 12 bis CFS (période et mesures transitoires): début reporté, selon l’art. 5, par. 13, du règlement (UE) 2025/1534, au premier jour suivant la fin de la mise en service progressive; 180 jours (calcul: 10 avril au 6 octobre 2026)",
+      "en": "Article 12a SBC (transitional period and measures): start deferred under Article 5(13) of Regulation (EU) 2025/1534 to the first day after the end of the progressive start of operations; 180 days (computed: 10 April to 6 October 2026)"
+     },
+     "date": "2026-04-10",
+     "until": "2026-10-06",
+     "status": "applicable"
+    },
+    {
+     "scope": {
+      "de": "Mitgliedstaaten nach Art. 66 Abs. 3 VO (EU) 2017/2226, die das EES noch nicht betreiben: Geltung ab ihrer Anbindung; bis dahin Stempelpflicht nach Art. 42a SGK",
+      "fr": "États membres visés à l’art. 66, par. 3, du règlement (UE) 2017/2226 qui ne mettent pas encore en œuvre l’EES: application à compter de leur connexion; dans l’intervalle, apposition de cachets selon l’art. 42 bis CFS",
+      "en": "Member States referred to in Article 66(3) of Regulation (EU) 2017/2226 not yet operating the EES: application from their connection; until then stamping under Article 42a SBC"
+     },
+     "date": null,
+     "status": "applicable"
+    }
+   ]
+  },
+  "amendingProvision": {
+   "de": "Art. 1 und Anhang",
+   "fr": "art. 1er et annexe",
+   "en": "Article 1 and Annex"
+  },
+  "changes": [
+   {
+    "unit": "art_2",
+    "key": "n22",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_2",
+    "key": "n23",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_2",
+    "key": "n24",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_2",
+    "key": "n25",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_2",
+    "key": "n26",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_6",
+    "key": "p1.f",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_6",
+    "key": "p1a",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_6a",
+    "key": "",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p2.a.s2",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p2.b.s3",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.a.i.s2",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.a.i.s3",
+    "action": "inserted",
+    "applicableFrom": null,
+    "note": {
+     "de": "Der Ersatztext für den zweiten Unterabsatz besteht aus zwei Unterabsätzen.",
+     "fr": "Le texte de remplacement du deuxième alinéa comporte deux alinéas.",
+     "en": "The replacement text for the second subparagraph consists of two subparagraphs."
+    }
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.a.iii",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.a.iiia",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.g.i",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.g.iii",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.g.iv",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.h.ii",
+    "action": "deleted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.i",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p9",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8a",
+    "key": "",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8b",
+    "key": "",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8c",
+    "key": "",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8d",
+    "key": "",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_9",
+    "key": "p3",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_9",
+    "key": "p3a",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_10",
+    "key": "p3a",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_10",
+    "key": "p3b",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_11",
+    "key": "",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_12",
+    "key": "",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_12a",
+    "key": "",
+    "action": "inserted",
+    "applicableFrom": "2026-04-10",
+    "basis": {
+     "de": "Art. 5 Abs. 13 der VO (EU) 2025/1534 i. V. m. Art. 2 Nr. 1 (schrittweise Inbetriebnahme 12. Oktober 2025 bis 9. April 2026)",
+     "fr": "art. 5, par. 13, du règlement (UE) 2025/1534 en liaison avec l’art. 2, point 1) (mise en service progressive du 12 octobre 2025 au 9 avril 2026)",
+     "en": "Article 5(13) of Regulation (EU) 2025/1534 in conjunction with point (1) of Article 2 (progressive start of operations 12 October 2025 to 9 April 2026)"
+    },
+    "periods": [
+     {
+      "key": "p1",
+      "until": "2026-10-06",
+      "computed": true,
+      "basis": {
+       "de": "Art. 12a Abs. 1 SGK («für einen Zeitraum von 180 Tagen»), Beginn 10. April 2026; Ende berechnet",
+       "fr": "art. 12 bis, par. 1, CFS («pendant une période de 180 jours»), début le 10 avril 2026; fin calculée",
+       "en": "Article 12a(1) SBC (‘for a period of 180 days’), starting 10 April 2026; end computed"
+      }
+     }
+    ],
+    "note": {
+     "de": "Übergangszeitraum und Übergangsmassnahmen gelten erst ab dem ersten Tag nach der schrittweisen Inbetriebnahme. Abs. 1 (Stempel berücksichtigen) ist nach 180 Tagen verbraucht; Abs. 2 ist nicht befristet.",
+     "fr": "La période et les mesures transitoires ne s’appliquent qu’à partir du premier jour suivant la mise en service progressive. Le par. 1 (prise en compte des cachets) est épuisé après 180 jours; le par. 2 n’est pas limité dans le temps.",
+     "en": "The transitional period and measures apply only from the first day after the progressive start of operations. Paragraph 1 (taking stamps into account) is spent after 180 days; paragraph 2 is not time-limited."
+    }
+   },
+   {
+    "unit": "art_14",
+    "key": "p2.s3",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_14",
+    "key": "p3.s3",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_20",
+    "key": "p1.a",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_42a",
+    "key": "",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "anx_III",
+    "key": "ptD",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "anx_III",
+    "key": "ptE",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "anx_IV",
+    "key": "n1",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "anx_IV",
+    "key": "n1a",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "anx_IV",
+    "key": "n2a",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "anx_IV",
+    "key": "n3",
+    "action": "deleted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "anx_V",
+    "key": "ptA.n1.b",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "anx_V",
+    "key": "ptA.n1.d",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "anx_V",
+    "key": "ptA.n1.s2",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "anx_V",
+    "key": "ptB",
+    "action": "amended",
+    "applicableFrom": null,
+    "note": {
+     "de": "Standardformular: neuer Grund (J) und Zusatztext unter „Bemerkungen“.",
+     "fr": "Formulaire type: nouveau motif (J) et texte ajouté sous « Observations ».",
+     "en": "Standard form: new reason (J) and text added under ‘Comments’."
+    }
+   },
+   {
+    "unit": "anx_VII",
+    "key": "n1",
+    "action": "replaced",
+    "applicableFrom": null
+   }
+  ],
+  "langs": null,
+  "procedure": "2016/0105(COD)",
+  "proposal": "52016PC0196",
+  "corrigenda": [
+   "32017R2225R(01)"
+  ],
+  "eurlex": "https://eur-lex.europa.eu/eli/reg/2017/2225/oj",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R2225",
+   "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32017R2225",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017R2225",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32017R2225",
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32025D1544",
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32025R1534",
+   "https://www.eulisa.europa.eu/news-and-events/news/entryexit-system-fully-deployed-across-eu",
+   "https://commission.europa.eu/news-and-media/news/more-secure-efficient-and-convenient-way-travelling-non-eu-nationals-2026-04-10_en"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32018R1240",
+  "kind": "amendment",
+  "number": "(EU) 2018/1240",
+  "topic": {
+   "de": "ETIAS",
+   "fr": "ETIAS",
+   "en": "ETIAS"
+  },
+  "title": {
+   "de": "Verordnung (EU) 2018/1240 des Europäischen Parlaments und des Rates vom 12. September 2018 über die Einrichtung eines Europäischen Reiseinformations- und -genehmigungssystems (ETIAS) und zur Änderung der Verordnungen (EU) Nr. 1077/2011, (EU) Nr. 515/2014, (EU) 2016/399, (EU) 2016/1624 und (EU) 2017/2226",
+   "en": "Regulation (EU) 2018/1240 of the European Parliament and of the Council of 12 September 2018 establishing a European Travel Information and Authorisation System (ETIAS) and amending Regulations (EU) No 1077/2011, (EU) No 515/2014, (EU) 2016/399, (EU) 2016/1624 and (EU) 2017/2226",
+   "fr": "Règlement (UE) 2018/1240 du Parlement européen et du Conseil du 12 septembre 2018 portant création d’un système européen d’information et d’autorisation concernant les voyages (ETIAS) et modifiant les règlements (UE) no 1077/2011, (UE) no 515/2014, (UE) 2016/399, (UE) 2016/1624 et (UE) 2017/2226"
+  },
+  "adopted": "2018-09-12",
+  "published": "2018-09-19",
+  "oj": {
+   "de": "ABl. L 236 vom 19.9.2018, S. 1",
+   "fr": "JO L 236 du 19.9.2018, p. 1",
+   "en": "OJ L 236, 19.9.2018, p. 1"
+  },
+  "inForce": "2018-10-09",
+  "application": {
+   "status": "pending",
+   "date": null,
+   "basis": {
+    "de": "Art. 96 Abs. 2 der VO (EU) 2018/1240 (Art. 80 nicht unter den ab 9. Oktober 2018 geltenden Ausnahmen) i. V. m. Art. 88 (Beschluss der Kommission über die Inbetriebnahme)",
+    "fr": "art. 96, deuxième alinéa, du règlement (UE) 2018/1240 (l’art. 80 ne figure pas parmi les exceptions applicables dès le 9 octobre 2018) en liaison avec l’art. 88 (décision de la Commission sur la mise en service)",
+    "en": "second paragraph of Article 96 of Regulation (EU) 2018/1240 (Article 80 is not among the exceptions applying from 9 October 2018) in conjunction with Article 88 (Commission decision on the start of operations)"
+   },
+   "note": {
+    "de": "Noch nicht anwendbar: Per 11. November 2026 hat die Kommission das Datum der Inbetriebnahme von ETIAS nach Art. 88 nicht festgelegt; ETIAS ist nicht in Betrieb. Ab Inbetriebnahme: sechs Monate Übergangszeitraum (Nutzung fakultativ, verlängerbar), danach sechs Monate Schonfrist (Art. 83).",
+    "fr": "Pas encore applicable: au 11 novembre 2026, la Commission n’a pas fixé la date de mise en service de l’ETIAS conformément à l’art. 88; l’ETIAS n’est pas en service. À partir de la mise en service: période transitoire de six mois (utilisation facultative, prolongeable), puis période de franchise de six mois (art. 83).",
+    "en": "Not yet applicable: as of 11 November 2026 the Commission has not determined the date of the start of operations of ETIAS under Article 88; ETIAS is not in operation. From the start of operations: six-month transitional period (use optional, extendable), then six-month grace period (Article 83)."
+   },
+   "details": [
+    {
+     "scope": {
+      "de": "Art. 6 Abs. 1 Unterabsätze 2 und 3 SGK: Übergangszeitraum (Art. 83 Abs. 1 und 2 VO (EU) 2018/1240, sechs Monate, durch delegierten Rechtsakt um höchstens sechs Monate verlängerbar, einmal erneuerbar) und Schonfrist (Art. 83 Abs. 3, sechs Monate)",
+      "fr": "Art. 6, par. 1, deuxième et troisième alinéas, CFS: période transitoire (art. 83, par. 1 et 2, du règlement (UE) 2018/1240, six mois, prolongeable par acte délégué de six mois au plus, renouvelable une fois) et période de franchise (art. 83, par. 3, six mois)",
+      "en": "second and third subparagraphs of Article 6(1) SBC: transitional period (Article 83(1) and (2) of Regulation (EU) 2018/1240, six months, extendable by delegated act by up to six months, renewable once) and grace period (Article 83(3), six months)"
+     },
+     "date": null,
+     "status": "pending"
+    }
+   ],
+   "checkedAt": "2026-11-12",
+   "checkedBy": {
+    "de": "SPARQL (Cellar), Durchführungsbeschlüsse 2025–2026 mit «start of operations»/«date from which» im Titel, Abfrage vom 12. November 2026",
+    "fr": "SPARQL (Cellar), décisions d’exécution 2025–2026, requête du 12 novembre 2026",
+    "en": "SPARQL (Cellar), implementing decisions 2025–2026, query of 12 November 2026"
+   }
+  },
+  "amendingProvision": {
+   "de": "Art. 80",
+   "fr": "art. 80",
+   "en": "Article 80"
+  },
+  "changes": [
+   {
+    "unit": "art_6",
+    "key": "p1.b",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_6",
+    "key": "p1.s2",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_6",
+    "key": "p1.s3",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.a.ii",
+    "action": "replaced",
+    "applicableFrom": null,
+    "note": {
+     "de": "Fassung gemäss Berichtigung 32018R1240R(03) (ABl. L 193 vom 17.6.2020, S. 16): Ziff. ii statt Ziff. i.",
+     "fr": "Version selon le rectificatif 32018R1240R(03) (JO L 193 du 17.6.2020, p. 16): point ii) au lieu du point i).",
+     "en": "Wording as corrected by 32018R1240R(03) (OJ L 193, 17.6.2020, p. 16): point (ii) instead of point (i)."
+    }
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.ba",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "anx_V",
+    "key": "ptB",
+    "action": "amended",
+    "applicableFrom": null,
+    "note": {
+     "de": "Standardformular für die Einreiseverweigerung: Grund (C) ersetzt.",
+     "fr": "Formulaire type de refus d’entrée: motif (C) remplacé.",
+     "en": "Standard form for refusal of entry: reason (C) replaced."
+    }
+   }
+  ],
+  "langs": null,
+  "procedure": "2016/0357(COD)",
+  "proposal": "52016PC0731",
+  "corrigenda": [
+   "32018R1240R(03)"
+  ],
+  "consolidatedInSbc": false,
+  "eurlex": "https://eur-lex.europa.eu/eli/reg/2018/1240/oj",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32018R1240",
+   "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1240",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R1240",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32018R1240",
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02018R1240-20260612",
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32018R1240R(03)",
+   "https://publications.europa.eu/webapi/rdf/sparql",
+   "https://home-affairs.ec.europa.eu/policies/schengen/smart-borders/european-travel-information-authorisation-system_en",
+   "https://home-affairs.ec.europa.eu/news/main-differences-between-ees-and-etias-what-travellers-need-know-2026-04-28_en"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32019R0817",
+  "kind": "amendment",
+  "number": "(EU) 2019/817",
+  "topic": {
+   "de": "Interoperabilität",
+   "fr": "Interopérabilité",
+   "en": "Interoperability"
+  },
+  "title": {
+   "de": "Verordnung (EU) 2019/817 des Europäischen Parlaments und des Rates vom 20. Mai 2019 zur Errichtung eines Rahmens für die Interoperabilität zwischen EU-Informationssystemen in den Bereichen Grenzen und Visa und zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 und (EU) 2018/1861 des Europäischen Parlaments und des Rates, der Entscheidung 2004/512/EG des Rates und des Beschlusses 2008/633/JI des Rates",
+   "en": "Regulation (EU) 2019/817 of the European Parliament and of the Council of 20 May 2019 on establishing a framework for interoperability between EU information systems in the field of borders and visa and amending Regulations (EC) No 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 and (EU) 2018/1861 of the European Parliament and of the Council and Council Decisions 2004/512/EC and 2008/633/JHA",
+   "fr": "Règlement (UE) 2019/817 du Parlement européen et du Conseil du 20 mai 2019 portant établissement d'un cadre pour l'interopérabilité des systèmes d'information de l'UE dans le domaine des frontières et des visas et modifiant les règlements (CE) n° 767/2008, (UE) 2016/399, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1726 et (UE) 2018/1861 du Parlement européen et du Conseil et les décisions 2004/512/CE et 2008/633/JAI du Conseil"
+  },
+  "adopted": "2019-05-20",
+  "published": "2019-05-22",
+  "oj": {
+   "de": "ABl. L 135 vom 22.5.2019, S. 27",
+   "fr": "JO L 135 du 22.5.2019, p. 27",
+   "en": "OJ L 135, 22.5.2019, p. 27"
+  },
+  "inForce": "2019-06-11",
+  "application": {
+   "status": "pending",
+   "date": null,
+   "basis": {
+    "de": "Art. 8 Abs. 4a Unterabsatz 2 SGK (eingefügt durch Art. 59 der VO (EU) 2019/817) i. V. m. Art. 69 Abs. 1, Art. 72 Abs. 4 und Art. 79 Abs. 5 der VO (EU) 2019/817",
+    "fr": "art. 8, par. 4 bis, deuxième alinéa, CFS (inséré par l’art. 59 du règlement (UE) 2019/817) en liaison avec l’art. 69, par. 1, l’art. 72, par. 4, et l’art. 79, cinquième alinéa, du règlement (UE) 2019/817",
+    "en": "second subparagraph of Article 8(4a) SBC (inserted by Article 59 of Regulation (EU) 2019/817) in conjunction with Articles 69(1), 72(4) and the fifth paragraph of Article 79 of Regulation (EU) 2019/817"
+   },
+   "note": {
+    "de": "Art. 8 Abs. 4a SGK gilt erst ab Inbetriebnahme des Detektors für Mehrfachidentitäten (MID). Per 11. November 2026 liegt kein Durchführungsbeschluss nach Art. 72 Abs. 4 vor; der MID setzt u. a. den Abschluss des ETIAS-Übergangszeitraums voraus (Art. 72 Abs. 4 Bst. d i. V. m. Art. 71 Abs. 3). Die EUR-Lex-Daten 19. Mai 2025 und 12. Juni 2026 betreffen sBMS bzw. ESP und CIR, nicht den SGK.",
+    "fr": "L’art. 8, par. 4 bis, CFS ne s’applique qu’à partir de la mise en service du détecteur d’identités multiples (MID). Au 11 novembre 2026, aucune décision d’exécution au titre de l’art. 72, par. 4, n’a été adoptée; le MID suppose notamment l’achèvement de la période transitoire de l’ETIAS (art. 72, par. 4, point d), en liaison avec l’art. 71, par. 3). Les dates EUR-Lex du 19 mai 2025 et du 12 juin 2026 concernent le sBMS, l’ESP et le CIR, non le CFS.",
+    "en": "Article 8(4a) SBC applies only from the start of operations of the multiple-identity detector (MID). As of 11 November 2026 no implementing decision under Article 72(4) has been adopted; the MID requires inter alia completion of the ETIAS transitional period (Article 72(4)(d) in conjunction with Article 71(3)). The EUR-Lex dates of 19 May 2025 and 12 June 2026 concern the sBMS, the ESP and the CIR, not the SBC."
+   },
+   "details": [
+    {
+     "scope": {
+      "de": "Übrige Teile der VO (EU) 2019/817 (ohne SGK-Bezug): Inkrafttreten 11. Juni 2019; sBMS ab 19. Mai 2025 (Durchführungsbeschluss (EU) 2025/875); ESP und CIR ab 12. Juni 2026 (Durchführungsbeschlüsse (EU) 2026/1155 und 2026/1156)",
+      "fr": "Autres parties du règlement (UE) 2019/817 (sans lien avec le CFS): entrée en vigueur le 11 juin 2019; sBMS à partir du 19 mai 2025 (décision d’exécution (UE) 2025/875); ESP et CIR à partir du 12 juin 2026 (décisions d’exécution (UE) 2026/1155 et 2026/1156)",
+      "en": "Other parts of Regulation (EU) 2019/817 (not concerning the SBC): entry into force 11 June 2019; sBMS from 19 May 2025 (Implementing Decision (EU) 2025/875); ESP and CIR from 12 June 2026 (Implementing Decisions (EU) 2026/1155 and 2026/1156)"
+     },
+     "date": null,
+     "status": "pending",
+     "informational": true
+    },
+    {
+     "ref": "esp-cir",
+     "scope": {
+      "de": "Europäisches Suchportal (ESP) und gemeinsamer Speicher für Identitätsdaten (CIR), auf die Art. 8 Abs. 4a SGK verweist: in Betrieb seit 12. Juni 2026 (Durchführungsbeschlüsse (EU) 2026/1155 und 2026/1156, je Art. 1). Für die Geltung von Art. 8 Abs. 4a SGK massgebend bleibt der MID.",
+      "fr": "Portail de recherche européen (ESP) et répertoire commun de données d’identité (CIR), visés à l’art. 8, par. 4 bis, CFS: en service depuis le 12 juin 2026 (décisions d’exécution (UE) 2026/1155 et 2026/1156, art. 1er). L’application de l’art. 8, par. 4 bis, CFS reste liée au MID.",
+      "en": "European search portal (ESP) and common identity repository (CIR), referred to in Article 8(4a) SBC: in operation since 12 June 2026 (Implementing Decisions (EU) 2026/1155 and 2026/1156, Article 1 each). The application of Article 8(4a) SBC still depends on the MID."
+     },
+     "date": "2026-06-12",
+     "status": "applicable",
+     "sgk": false
+    }
+   ],
+   "checkedAt": "2026-11-12",
+   "checkedBy": {
+    "de": "SPARQL (Cellar), Durchführungsbeschlüsse 2025–2026 mit «start of operations»/«date from which» im Titel, Abfrage vom 12. November 2026",
+    "fr": "SPARQL (Cellar), décisions d’exécution 2025–2026, requête du 12 novembre 2026",
+    "en": "SPARQL (Cellar), implementing decisions 2025–2026, query of 12 November 2026"
+   }
+  },
+  "amendingProvision": {
+   "de": "Art. 59",
+   "fr": "art. 59",
+   "en": "Article 59"
+  },
+  "changes": [
+   {
+    "unit": "art_8",
+    "key": "p4a",
+    "action": "inserted",
+    "applicableFrom": null
+   }
+  ],
+  "langs": null,
+  "procedure": "2017/0351(COD)",
+  "proposal": "52017PC0793",
+  "proposalAmended": "52018PC0478",
+  "eurlex": "https://eur-lex.europa.eu/eli/reg/2019/817/oj",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32019R0817",
+   "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32019R0817",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019R0817",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32019R0817",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02019R0817-20260612",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32025D0875",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32026D1155",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32026D1156",
+   "https://publications.europa.eu/webapi/rdf/sparql"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32021R1134",
+  "kind": "amendment",
+  "number": "(EU) 2021/1134",
+  "topic": {
+   "de": "VIS-Revision",
+   "fr": "Révision du VIS",
+   "en": "VIS revision"
+  },
+  "title": {
+   "en": "Regulation (EU) 2021/1134 of the European Parliament and of the Council of 7 July 2021 amending Regulations (EC) No 767/2008, (EC) No 810/2009, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861, (EU) 2019/817 and (EU) 2019/1896 of the European Parliament and of the Council and repealing Council Decisions 2004/512/EC and 2008/633/JHA, for the purpose of reforming the Visa Information System",
+   "fr": "Règlement (UE) 2021/1134 du Parlement européen et du Conseil du 7 juillet 2021 modifiant les règlements (CE) no 767/2008, (CE) no 810/2009, (UE) 2016/399, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1860, (UE) 2018/1861, (UE) 2019/817 et (UE) 2019/1896 du Parlement européen et du Conseil et abrogeant les décisions 2004/512/CE et 2008/633/JAI du Conseil, aux fins de réformer le système d’information sur les visas",
+   "de": "Verordnung (EU) 2021/1134 des Europäischen Parlaments und des Rates vom 7. Juli 2021 zur Änderung der Verordnungen (EG) Nr. 767/2008, (EG) Nr. 810/2009, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861, (EU) 2019/817 und (EU) 2019/1896 des Europäischen Parlaments und des Rates und zur Aufhebung der Entscheidung 2004/512/EG und des Beschlusses 2008/633/JI des Rates zur Reform des Visa-Informationssystems"
+  },
+  "adopted": "2021-07-07",
+  "published": "2021-07-13",
+  "oj": {
+   "de": "ABl. L 248 vom 13.7.2021, S. 11",
+   "fr": "JO L 248 du 13.7.2021, p. 11",
+   "en": "OJ L 248, 13.7.2021, p. 11"
+  },
+  "inForce": "2021-08-02",
+  "application": {
+   "status": "pending",
+   "date": null,
+   "basis": {
+    "de": "Art. 12 Abs. 2 der VO (EU) 2021/1134 (Art. 3 nicht unter den Ausnahmen) i. V. m. Art. 11 (Beschluss der Kommission über die Inbetriebnahme des VIS)",
+    "fr": "art. 12, deuxième alinéa, du règlement (UE) 2021/1134 (l’art. 3 ne figure pas parmi les exceptions) en liaison avec l’art. 11 (décision de la Commission sur la mise en service du VIS)",
+    "en": "second paragraph of Article 12 of Regulation (EU) 2021/1134 (Article 3 is not among the exceptions) in conjunction with Article 11 (Commission decision on the start of VIS operations)"
+   },
+   "note": {
+    "de": "Noch nicht anwendbar: Ein Durchführungsbeschluss nach Art. 11 Abs. 1 über die Inbetriebnahme des revidierten VIS liegt per 11. November 2026 nicht vor; die dort vorgesehene Frist (31. Dezember 2023) ist verstrichen. Die Teilgeltungen ab 2. August 2021, 3. August 2022 und 3. August 2023 betreffen nicht Art. 3.",
+    "fr": "Pas encore applicable: au 11 novembre 2026, aucune décision d’exécution au titre de l’art. 11, par. 1, sur la mise en service du VIS révisé n’a été adoptée; le délai prévu (31 décembre 2023) est dépassé. Les applications partielles à partir du 2 août 2021, du 3 août 2022 et du 3 août 2023 ne concernent pas l’art. 3.",
+    "en": "Not yet applicable: as of 11 November 2026 no implementing decision under Article 11(1) on the start of operations of the revised VIS has been adopted; the deadline provided there (31 December 2023) has passed. The partial applications from 2 August 2021, 3 August 2022 and 3 August 2023 do not concern Article 3."
+   },
+   "details": [],
+   "checkedAt": "2026-11-12",
+   "checkedBy": {
+    "de": "SPARQL (Cellar), Durchführungsbeschlüsse 2025–2026 mit «start of operations»/«date from which» im Titel, Abfrage vom 12. November 2026",
+    "fr": "SPARQL (Cellar), décisions d’exécution 2025–2026, requête du 12 novembre 2026",
+    "en": "SPARQL (Cellar), implementing decisions 2025–2026, query of 12 November 2026"
+   }
+  },
+  "amendingProvision": {
+   "de": "Art. 3",
+   "fr": "art. 3",
+   "en": "Article 3"
+  },
+  "changes": [
+   {
+    "unit": "art_8",
+    "key": "p3.bb",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.c",
+    "action": "deleted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.d",
+    "action": "deleted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.e",
+    "action": "deleted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.f",
+    "action": "deleted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "anx_VII",
+    "key": "n6",
+    "action": "replaced",
+    "applicableFrom": null
+   }
+  ],
+  "langs": null,
+  "procedure": "2018/0152(COD)",
+  "proposal": "52018PC0302",
+  "eurlex": "https://eur-lex.europa.eu/eli/reg/2021/1134/oj",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32021R1134",
+   "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32021R1134",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R1134",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32021R1134",
+   "https://publications.europa.eu/webapi/rdf/sparql",
+   "https://www.eulisa.europa.eu/sites/default/files/documents/outlook-2026.pdf"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32024R1717",
+  "kind": "amendment",
+  "number": "(EU) 2024/1717",
+  "topic": {
+   "de": "SGK-Revision 2024",
+   "fr": "Révision CFS 2024",
+   "en": "SBC revision 2024"
+  },
+  "title": {
+   "de": "Verordnung (EU) 2024/1717 des Europäischen Parlaments und des Rates vom 13. Juni 2024 zur Änderung der Verordnung (EU) 2016/399 über einen Unionskodex für das Überschreiten der Grenzen durch Personen",
+   "en": "Regulation (EU) 2024/1717 of the European Parliament and of the Council of 13 June 2024 amending Regulation (EU) 2016/399 on a Union Code on the rules governing the movement of persons across borders",
+   "fr": "Règlement (UE) 2024/1717 du Parlement européen et du Conseil du 13 juin 2024 modifiant le règlement (UE) 2016/399 concernant un code de l’Union relatif au régime de franchissement des frontières par les personnes"
+  },
+  "adopted": "2024-06-13",
+  "published": "2024-06-20",
+  "oj": {
+   "de": "ABl. L, 2024/1717, 20.6.2024",
+   "fr": "JO L, 2024/1717, 20.6.2024",
+   "en": "OJ L, 2024/1717, 20.6.2024"
+  },
+  "inForce": "2024-07-10",
+  "application": {
+   "status": "applicable",
+   "date": "2024-07-10",
+   "basis": {
+    "de": "Art. 2 der VO (EU) 2024/1717 (nur Inkrafttreten, kein gesonderter Geltungsbeginn)",
+    "fr": "art. 2 du règlement (UE) 2024/1717 (entrée en vigueur seulement, pas de date d’application distincte)",
+    "en": "Article 2 of Regulation (EU) 2024/1717 (entry into force only, no separate date of application)"
+   },
+   "note": {
+    "de": "Alle Änderungen gelten ab 10. Juli 2024. Keine Bestimmung mit späterem Geltungsbeginn; Art. 42b SGK setzt eine Notifikationsfrist bis 11. Januar 2025. Art. 5 Abs. 4 SGK verweist auf Art. 1 Abs. 4 Bst. b der VO (EU) 2024/1359, die erst ab 12. Juni 2026 gilt.",
+    "fr": "Toutes les modifications s’appliquent à partir du 10 juillet 2024. Aucune disposition à application différée; l’art. 42 ter CFS fixe un délai de notification au 11 janvier 2025. L’art. 5, par. 4, CFS renvoie à l’art. 1er, par. 4, point b), du règlement (UE) 2024/1359, applicable seulement à partir du 12 juin 2026.",
+    "en": "All amendments apply from 10 July 2024. No provision with deferred application; Article 42b SBC sets a notification deadline of 11 January 2025. Article 5(4) SBC refers to Article 1(4)(b) of Regulation (EU) 2024/1359, which applies only from 12 June 2026."
+   },
+   "details": []
+  },
+  "amendingProvision": {
+   "de": "Art. 1 und Anhang",
+   "fr": "art. 1er et annexe",
+   "en": "Article 1 and Annex"
+  },
+  "changes": [
+   {
+    "unit": "art_2",
+    "key": "n12",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_2",
+    "key": "n27",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_2",
+    "key": "n28",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_2",
+    "key": "n29",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_2",
+    "key": "n30",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_5",
+    "key": "p3.s2",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_5",
+    "key": "p4",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_13",
+    "key": "",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "tit_II.cpt_V",
+    "key": "heading",
+    "action": "replaced",
+    "applicableFrom": null,
+    "toc": true,
+    "note": {
+     "de": "Kapitel V (Titel II) erhält die Überschrift „Bestimmte Maßnahmen in Bezug auf die Außengrenzen“; Element des Inhaltsverzeichnisses, keine Einheit.",
+     "fr": "Le chapitre V (titre II) est renommé « Mesures spécifiques relatives aux frontières extérieures »; élément de la table des matières, pas une unité.",
+     "en": "Chapter V (Title II) is renamed ‘Specific measures relating to the external borders’; table-of-contents element, not a unit."
+    }
+   },
+   {
+    "unit": "art_21a",
+    "key": "",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_23",
+    "key": "",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_23a",
+    "key": "",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_24",
+    "key": "s1",
+    "action": "replaced",
+    "applicableFrom": null,
+    "note": {
+     "de": "Erster (nicht nummerierter) Absatz von Art. 24.",
+     "fr": "Premier alinéa (non numéroté) de l’art. 24.",
+     "en": "First (unnumbered) paragraph of Article 24."
+    }
+   },
+   {
+    "unit": "art_25",
+    "key": "",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_25a",
+    "key": "",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_26",
+    "key": "",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_27",
+    "key": "",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_27a",
+    "key": "",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_28",
+    "key": "",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_33",
+    "key": "",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_36",
+    "key": "",
+    "action": "replaced",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_37a",
+    "key": "",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_39",
+    "key": "p1.h",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_42b",
+    "key": "",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "anx_XI",
+    "key": "",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "anx_XII",
+    "key": "",
+    "action": "inserted",
+    "applicableFrom": null
+   }
+  ],
+  "langs": null,
+  "procedure": "2021/0428(COD)",
+  "proposal": "52021PC0891",
+  "corrigenda": [
+   "32024R1717R(01)"
+  ],
+  "eurlex": "https://eur-lex.europa.eu/eli/reg/2024/1717/oj",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1717",
+   "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32024R1717",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1717",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1717"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32017R2225R(01)",
+  "kind": "corrigendum",
+  "number": "(EU) 2017/2225, Berichtigung",
+  "corrects": "32017R2225",
+  "topic": {
+   "de": "Berichtigung EES",
+   "fr": "Rectificatif EES",
+   "en": "Corrigendum EES"
+  },
+  "title": {
+   "de": "Berichtigung der Verordnung (EU) 2017/2225 des Europäischen Parlaments und des Rates vom 30. November 2017 zur Änderung der Verordnung (EU) 2016/399 in Bezug auf die Nutzung des Einreise-/Ausreisesystems (ABl. L 327 vom 9.12.2017)",
+   "en": "Corrigendum to Regulation (EU) 2017/2225 of the European Parliament and of the Council of 30 November 2017 amending Regulation (EU) 2016/399 as regards the use of the Entry/Exit System (OJ L 327, 9.12.2017)",
+   "fr": "Rectificatif au règlement (UE) 2017/2225 du Parlement européen et du Conseil du 30 novembre 2017 modifiant le règlement (UE) 2016/399 en ce qui concerne l'utilisation du système d'entrée/de sortie (JO L 327 du 9.12.2017)"
+  },
+  "adopted": null,
+  "published": "2018-12-07",
+  "oj": {
+   "de": "ABl. L 312 vom 7.12.2018, S. 107",
+   "fr": "JO L 312 du 7.12.2018, p. 107",
+   "en": "OJ L 312, 7.12.2018, p. 107"
+  },
+  "inForce": null,
+  "subject": {
+   "de": "Art. 6a Abs. 3 Bst. f SGK (eingefügt durch Art. 1 Nr. 3 der VO (EU) 2017/2225): „oder vom Heiligen Stuhl“ ergänzt.",
+   "fr": "Art. 6 bis, par. 3, point f), CFS (inséré par l’art. 1er, point 3, du règlement (UE) 2017/2225): ajout de « ou le Saint-Siège ».",
+   "en": "Article 6a(3)(f) SBC (inserted by Article 1(3) of Regulation (EU) 2017/2225): ‘or the Holy See’ added."
+  },
+  "application": {
+   "status": "applicable",
+   "date": "2025-10-12",
+   "basis": {
+    "de": "Berichtigung ohne eigenes Anwendungsdatum; teilt die Anwendbarkeit der berichtigten Bestimmung (Art. 2 Abs. 2 VO (EU) 2017/2225)",
+    "fr": "Rectificatif sans date d’application propre; suit l’applicabilité de la disposition rectifiée (art. 2, par. 2, du règlement (UE) 2017/2225)",
+    "en": "Corrigendum without its own date of application; follows the applicability of the corrected provision (Article 2(2) of Regulation (EU) 2017/2225)"
+   },
+   "note": {
+    "de": "Betrifft alle Sprachfassungen.",
+    "fr": "Concerne toutes les versions linguistiques.",
+    "en": "Concerns all language versions."
+   },
+   "details": []
+  },
+  "amendingProvision": null,
+  "changes": [
+   {
+    "unit": "art_6a",
+    "key": "p3.f",
+    "action": "replaced",
+    "applicableFrom": null
+   }
+  ],
+  "langs": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "allLangs": true,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32017R2225R(01)",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32017R2225R(01)",
+   "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32017R2225R(01)",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017R2225R(01)",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32017R2225"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32018R1240R(03)",
+  "kind": "corrigendum",
+  "number": "(EU) 2018/1240, Berichtigung",
+  "corrects": "32018R1240",
+  "topic": {
+   "de": "Berichtigung ETIAS",
+   "fr": "Rectificatif ETIAS",
+   "en": "Corrigendum ETIAS"
+  },
+  "title": {
+   "de": "Berichtigung der Verordnung (EU) 2018/1240 des Europäischen Parlaments und des Rates vom 12. September 2018 über die Einrichtung eines Europäischen Reiseinformations- und -genehmigungssystems (ETIAS) und zur Änderung der Verordnungen (EU) Nr. 1077/2011, (EU) Nr. 515/2014, (EU) 2016/399, (EU) 2016/1624 und (EU) 2017/2226 (Amtsblatt der Europäischen Union L 236 vom 19. September 2018)",
+   "en": "Corrigendum to Regulation (EU) 2018/1240 of the European Parliament and of the Council of 12 September 2018 establishing a European Travel Information and Authorisation System (ETIAS) and amending Regulations (EU) No 1077/2011, (EU) No 515/2014, (EU) 2016/399, (EU) 2016/1624 and (EU) 2017/2226 (Official Journal of the European Union L 236 of 19 September 2018)",
+   "fr": "Rectificatif au règlement (UE) 2018/1240 du Parlement européen et du Conseil du 12 septembre 2018 portant création d’un système européen d’information et d’autorisation concernant les voyages (ETIAS) et modifiant les règlements (UE) n° 1077/2011, (UE) n° 515/2014, (UE) 2016/399, (UE) 2016/1624 et (UE) 2017/2226 («Journal officiel de l’Union européenne» L 236 du 19 septembre 2018)"
+  },
+  "adopted": null,
+  "published": "2020-06-17",
+  "oj": {
+   "de": "ABl. L 193 vom 17.6.2020, S. 16",
+   "fr": "JO L 193 du 17.6.2020, p. 16",
+   "en": "OJ L 193, 17.6.2020, p. 16"
+  },
+  "inForce": null,
+  "subject": {
+   "de": "Art. 80 Nr. 2 Bst. a der VO (EU) 2018/1240: Nicht Art. 8 Abs. 3 Bst. a Ziff. i, sondern Ziff. ii SGK erhält eine neue Fassung (Visum, Reisegenehmigung oder Aufenthaltstitel).",
+   "fr": "Art. 80, point 2 a), du règlement (UE) 2018/1240: ce n’est pas l’art. 8, par. 3, point a) i), mais le point a) ii) CFS qui est remplacé (visa, autorisation de voyage ou permis de séjour).",
+   "en": "Article 80(2)(a) of Regulation (EU) 2018/1240: not Article 8(3)(a)(i) but point (a)(ii) SBC is replaced (visa, travel authorisation or residence permit)."
+  },
+  "application": {
+   "status": "pending",
+   "date": null,
+   "basis": {
+    "de": "Berichtigung ohne eigenes Anwendungsdatum; teilt die Anwendbarkeit von Art. 80 VO (EU) 2018/1240 (Art. 96 i. V. m. Art. 88)",
+    "fr": "Rectificatif sans date d’application propre; suit l’applicabilité de l’art. 80 du règlement (UE) 2018/1240 (art. 96 en liaison avec l’art. 88)",
+    "en": "Corrigendum without its own date of application; follows the applicability of Article 80 of Regulation (EU) 2018/1240 (Article 96 in conjunction with Article 88)"
+   },
+   "note": {
+    "de": "Betrifft alle Sprachfassungen. In der konsolidierten Fassung 02018R1240-20260612 als ▼C2 (DE) bzw. ▼C1 (FR, EN) markiert.",
+    "fr": "Concerne toutes les versions linguistiques. Marqué ▼C2 (DE) et ▼C1 (FR, EN) dans la version consolidée 02018R1240-20260612.",
+    "en": "Concerns all language versions. Marked ▼C2 (DE) and ▼C1 (FR, EN) in consolidated version 02018R1240-20260612."
+   },
+   "details": []
+  },
+  "amendingProvision": null,
+  "changes": [
+   {
+    "unit": "art_8",
+    "key": "p3.a.ii",
+    "action": "replaced",
+    "applicableFrom": null,
+    "note": {
+     "de": "Ersetzt die ursprüngliche Anweisung zu p3.a.i.",
+     "fr": "Remplace l’instruction initiale relative à p3.a.i.",
+     "en": "Replaces the original instruction concerning p3.a.i."
+    }
+   }
+  ],
+  "langs": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "allLangs": true,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32018R1240R(03)",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32018R1240R(03)",
+   "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1240R(03)",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R1240R(03)",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32018R1240",
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02018R1240-20260612"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32024R1717R(01)",
+  "kind": "corrigendum",
+  "number": "(EU) 2024/1717, Berichtigung",
+  "corrects": "32024R1717",
+  "topic": {
+   "de": "Berichtigung DE",
+   "fr": "Rectificatif DE",
+   "en": "Corrigendum DE"
+  },
+  "title": {
+   "de": "Berichtigung der Verordnung (EU) 2024/1717 des Europäischen Parlaments und des Rates vom 13. Juni 2024 zur Änderung der Verordnung (EU) 2016/399 über einen Unionskodex für das Überschreiten der Grenzen durch Personen (ABl. L, 2024/1717, 20.6.2024)",
+   "fr": "Berichtigung der Verordnung (EU) 2024/1717 des Europäischen Parlaments und des Rates vom 13. Juni 2024 zur Änderung der Verordnung (EU) 2016/399 über einen Unionskodex für das Überschreiten der Grenzen durch Personen (ABl. L, 2024/1717, 20.6.2024)",
+   "en": "Berichtigung der Verordnung (EU) 2024/1717 des Europäischen Parlaments und des Rates vom 13. Juni 2024 zur Änderung der Verordnung (EU) 2016/399 über einen Unionskodex für das Überschreiten der Grenzen durch Personen (ABl. L, 2024/1717, 20.6.2024)"
+  },
+  "titleLang": "de",
+  "adopted": null,
+  "published": "2025-10-16",
+  "oj": {
+   "de": "ABl. L, 2025/90822, 16.10.2025",
+   "fr": "JO L, 2025/90822, 16.10.2025 (éditions DE et SV uniquement)",
+   "en": "OJ L, 2025/90822, 16.10.2025 (DE and SV editions only)"
+  },
+  "inForce": null,
+  "subject": {
+   "de": "Art. 25 Abs. 1 Bst. a SGK (eingefügt durch Art. 1 Nr. 10 der VO (EU) 2024/1717), nur DE und SV: „terroristischen Vorfällen oder Bedrohungen, einschließlich Bedrohungen, …“ wird zu „terroristischen Vorfällen oder Bedrohungen und Bedrohungen, …“.",
+   "fr": "Art. 25, par. 1, point a), CFS, version allemande uniquement (et suédoise): correction terminologique (« einschließlich » remplacé par « und »).",
+   "en": "Article 25(1)(a) SBC, German (and Swedish) version only: wording corrected (‘einschließlich’ replaced by ‘und’)."
+  },
+  "application": {
+   "status": "applicable",
+   "date": "2024-07-10",
+   "basis": {
+    "de": "Berichtigung ohne eigenes Anwendungsdatum; teilt die Anwendbarkeit der VO (EU) 2024/1717 (Art. 2)",
+    "fr": "Rectificatif sans date d’application propre; suit l’applicabilité du règlement (UE) 2024/1717 (art. 2)",
+    "en": "Corrigendum without its own date of application; follows the applicability of Regulation (EU) 2024/1717 (Article 2)"
+   },
+   "note": {
+    "de": "Nur DE und SV. In der konsolidierten Fassung 02016R0399-20251012 (DE) als ▼C3 markiert.",
+    "fr": "DE et SV uniquement. Marqué ▼C3 dans la version consolidée allemande 02016R0399-20251012.",
+    "en": "DE and SV only. Marked ▼C3 in the German consolidated version 02016R0399-20251012."
+   },
+   "details": []
+  },
+  "amendingProvision": null,
+  "changes": [
+   {
+    "unit": "art_25",
+    "key": "p1.a",
+    "action": "replaced",
+    "applicableFrom": null,
+    "langs": [
+     "de"
+    ]
+   }
+  ],
+  "langs": [
+   "de",
+   "sv"
+  ],
+  "eurlex": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1717R(01)",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1717R(01)",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1717",
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02016R0399-20251012"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32016R0399R(01)",
+  "kind": "corrigendum",
+  "number": "(EU) 2016/399, Berichtigung R(01)",
+  "corrects": "32016R0399",
+  "topic": {
+   "de": "Berichtigung FI",
+   "fr": "Rectificatif FI",
+   "en": "Corrigendum FI"
+  },
+  "title": {
+   "de": "Oikaisu Euroopan parlamentin ja neuvoston asetukseen (EU) 2016/399, annettu 9 päivänä maaliskuuta 2016, henkilöiden liikkumista rajojen yli koskevasta unionin säännöstöstä (Schengenin rajasäännöstö)",
+   "fr": "Oikaisu Euroopan parlamentin ja neuvoston asetukseen (EU) 2016/399, annettu 9 päivänä maaliskuuta 2016, henkilöiden liikkumista rajojen yli koskevasta unionin säännöstöstä (Schengenin rajasäännöstö)",
+   "en": "Oikaisu Euroopan parlamentin ja neuvoston asetukseen (EU) 2016/399, annettu 9 päivänä maaliskuuta 2016, henkilöiden liikkumista rajojen yli koskevasta unionin säännöstöstä (Schengenin rajasäännöstö)"
+  },
+  "titleLang": "fi",
+  "adopted": null,
+  "published": "2017-04-12",
+  "oj": {
+   "de": "ABl. L 99 vom 12.4.2017, S. 31 (nur FI-Ausgabe)",
+   "fr": "JO L 99 du 12.4.2017, p. 31 (édition FI uniquement)",
+   "en": "OJ L 99, 12.4.2017, p. 31 (FI edition only)"
+  },
+  "inForce": null,
+  "subject": {
+   "de": "Anhang VIII (Formular Nachweis der Aufenthaltsdauer bei fehlendem Stempel), nur FI: Überschrift und Formulartext sprachlich berichtigt.",
+   "fr": "Annexe VIII (formulaire de preuve de la durée du séjour en l’absence de cachet), version finnoise uniquement: titre et texte du formulaire corrigés.",
+   "en": "Annex VIII (form on evidence of duration of stay where a stamp is missing), Finnish version only: heading and form text corrected."
+  },
+  "application": {
+   "status": "applicable",
+   "date": "2016-04-12",
+   "basis": {
+    "de": "Berichtigung ohne eigenes Anwendungsdatum; teilt die Anwendbarkeit des Basisakts (Art. 45 VO (EU) 2016/399)",
+    "fr": "Rectificatif sans date d’application propre; suit l’applicabilité de l’acte de base (art. 45 du règlement (UE) 2016/399)",
+    "en": "Corrigendum without its own date of application; follows the applicability of the base act (Article 45 of Regulation (EU) 2016/399)"
+   },
+   "note": {
+    "de": "Betrifft nur die finnische Sprachfassung; DE, FR und EN unberührt.",
+    "fr": "Ne concerne que la version finnoise; DE, FR et EN non concernées.",
+    "en": "Concerns only the Finnish language version; DE, FR and EN unaffected."
+   },
+   "details": []
+  },
+  "amendingProvision": null,
+  "changes": [
+   {
+    "unit": "anx_VIII",
+    "key": "",
+    "action": "amended",
+    "applicableFrom": null,
+    "langs": [
+     "fi"
+    ]
+   }
+  ],
+  "langs": [
+   "fi"
+  ],
+  "relevant": false,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=CELEX:32016R0399R(01)",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/FI/TXT/HTML/?uri=CELEX:32016R0399R(01)",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32016R0399",
+   "https://publications.europa.eu/webapi/rdf/sparql"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32016R0399R(02)",
+  "kind": "corrigendum",
+  "number": "(EU) 2016/399, Berichtigung R(02)",
+  "corrects": "32016R0399",
+  "topic": {
+   "de": "Berichtigung DA",
+   "fr": "Rectificatif DA",
+   "en": "Corrigendum DA"
+  },
+  "title": {
+   "de": "Berigtigelse til Europa-Parlamentets og Rådets forordning (EU) 2016/399 af 9. marts 2016 om en EU-kodeks for personers grænsepassage (Schengengrænsekodeks)",
+   "fr": "Berigtigelse til Europa-Parlamentets og Rådets forordning (EU) 2016/399 af 9. marts 2016 om en EU-kodeks for personers grænsepassage (Schengengrænsekodeks)",
+   "en": "Berigtigelse til Europa-Parlamentets og Rådets forordning (EU) 2016/399 af 9. marts 2016 om en EU-kodeks for personers grænsepassage (Schengengrænsekodeks)"
+  },
+  "titleLang": "da",
+  "adopted": null,
+  "published": "2017-11-11",
+  "oj": {
+   "de": "ABl. L 294 vom 11.11.2017, S. 42 (nur DA-Ausgabe)",
+   "fr": "JO L 294 du 11.11.2017, p. 42 (édition DA uniquement)",
+   "en": "OJ L 294, 11.11.2017, p. 42 (DA edition only)"
+  },
+  "inForce": null,
+  "subject": {
+   "de": "Art. 11 Abs. 3 Bst. c, nur DA: Ergänzung „und nur im Gebiet des Anlaufhafens“ (Seeleute).",
+   "fr": "Art. 11, par. 3, point c), version danoise uniquement: ajout de « et uniquement dans la zone du port d’escale » (marins).",
+   "en": "Article 11(3)(c), Danish version only: ‘and only in the area of the port of call’ added (seamen)."
+  },
+  "application": {
+   "status": "applicable",
+   "date": "2016-04-12",
+   "basis": {
+    "de": "Berichtigung ohne eigenes Anwendungsdatum; teilt die Anwendbarkeit des Basisakts (Art. 45 VO (EU) 2016/399)",
+    "fr": "Rectificatif sans date d’application propre; suit l’applicabilité de l’acte de base (art. 45 du règlement (UE) 2016/399)",
+    "en": "Corrigendum without its own date of application; follows the applicability of the base act (Article 45 of Regulation (EU) 2016/399)"
+   },
+   "note": {
+    "de": "Betrifft nur die dänische Sprachfassung; DE, FR und EN unberührt.",
+    "fr": "Ne concerne que la version danoise; DE, FR et EN non concernées.",
+    "en": "Concerns only the Danish language version; DE, FR and EN unaffected."
+   },
+   "details": []
+  },
+  "amendingProvision": null,
+  "changes": [
+   {
+    "unit": "art_11",
+    "key": "p3.c",
+    "action": "replaced",
+    "applicableFrom": null,
+    "langs": [
+     "da"
+    ]
+   }
+  ],
+  "langs": [
+   "da"
+  ],
+  "relevant": false,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/DA/TXT/?uri=CELEX:32016R0399R(02)",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/DA/TXT/HTML/?uri=CELEX:32016R0399R(02)",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32016R0399",
+   "https://publications.europa.eu/webapi/rdf/sparql"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32016R0399R(03)",
+  "kind": "corrigendum",
+  "number": "(EU) 2016/399, Berichtigung R(03)",
+  "corrects": "32016R0399",
+  "topic": {
+   "de": "Berichtigung DE",
+   "fr": "Rectificatif DE",
+   "en": "Corrigendum DE"
+  },
+  "title": {
+   "de": "Berichtigung der Verordnung (EU) 2016/399 des Europäischen Parlaments und des Rates vom 9. März 2016 über einen Gemeinschaftskodex für das Überschreiten der Grenzen durch Personen (Schengener Grenzkodex) (ABl. L 77 vom 23.3.2016)",
+   "fr": "Berichtigung der Verordnung (EU) 2016/399 des Europäischen Parlaments und des Rates vom 9. März 2016 über einen Gemeinschaftskodex für das Überschreiten der Grenzen durch Personen (Schengener Grenzkodex) (ABl. L 77 vom 23.3.2016)",
+   "en": "Berichtigung der Verordnung (EU) 2016/399 des Europäischen Parlaments und des Rates vom 9. März 2016 über einen Gemeinschaftskodex für das Überschreiten der Grenzen durch Personen (Schengener Grenzkodex) (ABl. L 77 vom 23.3.2016)"
+  },
+  "titleLang": "de",
+  "adopted": null,
+  "published": "2018-10-31",
+  "oj": {
+   "de": "ABl. L 272 vom 31.10.2018, S. 69",
+   "fr": "JO L 272 du 31.10.2018, p. 69 (édition DE uniquement)",
+   "en": "OJ L 272, 31.10.2018, p. 69 (DE edition only)"
+  },
+  "inForce": null,
+  "subject": {
+   "de": "Titel der Verordnung, nur DE: „Unionskodex“ statt „Gemeinschaftskodex“.",
+   "fr": "Titre du règlement, version allemande uniquement: « Unionskodex » au lieu de « Gemeinschaftskodex ».",
+   "en": "Title of the Regulation, German version only: ‘Unionskodex’ instead of ‘Gemeinschaftskodex’."
+  },
+  "application": {
+   "status": "applicable",
+   "date": "2016-04-12",
+   "basis": {
+    "de": "Berichtigung ohne eigenes Anwendungsdatum; teilt die Anwendbarkeit des Basisakts (Art. 45 VO (EU) 2016/399)",
+    "fr": "Rectificatif sans date d’application propre; suit l’applicabilité de l’acte de base (art. 45 du règlement (UE) 2016/399)",
+    "en": "Corrigendum without its own date of application; follows the applicability of the base act (Article 45 of Regulation (EU) 2016/399)"
+   },
+   "note": {
+    "de": "Betrifft nur die deutsche Sprachfassung; für das Werkzeug relevant (DE).",
+    "fr": "Ne concerne que la version allemande; pertinent pour l’outil (DE).",
+    "en": "Concerns only the German language version; relevant for the tool (DE)."
+   },
+   "details": []
+  },
+  "amendingProvision": null,
+  "changes": [],
+  "langs": [
+   "de"
+  ],
+  "relevant": true,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0399R(03)",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0399R(03)",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32016R0399",
+   "https://publications.europa.eu/webapi/rdf/sparql"
+  ],
+  "confidence": "verified",
+  "checkNote": null,
+  "target": "title"
+ },
+ {
+  "celex": "32016R0399R(04)",
+  "kind": "corrigendum",
+  "number": "(EU) 2016/399, Berichtigung R(04)",
+  "corrects": "32016R0399",
+  "topic": {
+   "de": "Berichtigung ES",
+   "fr": "Rectificatif ES",
+   "en": "Corrigendum ES"
+  },
+  "title": {
+   "de": "Corrección de errores del Reglamento (UE) 2016/399 del Parlamento Europeo y del Consejo, de 9 de marzo de 2016, por el que se establece un Código de normas de la Unión para el cruce de personas por las fronteras (Código de fronteras Schengen)",
+   "fr": "Corrección de errores del Reglamento (UE) 2016/399 del Parlamento Europeo y del Consejo, de 9 de marzo de 2016, por el que se establece un Código de normas de la Unión para el cruce de personas por las fronteras (Código de fronteras Schengen)",
+   "en": "Corrección de errores del Reglamento (UE) 2016/399 del Parlamento Europeo y del Consejo, de 9 de marzo de 2016, por el que se establece un Código de normas de la Unión para el cruce de personas por las fronteras (Código de fronteras Schengen)"
+  },
+  "titleLang": "es",
+  "adopted": null,
+  "published": "2019-02-26",
+  "oj": {
+   "de": "ABl. L 57 vom 26.2.2019, S. 29 (nur ES-Ausgabe)",
+   "fr": "JO L 57 du 26.2.2019, p. 29 (édition ES uniquement)",
+   "en": "OJ L 57, 26.2.2019, p. 29 (ES edition only)"
+  },
+  "inForce": null,
+  "subject": {
+   "de": "Art. 2 Nr. 14 (Begriff „Grenzschutzbeamter“), nur ES: verstümmelter Satz berichtigt.",
+   "fr": "Art. 2, point 14 (définition de « garde-frontière »), version espagnole uniquement: phrase tronquée corrigée.",
+   "en": "Article 2(14) (definition of ‘border guard’), Spanish version only: garbled sentence corrected."
+  },
+  "application": {
+   "status": "applicable",
+   "date": "2016-04-12",
+   "basis": {
+    "de": "Berichtigung ohne eigenes Anwendungsdatum; teilt die Anwendbarkeit des Basisakts (Art. 45 VO (EU) 2016/399)",
+    "fr": "Rectificatif sans date d’application propre; suit l’applicabilité de l’acte de base (art. 45 du règlement (UE) 2016/399)",
+    "en": "Corrigendum without its own date of application; follows the applicability of the base act (Article 45 of Regulation (EU) 2016/399)"
+   },
+   "note": {
+    "de": "Betrifft nur die spanische Sprachfassung; DE, FR und EN unberührt.",
+    "fr": "Ne concerne que la version espagnole; DE, FR et EN non concernées.",
+    "en": "Concerns only the Spanish language version; DE, FR and EN unaffected."
+   },
+   "details": []
+  },
+  "amendingProvision": null,
+  "changes": [
+   {
+    "unit": "art_2",
+    "key": "n14",
+    "action": "replaced",
+    "applicableFrom": null,
+    "langs": [
+     "es"
+    ]
+   }
+  ],
+  "langs": [
+   "es"
+  ],
+  "relevant": false,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0399R(04)",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32016R0399R(04)",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32016R0399",
+   "https://publications.europa.eu/webapi/rdf/sparql"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32016R0399R(05)",
+  "kind": "corrigendum",
+  "number": "(EU) 2016/399, Berichtigung R(05)",
+  "corrects": "32016R0399",
+  "topic": {
+   "de": "Berichtigung MT",
+   "fr": "Rectificatif MT",
+   "en": "Corrigendum MT"
+  },
+  "title": {
+   "de": "Rettifika tar-Regolament (UE) 2016/399 tal-Parlament Ewropew u tal-Kunsill tad-9 ta' Marzu 2016 dwar Kodiċi tal-Unjoni dwar ir-regoli li jirregolaw il-moviment ta’ persuni min-naħa għall-oħra tal-fruntiera (Kodiċi tal-Fruntieri ta' Schengen)",
+   "fr": "Rettifika tar-Regolament (UE) 2016/399 tal-Parlament Ewropew u tal-Kunsill tad-9 ta' Marzu 2016 dwar Kodiċi tal-Unjoni dwar ir-regoli li jirregolaw il-moviment ta’ persuni min-naħa għall-oħra tal-fruntiera (Kodiċi tal-Fruntieri ta' Schengen)",
+   "en": "Rettifika tar-Regolament (UE) 2016/399 tal-Parlament Ewropew u tal-Kunsill tad-9 ta' Marzu 2016 dwar Kodiċi tal-Unjoni dwar ir-regoli li jirregolaw il-moviment ta’ persuni min-naħa għall-oħra tal-fruntiera (Kodiċi tal-Fruntieri ta' Schengen)"
+  },
+  "titleLang": "mt",
+  "adopted": null,
+  "published": "2020-07-30",
+  "oj": {
+   "de": "ABl. L 245 vom 30.7.2020, S. 32 (nur MT-Ausgabe)",
+   "fr": "JO L 245 du 30.7.2020, p. 32 (édition MT uniquement)",
+   "en": "OJ L 245, 30.7.2020, p. 32 (MT edition only)"
+  },
+  "inForce": null,
+  "subject": {
+   "de": "Art. 2 Nr. 20 (Begriff „Arbeitnehmer auf Offshore-Anlagen“), nur MT: Terminologie berichtigt.",
+   "fr": "Art. 2, point 20 (définition de « travailleur offshore »), version maltaise uniquement: terminologie corrigée.",
+   "en": "Article 2(20) (definition of ‘offshore worker’), Maltese version only: terminology corrected."
+  },
+  "application": {
+   "status": "applicable",
+   "date": "2016-04-12",
+   "basis": {
+    "de": "Berichtigung ohne eigenes Anwendungsdatum; teilt die Anwendbarkeit des Basisakts (Art. 45 VO (EU) 2016/399)",
+    "fr": "Rectificatif sans date d’application propre; suit l’applicabilité de l’acte de base (art. 45 du règlement (UE) 2016/399)",
+    "en": "Corrigendum without its own date of application; follows the applicability of the base act (Article 45 of Regulation (EU) 2016/399)"
+   },
+   "note": {
+    "de": "Betrifft nur die maltesische Sprachfassung; DE, FR und EN unberührt.",
+    "fr": "Ne concerne que la version maltaise; DE, FR et EN non concernées.",
+    "en": "Concerns only the Maltese language version; DE, FR and EN unaffected."
+   },
+   "details": []
+  },
+  "amendingProvision": null,
+  "changes": [
+   {
+    "unit": "art_2",
+    "key": "n20",
+    "action": "replaced",
+    "applicableFrom": null,
+    "langs": [
+     "mt"
+    ]
+   }
+  ],
+  "langs": [
+   "mt"
+  ],
+  "relevant": false,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/MT/TXT/?uri=CELEX:32016R0399R(05)",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/MT/TXT/HTML/?uri=CELEX:32016R0399R(05)",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32016R0399",
+   "https://publications.europa.eu/webapi/rdf/sparql"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32016R0399R(06)",
+  "kind": "corrigendum",
+  "number": "(EU) 2016/399, Berichtigung R(06)",
+  "corrects": "32016R0399",
+  "topic": {
+   "de": "Berichtigung ES",
+   "fr": "Rectificatif ES",
+   "en": "Corrigendum ES"
+  },
+  "title": {
+   "de": "Corrección de errores del Reglamento (UE) 2016/399 del Parlamento Europeo y del Consejo, de 9 de marzo de 2016, por el que se establece un Código de normas de la Unión para el cruce de personas por las fronteras (Código de fronteras Schengen)",
+   "fr": "Corrección de errores del Reglamento (UE) 2016/399 del Parlamento Europeo y del Consejo, de 9 de marzo de 2016, por el que se establece un Código de normas de la Unión para el cruce de personas por las fronteras (Código de fronteras Schengen)",
+   "en": "Corrección de errores del Reglamento (UE) 2016/399 del Parlamento Europeo y del Consejo, de 9 de marzo de 2016, por el que se establece un Código de normas de la Unión para el cruce de personas por las fronteras (Código de fronteras Schengen)"
+  },
+  "titleLang": "es",
+  "adopted": null,
+  "published": "2022-05-05",
+  "oj": {
+   "de": "ABl. L 131 vom 5.5.2022, S. 14 (nur ES-Ausgabe)",
+   "fr": "JO L 131 du 5.5.2022, p. 14 (édition ES uniquement)",
+   "en": "OJ L 131, 5.5.2022, p. 14 (ES edition only)"
+  },
+  "inForce": null,
+  "subject": {
+   "de": "Anhang VII Nr. 1 (Staatsoberhäupter), nur ES: „inspecciones aduaneras“ wird zu „inspecciones fronterizas“.",
+   "fr": "Annexe VII, point 1 (chefs d’État), version espagnole uniquement: « inspecciones aduaneras » devient « inspecciones fronterizas ».",
+   "en": "Annex VII, point 1 (Heads of State), Spanish version only: ‘inspecciones aduaneras’ becomes ‘inspecciones fronterizas’."
+  },
+  "application": {
+   "status": "applicable",
+   "date": "2016-04-12",
+   "basis": {
+    "de": "Berichtigung ohne eigenes Anwendungsdatum; teilt die Anwendbarkeit des Basisakts (Art. 45 VO (EU) 2016/399)",
+    "fr": "Rectificatif sans date d’application propre; suit l’applicabilité de l’acte de base (art. 45 du règlement (UE) 2016/399)",
+    "en": "Corrigendum without its own date of application; follows the applicability of the base act (Article 45 of Regulation (EU) 2016/399)"
+   },
+   "note": {
+    "de": "Betrifft nur die spanische Sprachfassung; DE, FR und EN unberührt.",
+    "fr": "Ne concerne que la version espagnole; DE, FR et EN non concernées.",
+    "en": "Concerns only the Spanish language version; DE, FR and EN unaffected."
+   },
+   "details": []
+  },
+  "amendingProvision": null,
+  "changes": [
+   {
+    "unit": "anx_VII",
+    "key": "n1",
+    "action": "replaced",
+    "applicableFrom": null,
+    "langs": [
+     "es"
+    ]
+   }
+  ],
+  "langs": [
+   "es"
+  ],
+  "relevant": false,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0399R(06)",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32016R0399R(06)",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32016R0399",
+   "https://publications.europa.eu/webapi/rdf/sparql"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32016R0399R(07)",
+  "kind": "corrigendum",
+  "number": "(EU) 2016/399, Berichtigung R(07)",
+  "corrects": "32016R0399",
+  "topic": {
+   "de": "Berichtigung HR",
+   "fr": "Rectificatif HR",
+   "en": "Corrigendum HR"
+  },
+  "title": {
+   "de": "Ispravak Uredbe (EU) 2016/399 Europskog parlamenta i Vijeća od 9. ožujka 2016. o Zakoniku Unije o pravilima kojima se uređuje kretanje osoba preko granica (Zakonik o schengenskim granicama)",
+   "fr": "Ispravak Uredbe (EU) 2016/399 Europskog parlamenta i Vijeća od 9. ožujka 2016. o Zakoniku Unije o pravilima kojima se uređuje kretanje osoba preko granica (Zakonik o schengenskim granicama)",
+   "en": "Ispravak Uredbe (EU) 2016/399 Europskog parlamenta i Vijeća od 9. ožujka 2016. o Zakoniku Unije o pravilima kojima se uređuje kretanje osoba preko granica (Zakonik o schengenskim granicama)"
+  },
+  "titleLang": "hr",
+  "adopted": null,
+  "published": "2024-07-03",
+  "oj": {
+   "de": "ABl. L, 2024/90386, 3.7.2024 (nur HR-Ausgabe)",
+   "fr": "JO L, 2024/90386, 3.7.2024 (édition HR uniquement)",
+   "en": "OJ L, 2024/90386, 3.7.2024 (HR edition only)"
+  },
+  "inForce": null,
+  "subject": {
+   "de": "Nur HR: Terminologie „zabrana ulaska“ durch „odbijanje ulaska“ (Einreiseverweigerung) in der ganzen Verordnung ersetzt; Einzelkorrekturen u. a. in Art. 2 Nr. 10, Art. 6 Abs. 5 Bst. a, Art. 14, Art. 19, Anhängen II, V, VI und VII.",
+   "fr": "Version croate uniquement: le terme « zabrana ulaska » est remplacé par « odbijanje ulaska » (refus d’entrée) dans l’ensemble du règlement; corrections ponctuelles notamment à l’art. 2, point 10, à l’art. 6, par. 5, point a), aux art. 14 et 19 et aux annexes II, V, VI et VII.",
+   "en": "Croatian version only: the term ‘zabrana ulaska’ is replaced by ‘odbijanje ulaska’ (refusal of entry) throughout the Regulation; individual corrections inter alia in Article 2(10), Article 6(5)(a), Articles 14 and 19 and Annexes II, V, VI and VII."
+  },
+  "application": {
+   "status": "applicable",
+   "date": "2016-04-12",
+   "basis": {
+    "de": "Berichtigung ohne eigenes Anwendungsdatum; teilt die Anwendbarkeit des Basisakts (Art. 45 VO (EU) 2016/399)",
+    "fr": "Rectificatif sans date d’application propre; suit l’applicabilité de l’acte de base (art. 45 du règlement (UE) 2016/399)",
+    "en": "Corrigendum without its own date of application; follows the applicability of the base act (Article 45 of Regulation (EU) 2016/399)"
+   },
+   "note": {
+    "de": "Betrifft nur die kroatische Sprachfassung; DE, FR und EN unberührt.",
+    "fr": "Ne concerne que la version croate; DE, FR et EN non concernées.",
+    "en": "Concerns only the Croatian language version; DE, FR and EN unaffected."
+   },
+   "details": []
+  },
+  "amendingProvision": null,
+  "changes": [
+   {
+    "unit": "art_2",
+    "key": "n10",
+    "action": "replaced",
+    "applicableFrom": null,
+    "langs": [
+     "hr"
+    ]
+   },
+   {
+    "unit": "art_6",
+    "key": "p5.a",
+    "action": "replaced",
+    "applicableFrom": null,
+    "langs": [
+     "hr"
+    ]
+   },
+   {
+    "unit": "art_14",
+    "key": "",
+    "action": "amended",
+    "applicableFrom": null,
+    "langs": [
+     "hr"
+    ]
+   },
+   {
+    "unit": "art_19",
+    "key": "",
+    "action": "amended",
+    "applicableFrom": null,
+    "langs": [
+     "hr"
+    ]
+   },
+   {
+    "unit": "anx_II",
+    "key": "",
+    "action": "amended",
+    "applicableFrom": null,
+    "langs": [
+     "hr"
+    ]
+   },
+   {
+    "unit": "anx_V",
+    "key": "",
+    "action": "amended",
+    "applicableFrom": null,
+    "langs": [
+     "hr"
+    ]
+   },
+   {
+    "unit": "anx_VI",
+    "key": "n3.n1.n1",
+    "action": "replaced",
+    "applicableFrom": null,
+    "langs": [
+     "hr"
+    ]
+   },
+   {
+    "unit": "anx_VII",
+    "key": "n4.n3",
+    "action": "amended",
+    "applicableFrom": null,
+    "langs": [
+     "hr"
+    ]
+   }
+  ],
+  "langs": [
+   "hr"
+  ],
+  "relevant": false,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32016R0399R(07)",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/HR/TXT/HTML/?uri=CELEX:32016R0399R(07)",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32016R0399",
+   "https://publications.europa.eu/webapi/rdf/sparql"
+  ],
+  "confidence": "check",
+  "checkNote": {
+   "de": "Die Berichtigung enthält eine Generalklausel für die ganze Verordnung; die changes-Liste nennt nur die ausdrücklich bezeichneten Stellen, Schlüssel in Anhang V bis VII grob. Nur HR, für DE/FR/EN ohne Bedeutung.",
+   "fr": "Le rectificatif contient une clause générale pour l’ensemble du règlement; la liste changes ne reprend que les passages expressément désignés, clés des annexes V à VII approximatives. HR uniquement, sans effet pour DE/FR/EN.",
+   "en": "The corrigendum contains a general clause for the whole Regulation; the changes list only covers the expressly designated passages, keys in Annexes V to VII approximate. HR only, no effect on DE/FR/EN."
+  }
+ },
+ {
+  "celex": "32016R0399R(08)",
+  "kind": "corrigendum",
+  "number": "(EU) 2016/399, Berichtigung R(08)",
+  "corrects": "32016R0399",
+  "topic": {
+   "de": "Berichtigung MT",
+   "fr": "Rectificatif MT",
+   "en": "Corrigendum MT"
+  },
+  "title": {
+   "de": "Rettifika tar-Regolament (UE) 2016/399 tal-Parlament Ewropew u tal-Kunsill tad-9 ta’ Marzu 2016 dwar Kodiċi tal-Unjoni dwar ir-regoli li jirregolaw il-moviment ta’ persuni min-naħa għall-oħra tal-fruntiera (Kodiċi tal-Fruntieri ta' Schengen) (kodifikazzjoni)",
+   "fr": "Rettifika tar-Regolament (UE) 2016/399 tal-Parlament Ewropew u tal-Kunsill tad-9 ta’ Marzu 2016 dwar Kodiċi tal-Unjoni dwar ir-regoli li jirregolaw il-moviment ta’ persuni min-naħa għall-oħra tal-fruntiera (Kodiċi tal-Fruntieri ta' Schengen) (kodifikazzjoni)",
+   "en": "Rettifika tar-Regolament (UE) 2016/399 tal-Parlament Ewropew u tal-Kunsill tad-9 ta’ Marzu 2016 dwar Kodiċi tal-Unjoni dwar ir-regoli li jirregolaw il-moviment ta’ persuni min-naħa għall-oħra tal-fruntiera (Kodiċi tal-Fruntieri ta' Schengen) (kodifikazzjoni)"
+  },
+  "titleLang": "mt",
+  "adopted": null,
+  "published": "2026-10-02",
+  "oj": {
+   "de": "ABl. L, 2026/90835, 2.10.2026 (nur MT-Ausgabe)",
+   "fr": "JO L, 2026/90835, 2.10.2026 (édition MT uniquement)",
+   "en": "OJ L, 2026/90835, 2.10.2026 (MT edition only)"
+  },
+  "inForce": null,
+  "subject": {
+   "de": "Art. 6 Abs. 5 Bst. a, nur MT: Tippfehler „paragrfu“ zu „paragrafu“ und überzähliges „li“ gestrichen; keine inhaltliche Änderung.",
+   "fr": "Art. 6, par. 5, point a), version maltaise uniquement: coquille « paragrfu » corrigée en « paragrafu » et « li » superflu supprimé; aucune modification de fond.",
+   "en": "Article 6(5)(a), Maltese version only: typo ‘paragrfu’ corrected to ‘paragrafu’ and superfluous ‘li’ deleted; no change in substance."
+  },
+  "application": {
+   "status": "applicable",
+   "date": "2016-04-12",
+   "basis": {
+    "de": "Berichtigung ohne eigenes Anwendungsdatum; teilt die Anwendbarkeit des Basisakts (Art. 45 VO (EU) 2016/399)",
+    "fr": "Rectificatif sans date d’application propre; suit l’applicabilité de l’acte de base (art. 45 du règlement (UE) 2016/399)",
+    "en": "Corrigendum without its own date of application; follows the applicability of the base act (Article 45 of Regulation (EU) 2016/399)"
+   },
+   "note": {
+    "de": "Betrifft nur die maltesische Sprachfassung; DE, FR und EN unberührt.",
+    "fr": "Ne concerne que la version maltaise; DE, FR et EN non concernées.",
+    "en": "Concerns only the Maltese language version; DE, FR and EN unaffected."
+   },
+   "details": []
+  },
+  "amendingProvision": null,
+  "changes": [
+   {
+    "unit": "art_6",
+    "key": "p5.a",
+    "action": "replaced",
+    "applicableFrom": null,
+    "langs": [
+     "mt"
+    ]
+   }
+  ],
+  "langs": [
+   "mt"
+  ],
+  "relevant": false,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/MT/TXT/?uri=CELEX:32016R0399R(08)",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/MT/TXT/HTML/?uri=CELEX:32016R0399R(08)",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32016R0399",
+   "https://publications.europa.eu/webapi/rdf/sparql"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "32025R1534",
+  "kind": "derogation",
+  "number": "(EU) 2025/1534",
+  "topic": {
+   "de": "EES-Inbetriebnahme",
+   "fr": "Démarrage progressif EES",
+   "en": "EES progressive start"
+  },
+  "title": {
+   "de": "Verordnung (EU) 2025/1534 des Europäischen Parlaments und des Rates vom 18. Juli 2025 über befristete Abweichungen von bestimmten Bestimmungen der Verordnungen (EU) 2017/2226 und (EU) 2016/399 in Bezug auf die schrittweise Inbetriebnahme des Einreise-/Ausreisesystems",
+   "en": "Regulation (EU) 2025/1534 of the European Parliament and of the Council of 18 July 2025 on temporary derogations from certain provisions of Regulations (EU) 2017/2226 and (EU) 2016/399 as regards the progressive start of operations of the Entry/Exit System",
+   "fr": "Règlement (UE) 2025/1534 du Parlement européen et du Conseil du 18 juillet 2025 relatif à des dérogations temporaires à certaines dispositions des règlements (UE) 2017/2226 et (UE) 2016/399 en ce qui concerne la mise en service progressive du système d’entrée/de sortie"
+  },
+  "adopted": "2025-07-18",
+  "published": "2025-07-23",
+  "oj": {
+   "de": "ABl. L, 2025/1534, 23.7.2025",
+   "fr": "JO L, 2025/1534, 23.7.2025",
+   "en": "OJ L, 2025/1534, 23.7.2025"
+  },
+  "inForce": "2025-07-26",
+  "application": {
+   "status": "partly",
+   "date": "2025-10-12",
+   "basis": {
+    "de": "Art. 8 der VO (EU) 2025/1534 (Abs. 1: Geltung ab Inbetriebnahme des EES, Art. 3 ab 26. Juli 2025; Abs. 2: Ende der Geltung 180 Tage danach, mit Ausnahmen)",
+    "fr": "art. 8 du règlement (UE) 2025/1534 (par. 1: application à compter de la mise en service de l’EES, art. 3 à partir du 26 juillet 2025; par. 2: fin d’application 180 jours après, avec exceptions)",
+    "en": "Article 8 of Regulation (EU) 2025/1534 (paragraph 1: application from the start of operations of the EES, Article 3 from 26 July 2025; paragraph 2: ceases to apply 180 days thereafter, with exceptions)"
+   },
+   "note": {
+    "de": "Ändert den Wortlaut des SGK nicht. Die Abweichungen galten während der schrittweisen Inbetriebnahme (12. Oktober 2025 bis 9. April 2026). Per 11. November 2026 gelten nur noch Art. 5 Abs. 13 und Art. 6 Abs. 1, 3 und 4 (bis fünf Jahre und 180 Tage nach dem 12. Oktober 2025) sowie Art. 6 Abs. 2 Unterabsatz 2 (bis 360 Tage danach).",
+    "fr": "Ne modifie pas le texte du CFS. Les dérogations s’appliquaient pendant la mise en service progressive (12 octobre 2025 au 9 avril 2026). Au 11 novembre 2026, seuls l’art. 5, par. 13, et l’art. 6, par. 1, 3 et 4 (jusqu’à cinq ans et 180 jours après le 12 octobre 2025) ainsi que l’art. 6, par. 2, deuxième alinéa (jusqu’à 360 jours après), s’appliquent encore.",
+    "en": "Does not amend the text of the SBC. The derogations applied during the progressive start of operations (12 October 2025 to 9 April 2026). As of 11 November 2026 only Article 5(13) and Article 6(1), (3) and (4) (until five years and 180 days after 12 October 2025) and the second subparagraph of Article 6(2) (until 360 days thereafter) still apply."
+   },
+   "details": [
+    {
+     "scope": {
+      "de": "Art. 3 (Einführungspläne, Berichte)",
+      "fr": "art. 3 (plans de déploiement, rapports)",
+      "en": "Article 3 (roll-out plans, reporting)"
+     },
+     "date": "2025-07-26",
+     "until": "2026-04-09",
+     "status": "applicable"
+    },
+    {
+     "scope": {
+      "de": "Art. 4, 5 (ohne Abs. 13) und 7 Abs. 1 und 2: schrittweise Inbetriebnahme, 180 Tage",
+      "fr": "art. 4, 5 (sauf par. 13) et 7, par. 1 et 2: mise en service progressive, 180 jours",
+      "en": "Articles 4, 5 (except paragraph 13) and 7(1) and (2): progressive start of operations, 180 days"
+     },
+     "date": "2025-10-12",
+     "until": "2026-04-09",
+     "status": "applicable"
+    },
+    {
+     "scope": {
+      "de": "Art. 7 Abs. 5 (Statistik eu-LISA)",
+      "fr": "art. 7, par. 5 (statistiques eu-LISA)",
+      "en": "Article 7(5) (eu-LISA statistics)"
+     },
+     "date": "2025-10-12",
+     "until": "2026-05-09",
+     "status": "applicable"
+    },
+    {
+     "scope": {
+      "de": "Art. 7 Abs. 3 und 4: teilweise Aussetzung des EES bis 6 Stunden während 90 (+60) Tagen nach Ende der schrittweisen Inbetriebnahme",
+      "fr": "art. 7, par. 3 et 4: suspension partielle de l’EES jusqu’à 6 heures pendant 90 (+60) jours après la mise en service progressive",
+      "en": "Article 7(3) and (4): partial suspension of the EES for up to 6 hours during 90 (+60) days after the progressive start"
+     },
+     "date": "2026-04-10",
+     "until": "2026-09-06",
+     "status": "applicable",
+     "computed": true,
+     "confidence": "check"
+    },
+    {
+     "scope": {
+      "de": "Art. 6 Abs. 2 Unterabsatz 2 (Stempelprüfung durch Beförderungsunternehmer)",
+      "fr": "art. 6, par. 2, deuxième alinéa (vérification des cachets par les transporteurs)",
+      "en": "second subparagraph of Article 6(2) (verification of stamps by carriers)"
+     },
+     "date": "2026-04-10",
+     "until": "2026-10-06",
+     "status": "applicable"
+    },
+    {
+     "scope": {
+      "de": "Art. 5 Abs. 13 (Verschiebung Art. 12a SGK) und Art. 6 Abs. 1, 3 und 4 (Zugang zu EES-Daten)",
+      "fr": "art. 5, par. 13 (report de l’art. 12 bis CFS) et art. 6, par. 1, 3 et 4 (accès aux données EES)",
+      "en": "Article 5(13) (deferral of Article 12a SBC) and Article 6(1), (3) and (4) (access to EES data)"
+     },
+     "date": "2025-10-12",
+     "until": "2031-04-09",
+     "status": "applicable",
+     "computed": true,
+     "confidence": "verified"
+    }
+   ]
+  },
+  "amendingProvision": null,
+  "changes": [],
+  "affects": [
+   {
+    "unit": "art_6",
+    "key": "p1.f.i",
+    "effect": "notApplicable",
+    "until": "2026-04-09",
+    "basis": "Art. 5 Abs. 14 Unterabs. 3",
+    "note": {
+     "de": "An Grenzübergangsstellen mit EES ohne biometrische Funktionen",
+     "fr": "Aux points de passage où l’EES fonctionne sans fonctionnalités biométriques",
+     "en": "At border crossing points where the EES is operated without biometric functionalities"
+    }
+   },
+   {
+    "unit": "art_6",
+    "key": "p1.f.ii",
+    "effect": "notApplicable",
+    "until": "2026-04-09",
+    "basis": "Art. 5 Abs. 14 Unterabs. 3",
+    "note": {
+     "de": "Nur biometrische Verifizierung für Zwecke des EES, an Grenzübergangsstellen ohne biometrische Funktionen",
+     "fr": "Vérification biométrique aux fins de l’EES seulement, aux points de passage sans fonctionnalités biométriques",
+     "en": "Biometric verification for EES purposes only, at border crossing points without biometric functionalities"
+    }
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.a",
+    "effect": "notApplicable",
+    "until": "2026-04-09",
+    "basis": "Art. 5 Abs. 14 Unterabs. 3",
+    "note": {
+     "de": "Nur biometrische Verifizierung für Zwecke des EES",
+     "fr": "Vérification biométrique aux fins de l’EES seulement",
+     "en": "Biometric verification for EES purposes only"
+    }
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.g",
+    "effect": "notApplicable",
+    "until": "2026-04-09",
+    "basis": "Art. 5 Abs. 14 Unterabs. 3",
+    "note": {
+     "de": "Nur biometrische Verifizierung für Zwecke des EES",
+     "fr": "Vérification biométrique aux fins de l’EES seulement",
+     "en": "Biometric verification for EES purposes only"
+    }
+   },
+   {
+    "unit": "art_8",
+    "key": "p9",
+    "effect": "suspended",
+    "until": "2026-04-09",
+    "basis": "Art. 5 Abs. 12"
+   },
+   {
+    "unit": "art_9",
+    "key": "p3",
+    "effect": "suspended",
+    "until": "2026-04-09",
+    "basis": "Art. 5 Abs. 14 Unterabs. 4"
+   },
+   {
+    "unit": "art_12",
+    "key": "",
+    "effect": "suspended",
+    "until": "2026-04-09",
+    "basis": "Art. 5 Abs. 14 Unterabs. 4"
+   },
+   {
+    "unit": "art_12a",
+    "key": "",
+    "effect": "deferred",
+    "from": "2026-04-10",
+    "basis": "Art. 5 Abs. 13"
+   },
+   {
+    "unit": "art_42a",
+    "key": "",
+    "effect": "appliesMutatisMutandis",
+    "until": "2026-04-09",
+    "basis": "Art. 5 Abs. 2 Unterabs. 2",
+    "note": {
+     "de": "Art. 42a Abs. 1 Unterabs. 2, Abs. 2, 5 und 6 (Stempel) in Mitgliedstaaten mit EES-Betrieb",
+     "fr": "Art. 42 bis, par. 1, deuxième alinéa, par. 2, 5 et 6 (cachets) dans les États membres utilisant l’EES",
+     "en": "Article 42a(1), second subparagraph, (2), (5) and (6) (stamping) in Member States operating the EES"
+    }
+   }
+  ],
+  "langs": null,
+  "procedure": "2024/0315(COD)",
+  "proposal": "52024PC0567",
+  "eurlex": "https://eur-lex.europa.eu/eli/reg/2025/1534/oj",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32025R1534",
+   "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32025R1534",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R1534",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32025R1534",
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32025D1544",
+   "https://www.eulisa.europa.eu/news-and-events/news/entryexit-system-fully-deployed-across-eu",
+   "https://commission.europa.eu/news-and-media/news/more-secure-efficient-and-convenient-way-travelling-non-eu-nationals-2026-04-10_en"
+  ],
+  "confidence": "verified",
+  "checkNote": {
+   "de": "Belegt (Wortlaut Art. 2 Nr. 1, Art. 5 Abs. 2, 12, 13, 14 und Art. 8 in DE, FR, EN): Zeitraum 12. Oktober 2025 bis 9. April 2026; die Kommission meldet den Vollbetrieb «as of 10 April 2026». Die Enddaten nach Art. 8 Abs. 2 sind mit derselben Tageszählung berechnet (Tag 1 = 12. Oktober 2025). Offen, ohne Wirkung auf den SGK: ob die Verlängerung nach Art. 7 Abs. 4 (+60 Tage) eintrat; eine amtliche Mitteilung nach Art. 7 Abs. 5 wurde nicht gefunden. Die SGK-Wirkungen stehen in data/derogations.json.",
+   "fr": "Établi (texte de l’art. 2, point 1), de l’art. 5, par. 2, 12, 13 et 14, et de l’art. 8 en DE, FR, EN): période du 12 octobre 2025 au 9 avril 2026; la Commission annonce le fonctionnement complet «as of 10 April 2026». Les dates de fin selon l’art. 8, par. 2, sont calculées avec le même décompte (jour 1 = 12 octobre 2025). Ouvert, sans effet sur le CFS: la prolongation de l’art. 7, par. 4 (+60 jours); aucune communication officielle au titre de l’art. 7, par. 5, n’a été trouvée. Les effets sur le CFS figurent dans data/derogations.json.",
+   "en": "Established (text of point (1) of Article 2, Article 5(2), (12), (13) and (14) and Article 8 in DE, FR, EN): period 12 October 2025 to 9 April 2026; the Commission reports full operation \"as of 10 April 2026\". The end dates under Article 8(2) are computed with the same day count (day 1 = 12 October 2025). Open, without effect on the SBC: whether the extension under Article 7(4) (+60 days) occurred; no official communication under Article 7(5) was found. The effects on the SBC are set out in data/derogations.json."
+  }
+ },
+ {
+  "celex": "32025D1544",
+  "kind": "implementing",
+  "number": "(EU) 2025/1544",
+  "topic": {
+   "de": "EES-Startdatum",
+   "fr": "Date EES",
+   "en": "EES start date"
+  },
+  "title": {
+   "de": "Durchführungsbeschluss (EU) 2025/1544 der Kommission vom 30. Juli 2025 zur Festlegung des Zeitpunkts der Inbetriebnahme des Einreise-/Ausreisesystems gemäß der Verordnung (EU) 2017/2226 des Europäischen Parlaments und des Rates",
+   "en": "Commission Implementing Decision (EU) 2025/1544 of 30 July 2025 determining the date from which the Entry/Exit System is to start operations pursuant to Regulation (EU) 2017/2226 of the European Parliament and of the Council",
+   "fr": "Décision d’exécution (UE) 2025/1544 de la Commission du 30 juillet 2025 fixant la date de mise en service du système d’entrée/de sortie en application du règlement (UE) 2017/2226 du Parlement européen et du Conseil"
+  },
+  "adopted": "2025-07-30",
+  "published": "2025-07-31",
+  "oj": {
+   "de": "ABl. L, 2025/1544, 31.7.2025",
+   "fr": "JO L, 2025/1544, 31.7.2025",
+   "en": "OJ L, 2025/1544, 31.7.2025"
+  },
+  "inForce": "2025-07-31",
+  "application": {
+   "status": "applicable",
+   "date": "2025-07-31",
+   "basis": {
+    "de": "Art. 2 des Durchführungsbeschlusses (EU) 2025/1544 (Inkrafttreten am Tag der Veröffentlichung); Art. 1: Inbetriebnahme des EES am 12. Oktober 2025",
+    "fr": "art. 2 de la décision d’exécution (UE) 2025/1544 (entrée en vigueur le jour de la publication); art. 1er: mise en service de l’EES le 12 octobre 2025",
+    "en": "Article 2 of Implementing Decision (EU) 2025/1544 (entry into force on the day of publication); Article 1: EES starts operations on 12 October 2025"
+   },
+   "note": {
+    "de": "Gestützt auf Art. 66 Abs. 1 der VO (EU) 2017/2226. Bestimmt mittelbar den Geltungsbeginn der VO (EU) 2017/2225 (Art. 2 Abs. 2) und der VO (EU) 2025/1534 (Art. 8 Abs. 1). EUR-Lex führt den Beschluss in der konsolidierten SGK-Fassung 20251012 als „M4“ unter der VO (EU) 2017/2225.",
+    "fr": "Fondée sur l’art. 66, par. 1, du règlement (UE) 2017/2226. Détermine indirectement la date d’application du règlement (UE) 2017/2225 (art. 2, par. 2) et du règlement (UE) 2025/1534 (art. 8, par. 1). EUR-Lex mentionne la décision comme « M4 » sous le règlement (UE) 2017/2225 dans la version consolidée du CFS 20251012.",
+    "en": "Based on Article 66(1) of Regulation (EU) 2017/2226. Indirectly determines the date of application of Regulation (EU) 2017/2225 (Article 2(2)) and Regulation (EU) 2025/1534 (Article 8(1)). EUR-Lex lists the decision as ‘M4’ under Regulation (EU) 2017/2225 in consolidated SBC version 20251012."
+   },
+   "details": []
+  },
+  "amendingProvision": null,
+  "changes": [],
+  "setsDateFor": [
+   "32017R2225",
+   "32025R1534"
+  ],
+  "eesStart": "2025-10-12",
+  "langs": null,
+  "eurlex": "https://eur-lex.europa.eu/eli/dec_impl/2025/1544/oj",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32025D1544",
+   "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32025D1544",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025D1544",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32025D1544",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016R0399-20251012"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "52024PC0670",
+  "kind": "proposal",
+  "number": "COM(2024) 670",
+  "topic": {
+   "de": "Digital Travel App",
+   "fr": "Application DTC",
+   "en": "Digital Travel app"
+  },
+  "title": {
+   "de": "Vorschlag für eine VERORDNUNG DES EUROPÄISCHEN PARLAMENTS UND DES RATES zur Einrichtung einer Anwendung für die elektronische Übermittlung von Reisedaten („Digitale EU-Reise-Anwendung“) und zur Änderung der Verordnungen (EU) 2016/399 und (EU) 2018/1726 des Europäischen Parlaments und des Rates sowie der Verordnung (EG) Nr. 2252/2004 des Rates in Bezug auf die Verwendung digitaler Reiseausweise",
+   "fr": "Proposition de RÈGLEMENT DU PARLEMENT EUROPÉEN ET DU CONSEIL portant création d’une application pour la transmission électronique des données de voyage («application de voyage numérique de l’UE») et modifiant les règlements (UE) 2016/399 et (UE) 2018/1726 du Parlement européen et du Conseil et le règlement (CE) nº 2252/2004 du Conseil, en ce qui concerne l’utilisation d’authentifiants de voyage numériques",
+   "en": "Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishing an application for the electronic submission of travel data (“EU Digital Travel application”) and amending Regulations (EU) 2016/399 and (EU) 2018/1726 of the European Parliament and of the Council and Council Regulation (EC) No 2252/2004, as regards the use of digital travel credentials"
+  },
+  "adopted": null,
+  "published": "2024-10-08",
+  "oj": null,
+  "inForce": null,
+  "application": {
+   "status": "pending",
+   "date": null,
+   "basis": {
+    "de": "Vorschlag; Verfahren 2024/0670(COD) hängig",
+    "fr": "Proposition; procédure 2024/0670(COD) en cours",
+    "en": "Proposal; procedure 2024/0670(COD) pending"
+   },
+   "note": {
+    "de": "EU-Anwendung „EU Digital Travel“ für digitale Reiseberechtigungsnachweise (DTC); Vorabkontrollen bis 36 Stunden vor dem Grenzübertritt. Ändert Art. 2, Art. 8, Art. 8a und fügt Art. 8ba in den SGK ein (Art. 13 des Vorschlags).",
+    "fr": "Application « EU Digital Travel » pour les titres de voyage numériques (DTC); vérifications préalables jusqu’à 36 heures avant le franchissement. Modifie les art. 2, 8 et 8 bis et insère un art. 8 ter bis dans le CFS (art. 13 de la proposition).",
+    "en": "EU Digital Travel application for digital travel credentials (DTC); advance checks up to 36 hours before crossing. Amends Articles 2, 8 and 8a and inserts Article 8ba into the SBC (Article 13 of the proposal)."
+   },
+   "details": []
+  },
+  "procedure": {
+   "ref": "2024/0670(COD)",
+   "asOf": "2026-11-11",
+   "stage": "trilogue",
+   "status": {
+    "de": "Trilog läuft; keine vorläufige Einigung bekannt. Parlament: LIBE-Bericht A10-0258/2025 vom 3. Dezember 2025, Mandat für Verhandlungen vom Plenum am 17. Dezember 2025 bestätigt; Standpunkt in erster Lesung ausstehend. Rat: Verhandlungsmandat vom 19. November 2025. Zweiter Trilog am 5. Mai 2026.",
+    "fr": "Trilogue en cours; aucun accord provisoire connu. Parlement: rapport LIBE A10-0258/2025 du 3 décembre 2025, mandat de négociation confirmé en plénière le 17 décembre 2025; position en première lecture en attente. Conseil: mandat de négociation du 19 novembre 2025. Deuxième trilogue le 5 mai 2026.",
+    "en": "Trilogues ongoing; no provisional agreement known. Parliament: LIBE report A10-0258/2025 of 3 December 2025, negotiating mandate confirmed in plenary on 17 December 2025; first-reading position pending. Council: negotiating mandate of 19 November 2025. Second trilogue on 5 May 2026."
+   },
+   "council": {
+    "mandate": "2025-11-19"
+   },
+   "parliament": {
+    "committee": "LIBE",
+    "rapporteur": "Juan Fernando López Aguilar (S&D)",
+    "report": "A10-0258/2025",
+    "committeeVote": "2025-12-03",
+    "mandateConfirmed": "2025-12-17"
+   },
+   "trilogues": [
+    {
+     "n": 2,
+     "date": "2026-05-05"
+    }
+   ]
+  },
+  "amendingProvision": {
+   "de": "Art. 13 des Vorschlags",
+   "fr": "art. 13 de la proposition",
+   "en": "Article 13 of the proposal"
+  },
+  "changes": [
+   {
+    "unit": "art_2",
+    "key": "n31",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_2",
+    "key": "n32",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_2",
+    "key": "n33",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_2",
+    "key": "n34",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p2g",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.j",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p3a",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8",
+    "key": "p10",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8a",
+    "key": "p4a",
+    "action": "inserted",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8ba",
+    "key": "",
+    "action": "inserted",
+    "applicableFrom": null
+   }
+  ],
+  "changesBasis": "COM(2024) 670 final (Kommissionsvorschlag); Kompromisstexte nicht berücksichtigt",
+  "langs": null,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:52024PC0670",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52024PC0670",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:52024PC0670",
+   "https://oeil.secure.europarl.europa.eu/oeil/en/procedure-file?reference=2024/0670(COD)",
+   "https://www.consilium.europa.eu/en/press/press-releases/2025/11/19/council-adopts-negotiating-position-on-new-law-that-introduces-eu-digital-travel-application/",
+   "https://agenceurope.eu/en/bulletin/article/13863/2/eu-council-and-european-parliament-resume-negotiations-to-fine-tune-future-eu-digital-travel-app"
+  ],
+  "confidence": "check",
+  "checkNote": {
+   "de": "Verfahrensstand nach Mai 2026 nicht aus amtlicher Quelle belegt: OEIL nennt keine Ereignisse nach Dezember 2025; Ratsmandat und zweiter Trilog nur über Pressemitteilung (nicht abrufbar, Titel über Suche) bzw. Agence Europe vom 6. Mai 2026. Keine vorläufige Einigung gefunden.",
+   "fr": "État de la procédure après mai 2026 non établi par une source officielle: l’OEIL ne mentionne aucun événement après décembre 2025; mandat du Conseil et deuxième trilogue connus seulement par le communiqué (inaccessible, titre via recherche) et par Agence Europe du 6 mai 2026. Aucun accord provisoire trouvé.",
+   "en": "Procedural state after May 2026 not established from an official source: OEIL lists no events after December 2025; Council mandate and second trilogue known only from the press release (not retrievable, title via search) and Agence Europe of 6 May 2026. No provisional agreement found."
+  }
+ },
+ {
+  "celex": "52024PC0567",
+  "kind": "proposal",
+  "number": "COM(2024) 567",
+  "topic": {
+   "de": "Vorschlag EES-Inbetriebnahme",
+   "fr": "Proposition démarrage EES",
+   "en": "Proposal EES start"
+  },
+  "title": {
+   "en": "Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on a temporary derogation from certain provisions of Regulation (EU) 2017/2226 and Regulation (EU) 2016/399 as regards a progressive start of operations of the Entry/Exit System",
+   "fr": "Proposition de RÈGLEMENT DU PARLEMENT EUROPÉEN ET DU CONSEIL relatif à une dérogation temporaire à certaines dispositions du règlement (UE) 2017/2226 et du règlement (UE) 2016/399 en ce qui concerne la mise en service progressive du système d’entrée/de sortie",
+   "de": "Vorschlag für eine VERORDNUNG DES EUROPÄISCHEN PARLAMENTS UND DES RATES über eine vorübergehende Abweichung von bestimmten Bestimmungen der Verordnung (EU) 2017/2226 und der Verordnung (EU) 2016/399 in Bezug auf die schrittweise Inbetriebnahme des Einreise-/Ausreisesystems"
+  },
+  "adopted": null,
+  "published": "2024-12-04",
+  "oj": null,
+  "inForce": null,
+  "application": {
+   "status": "pending",
+   "date": null,
+   "basis": {
+    "de": "Vorschlag; verabschiedet als VO (EU) 2025/1534",
+    "fr": "Proposition; adoptée en tant que règlement (UE) 2025/1534",
+    "en": "Proposal; adopted as Regulation (EU) 2025/1534"
+   },
+   "note": {
+    "de": "Abgeschlossen: Annahme am 18. Juli 2025 als VO (EU) 2025/1534. Ändert den SGK-Wortlaut nicht, sondern weicht befristet von Art. 6 Abs. 1 Bst. f Ziff. i und Art. 12a SGK ab.",
+    "fr": "Clôturée: adoptée le 18 juillet 2025 en tant que règlement (UE) 2025/1534. Ne modifie pas le texte du CFS, mais déroge temporairement à l’art. 6, par. 1, point f) i), et à l’art. 12 bis CFS.",
+    "en": "Concluded: adopted on 18 July 2025 as Regulation (EU) 2025/1534. Does not amend the SBC text but temporarily derogates from Article 6(1)(f)(i) and Article 12a SBC."
+   },
+   "details": []
+  },
+  "procedure": {
+   "ref": "2024/0315(COD)",
+   "asOf": "2026-11-11",
+   "stage": "adopted",
+   "adoptedAs": "32025R1534",
+   "status": {
+    "de": "Abgeschlossen (VO (EU) 2025/1534 vom 18. Juli 2025)",
+    "fr": "Clôturée (règlement (UE) 2025/1534 du 18 juillet 2025)",
+    "en": "Concluded (Regulation (EU) 2025/1534 of 18 July 2025)"
+   },
+   "endDate": "2025-07-18"
+  },
+  "amendingProvision": null,
+  "changes": [],
+  "langs": null,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:52024PC0567",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:52024PC0567",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32025R1534"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ },
+ {
+  "celex": "52017PC0571",
+  "kind": "proposal",
+  "number": "COM(2017) 571",
+  "topic": {
+   "de": "Binnengrenzen 2017",
+   "fr": "Frontières intérieures 2017",
+   "en": "Internal borders 2017"
+  },
+  "title": {
+   "de": "Vorschlag für eine VERORDNUNG DES EUROPÄISCHEN PARLAMENTS UND DES RATES zur Änderung der Verordnung (EU) 2016/399 in Bezug auf die Vorschriften über die vorübergehende Wiedereinführung von Kontrollen an den Binnengrenzen",
+   "fr": "Proposition de RÈGLEMENT DU PARLEMENT EUROPÉEN ET DU CONSEIL modifiant le règlement (UE) 2016/399 en ce qui concerne les règles applicables à la réintroduction temporaire du contrôle aux frontières intérieures",
+   "en": "Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Regulation (EU) 2016/399 as regards the rules applicable to the temporary reintroduction of border control at internal borders"
+  },
+  "adopted": null,
+  "published": "2017-09-27",
+  "oj": null,
+  "inForce": null,
+  "application": {
+   "status": "pending",
+   "date": null,
+   "basis": {
+    "de": "Vorschlag; zurückgezogen",
+    "fr": "Proposition; retirée",
+    "en": "Proposal; withdrawn"
+   },
+   "note": {
+    "de": "Vorübergehende Wiedereinführung von Kontrollen an den Binnengrenzen. Laut EUR-Lex am 14. Dezember 2021 zurückgezogen und durch COM(2021) 891 ersetzt (verabschiedet als VO (EU) 2024/1717).",
+    "fr": "Réintroduction temporaire du contrôle aux frontières intérieures. Selon EUR-Lex, retirée le 14 décembre 2021 et remplacée par COM(2021) 891 (adoptée en tant que règlement (UE) 2024/1717).",
+    "en": "Temporary reintroduction of border control at internal borders. According to EUR-Lex withdrawn on 14 December 2021 and replaced by COM(2021) 891 (adopted as Regulation (EU) 2024/1717)."
+   },
+   "details": []
+  },
+  "procedure": {
+   "ref": "2017/0245(COD)",
+   "asOf": "2026-11-11",
+   "stage": "withdrawn",
+   "replacedBy": "52021PC0891",
+   "status": {
+    "de": "Zurückgezogen (14. Dezember 2021)",
+    "fr": "Retirée (14 décembre 2021)",
+    "en": "Withdrawn (14 December 2021)"
+   },
+   "endDate": "2021-12-14"
+  },
+  "amendingProvision": null,
+  "changes": [],
+  "langs": null,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:52017PC0571",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:52017PC0571",
+   "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:52021PC0891"
+  ],
+  "confidence": "verified",
+  "checkNote": null
+ }
+]

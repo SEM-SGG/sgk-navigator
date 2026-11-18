@@ -1,0 +1,135 @@
+{
+ "kind": "chronology",
+ "title": "Art. 8, par. 3, point a), ii), CFS",
+ "subtitle": "Chronologie des versions",
+ "unitLine": "Art. 8: Vérifications aux frontières portant sur les personnes",
+ "brand": "SGK-Navigator",
+ "work": "Code frontières Schengen",
+ "textLang": "fr",
+ "uiLang": "fr",
+ "sections": [
+  {
+   "heading": "règlement (UE) 2016/399",
+   "code": "Base",
+   "tag": "texte de base",
+   "color": "#848E99",
+   "meta": [
+    "Acte de base",
+    "adopté le 9 mars 2016",
+    "JO L 77 du 23.3.2016, p. 1",
+    "applicable depuis le 12 avril 2016"
+   ],
+   "flags": [],
+   "blocks": [
+    {
+     "key": "p3.a.ii",
+     "label": "ii)",
+     "depth": 0,
+     "runs": [
+      {
+       "t": "l’examen approfondi du document de voyage à la recherche d’indices de falsification ou de contrefaçon;"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "règlement (UE) 2017/458",
+   "code": "Vérif. syst.",
+   "tag": "remplacé",
+   "color": "#E69F00",
+   "meta": [
+    "adopté le 15 mars 2017",
+    "JO L 74 du 18.3.2017, p. 1",
+    "applicable depuis le 7 avril 2017"
+   ],
+   "flags": [],
+   "blocks": [
+    {
+     "key": "p3.a.ii",
+     "label": "ii)",
+     "depth": 0,
+     "runs": [
+      {
+       "t": "l’examen approfondi du document de voyage à la recherche d’indices de falsification ou de contrefaçon;",
+       "op": "del"
+      },
+      {
+       "t": "la vérification que le document de voyage est accompagné, le cas échéant, du visa ou du permis de séjour requis;",
+       "op": "ins"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Rectificatif R(03) au règlement (UE) 2018/1240",
+   "code": "ETIAS",
+   "tag": "remplacé",
+   "color": "#CC79A7",
+   "meta": [
+    "JO L 193 du 17.6.2020, p. 16"
+   ],
+   "flags": [
+    {
+     "kind": "reconstructed",
+     "label": "reconstitué"
+    },
+    {
+     "kind": "not-applicable",
+     "label": "pas encore applicable"
+    }
+   ],
+   "blocks": [
+    {
+     "key": "p3.a.ii",
+     "label": "ii)",
+     "depth": 0,
+     "runs": [
+      {
+       "t": "la vérification que le document de voyage est accompagné, le cas échéant, du visa"
+      },
+      {
+       "t": ", de l’autorisation de voyage",
+       "op": "ins"
+      },
+      {
+       "t": " ou du permis de séjour requis"
+      },
+      {
+       "t": ";",
+       "op": "del"
+      },
+      {
+       "t": ".",
+       "op": "ins"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "columns": null,
+ "legend": [
+  {
+   "code": "Vérif. syst.",
+   "label": "règlement (UE) 2017/458",
+   "color": "#E69F00"
+  },
+  {
+   "code": "ETIAS",
+   "label": "règlement (UE) 2018/1240",
+   "color": "#CC79A7"
+  },
+  {
+   "op": "ins",
+   "label": "inséré"
+  },
+  {
+   "op": "del",
+   "label": "supprimé"
+  }
+ ],
+ "source": "Source: EUR-Lex, règlement (UE) 2016/399 (CFS), état après le Rectificatif R(03) au règlement (UE) 2018/1240 (19 septembre 2018).",
+ "disclaimer": "Seule la publication au Journal officiel de l’UE fait foi; les versions consolidées et reconstituées n’ont pas de valeur juridique. Établi le 12 novembre 2026 avec SGK-Navigator."
+}

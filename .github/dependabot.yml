@@ -1,0 +1,8 @@
+# Hält die Versionen der GitHub Actions aktuell (Pull Request einmal im Monat). npm-Abhängigkeiten bewusst nicht automatisch:
+# Ein Update kann die gebaute Datei verändern und soll gezielt mit allen Tests erfolgen.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

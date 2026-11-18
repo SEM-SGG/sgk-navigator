@@ -1,0 +1,37 @@
+<!-- @dsCard group="Rechtsakte" height=360 -->
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>body{margin:0;background:var(--canvas)}</style>
+</head>
+<body>
+<div class="ui-root" style="padding: 24px; background: var(--canvas)">
+<div class="ui-tl">
+<div class="ui-tl-head"><span>Akt</span><span>Anwendbarkeit per heute</span><span class="ui-tl-track"><span class="ui-tl-year" style="left: 0.0%">2016</span><span class="ui-tl-year" style="left: 16.0%">2018</span><span class="ui-tl-year" style="left: 32.0%">2020</span><span class="ui-tl-year" style="left: 48.0%">2022</span><span class="ui-tl-year" style="left: 64.0%">2024</span><span class="ui-tl-year" style="left: 80.0%">2026</span><span class="ui-tl-year" style="left: 96.0%">2028</span><span class="ui-tl-today-label" style="left: 86.96%; top: 50%; transform: translate(-50%, -50%)">heute</span></span></div>
+<div style="position: relative"><div class="ui-tl-row" data-act="base"><span class="ui-tl-act"><i class="ui-swatch" data-act="base" aria-hidden="true"></i><span>Basis <em>2016/399</em><small>Basisakt</small></span></span><span><span class="ui-tag ui-tag--success">anwendbar seit 12. April 2016</span></span><span class="ui-tl-track"><span class="ui-tl-bar" style="left: 2.24%"></span><span class="ui-tl-node" style="left: 1.52%"></span></span></div><div class="ui-tl-row" data-act="sys"><span class="ui-tl-act"><i class="ui-swatch" data-act="sys" aria-hidden="true"></i><span>Syst. Abfr. <em>2017/458</em><small>Änderungsakt</small></span></span><span><span class="ui-tag ui-tag--success">anwendbar seit 7. April 2017</span></span><span class="ui-tl-track"><span class="ui-tl-bar" style="left: 10.08%"></span><span class="ui-tl-node" style="left: 9.6%"></span></span></div><div class="ui-tl-row" data-act="proposal"><span class="ui-tl-act"><i class="ui-swatch" data-act="proposal" aria-hidden="true"></i><span>COM(2017) 571 <em></em><small>Vorschlag</small></span></span><span><span class="ui-tag ">zurückgezogen am 14. Dezember 2021</span></span><span class="ui-tl-track"><span class="ui-tl-prop" style="left: 13.92%; width: 33.68%"></span><span class="ui-tl-node" style="left: 13.92%"></span></span></div><div class="ui-tl-row" data-act="ees"><span class="ui-tl-act"><i class="ui-swatch" data-act="ees" aria-hidden="true"></i><span>EES <em>2017/2225</em><small>Änderungsakt</small></span></span><span><span class="ui-tag ui-tag--success">anwendbar seit 12. Oktober 2025</span></span><span class="ui-tl-track"><span class="ui-tl-lead" style="left: 15.28%; width: 62.959999999999994%"></span><span class="ui-tl-bar" style="left: 78.24%"></span><span class="ui-tl-node" style="left: 15.28%"></span></span></div><div class="ui-tl-row" data-act="etias"><span class="ui-tl-act"><i class="ui-swatch ui-swatch--pending" data-act="etias" aria-hidden="true"></i><span>ETIAS <em>2018/1240</em><small>Änderungsakt</small></span></span><span><span class="ui-tag ui-tag--pending">beschlossen, noch nicht anwendbar</span></span><span class="ui-tl-track"><span class="ui-tl-bar ui-tl-bar--pending" style="left: 21.6%"></span><span class="ui-tl-node" style="left: 21.6%"></span></span></div><span aria-hidden="true" style="position: absolute; top: 0; bottom: 0; left: calc(480px + (100% - 480px) * 0.8695999999999999); border-left: 1px dashed var(--primary)"></span></div>
+</div>
+<div class="ui-legend" style="margin-top: 16px"><span><i style="width: 22px; height: 6px; background: var(--act-ees)"></i>anwendbar</span><span><i style="width: 22px; border-top: 2px dashed var(--act-ees)"></i>angenommen, Anwendung folgt</span><span><i style="width: 22px; height: 8px; background: repeating-linear-gradient(135deg, var(--act-etias) 0 2px, transparent 2px 5px)"></i>beschlossen, noch nicht anwendbar</span><span><i style="width: 22px; border-top: 2px dotted var(--act-proposal)"></i>Vorschlag</span></div>
+</div>
+<script>
+document.querySelectorAll('.ui-seg').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('[role="tablist"]').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('[role="tab"]'); if (!b) return;
+    g.querySelectorAll('[role="tab"]').forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('.ui-stagebar').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('.ui-stage'); if (!b) return;
+    g.querySelectorAll('.ui-stage').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+</script>
+</body>
+</html>

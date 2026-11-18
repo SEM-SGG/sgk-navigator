@@ -1,0 +1,47 @@
+<!-- @dsCard height=320 -->
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+body { margin: 0; background: var(--canvas); }
+.cover { position: relative; width: 960px; height: 320px; background: var(--canvas); overflow: hidden; font-family: var(--font-sans); }
+.cover svg { position: absolute; left: 0; top: 0; }
+.b-primary { fill: var(--primary); }
+.b-ink { fill: var(--inverse-canvas); }
+.b-grey { fill: var(--surface-2); }
+.b-tint { fill: var(--highlight); }
+.tile { fill: var(--canvas); stroke: var(--border-strong); stroke-width: 1; rx: var(--radius-none); }
+.tile-on { fill: var(--primary); rx: var(--radius-none); }
+.rule { stroke: var(--primary); stroke-width: 2; }
+.name { position: absolute; left: 32px; bottom: 56px; margin: 0; max-width: 440px; font-size: 120px; font-weight: 300; line-height: 0.95; letter-spacing: -1px; color: var(--ink); }
+.tag { position: absolute; left: 32px; bottom: 24px; margin: 0; max-width: 440px; font-size: 14px; letter-spacing: 0.16px; color: var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<!--
+blocks: primary 288×144, inverse-canvas 96×192, surface-2 144×144, highlight 144×176 (multiples of space-xxl 48); a flush modular grid right of x=480, primary bleeding off the top and right edge.
+arrangement: name zone left (Carbon at 120px is about 430px wide), blocks staggered on the 48px grid in the right half.
+pattern: modular tiles on the 48px pitch (space-xxl), outlined in border-strong, two cells merged and filled primary like a selected tab; chosen because the README calls the system flat, square, dense and built on the 4px grid.
+scales: space-xxl 48 for pitch and block sides, space-xl 32 for insets, radius-none on every shape, 2px primary rule = the active-tab underline.
+-->
+<svg aria-hidden="true" width="960" height="320" viewBox="0 0 960 320">
+<rect class="b-primary" x="672" y="0" width="288" height="144"></rect>
+<rect class="b-ink" x="576" y="48" width="96" height="192"></rect>
+<rect class="b-grey" x="672" y="144" width="144" height="144"></rect>
+<rect class="b-tint" x="816" y="144" width="144" height="176"></rect>
+<line class="rule" x1="816" y1="145" x2="960" y2="145"></line>
+<rect class="tile" x="480.5" y="144.5" width="47" height="47"></rect>
+<rect class="tile" x="528.5" y="144.5" width="47" height="47"></rect>
+<rect class="tile" x="480.5" y="192.5" width="47" height="47"></rect>
+<rect class="tile" x="528.5" y="192.5" width="47" height="47"></rect>
+<rect class="tile-on" x="480" y="240" width="96" height="48"></rect>
+<rect class="tile" x="576.5" y="240.5" width="47" height="47"></rect>
+<rect class="tile" x="624.5" y="240.5" width="47" height="47"></rect>
+</svg>
+<p class="name">Carbon</p>
+<p class="tag">Das Design System des SGK-Navigators: hell, eckig, ein Akzent, IBM Plex.</p>
+</div>
+</body>
+</html>

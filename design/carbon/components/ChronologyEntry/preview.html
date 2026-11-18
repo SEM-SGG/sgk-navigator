@@ -1,0 +1,48 @@
+<!-- @dsCard group="Rechtsakte" height=520 -->
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>body{margin:0;background:var(--canvas)}</style>
+</head>
+<body>
+<div class="ui-root" style="padding: 24px; background: var(--canvas)">
+<div class="ui-chron" style="max-width: 900px">
+<div class="ui-chron-entry" data-act="sys"><span class="ui-chron-node" aria-hidden="true"></span><div class="ui-chron-body">
+<div class="ui-chron-title"><h3>Syst. Abfr.<small>VO (EU) 2017/458</small></h3><span class="ui-tag ui-tag--success">anwendbar seit 7. April 2017</span></div>
+<p class="ui-chron-meta">angenommen am 15. März 2017 · ABl. L 74 vom 18.3.2017, S. 1</p>
+<div class="ui-change" data-act="sys"><div class="ui-change-head"><a href="#">Art. 8 Abs. 3 Bst. a Ziff. i Unterabs. 2 SGK</a><span class="ui-tag ui-tag--ins">eingefügt</span></div><div class="ui-change-text"><ins class="ui-ins">Bei Pässen und Reisedokumenten mit einem Speichermedium wird vorbehaltlich der Verfügbarkeit gültiger Zertifikate die Authentizität der Daten auf dem Chip geprüft;</ins></div></div>
+</div></div>
+<div class="ui-chron-entry" data-act="ees"><span class="ui-chron-node" aria-hidden="true"></span><div class="ui-chron-body">
+<div class="ui-chron-title"><h3>EES<small>VO (EU) 2017/2225</small></h3><span class="ui-tag ui-tag--success">anwendbar seit 12. Oktober 2025</span></div>
+<p class="ui-chron-meta">angenommen am 30. November 2017 · ABl. L 327 vom 9.12.2017, S. 1</p>
+<div class="ui-change" data-act="ees"><div class="ui-change-head"><a href="#">Art. 8 Abs. 3 Bst. a Ziff. i Unterabs. 2 SGK</a><span class="ui-tag ui-tag--info">ersetzt</span></div><div class="ui-change-text">Bei Pässen und Reisedokumenten mit einem <del class="ui-del">Speichermedium</del><ins class="ui-ins">elektronischen Speichermedium (Chip)</ins> wird vorbehaltlich der Verfügbarkeit gültiger Zertifikate die <del class="ui-del">Authentizität</del><ins class="ui-ins">Echtheit und Integrität</ins> der Daten auf dem <del class="ui-del">Chip geprüft;</del><ins class="ui-ins">elektronischen Speichermedium (Chip) geprüft.</ins></div></div>
+</div></div>
+<div class="ui-chron-entry" data-act="etias"><span class="ui-chron-node ui-chron-node--pending" aria-hidden="true"></span><div class="ui-chron-body">
+<div class="ui-chron-title"><h3>ETIAS<small>VO (EU) 2018/1240</small></h3><span class="ui-tag ui-tag--pending">beschlossen, noch nicht anwendbar</span></div>
+<p class="ui-chron-meta">Ändert Ziff. ii und fügt Bst. ba ein. Ziff. i bleibt unverändert.</p>
+</div></div>
+</div>
+</div>
+<script>
+document.querySelectorAll('.ui-seg').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('[role="tablist"]').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('[role="tab"]'); if (!b) return;
+    g.querySelectorAll('[role="tab"]').forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('.ui-stagebar').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('.ui-stage'); if (!b) return;
+    g.querySelectorAll('.ui-stage').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+</script>
+</body>
+</html>

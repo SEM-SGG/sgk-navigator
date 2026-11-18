@@ -1,0 +1,98 @@
+[
+ {
+  "id": "sgk",
+  "celex": "32016R0399",
+  "number": "(EU) 2016/399",
+  "dataset": "../dataset.json",
+  "acts": "../acts.json",
+  "assets": "../assets.json",
+  "short": {
+   "de": "Schengener Grenzkodex",
+   "fr": "Code frontières Schengen",
+   "en": "Schengen Borders Code"
+  },
+  "abbr": {
+   "de": "SGK",
+   "fr": "CFS",
+   "en": "SBC"
+  },
+  "full": true,
+  "recitals": "sgk.recitals.json"
+ },
+ {
+  "id": "ees",
+  "celex": "32017R2226",
+  "number": "(EU) 2017/2226",
+  "dataset": "ees.dataset.json",
+  "acts": "ees.acts.json",
+  "assets": null,
+  "short": {
+   "de": "Einreise-/Ausreisesystem (EES)",
+   "fr": "Système d’entrée/de sortie (EES)",
+   "en": "Entry/Exit System (EES)"
+  },
+  "abbr": {
+   "de": "EES-VO",
+   "fr": "règlement EES",
+   "en": "EES Regulation"
+  },
+  "full": false
+ },
+ {
+  "id": "etias",
+  "celex": "32018R1240",
+  "number": "(EU) 2018/1240",
+  "dataset": "etias.dataset.json",
+  "acts": "etias.acts.json",
+  "assets": null,
+  "short": {
+   "de": "Europäisches Reiseinformations- und -genehmigungssystem (ETIAS)",
+   "fr": "Système européen d’information et d’autorisation concernant les voyages (ETIAS)",
+   "en": "European Travel Information and Authorisation System (ETIAS)"
+  },
+  "abbr": {
+   "de": "ETIAS-VO",
+   "fr": "règlement ETIAS",
+   "en": "ETIAS Regulation"
+  },
+  "full": false
+ },
+ {
+  "id": "vis",
+  "celex": "32008R0767",
+  "number": "(EG) Nr. 767/2008",
+  "dataset": "vis.dataset.json",
+  "acts": "vis.acts.json",
+  "assets": null,
+  "short": {
+   "de": "Visa-Informationssystem (VIS)",
+   "fr": "Système d’information sur les visas (VIS)",
+   "en": "Visa Information System (VIS)"
+  },
+  "abbr": {
+   "de": "VIS-VO",
+   "fr": "règlement VIS",
+   "en": "VIS Regulation"
+  },
+  "full": false
+ },
+ {
+  "id": "iop",
+  "celex": "32019R0817",
+  "number": "(EU) 2019/817",
+  "dataset": "iop.dataset.json",
+  "acts": "iop.acts.json",
+  "assets": null,
+  "short": {
+   "de": "Interoperabilität (Grenzen und Visa)",
+   "fr": "Interopérabilité (frontières et visas)",
+   "en": "Interoperability (borders and visa)"
+  },
+  "abbr": {
+   "de": "IO-VO",
+   "fr": "règlement IO",
+   "en": "IO Regulation"
+  },
+  "full": false
+ }
+]

@@ -1,0 +1,3590 @@
+{
+ "works": {
+  "ees": {
+   "stages": 5,
+   "units": 83,
+   "acts": 8,
+   "coverage": [
+    {
+     "stage": "s00",
+     "celex": "32017R2226",
+     "lang": "de",
+     "srcTokens": 30175,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s00",
+     "celex": "32017R2226",
+     "lang": "fr",
+     "srcTokens": 41159,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s00",
+     "celex": "32017R2226",
+     "lang": "en",
+     "srcTokens": 34478,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "celex": "02017R2226-20181009",
+     "lang": "de",
+     "srcTokens": 30226,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "celex": "02017R2226-20181009",
+     "lang": "fr",
+     "srcTokens": 41243,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "celex": "02017R2226-20181009",
+     "lang": "en",
+     "srcTokens": 34558,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "celex": "02017R2226-20190611",
+     "lang": "de",
+     "srcTokens": 30669,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "celex": "02017R2226-20190611",
+     "lang": "fr",
+     "srcTokens": 41741,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "celex": "02017R2226-20190611",
+     "lang": "en",
+     "srcTokens": 35061,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "celex": "02017R2226-20210803",
+     "lang": "de",
+     "srcTokens": 32083,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "celex": "02017R2226-20210803",
+     "lang": "fr",
+     "srcTokens": 43768,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "celex": "02017R2226-20210803",
+     "lang": "en",
+     "srcTokens": 36801,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "celex": "02017R2226-20260612",
+     "lang": "de",
+     "srcTokens": 32312,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "celex": "02017R2226-20260612",
+     "lang": "fr",
+     "srcTokens": 44040,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "celex": "02017R2226-20260612",
+     "lang": "en",
+     "srcTokens": 37064,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    }
+   ],
+   "coverageDs": [
+    {
+     "stage": "s00",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s00",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s00",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    }
+   ],
+   "recitals": [
+    {
+     "lang": "de",
+     "recitals": 60,
+     "blocks": 64,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "srcTokens": 6492,
+     "labelsOk": true
+    },
+    {
+     "lang": "fr",
+     "recitals": 60,
+     "blocks": 64,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "srcTokens": 8519,
+     "labelsOk": true
+    },
+    {
+     "lang": "en",
+     "recitals": 60,
+     "blocks": 64,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "srcTokens": 6950,
+     "labelsOk": true
+    }
+   ],
+   "lang": [
+    {
+     "stage": "s00",
+     "unit": "art_17",
+     "diff": {
+      "de": [
+       "p4.s3"
+      ],
+      "fr": [],
+      "en": []
+     },
+     "orderOnly": false,
+     "stageLangs": "de,fr,en"
+    },
+    {
+     "stage": "s01",
+     "unit": "art_17",
+     "diff": {
+      "de": [
+       "p4.s3"
+      ],
+      "fr": [],
+      "en": []
+     },
+     "orderOnly": false,
+     "stageLangs": "de,fr,en"
+    },
+    {
+     "stage": "s02",
+     "unit": "art_17",
+     "diff": {
+      "de": [
+       "p4.s3"
+      ],
+      "fr": [],
+      "en": []
+     },
+     "orderOnly": false,
+     "stageLangs": "de,fr,en"
+    },
+    {
+     "stage": "s03",
+     "unit": "art_17",
+     "diff": {
+      "de": [
+       "p4.s3"
+      ],
+      "fr": [],
+      "en": []
+     },
+     "orderOnly": false,
+     "stageLangs": "de,fr,en"
+    },
+    {
+     "stage": "s04",
+     "unit": "art_17",
+     "diff": {
+      "de": [
+       "p4.s3"
+      ],
+      "fr": [],
+      "en": []
+     },
+     "orderOnly": false,
+     "stageLangs": "de,fr,en"
+    }
+   ],
+   "changes": {
+    "total": 241,
+    "unexplained": 1,
+    "unexplainedWithoutDefect": 0,
+    "list": [
+     {
+      "stage": "s04",
+      "lang": "fr",
+      "unit": "art_23",
+      "key": "p4.s2",
+      "change": "editorial",
+      "act": "32017R2226",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "ees",
+       "stage": "s04",
+       "lang": "fr",
+       "unit": "art_23",
+       "key": "p4.s2",
+       "what": "Wortlaut in 02017R2226-20260612 FR verstümmelt: «ent paragraphe, les disposiOutre l’identification visée au premier alinéa du préstions suivantes s’appliquent:» (Vorfassung: «Outre l’identification visée au premier alinéa du présent paragraphe, les dispositions suivantes s’appliquent:»). So in der Quelldatei."
+      }
+     }
+    ],
+    "originKept": 149,
+    "originKeptBy": {
+     "s01 DE: 32017R2226R(01) → 32017R2226": 149
+    },
+    "byWhy": {}
+   },
+   "actsCheck": [
+    {
+     "celex": "32017R2226",
+     "kind": "base",
+     "changes": 0,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32018R1240",
+     "kind": "amendment",
+     "changes": 1,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32017R2226R(01)",
+     "kind": "corrigendum",
+     "changes": 10,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32017R2226R(03)",
+     "kind": "corrigendum",
+     "changes": 1,
+     "titles": "en",
+     "oj": "en",
+     "issues": []
+    },
+    {
+     "celex": "32019R0817",
+     "kind": "amendment",
+     "changes": 15,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32021R1134",
+     "kind": "amendment",
+     "changes": 1,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32021R1152",
+     "kind": "amendment",
+     "changes": 12,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32024R1356",
+     "kind": "amendment",
+     "changes": 4,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    }
+   ],
+   "sizes": {
+    "ees.dataset.json": {
+     "raw": 1413270,
+     "gzip": 233139,
+     "sha256": "e7dd08ef5f30d9db8bb7647b224f869db44dd8350cf96566dec5bc06eda64561"
+    },
+    "ees.acts.json": {
+     "raw": 24291,
+     "gzip": 3619,
+     "sha256": "7b92f18e8cf3f390517d47adc310b15e7482f2c633608f81e8dcecb30ec20c13"
+    }
+   },
+   "langPairs": 393,
+   "skipped": [],
+   "droppedFromList": [
+    {
+     "stage": "s04",
+     "dropped": [
+      "32021R1134"
+     ]
+    }
+   ],
+   "stageActs": [
+    {
+     "id": "s00",
+     "date": "2017-12-09",
+     "act": "32017R2226",
+     "acts": [
+      "32017R2226"
+     ],
+     "celex": "32017R2226",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s01",
+     "date": "2018-10-09",
+     "act": "32018R1240",
+     "acts": [
+      "32018R1240",
+      "32017R2226R(01)",
+      "32017R2226R(03)"
+     ],
+     "celex": "02017R2226-20181009",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s02",
+     "date": "2019-06-11",
+     "act": "32019R0817",
+     "acts": [
+      "32019R0817"
+     ],
+     "celex": "02017R2226-20190611",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s03",
+     "date": "2021-08-03",
+     "act": "32021R1134",
+     "acts": [
+      "32021R1134",
+      "32021R1152"
+     ],
+     "celex": "02017R2226-20210803",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s04",
+     "date": "2026-06-12",
+     "act": "32024R1356",
+     "acts": [
+      "32024R1356"
+     ],
+     "celex": "02017R2226-20260612",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    }
+   ],
+   "inserted": [
+    {
+     "act": "32018R1240",
+     "raw": true,
+     "amendingUnits": [
+      "art_82"
+     ],
+     "quoted": 0,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32019R0817",
+     "raw": true,
+     "amendingUnits": [
+      "art_60"
+     ],
+     "quoted": 0,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32021R1134",
+     "raw": true,
+     "amendingUnits": [
+      "art_4"
+     ],
+     "quoted": 0,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32021R1152",
+     "raw": true,
+     "amendingUnits": [
+      "art_3"
+     ],
+     "quoted": 6,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32024R1356",
+     "raw": true,
+     "amendingUnits": [
+      "art_21"
+     ],
+     "quoted": 1,
+     "missing": [],
+     "everPresent": []
+    }
+   ],
+   "tilde": [],
+   "keysAligned": [
+    {
+     "unit": "art_9",
+     "stage": "s04",
+     "lang": "fr",
+     "map": {
+      "p2a~2": "p2b"
+     },
+     "labels": "2 bis."
+    }
+   ],
+   "reproducible": true,
+   "library": {
+    "resolveBase": true,
+    "resolveConsolidated": true,
+    "stageAtEachDate": true,
+    "beforeFirst": true,
+    "actsOfStage": true
+   }
+  },
+  "etias": {
+   "stages": 6,
+   "units": 102,
+   "acts": 9,
+   "coverage": [
+    {
+     "stage": "s00",
+     "celex": "32018R1240",
+     "lang": "de",
+     "srcTokens": 35359,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s00",
+     "celex": "32018R1240",
+     "lang": "fr",
+     "srcTokens": 47814,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s00",
+     "celex": "32018R1240",
+     "lang": "en",
+     "srcTokens": 40687,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "celex": "02018R1240-20180919",
+     "lang": "de",
+     "srcTokens": 35359,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "celex": "02018R1240-20190611",
+     "lang": "de",
+     "srcTokens": 35903,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "celex": "02018R1240-20190611",
+     "lang": "fr",
+     "srcTokens": 48502,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "celex": "02018R1240-20190611",
+     "lang": "en",
+     "srcTokens": 41319,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "celex": "02018R1240-20210803",
+     "lang": "de",
+     "srcTokens": 39309,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "celex": "02018R1240-20210803",
+     "lang": "fr",
+     "srcTokens": 53212,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "celex": "02018R1240-20210803",
+     "lang": "en",
+     "srcTokens": 45462,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "celex": "02018R1240-20251118",
+     "lang": "de",
+     "srcTokens": 39311,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "celex": "02018R1240-20251118",
+     "lang": "fr",
+     "srcTokens": 53209,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "celex": "02018R1240-20251118",
+     "lang": "en",
+     "srcTokens": 45462,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "celex": "02018R1240-20260612",
+     "lang": "de",
+     "srcTokens": 39996,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "celex": "02018R1240-20260612",
+     "lang": "fr",
+     "srcTokens": 54100,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "celex": "02018R1240-20260612",
+     "lang": "en",
+     "srcTokens": 46242,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    }
+   ],
+   "coverageDs": [
+    {
+     "stage": "s00",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s00",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s00",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    }
+   ],
+   "recitals": [
+    {
+     "lang": "de",
+     "recitals": 77,
+     "blocks": 112,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "srcTokens": 7942,
+     "labelsOk": true
+    },
+    {
+     "lang": "fr",
+     "recitals": 77,
+     "blocks": 112,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "srcTokens": 10564,
+     "labelsOk": true
+    },
+    {
+     "lang": "en",
+     "recitals": 77,
+     "blocks": 112,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "srcTokens": 8348,
+     "labelsOk": true
+    }
+   ],
+   "lang": [],
+   "changes": {
+    "total": 640,
+    "unexplained": 17,
+    "unexplainedWithoutDefect": 0,
+    "list": [
+     {
+      "stage": "s04",
+      "lang": "de",
+      "unit": "art_8",
+      "key": "p2.g",
+      "change": "editorial",
+      "act": "32018R1240",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s04",
+       "lang": "*",
+       "unit": "art_8",
+       "key": "p2.g",
+       "what": "02018R1240-20251118: letztes Zeichen abgeschnitten («aufzuhebe.» / «articles 40 et 4.» / «Articles 40 and 4.»); in 20260612 wieder vollständig (dort als Zeichensetzungsänderung erkannt)."
+      }
+     },
+     {
+      "stage": "s04",
+      "lang": "de",
+      "unit": "art_69",
+      "key": "p1.f",
+      "change": "editorial",
+      "act": "32018R1240",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s04",
+       "lang": "*",
+       "unit": "art_69",
+       "key": "p1.f",
+       "what": "02018R1240-20251118: «Artikel 22 und» wird «Artikel 2, und» (DE), entsprechend FR und EN («Article 2; and»); Konsolidierungsfehler im Zuge der Einarbeitung von 2025/1411."
+      }
+     },
+     {
+      "stage": "s04",
+      "lang": "de",
+      "unit": "art_69",
+      "key": "p1.g",
+      "change": "editorial",
+      "act": "32018R1240",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s04",
+       "lang": "*",
+       "unit": "art_69",
+       "key": "p1.g",
+       "what": "02018R1240-20251118: Folgeänderung derselben Konsolidierung (Konjunktion/Schlusszeichen) ohne Marker."
+      }
+     },
+     {
+      "stage": "s04",
+      "lang": "de",
+      "unit": "art_75",
+      "key": "p1.b",
+      "change": "editorial",
+      "act": "32018R1240",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s04",
+       "lang": "de,en",
+       "unit": "art_75",
+       "key": "p1.b",
+       "what": "02018R1240-20251118: «Antragsbearbeitung und» wird «Antragsbearbeitun, und» (DE), «processing of applications; and» wird «processing of application; and» (EN)."
+      }
+     },
+     {
+      "stage": "s04",
+      "lang": "de",
+      "unit": "art_75",
+      "key": "p1.c",
+      "change": "editorial",
+      "act": "32018R1240",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s04",
+       "lang": "de,en",
+       "unit": "art_75",
+       "key": "p1.c",
+       "what": "02018R1240-20251118: Folgeänderung derselben Konsolidierung ohne Marker."
+      }
+     },
+     {
+      "stage": "s04",
+      "lang": "fr",
+      "unit": "art_8",
+      "key": "p2.g",
+      "change": "editorial",
+      "act": "32018R1240",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s04",
+       "lang": "*",
+       "unit": "art_8",
+       "key": "p2.g",
+       "what": "02018R1240-20251118: letztes Zeichen abgeschnitten («aufzuhebe.» / «articles 40 et 4.» / «Articles 40 and 4.»); in 20260612 wieder vollständig (dort als Zeichensetzungsänderung erkannt)."
+      }
+     },
+     {
+      "stage": "s04",
+      "lang": "fr",
+      "unit": "art_47",
+      "key": "p2.a",
+      "change": "editorial",
+      "act": "32021R1152",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s04",
+       "lang": "fr",
+       "unit": "art_47",
+       "key": "p2.a",
+       "what": "02018R1240-20210803 FR enthält vor «a)» ein von EUR-Lex stehen gelassenes Anführungszeichen «; 20251118 ohne. Kein Rechtstext."
+      }
+     },
+     {
+      "stage": "s04",
+      "lang": "fr",
+      "unit": "art_69",
+      "key": "p1.f",
+      "change": "editorial",
+      "act": "32018R1240",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s04",
+       "lang": "*",
+       "unit": "art_69",
+       "key": "p1.f",
+       "what": "02018R1240-20251118: «Artikel 22 und» wird «Artikel 2, und» (DE), entsprechend FR und EN («Article 2; and»); Konsolidierungsfehler im Zuge der Einarbeitung von 2025/1411."
+      }
+     },
+     {
+      "stage": "s04",
+      "lang": "fr",
+      "unit": "art_69",
+      "key": "p1.g",
+      "change": "editorial",
+      "act": "32018R1240",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s04",
+       "lang": "*",
+       "unit": "art_69",
+       "key": "p1.g",
+       "what": "02018R1240-20251118: Folgeänderung derselben Konsolidierung (Konjunktion/Schlusszeichen) ohne Marker."
+      }
+     },
+     {
+      "stage": "s04",
+      "lang": "en",
+      "unit": "art_8",
+      "key": "p2.g",
+      "change": "editorial",
+      "act": "32018R1240",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s04",
+       "lang": "*",
+       "unit": "art_8",
+       "key": "p2.g",
+       "what": "02018R1240-20251118: letztes Zeichen abgeschnitten («aufzuhebe.» / «articles 40 et 4.» / «Articles 40 and 4.»); in 20260612 wieder vollständig (dort als Zeichensetzungsänderung erkannt)."
+      }
+     },
+     {
+      "stage": "s04",
+      "lang": "en",
+      "unit": "art_69",
+      "key": "p1.f",
+      "change": "editorial",
+      "act": "32018R1240",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s04",
+       "lang": "*",
+       "unit": "art_69",
+       "key": "p1.f",
+       "what": "02018R1240-20251118: «Artikel 22 und» wird «Artikel 2, und» (DE), entsprechend FR und EN («Article 2; and»); Konsolidierungsfehler im Zuge der Einarbeitung von 2025/1411."
+      }
+     },
+     {
+      "stage": "s04",
+      "lang": "en",
+      "unit": "art_69",
+      "key": "p1.g",
+      "change": "editorial",
+      "act": "32018R1240",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s04",
+       "lang": "*",
+       "unit": "art_69",
+       "key": "p1.g",
+       "what": "02018R1240-20251118: Folgeänderung derselben Konsolidierung (Konjunktion/Schlusszeichen) ohne Marker."
+      }
+     },
+     {
+      "stage": "s04",
+      "lang": "en",
+      "unit": "art_75",
+      "key": "p1.b",
+      "change": "editorial",
+      "act": "32018R1240",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s04",
+       "lang": "de,en",
+       "unit": "art_75",
+       "key": "p1.b",
+       "what": "02018R1240-20251118: «Antragsbearbeitung und» wird «Antragsbearbeitun, und» (DE), «processing of applications; and» wird «processing of application; and» (EN)."
+      }
+     },
+     {
+      "stage": "s04",
+      "lang": "en",
+      "unit": "art_75",
+      "key": "p1.c",
+      "change": "editorial",
+      "act": "32018R1240",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s04",
+       "lang": "de,en",
+       "unit": "art_75",
+       "key": "p1.c",
+       "what": "02018R1240-20251118: Folgeänderung derselben Konsolidierung ohne Marker."
+      }
+     },
+     {
+      "stage": "s05",
+      "lang": "de",
+      "unit": "art_8",
+      "key": "p2.g",
+      "change": "punct",
+      "act": "32018R1240",
+      "how": "Herkunft o",
+      "x": "punct",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s05",
+       "lang": "*",
+       "unit": "art_8",
+       "key": "p2.g",
+       "what": "02018R1240-20260612: Rückkehr zum vollständigen Wortlaut nach dem Fehler in 20251118."
+      }
+     },
+     {
+      "stage": "s05",
+      "lang": "fr",
+      "unit": "art_8",
+      "key": "p2.g",
+      "change": "punct",
+      "act": "32018R1240",
+      "how": "Herkunft o",
+      "x": "punct",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s05",
+       "lang": "*",
+       "unit": "art_8",
+       "key": "p2.g",
+       "what": "02018R1240-20260612: Rückkehr zum vollständigen Wortlaut nach dem Fehler in 20251118."
+      }
+     },
+     {
+      "stage": "s05",
+      "lang": "en",
+      "unit": "art_8",
+      "key": "p2.g",
+      "change": "punct",
+      "act": "32018R1240",
+      "how": "Herkunft o",
+      "x": "punct",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "etias",
+       "stage": "s05",
+       "lang": "*",
+       "unit": "art_8",
+       "key": "p2.g",
+       "what": "02018R1240-20260612: Rückkehr zum vollständigen Wortlaut nach dem Fehler in 20251118."
+      }
+     }
+    ],
+    "originKept": 53,
+    "originKeptBy": {
+     "s03 DE: 32021R1152 → 32018R1240": 15,
+     "s03 FR: 32021R1152 → 32018R1240": 16,
+     "s03 EN: 32021R1152 → 32018R1240": 17,
+     "s02 EN: 32019R0817 → 32018R1240": 3,
+     "s03 EN: 32019R0817 → 32018R1240": 2
+    },
+    "byWhy": {}
+   },
+   "actsCheck": [
+    {
+     "celex": "32018R1240",
+     "kind": "base",
+     "changes": 0,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32018R1240R(01)",
+     "kind": "corrigendum",
+     "changes": 1,
+     "titles": "de",
+     "oj": "de",
+     "issues": []
+    },
+    {
+     "celex": "32019R0817",
+     "kind": "amendment",
+     "changes": 16,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32018R1240R(03)",
+     "kind": "corrigendum",
+     "changes": 1,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32021R1152",
+     "kind": "amendment",
+     "changes": 26,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32018R1240R(06)",
+     "kind": "corrigendum",
+     "changes": 1,
+     "titles": "de",
+     "oj": "de",
+     "issues": []
+    },
+    {
+     "celex": "32024R1356",
+     "kind": "amendment",
+     "changes": 5,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32024R1358",
+     "kind": "amendment",
+     "changes": 3,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32025R1411",
+     "kind": "amendment",
+     "changes": 1,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    }
+   ],
+   "sizes": {
+    "etias.dataset.json": {
+     "raw": 1869740,
+     "gzip": 298278,
+     "sha256": "199ae56d8510b997a9cbb508dbe88942c87f58032b73f5d082c7d9f5531120e4"
+    },
+    "etias.acts.json": {
+     "raw": 28459,
+     "gzip": 4259,
+     "sha256": "9eccaf454b1b033098131b18f7585bebdd4a930dd59e9a91b474c4c9544c323d"
+    }
+   },
+   "langPairs": 598,
+   "skipped": [
+    {
+     "celex": "02018R1240-20231231",
+     "reason": "keine Sprachfassung DE, FR oder EN ladbar"
+    }
+   ],
+   "droppedFromList": [],
+   "stageActs": [
+    {
+     "id": "s00",
+     "date": "2018-09-19",
+     "act": "32018R1240",
+     "acts": [
+      "32018R1240"
+     ],
+     "celex": "32018R1240",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s01",
+     "date": "2018-09-19",
+     "act": "32018R1240R(01)",
+     "acts": [
+      "32018R1240R(01)"
+     ],
+     "celex": "02018R1240-20180919",
+     "langs": [
+      "de"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s02",
+     "date": "2019-06-11",
+     "act": "32019R0817",
+     "acts": [
+      "32019R0817",
+      "32018R1240R(03)"
+     ],
+     "celex": "02018R1240-20190611",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s03",
+     "date": "2021-08-03",
+     "act": "32021R1152",
+     "acts": [
+      "32021R1152",
+      "32018R1240R(06)"
+     ],
+     "celex": "02018R1240-20210803",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s04",
+     "date": "2025-11-18",
+     "act": "32025R1411",
+     "acts": [
+      "32025R1411"
+     ],
+     "celex": "02018R1240-20251118",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s05",
+     "date": "2026-06-12",
+     "act": "32024R1356",
+     "acts": [
+      "32024R1356",
+      "32024R1358"
+     ],
+     "celex": "02018R1240-20260612",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    }
+   ],
+   "inserted": [
+    {
+     "act": "32019R0817",
+     "raw": true,
+     "amendingUnits": [
+      "art_61"
+     ],
+     "quoted": 0,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32021R1152",
+     "raw": true,
+     "amendingUnits": [
+      "art_1"
+     ],
+     "quoted": 5,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32024R1356",
+     "raw": true,
+     "amendingUnits": [
+      "art_22"
+     ],
+     "quoted": 1,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32024R1358",
+     "raw": true,
+     "amendingUnits": [
+      "art_53"
+     ],
+     "quoted": 0,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32025R1411",
+     "raw": true,
+     "amendingUnits": [],
+     "quoted": 0,
+     "missing": [],
+     "everPresent": []
+    }
+   ],
+   "tilde": [],
+   "keysAligned": [],
+   "reproducible": true,
+   "library": {
+    "resolveBase": true,
+    "resolveConsolidated": true,
+    "stageAtEachDate": true,
+    "beforeFirst": true,
+    "actsOfStage": true
+   }
+  },
+  "vis": {
+   "stages": 11,
+   "units": 72,
+   "acts": 13,
+   "coverage": [
+    {
+     "stage": "s00",
+     "celex": "32008R0767",
+     "lang": "de",
+     "srcTokens": 11324,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s00",
+     "celex": "32008R0767",
+     "lang": "fr",
+     "srcTokens": 14583,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s00",
+     "celex": "32008R0767",
+     "lang": "en",
+     "srcTokens": 12825,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "celex": "02008R0767-20100405",
+     "lang": "de",
+     "srcTokens": 11301,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "celex": "02008R0767-20100405",
+     "lang": "fr",
+     "srcTokens": 14596,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "celex": "02008R0767-20100405",
+     "lang": "en",
+     "srcTokens": 12835,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "celex": "02008R0767-20131018",
+     "lang": "de",
+     "srcTokens": 11304,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "celex": "02008R0767-20131018",
+     "lang": "fr",
+     "srcTokens": 14596,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "celex": "02008R0767-20131018",
+     "lang": "en",
+     "srcTokens": 12835,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "celex": "02008R0767-20171229",
+     "lang": "de",
+     "srcTokens": 13707,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "celex": "02008R0767-20171229",
+     "lang": "fr",
+     "srcTokens": 17776,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "celex": "02008R0767-20171229",
+     "lang": "en",
+     "srcTokens": 15589,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "celex": "02008R0767-20190611",
+     "lang": "de",
+     "srcTokens": 13965,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "celex": "02008R0767-20190611",
+     "lang": "fr",
+     "srcTokens": 18112,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "celex": "02008R0767-20190611",
+     "lang": "en",
+     "srcTokens": 15882,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "celex": "02008R0767-20210803",
+     "lang": "de",
+     "srcTokens": 15969,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "celex": "02008R0767-20210803",
+     "lang": "fr",
+     "srcTokens": 20882,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "celex": "02008R0767-20210803",
+     "lang": "en",
+     "srcTokens": 18203,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s06",
+     "celex": "02008R0767-20220803",
+     "lang": "de",
+     "srcTokens": 16859,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s06",
+     "celex": "02008R0767-20220803",
+     "lang": "fr",
+     "srcTokens": 22039,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s06",
+     "celex": "02008R0767-20220803",
+     "lang": "en",
+     "srcTokens": 19129,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s07",
+     "celex": "02008R0767-20230803",
+     "lang": "de",
+     "srcTokens": 17741,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s07",
+     "celex": "02008R0767-20230803",
+     "lang": "fr",
+     "srcTokens": 23250,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s07",
+     "celex": "02008R0767-20230803",
+     "lang": "en",
+     "srcTokens": 20132,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s08",
+     "celex": "02008R0767-20231227",
+     "lang": "de",
+     "srcTokens": 18257,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s08",
+     "celex": "02008R0767-20231227",
+     "lang": "fr",
+     "srcTokens": 24023,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s08",
+     "celex": "02008R0767-20231227",
+     "lang": "en",
+     "srcTokens": 20717,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s09",
+     "celex": "02008R0767-20251012",
+     "lang": "de",
+     "srcTokens": 18257,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s09",
+     "celex": "02008R0767-20251012",
+     "lang": "fr",
+     "srcTokens": 24023,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s09",
+     "celex": "02008R0767-20251012",
+     "lang": "en",
+     "srcTokens": 20717,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s10",
+     "celex": "02008R0767-20260612",
+     "lang": "de",
+     "srcTokens": 18423,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s10",
+     "celex": "02008R0767-20260612",
+     "lang": "fr",
+     "srcTokens": 24256,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s10",
+     "celex": "02008R0767-20260612",
+     "lang": "en",
+     "srcTokens": 20921,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    }
+   ],
+   "coverageDs": [
+    {
+     "stage": "s00",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s00",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s00",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s06",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s06",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s06",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s07",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s07",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s07",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s08",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s08",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s08",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s09",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s09",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s09",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s10",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s10",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s10",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    }
+   ],
+   "recitals": [
+    {
+     "lang": "de",
+     "recitals": 33,
+     "blocks": 34,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "srcTokens": 2155,
+     "labelsOk": true
+    },
+    {
+     "lang": "fr",
+     "recitals": 33,
+     "blocks": 34,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "srcTokens": 2758,
+     "labelsOk": true
+    },
+    {
+     "lang": "en",
+     "recitals": 33,
+     "blocks": 34,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "srcTokens": 2382,
+     "labelsOk": true
+    }
+   ],
+   "lang": [],
+   "changes": {
+    "total": 930,
+    "unexplained": 9,
+    "unexplainedWithoutDefect": 0,
+    "list": [
+     {
+      "stage": "s03",
+      "lang": "fr",
+      "unit": "art_23",
+      "key": "p1.d",
+      "change": "editorial",
+      "act": "32009R0810",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "vis",
+       "stage": "s03",
+       "lang": "fr",
+       "unit": "art_23",
+       "key": "p1.d",
+       "what": "02008R0767-20171229 FR: «d’annulation [Streichung] de retrait» wird «d’annulation [Streichung] ou de retrait»; kein Marker."
+      }
+     },
+     {
+      "stage": "s07",
+      "lang": "en",
+      "unit": "art_19",
+      "key": "p2.c",
+      "change": "editorial",
+      "act": "32009R0810",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "vis",
+       "stage": "s07",
+       "lang": "en",
+       "unit": "*",
+       "key": "*",
+       "what": "02008R0767-20230803 EN: die durch 810/2009 gestrichenen Worte «or shortened» bzw. «, shortened» stehen in Art. 19 Abs. 2 Bst. c, 20 Abs. 2 Bst. d, 22 Abs. 2 Bst. d und 23 Abs. 1 Bst. d wieder im Text (ohne Marker); 20231227 streicht sie erneut."
+      }
+     },
+     {
+      "stage": "s07",
+      "lang": "en",
+      "unit": "art_20",
+      "key": "p2.d",
+      "change": "editorial",
+      "act": "32009R0810",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "vis",
+       "stage": "s07",
+       "lang": "en",
+       "unit": "*",
+       "key": "*",
+       "what": "02008R0767-20230803 EN: die durch 810/2009 gestrichenen Worte «or shortened» bzw. «, shortened» stehen in Art. 19 Abs. 2 Bst. c, 20 Abs. 2 Bst. d, 22 Abs. 2 Bst. d und 23 Abs. 1 Bst. d wieder im Text (ohne Marker); 20231227 streicht sie erneut."
+      }
+     },
+     {
+      "stage": "s07",
+      "lang": "en",
+      "unit": "art_22",
+      "key": "p2.d",
+      "change": "editorial",
+      "act": "32009R0810",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "vis",
+       "stage": "s07",
+       "lang": "en",
+       "unit": "*",
+       "key": "*",
+       "what": "02008R0767-20230803 EN: die durch 810/2009 gestrichenen Worte «or shortened» bzw. «, shortened» stehen in Art. 19 Abs. 2 Bst. c, 20 Abs. 2 Bst. d, 22 Abs. 2 Bst. d und 23 Abs. 1 Bst. d wieder im Text (ohne Marker); 20231227 streicht sie erneut."
+      }
+     },
+     {
+      "stage": "s07",
+      "lang": "en",
+      "unit": "art_23",
+      "key": "p1.d",
+      "change": "editorial",
+      "act": "32009R0810",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "vis",
+       "stage": "s07",
+       "lang": "en",
+       "unit": "*",
+       "key": "*",
+       "what": "02008R0767-20230803 EN: die durch 810/2009 gestrichenen Worte «or shortened» bzw. «, shortened» stehen in Art. 19 Abs. 2 Bst. c, 20 Abs. 2 Bst. d, 22 Abs. 2 Bst. d und 23 Abs. 1 Bst. d wieder im Text (ohne Marker); 20231227 streicht sie erneut."
+      }
+     },
+     {
+      "stage": "s08",
+      "lang": "en",
+      "unit": "art_19",
+      "key": "p2.c",
+      "change": "editorial",
+      "act": "32009R0810",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "vis",
+       "stage": "s08",
+       "lang": "en",
+       "unit": "*",
+       "key": "*",
+       "what": "02008R0767-20231227 EN: erneute Streichung von «or shortened» (s. s07)."
+      }
+     },
+     {
+      "stage": "s08",
+      "lang": "en",
+      "unit": "art_20",
+      "key": "p2.d",
+      "change": "editorial",
+      "act": "32009R0810",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "vis",
+       "stage": "s08",
+       "lang": "en",
+       "unit": "*",
+       "key": "*",
+       "what": "02008R0767-20231227 EN: erneute Streichung von «or shortened» (s. s07)."
+      }
+     },
+     {
+      "stage": "s08",
+      "lang": "en",
+      "unit": "art_22",
+      "key": "p2.d",
+      "change": "editorial",
+      "act": "32009R0810",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "vis",
+       "stage": "s08",
+       "lang": "en",
+       "unit": "*",
+       "key": "*",
+       "what": "02008R0767-20231227 EN: erneute Streichung von «or shortened» (s. s07)."
+      }
+     },
+     {
+      "stage": "s08",
+      "lang": "en",
+      "unit": "art_23",
+      "key": "p1.d",
+      "change": "editorial",
+      "act": "32009R0810",
+      "how": "Herkunft o",
+      "x": "editorial",
+      "explained": false,
+      "why": null,
+      "defect": {
+       "work": "vis",
+       "stage": "s08",
+       "lang": "en",
+       "unit": "*",
+       "key": "*",
+       "what": "02008R0767-20231227 EN: erneute Streichung von «or shortened» (s. s07)."
+      }
+     }
+    ],
+    "originKept": 49,
+    "originKeptBy": {
+     "s03 FR: 32008R0767R(05) → 32008R0767": 16,
+     "s04 FR: 32008R0767R(05) → 32008R0767": 2,
+     "s03 EN: 32008R0767R(05) → 32008R0767": 17,
+     "s04 EN: 32008R0767R(05) → 32008R0767": 2,
+     "s10 DE: 32024R1356 → 32021R1152": 1,
+     "s10 FR: 32024R1356 → 32021R1152": 1,
+     "s03 FR: 32017R2226 → 32008R0767": 1,
+     "s03 EN: 32017R2226 → 32008R0767": 2,
+     "s04 EN: 32017R2226 → 32008R0767": 1,
+     "s06 FR: 32008R0767R(05) → 32008R0767": 3,
+     "s06 EN: 32008R0767R(05) → 32008R0767": 3
+    },
+    "byWhy": {}
+   },
+   "actsCheck": [
+    {
+     "celex": "32008R0767",
+     "kind": "base",
+     "changes": 0,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32009R0810",
+     "kind": "amendment",
+     "changes": 15,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32013R0610",
+     "kind": "amendment",
+     "changes": 1,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32017R2226",
+     "kind": "amendment",
+     "changes": 11,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32017R2226R(01)",
+     "kind": "corrigendum",
+     "changes": 1,
+     "titles": "de,fr,en",
+     "oj": "de",
+     "issues": []
+    },
+    {
+     "celex": "32008R0767R(05)",
+     "kind": "corrigendum",
+     "changes": 9,
+     "titles": "fr,en",
+     "oj": "fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32017R2226R(03)",
+     "kind": "corrigendum",
+     "changes": 2,
+     "titles": "en",
+     "oj": "en",
+     "issues": []
+    },
+    {
+     "celex": "32019R0817",
+     "kind": "amendment",
+     "changes": 5,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32021R1134",
+     "kind": "amendment",
+     "changes": 25,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32021R1152",
+     "kind": "amendment",
+     "changes": 6,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32023R2667",
+     "kind": "amendment",
+     "changes": 2,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32024R1356",
+     "kind": "amendment",
+     "changes": 1,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32024R1356R(01)",
+     "kind": "corrigendum",
+     "changes": 1,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    }
+   ],
+   "sizes": {
+    "vis.dataset.json": {
+     "raw": 881665,
+     "gzip": 143278,
+     "sha256": "2ef1b36c87ced2c3747c70fe8cd75708bfe250fd61badd5eca4bd18cc5bd1f73"
+    },
+    "vis.acts.json": {
+     "raw": 41543,
+     "gzip": 5409,
+     "sha256": "8853e85fae8af3e6cdf42a5a6e6dca75017e87775020354bf27eb60b387df89c"
+    }
+   },
+   "langPairs": 698,
+   "skipped": [],
+   "droppedFromList": [],
+   "stageActs": [
+    {
+     "id": "s00",
+     "date": "2008-08-13",
+     "act": "32008R0767",
+     "acts": [
+      "32008R0767"
+     ],
+     "celex": "32008R0767",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s01",
+     "date": "2010-04-05",
+     "act": "32009R0810",
+     "acts": [
+      "32009R0810"
+     ],
+     "celex": "02008R0767-20100405",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s02",
+     "date": "2013-10-18",
+     "act": "32013R0610",
+     "acts": [
+      "32013R0610"
+     ],
+     "celex": "02008R0767-20131018",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s03",
+     "date": "2017-12-29",
+     "act": "32017R2226",
+     "acts": [
+      "32017R2226",
+      "32008R0767R(05)"
+     ],
+     "celex": "02008R0767-20171229",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s04",
+     "date": "2019-06-11",
+     "act": "32019R0817",
+     "acts": [
+      "32019R0817",
+      "32017R2226R(01)",
+      "32017R2226R(03)"
+     ],
+     "celex": "02008R0767-20190611",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s05",
+     "date": "2021-08-03",
+     "act": "32021R1134",
+     "acts": [
+      "32021R1134",
+      "32021R1152"
+     ],
+     "celex": "02008R0767-20210803",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s06",
+     "date": "2022-08-03",
+     "act": "32021R1134",
+     "acts": [
+      "32021R1134"
+     ],
+     "celex": "02008R0767-20220803",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s07",
+     "date": "2023-08-03",
+     "act": "32021R1134",
+     "acts": [
+      "32021R1134"
+     ],
+     "celex": "02008R0767-20230803",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s08",
+     "date": "2023-12-27",
+     "act": "32023R2667",
+     "acts": [
+      "32023R2667"
+     ],
+     "celex": "02008R0767-20231227",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s09",
+     "date": "2025-10-12",
+     "act": "02008R0767-20251012",
+     "acts": [],
+     "celex": "02008R0767-20251012",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s10",
+     "date": "2026-06-12",
+     "act": "32024R1356",
+     "acts": [
+      "32024R1356",
+      "32024R1356R(01)"
+     ],
+     "celex": "02008R0767-20260612",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    }
+   ],
+   "inserted": [
+    {
+     "act": "32009R0810",
+     "raw": true,
+     "amendingUnits": [
+      "art_54"
+     ],
+     "quoted": 1,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32013R0610",
+     "raw": true,
+     "amendingUnits": [
+      "art_5"
+     ],
+     "quoted": 0,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32017R2226",
+     "raw": true,
+     "amendingUnits": [
+      "art_61"
+     ],
+     "quoted": 4,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32019R0817",
+     "raw": true,
+     "amendingUnits": [
+      "art_58"
+     ],
+     "quoted": 0,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32021R1134",
+     "raw": true,
+     "amendingUnits": [
+      "art_1"
+     ],
+     "quoted": 68,
+     "missing": [
+      "2a",
+      "9a",
+      "9b",
+      "9c",
+      "9d",
+      "9e",
+      "9f",
+      "9g",
+      "9i",
+      "9k",
+      "9l",
+      "22a",
+      "22c",
+      "22d",
+      "22e",
+      "22f",
+      "22g",
+      "22h",
+      "22i",
+      "22j",
+      "22k",
+      "22l",
+      "22m",
+      "22n",
+      "22o",
+      "22p",
+      "22q",
+      "22r",
+      "22s",
+      "22t",
+      "27a",
+      "32a",
+      "45a",
+      "45b",
+      "49a"
+     ],
+     "everPresent": []
+    },
+    {
+     "act": "32021R1152",
+     "raw": true,
+     "amendingUnits": [
+      "art_2"
+     ],
+     "quoted": 4,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32023R2667",
+     "raw": true,
+     "amendingUnits": [
+      "art_2"
+     ],
+     "quoted": 12,
+     "missing": [
+      "7a",
+      "7b",
+      "7c",
+      "7d",
+      "7e",
+      "7f",
+      "7g",
+      "7h",
+      "7i",
+      "7j",
+      "12a",
+      "18e"
+     ],
+     "everPresent": []
+    },
+    {
+     "act": "32024R1356",
+     "raw": true,
+     "amendingUnits": [
+      "art_20"
+     ],
+     "quoted": 0,
+     "missing": [],
+     "everPresent": []
+    }
+   ],
+   "tilde": [],
+   "keysAligned": [],
+   "reproducible": true,
+   "library": {
+    "resolveBase": true,
+    "resolveConsolidated": true,
+    "stageAtEachDate": true,
+    "beforeFirst": true,
+    "actsOfStage": true
+   }
+  },
+  "iop": {
+   "stages": 6,
+   "units": 81,
+   "acts": 8,
+   "coverage": [
+    {
+     "stage": "s00",
+     "celex": "32019R0817",
+     "lang": "de",
+     "srcTokens": 27585,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s00",
+     "celex": "32019R0817",
+     "lang": "fr",
+     "srcTokens": 36486,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s00",
+     "celex": "32019R0817",
+     "lang": "en",
+     "srcTokens": 30907,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "celex": "02019R0817-20190522",
+     "lang": "de",
+     "srcTokens": 27585,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "celex": "02019R0817-20190522",
+     "lang": "fr",
+     "srcTokens": 36486,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "celex": "02019R0817-20190522",
+     "lang": "en",
+     "srcTokens": 30907,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "celex": "02019R0817-20210803",
+     "lang": "de",
+     "srcTokens": 27655,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "celex": "02019R0817-20210803",
+     "lang": "fr",
+     "srcTokens": 36590,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "celex": "02019R0817-20210803",
+     "lang": "en",
+     "srcTokens": 30989,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "celex": "02019R0817-20240425",
+     "lang": "de",
+     "srcTokens": 27949,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "celex": "02019R0817-20240425",
+     "lang": "fr",
+     "srcTokens": 36964,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "celex": "02019R0817-20240425",
+     "lang": "en",
+     "srcTokens": 31318,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "celex": "02019R0817-20250128",
+     "lang": "de",
+     "srcTokens": 27737,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "celex": "02019R0817-20250128",
+     "lang": "fr",
+     "srcTokens": 36687,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "celex": "02019R0817-20250128",
+     "lang": "en",
+     "srcTokens": 31082,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "celex": "02019R0817-20260612",
+     "lang": "de",
+     "srcTokens": 27970,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "celex": "02019R0817-20260612",
+     "lang": "fr",
+     "srcTokens": 37012,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "celex": "02019R0817-20260612",
+     "lang": "en",
+     "srcTokens": 31356,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    }
+   ],
+   "coverageDs": [
+    {
+     "stage": "s00",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s00",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s00",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s01",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s02",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s03",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s04",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "lang": "de",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "lang": "fr",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    },
+    {
+     "stage": "s05",
+     "lang": "en",
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "gaps": []
+    }
+   ],
+   "recitals": [
+    {
+     "lang": "de",
+     "recitals": 84,
+     "blocks": 90,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "srcTokens": 7980,
+     "labelsOk": true
+    },
+    {
+     "lang": "fr",
+     "recitals": 84,
+     "blocks": 90,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "srcTokens": 10445,
+     "labelsOk": true
+    },
+    {
+     "lang": "en",
+     "recitals": 84,
+     "blocks": 90,
+     "coverage": 1,
+     "missing": 0,
+     "extra": 0,
+     "srcTokens": 8113,
+     "labelsOk": true
+    }
+   ],
+   "lang": [],
+   "changes": {
+    "total": 116,
+    "unexplained": 0,
+    "unexplainedWithoutDefect": 0,
+    "list": [],
+    "originKept": 7,
+    "originKeptBy": {
+     "s05 FR: 32024R1356 → 32019R0817": 2,
+     "s05 EN: 32024R1356 → 32019R0817": 2,
+     "s01 DE: 32019R0817R(01) → 32019R0817": 1,
+     "s01 FR: 32019R0817R(01) → 32019R0817": 1,
+     "s01 EN: 32019R0817R(01) → 32019R0817": 1
+    },
+    "byWhy": {}
+   },
+   "actsCheck": [
+    {
+     "celex": "32019R0817",
+     "kind": "base",
+     "changes": 0,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32019R0817R(01)",
+     "kind": "corrigendum",
+     "changes": 1,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32021R1134",
+     "kind": "amendment",
+     "changes": 8,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32021R1152",
+     "kind": "amendment",
+     "changes": 1,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32024R0982",
+     "kind": "amendment",
+     "changes": 1,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32024R1356",
+     "kind": "amendment",
+     "changes": 5,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32025R0012",
+     "kind": "amendment",
+     "changes": 1,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    },
+    {
+     "celex": "32019R0817R(05)",
+     "kind": "corrigendum",
+     "changes": 1,
+     "titles": "de,fr,en",
+     "oj": "de,fr,en",
+     "issues": []
+    }
+   ],
+   "sizes": {
+    "iop.dataset.json": {
+     "raw": 1206233,
+     "gzip": 207861,
+     "sha256": "d9f1709569d34f9a3d8e58bc86be5be8173a40ee62416b8dea37c6ac2dc26470"
+    },
+    "iop.acts.json": {
+     "raw": 20658,
+     "gzip": 3393,
+     "sha256": "95a27d8797530ec9b7633a9d06120294176785d0374d2d75fdaf16b6b9e2dfe3"
+    }
+   },
+   "langPairs": 481,
+   "skipped": [],
+   "droppedFromList": [
+    {
+     "stage": "s04",
+     "dropped": [
+      "32021R1134"
+     ]
+    },
+    {
+     "stage": "s05",
+     "dropped": [
+      "32021R1134"
+     ]
+    }
+   ],
+   "stageActs": [
+    {
+     "id": "s00",
+     "date": "2019-05-22",
+     "act": "32019R0817",
+     "acts": [
+      "32019R0817"
+     ],
+     "celex": "32019R0817",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s01",
+     "date": "2019-05-22",
+     "act": "32019R0817R(01)",
+     "acts": [
+      "32019R0817R(01)"
+     ],
+     "celex": "02019R0817-20190522",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s02",
+     "date": "2021-08-03",
+     "act": "32021R1152",
+     "acts": [
+      "32021R1152"
+     ],
+     "celex": "02019R0817-20210803",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s03",
+     "date": "2024-04-25",
+     "act": "32021R1134",
+     "acts": [
+      "32021R1134",
+      "32024R0982"
+     ],
+     "celex": "02019R0817-20240425",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s04",
+     "date": "2025-01-28",
+     "act": "32025R0012",
+     "acts": [
+      "32025R0012",
+      "32019R0817R(05)"
+     ],
+     "celex": "02019R0817-20250128",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    },
+    {
+     "id": "s05",
+     "date": "2026-06-12",
+     "act": "32024R1356",
+     "acts": [
+      "32024R1356"
+     ],
+     "celex": "02019R0817-20260612",
+     "langs": [
+      "de",
+      "fr",
+      "en"
+     ],
+     "ok": true
+    }
+   ],
+   "inserted": [
+    {
+     "act": "32021R1134",
+     "raw": true,
+     "amendingUnits": [
+      "art_8"
+     ],
+     "quoted": 0,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32021R1152",
+     "raw": true,
+     "amendingUnits": [
+      "art_6"
+     ],
+     "quoted": 0,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32024R0982",
+     "raw": true,
+     "amendingUnits": [
+      "art_70"
+     ],
+     "quoted": 0,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32024R1356",
+     "raw": true,
+     "amendingUnits": [
+      "art_23"
+     ],
+     "quoted": 1,
+     "missing": [],
+     "everPresent": []
+    },
+    {
+     "act": "32025R0012",
+     "raw": true,
+     "amendingUnits": [
+      "art_42"
+     ],
+     "quoted": 0,
+     "missing": [],
+     "everPresent": []
+    }
+   ],
+   "tilde": [],
+   "keysAligned": [
+    {
+     "unit": "art_16",
+     "stage": "s00",
+     "lang": "de",
+     "map": {
+      "n1": "p1",
+      "n1.a": "p1.a",
+      "n1.b": "p1.b",
+      "n1.c": "p1.c",
+      "n1.d": "p1.d",
+      "n1.e": "p1.e",
+      "n1.f": "p1.f"
+     },
+     "labels": "1. a) b) c) d) e) f)"
+    },
+    {
+     "unit": "art_17",
+     "stage": "s05",
+     "lang": "de",
+     "map": {
+      "p3.n4": "p4"
+     },
+     "labels": "4."
+    },
+    {
+     "unit": "art_74",
+     "stage": "s00",
+     "lang": "de",
+     "map": {
+      "n1": "p1",
+      "n2": "p2",
+      "s1": "p2.s2"
+     },
+     "labels": "1. 2. "
+    }
+   ],
+   "reproducible": true,
+   "library": {
+    "resolveBase": true,
+    "resolveConsolidated": true,
+    "stageAtEachDate": true,
+    "beforeFirst": true,
+    "actsOfStage": true
+   }
+  }
+ },
+ "sgk": {
+  "proof": {
+   "dryRun": true,
+   "baselineSha256": "ce504492e7fc1693147391a845be1afad511866bf1d5f9c7e5aba799edc72742",
+   "afterSha256": "91a5d964f71be2b9c7ba678af4e19e679e3b011bc389c79000be97cbb31100d2",
+   "afterWithoutRctSha256": "ce504492e7fc1693147391a845be1afad511866bf1d5f9c7e5aba799edc72742",
+   "identical": true,
+   "hadRct": false,
+   "recitals": {
+    "de": {
+     "recitals": 44,
+     "blocks": 44
+    },
+    "fr": {
+     "recitals": 44,
+     "blocks": 44
+    },
+    "en": {
+     "recitals": 44,
+     "blocks": 44
+    }
+   },
+   "bytesBefore": 1551555,
+   "bytesAfter": 1640421
+  },
+  "hasRct": false,
+  "withoutRctSha": "ce504492e7fc1693147391a845be1afad511866bf1d5f9c7e5aba799edc72742",
+  "gitRef": "f319353",
+  "gitSha": "ce504492e7fc1693147391a845be1afad511866bf1d5f9c7e5aba799edc72742",
+  "coverage": [
+   {
+    "lang": "de",
+    "blocks": 44,
+    "coverage": 1,
+    "missing": 0,
+    "extra": 0,
+    "srcTokens": 3360
+   },
+   {
+    "lang": "fr",
+    "blocks": 44,
+    "coverage": 1,
+    "missing": 0,
+    "extra": 0,
+    "srcTokens": 4417
+   },
+   {
+    "lang": "en",
+    "blocks": 44,
+    "coverage": 1,
+    "missing": 0,
+    "extra": 0,
+    "srcTokens": 3629
+   }
+  ]
+ },
+ "budget": {
+  "gzTotal": 882556,
+  "rawTotal": 5370908,
+  "limit": 2621440,
+  "ok": true
+ },
+ "tests": {
+  "pass": 13,
+  "fail": 0
+ }
+}

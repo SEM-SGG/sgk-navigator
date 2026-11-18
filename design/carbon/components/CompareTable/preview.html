@@ -1,0 +1,37 @@
+<!-- @dsCard group="Rechtsakte" height=400 -->
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>body{margin:0;background:var(--canvas)}</style>
+</head>
+<body>
+<div class="ui-root" style="padding: 24px; background: var(--canvas)">
+<div class="ui-table" style="--cols: 180px minmax(0, 1fr) minmax(0, 1fr)">
+<div class="ui-table-head"><span>Bestimmung</span><span><i class="ui-swatch" data-act="sys" aria-hidden="true"></i>Alt: nach Syst. Abfr. (2017)</span><span><i class="ui-swatch" data-act="ees" aria-hidden="true"></i>Neu: nach EES (2025)</span></div>
+<div class="ui-table-row"><div class="ui-table-cite">Ziff. i Unterabs. 2<span class="ui-tag ui-tag--info">geändert</span></div><div class="ui-table-legal">Bei Pässen und Reisedokumenten mit einem <del class="ui-del">Speichermedium</del> wird vorbehaltlich der Verfügbarkeit gültiger Zertifikate die <del class="ui-del">Authentizität</del> der Daten auf dem <del class="ui-del">Chip geprüft;</del></div><div class="ui-table-legal">Bei Pässen und Reisedokumenten mit einem <ins class="ui-ins">elektronischen Speichermedium (Chip)</ins> wird vorbehaltlich der Verfügbarkeit gültiger Zertifikate die <ins class="ui-ins">Echtheit und Integrität</ins> der Daten auf dem <ins class="ui-ins">elektronischen Speichermedium (Chip) geprüft.</ins></div></div>
+<div class="ui-table-row"><div class="ui-table-cite">Ziff. iiia<span class="ui-tag ui-tag--ins">eingefügt</span></div><div class="ui-table-empty">Die Einheit besteht im alten Stand noch nicht.</div><div class="ui-table-legal">iiia) <ins class="ui-ins">Bei Personen, deren Einreise beziehungsweise Einreiseverweigerung gemäß Artikel 6a der vorliegenden Verordnung im EES zu erfassen ist, Überprüfung, ob der Drittstaatsangehörige die zulässige Höchstdauer des Aufenthalts […]</ins></div></div>
+</div>
+</div>
+<script>
+document.querySelectorAll('.ui-seg').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('[role="tablist"]').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('[role="tab"]'); if (!b) return;
+    g.querySelectorAll('[role="tab"]').forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('.ui-stagebar').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('.ui-stage'); if (!b) return;
+    g.querySelectorAll('.ui-stage').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+</script>
+</body>
+</html>

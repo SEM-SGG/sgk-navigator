@@ -1,0 +1,38 @@
+<!-- @dsCard group="Daten" height=170 -->
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>body{margin:0;background:var(--canvas)}</style>
+</head>
+<body>
+<div class="ui-root" style="padding: 24px; background: var(--canvas)">
+<div class="ui-kpis">
+<div class="ui-kpi"><div class="ui-kpi-value">9</div><div class="ui-kpi-label">Stände im Datensatz</div><div class="ui-kpi-sub">6 davon rekonstruiert oder ergänzt</div></div>
+<div class="ui-kpi"><div class="ui-kpi-value">34</div><div class="ui-kpi-label">geänderte Artikel</div><div class="ui-kpi-sub">von 58 Artikeln, dazu 6 von 12 Anhängen</div></div>
+<div class="ui-kpi"><div class="ui-kpi-value">8</div><div class="ui-kpi-label">ändernde Akte mit Stand</div><div class="ui-kpi-sub">3 beschlossen, noch nicht anwendbar</div></div>
+<div class="ui-kpi"><div class="ui-kpi-value">1</div><div class="ui-kpi-label">hängiger Vorschlag</div><div class="ui-kpi-sub">COM(2024) 670, im Trilog</div></div>
+</div>
+</div>
+<script>
+document.querySelectorAll('.ui-seg').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('[role="tablist"]').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('[role="tab"]'); if (!b) return;
+    g.querySelectorAll('[role="tab"]').forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('.ui-stagebar').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('.ui-stage'); if (!b) return;
+    g.querySelectorAll('.ui-stage').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+</script>
+</body>
+</html>

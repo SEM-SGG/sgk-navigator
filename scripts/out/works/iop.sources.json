@@ -1,0 +1,417 @@
+{
+ "id": "iop",
+ "celex": "32019R0817",
+ "versionsFrom": "cache",
+ "versions": [
+  "02019R0817-20190522",
+  "02019R0817-20210803",
+  "02019R0817-20240425",
+  "02019R0817-20250128",
+  "02019R0817-20260612"
+ ],
+ "skipped": [],
+ "availability": {
+  "32019R0817": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02019R0817-20190522": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02019R0817-20210803": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02019R0817-20240425": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02019R0817-20250128": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02019R0817-20260612": [
+   "de",
+   "fr",
+   "en"
+  ]
+ },
+ "stages": [
+  {
+   "id": "s00",
+   "celex": "32019R0817",
+   "date": "2019-05-22",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32019R0817"
+   ],
+   "modifiers": [],
+   "droppedFromList": []
+  },
+  {
+   "id": "s01",
+   "celex": "02019R0817-20190522",
+   "date": "2019-05-22",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32019R0817R(01)"
+   ],
+   "modifiers": [
+    "32019R0817R(01)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s02",
+   "celex": "02019R0817-20210803",
+   "date": "2021-08-03",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32021R1152"
+   ],
+   "modifiers": [
+    "32021R1152",
+    "32019R0817R(01)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s03",
+   "celex": "02019R0817-20240425",
+   "date": "2024-04-25",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32021R1134",
+    "32024R0982"
+   ],
+   "modifiers": [
+    "32021R1134",
+    "32021R1152",
+    "32024R0982",
+    "32019R0817R(01)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s04",
+   "celex": "02019R0817-20250128",
+   "date": "2025-01-28",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32025R0012",
+    "32019R0817R(05)"
+   ],
+   "modifiers": [
+    "32021R1152",
+    "32024R0982",
+    "32025R0012",
+    "32019R0817R(01)",
+    "32019R0817R(05)"
+   ],
+   "droppedFromList": [
+    "32021R1134"
+   ]
+  },
+  {
+   "id": "s05",
+   "celex": "02019R0817-20260612",
+   "date": "2026-06-12",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32024R1356"
+   ],
+   "modifiers": [
+    "32021R1152",
+    "32024R0982",
+    "32024R1356",
+    "32025R0012",
+    "32019R0817R(01)",
+    "32019R0817R(05)"
+   ],
+   "droppedFromList": [
+    "32021R1134"
+   ]
+  }
+ ],
+ "recitals": {
+  "de": {
+   "recitals": 84,
+   "blocks": 90
+  },
+  "fr": {
+   "recitals": 84,
+   "blocks": 90
+  },
+  "en": {
+   "recitals": 84,
+   "blocks": 90
+  }
+ },
+ "attributions": {
+  "total": 116,
+  "unexplained": []
+ },
+ "meta": {
+  "32019R0817": {
+   "title": {
+    "fr": "Règlement (UE) 2019/817 du Parlement européen et du Conseil du 20 mai 2019 portant établissement d'un cadre pour l'interopérabilité des systèmes d'information de l'UE dans le domaine des frontières et des visas et modifiant les règlements (CE) n° 767/2008, (UE) 2016/399, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1726 et (UE) 2018/1861 du Parlement européen et du Conseil et les décisions 2004/512/CE et 2008/633/JAI du Conseil",
+    "de": "Verordnung (EU) 2019/817 des Europäischen Parlaments und des Rates vom 20. Mai 2019 zur Errichtung eines Rahmens für die Interoperabilität zwischen EU-Informationssystemen in den Bereichen Grenzen und Visa und zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 und (EU) 2018/1861 des Europäischen Parlaments und des Rates, der Entscheidung 2004/512/EG des Rates und des Beschlusses 2008/633/JI des Rates",
+    "en": "Regulation (EU) 2019/817 of the European Parliament and of the Council of 20 May 2019 on establishing a framework for interoperability between EU information systems in the field of borders and visa and amending Regulations (EC) No 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 and (EU) 2018/1861 of the European Parliament and of the Council and Council Decisions 2004/512/EC and 2008/633/JHA"
+   },
+   "adopted": "2019-05-20",
+   "eif": [
+    "2019-06-11",
+    "2025-05-19",
+    "2026-06-12"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2019/817/oj"
+  },
+  "32021R1134": {
+   "title": {
+    "en": "Regulation (EU) 2021/1134 of the European Parliament and of the Council of 7 July 2021 amending Regulations (EC) No 767/2008, (EC) No 810/2009, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861, (EU) 2019/817 and (EU) 2019/1896 of the European Parliament and of the Council and repealing Council Decisions 2004/512/EC and 2008/633/JHA, for the purpose of reforming the Visa Information System",
+    "fr": "Règlement (UE) 2021/1134 du Parlement européen et du Conseil du 7 juillet 2021 modifiant les règlements (CE) no 767/2008, (CE) no 810/2009, (UE) 2016/399, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1860, (UE) 2018/1861, (UE) 2019/817 et (UE) 2019/1896 du Parlement européen et du Conseil et abrogeant les décisions 2004/512/CE et 2008/633/JAI du Conseil, aux fins de réformer le système d’information sur les visas",
+    "de": "Verordnung (EU) 2021/1134 des Europäischen Parlaments und des Rates vom 7. Juli 2021 zur Änderung der Verordnungen (EG) Nr. 767/2008, (EG) Nr. 810/2009, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861, (EU) 2019/817 und (EU) 2019/1896 des Europäischen Parlaments und des Rates und zur Aufhebung der Entscheidung 2004/512/EG und des Beschlusses 2008/633/JI des Rates zur Reform des Visa-Informationssystems"
+   },
+   "adopted": "2021-07-07",
+   "eif": [
+    "2021-08-02",
+    "2022-08-03",
+    "2023-08-03"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2021/1134/oj"
+  },
+  "32021R1152": {
+   "title": {
+    "de": "Verordnung (EU) 2021/1152 des Europäischen Parlaments und des Rates vom 7. Juli 2021 zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861 und (EU) 2019/817 hinsichtlich der Festlegung der Bedingungen für den Zugang zu anderen EU-Informationssystemen für die Zwecke des Europäischen Reiseinformations- und -genehmigungssystems",
+    "fr": "Règlement (UE) 2021/1152 du Parlement européen et du Conseil du 7 juillet 2021 modifiant les règlements (CE) no 767/2008, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1860, (UE) 2018/1861 et (UE) 2019/817 en ce qui concerne l’établissement des conditions d’accès aux autres systèmes d’information de l’UE aux fins du système européen d’information et d’autorisation concernant les voyages",
+    "en": "Regulation (EU) 2021/1152 of the European Parliament and of the Council of 7 July 2021 amending Regulations (EC) No 767/2008, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861 and (EU) 2019/817 as regards the establishment of the conditions for accessing other EU information systems for the purposes of the European Travel Information and Authorisation System"
+   },
+   "adopted": "2021-07-07",
+   "eif": [
+    "2021-08-03"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2021/1152/oj"
+  },
+  "32024R1356": {
+   "title": {
+    "en": "Regulation (EU) 2024/1356 of the European Parliament and of the Council of 14 May 2024 introducing the screening of third-country nationals at the external borders and amending Regulations (EC) No 767/2008, (EU) 2017/2226, (EU) 2018/1240 and (EU) 2019/817",
+    "fr": "Règlement (UE) 2024/1356 du Parlement européen et du Conseil du 14 mai 2024 établissant le filtrage des ressortissants de pays tiers aux frontières extérieures et modifiant les règlements (CE) n° 767/2008, (UE) 2017/2226, (UE) 2018/1240 et (UE) 2019/817",
+    "de": "Verordnung (EU) 2024/1356 des Europäischen Parlaments und des Rates vom 14. Mai 2024 zur Einführung der Überprüfung von Drittstaatsangehörigen an den Außengrenzen und zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2017/2226, (EU) 2018/1240 und (EU) 2019/817"
+   },
+   "adopted": "2024-05-14",
+   "eif": [
+    "2024-06-11",
+    "2026-06-12"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2024/1356/oj"
+  },
+  "32024R0982": {
+   "title": {
+    "en": "Regulation (EU) 2024/982 of the European Parliament and of the Council of 13 March 2024 on the automated search and exchange of data for police cooperation, and amending Council Decisions 2008/615/JHA and 2008/616/JHA and Regulations (EU) 2018/1726, (EU) No 2019/817 and (EU) 2019/818 of the European Parliament and of the Council (the Prüm II Regulation)",
+    "de": "Verordnung (EU) 2024/982 des Europäischen Parlaments und des Rates vom 13. März 2024 über die automatisierte Abfrage und den Austausch von Daten für die polizeiliche Zusammenarbeit und zur Änderung der Beschlüsse 2008/615/JI und 2008/616/JI des Rates sowie der Verordnungen (EU) 2018/1726, (EU) 2019/817 und (EU) 2019/818 des Europäischen Parlaments und des Rates (Prüm-II-Verordnung)",
+    "fr": "Règlement (UE) 2024/982 du Parlement européen et du Conseil du 13 mars 2024 relatif à la consultation et l’échange automatisés de données dans le cadre de la coopération policière, et modifiant les décisions 2008/615/JAI et 2008/616/JAI du Conseil et les règlements (UE) 2018/1726, (UE) 2019/817 et (UE) 2019/818 du Parlement européen et du Conseil (règlement Prüm II)"
+   },
+   "adopted": "2024-03-13",
+   "eif": [
+    "2024-04-25"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2024/982/oj"
+  },
+  "32025R0012": {
+   "title": {
+    "de": "Verordnung (EU) 2025/12 des Europäischen Parlaments und des Rates vom 19. Dezember 2024 über die Erhebung und Übermittlung vorab übermittelter Fluggastdaten zur Verbesserung und Erleichterung der Kontrollen an den Außengrenzen, zur Änderung der Verordnungen (EU) 2018/1726 und (EU) 2019/817 sowie zur Aufhebung der Richtlinie 2004/82/EG des Rates",
+    "fr": "Règlement (UE) 2025/12 du Parlement européen et du Conseil du 19 décembre 2024 relatif à la collecte et au transfert des informations préalables sur les passagers en vue de renforcer et de faciliter les vérifications aux frontières extérieures, modifiant les règlements (UE) 2018/1726 et (UE) 2019/817, et abrogeant la directive 2004/82/CE du Conseil",
+    "en": "Regulation (EU) 2025/12 of the European Parliament and of the Council of 19 December 2024 on the collection and transfer of advance passenger information for enhancing and facilitating external border checks, amending Regulations (EU) 2018/1726 and (EU) 2019/817, and repealing Council Directive 2004/82/EC"
+   },
+   "adopted": "2024-12-19",
+   "eif": [
+    "2025-01-28"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2025/12/oj"
+  },
+  "32019R0817R(01)": {
+   "title": {
+    "de": "Berichtigung der Verordnung (EU) 2019/817 des Europäischen Parlaments und des Rates vom 20. Mai 2019 zur Errichtung eines Rahmens für die Interoperabilität zwischen EU-Informationssystemen in den Bereichen Grenzen und Visa und zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 und (EU) 2018/1861 des Europäischen Parlaments und des Rates, der Entscheidung 2004/512/EG des Rates und des Beschlusses 2008/633/JI des Rates (Amtsblatt der Europäischen Union L 135 vom 22. Mai 2019)",
+    "en": "Corrigendum to Regulation (EU) 2019/817 of the European Parliament and of the Council of 20 May 2019 on establishing a framework for interoperability between EU information systems in the field of borders and visa and amending Regulations (EC) No 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 and (EU) 2018/1861 of the European Parliament and of the Council and Council Decisions 2004/512/EC and 2008/633/JHA (Official Journal of the European Union L 135 of 22 May 2019)",
+    "fr": "Rectificatif au règlement (UE) 2019/817 du Parlement européen et du Conseil du 20 mai 2019 portant établissement d’un cadre pour l’interopérabilité des systèmes d’information de l’UE dans le domaine des frontières et des visas et modifiant les règlements (CE) no 767/2008, (UE) 2016/399, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1726 et (UE) 2018/1861 du Parlement européen et du Conseil et les décisions 2004/512/CE et 2008/633/JAI du Conseil (Journal officiel de l’Union européenne L 135 du 22 mai 2019)"
+   },
+   "adopted": "2020-01-15",
+   "eif": [],
+   "eli": "http://data.europa.eu/eli/reg/2019/817/corrigendum/2020-01-15/oj"
+  },
+  "32019R0817R(05)": {
+   "title": {
+    "de": "Berichtigung der Verordnung (EU) 2019/817 des Europäischen Parlaments und des Rates vom 20. Mai 2019 zur Errichtung eines Rahmens für die Interoperabilität zwischen EU-Informationssystemen in den Bereichen Grenzen und Visa und zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 und (EU) 2018/1861 des Europäischen Parlaments und des Rates, der Entscheidung 2004/512/EG des Rates und des Beschlusses 2008/633/JI des Rates (ABl. L 135 vom 22.5.2019)",
+    "en": "Corrigendum to Regulation (EU) 2019/817 of the European Parliament and of the Council of 20 May 2019 on establishing a framework for interoperability between EU information systems in the field of borders and visa and amending Regulations (EC) No 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 and (EU) 2018/1861 of the European Parliament and of the Council and Council Decisions 2004/512/EC and 2008/633/JHA (OJ L 135, 22.5.2019)",
+    "fr": "Rectificatif au règlement (UE) 2019/817 du Parlement européen et du Conseil du 20 mai 2019 portant établissement d’un cadre pour l’interopérabilité des systèmes d’information de l’UE dans le domaine des frontières et des visas et modifiant les règlements (CE) n° 767/2008, (UE) 2016/399, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1726 et (UE) 2018/1861 du Parlement européen et du Conseil et les décisions 2004/512/CE et 2008/633/JAI du Conseil (JO L 135 du 22.5.2019)"
+   },
+   "adopted": "2025-11-27",
+   "eif": [],
+   "eli": "http://data.europa.eu/eli/reg/2019/817/corrigendum/2025-11-27/oj"
+  }
+ },
+ "output": {
+  "dataset": {
+   "bytes": 1206233,
+   "sha256": "d9f1709569d34f9a3d8e58bc86be5be8173a40ee62416b8dea37c6ac2dc26470"
+  },
+  "acts": {
+   "bytes": 20663,
+   "sha256": "1c81ab762eb502eb76ff6e5f906b2700731086ae2a7906549c13d44efdbdd20d"
+  }
+ },
+ "editorial": [
+  {
+   "unit": "art_6",
+   "key": "p2.c",
+   "lang": "de",
+   "stage": "s03",
+   "kind": "editorial",
+   "before": "eine sichere Kommunikationsinfrastruktur zwischen dem ESP und dem EES, dem VIS, dem ETIAS, Eurodac, dem zentralen SIS, dem ECRIS-TCN, den Europol-Daten und den Interpol-Datenbanken sowie zwischen dem ESP und den zentralen Infrastrukturen des CIR und des MID.",
+   "after": "eine sichere Kommunikationsinfrastruktur zwischen dem ESP und dem EES, dem VIS, dem ETIAS, Eurodac, dem zentralen SIS, dem ECRIS-TCN, den Europol-Daten und den Interpol-Datenbanken sowie zwischen dem ESP und den zentralen Infrastrukturen des CIR und des MID;"
+  },
+  {
+   "unit": "art_6",
+   "key": "p2.c",
+   "lang": "fr",
+   "stage": "s03",
+   "kind": "editorial",
+   "before": "une infrastructure de communication sécurisée entre l'ESP et l'EES, le VIS, ETIAS, Eurodac, le SIS central, l'ECRIS-TCN, les données d'Europol et les bases de données d'Interpol ainsi qu'entre l'ESP et les infrastructures centrales du CIR et du MID.",
+   "after": "une infrastructure de communication sécurisée entre l'ESP et l'EES, le VIS, ETIAS, Eurodac, le SIS central, l'ECRIS-TCN, les données d'Europol et les bases de données d'Interpol ainsi qu'entre l'ESP et les infrastructures centrales du CIR et du MID;"
+  },
+  {
+   "unit": "art_6",
+   "key": "p2.c",
+   "lang": "en",
+   "stage": "s03",
+   "kind": "editorial",
+   "before": "a secure communication infrastructure between the ESP and the EES, VIS, ETIAS, Eurodac, Central SIS, ECRIS-TCN, Europol data and the Interpol databases as well as between the ESP and the central infrastructures of the CIR and the MID.",
+   "after": "a secure communication infrastructure between the ESP and the EES, VIS, ETIAS, Eurodac, Central SIS, ECRIS-TCN, Europol data and the Interpol databases as well as between the ESP and the central infrastructures of the CIR and the MID;"
+  }
+ ],
+ "originKept": [
+  {
+   "unit": "art_24",
+   "lang": "fr",
+   "stage": "s05",
+   "key": "p3.b",
+   "marker": "32024R1356",
+   "kept": "32019R0817"
+  },
+  {
+   "unit": "art_24",
+   "lang": "fr",
+   "stage": "s05",
+   "key": "p3.c",
+   "marker": "32024R1356",
+   "kept": "32019R0817"
+  },
+  {
+   "unit": "art_24",
+   "lang": "en",
+   "stage": "s05",
+   "key": "p3.b",
+   "marker": "32024R1356",
+   "kept": "32019R0817"
+  },
+  {
+   "unit": "art_24",
+   "lang": "en",
+   "stage": "s05",
+   "key": "p3.c",
+   "marker": "32024R1356",
+   "kept": "32019R0817"
+  },
+  {
+   "unit": "art_62",
+   "lang": "de",
+   "stage": "s01",
+   "key": "n5.a",
+   "marker": "32019R0817R(01)",
+   "kept": "32019R0817"
+  },
+  {
+   "unit": "art_62",
+   "lang": "fr",
+   "stage": "s01",
+   "key": "n5.a",
+   "marker": "32019R0817R(01)",
+   "kept": "32019R0817"
+  },
+  {
+   "unit": "art_62",
+   "lang": "en",
+   "stage": "s01",
+   "key": "n5.a",
+   "marker": "32019R0817R(01)",
+   "kept": "32019R0817"
+  }
+ ],
+ "keysAligned": [
+  {
+   "unit": "art_16",
+   "stage": "s00",
+   "lang": "de",
+   "map": {
+    "n1": "p1",
+    "n1.a": "p1.a",
+    "n1.b": "p1.b",
+    "n1.c": "p1.c",
+    "n1.d": "p1.d",
+    "n1.e": "p1.e",
+    "n1.f": "p1.f"
+   },
+   "labels": "1. a) b) c) d) e) f)"
+  },
+  {
+   "unit": "art_17",
+   "stage": "s05",
+   "lang": "de",
+   "map": {
+    "p3.n4": "p4"
+   },
+   "labels": "4."
+  },
+  {
+   "unit": "art_74",
+   "stage": "s00",
+   "lang": "de",
+   "map": {
+    "n1": "p1",
+    "n2": "p2",
+    "s1": "p2.s2"
+   },
+   "labels": "1. 2. "
+  }
+ ]
+}

@@ -1,0 +1,1637 @@
+{
+ "schema": 1,
+ "generated": "2026-11-11",
+ "fixture": true,
+ "work": {
+  "id": "sgk",
+  "celex": "32016R0399",
+  "eli": "http://data.europa.eu/eli/reg/2016/399",
+  "title": {
+   "de": "Verordnung (EU) 2016/399 des Europäischen Parlaments und des Rates vom 9. März 2016 über einen Gemeinschaftskodex für das Überschreiten der Grenzen durch Personen (Schengener Grenzkodex)",
+   "fr": "Règlement (UE) 2016/399 du Parlement européen et du Conseil du 9 mars 2016 concernant un code de l'Union relatif au régime de franchissement des frontières par les personnes (code frontières Schengen)",
+   "en": "Regulation (EU) 2016/399 of the European Parliament and of the Council of 9 March 2016 on a Union Code on the rules governing the movement of persons across borders (Schengen Borders Code)"
+  },
+  "short": {
+   "de": "Schengener Grenzkodex",
+   "fr": "Code frontières Schengen",
+   "en": "Schengen Borders Code"
+  },
+  "abbr": {
+   "de": "SGK",
+   "fr": "CFS",
+   "en": "SBC"
+  }
+ },
+ "langs": [
+  "de",
+  "fr",
+  "en"
+ ],
+ "stages": [
+  {
+   "id": "s00",
+   "act": "32016R0399",
+   "order": 0,
+   "source": {
+    "kind": "oj",
+    "celex": "32016R0399",
+    "note": {
+     "de": "ABl.-Fassung",
+     "fr": "Version JO",
+     "en": "OJ version"
+    }
+   },
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ]
+  },
+  {
+   "id": "s01",
+   "act": "32016R1624",
+   "order": 1,
+   "source": {
+    "kind": "consolidated",
+    "celex": "02016R0399-20161006",
+    "note": {
+     "de": "Konsolidierte Fassung vom 6.10.2016",
+     "fr": "",
+     "en": ""
+    }
+   },
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ]
+  },
+  {
+   "id": "s03",
+   "act": "32017R2225",
+   "order": 3,
+   "source": {
+    "kind": "reconstructed",
+    "celex": null,
+    "note": {
+     "de": "Rekonstruiert aus der konsolidierten Fassung 20240710",
+     "fr": "",
+     "en": ""
+    }
+   },
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ]
+  },
+  {
+   "id": "s04",
+   "act": "32018R1240",
+   "order": 4,
+   "source": {
+    "kind": "patched",
+    "celex": null,
+    "note": {
+     "de": "Rekonstruiert, ETIAS-Änderungen aus dem Akttext eingefügt",
+     "fr": "",
+     "en": ""
+    }
+   },
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ]
+  },
+  {
+   "id": "s07",
+   "act": "32024R1717",
+   "order": 7,
+   "source": {
+    "kind": "consolidated",
+    "celex": "02016R0399-20240710",
+    "note": {
+     "de": "Konsolidierte Fassung vom 10.7.2024 mit ETIAS-Patch",
+     "fr": "",
+     "en": ""
+    }
+   },
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ]
+  }
+ ],
+ "toc": [
+  {
+   "id": "tit_II",
+   "type": "title",
+   "parent": null,
+   "num": "II",
+   "heading": {
+    "de": [
+     {
+      "from": "s00",
+      "label": "TITEL II",
+      "text": "AUSSENGRENZEN"
+     }
+    ],
+    "fr": [
+     {
+      "from": "s00",
+      "label": "TITRE II",
+      "text": "FRONTIÈRES EXTÉRIEURES"
+     }
+    ],
+    "en": [
+     {
+      "from": "s00",
+      "label": "TITLE II",
+      "text": "EXTERNAL BORDERS"
+     }
+    ]
+   }
+  },
+  {
+   "id": "tit_II.cha_I",
+   "type": "chapter",
+   "parent": "tit_II",
+   "num": "I",
+   "heading": {
+    "de": [
+     {
+      "from": "s00",
+      "label": "KAPITEL I",
+      "text": "Überschreiten der Außengrenzen und Einreisevoraussetzungen"
+     }
+    ],
+    "fr": [
+     {
+      "from": "s00",
+      "label": "CHAPITRE I",
+      "text": "Franchissement des frontières extérieures et conditions d'entrée"
+     }
+    ],
+    "en": [
+     {
+      "from": "s00",
+      "label": "CHAPTER I",
+      "text": "Crossing of external borders and conditions for entry"
+     }
+    ]
+   }
+  },
+  {
+   "id": "art_6",
+   "type": "article",
+   "parent": "tit_II.cha_I",
+   "num": "6",
+   "from": "s00",
+   "to": null
+  },
+  {
+   "id": "tit_II.cha_II",
+   "type": "chapter",
+   "parent": "tit_II",
+   "num": "II",
+   "heading": {
+    "de": [
+     {
+      "from": "s00",
+      "label": "KAPITEL II",
+      "text": "Kontrolle der Außengrenzen und Einreiseverweigerung"
+     }
+    ],
+    "fr": [
+     {
+      "from": "s00",
+      "label": "CHAPITRE II",
+      "text": "Contrôle aux frontières extérieures et refus d'entrée"
+     }
+    ],
+    "en": [
+     {
+      "from": "s00",
+      "label": "CHAPTER II",
+      "text": "Control of external borders and refusal of entry"
+     }
+    ]
+   }
+  },
+  {
+   "id": "art_8",
+   "type": "article",
+   "parent": "tit_II.cha_II",
+   "num": "8",
+   "from": "s00",
+   "to": null
+  },
+  {
+   "id": "art_8a",
+   "type": "article",
+   "parent": "tit_II.cha_II",
+   "num": "8a",
+   "from": "s03",
+   "to": null
+  },
+  {
+   "id": "art_9",
+   "type": "article",
+   "parent": "tit_II.cha_II",
+   "num": "9",
+   "from": "s00",
+   "to": "s07"
+  },
+  {
+   "id": "anx_V",
+   "type": "annex",
+   "parent": null,
+   "num": "V",
+   "from": "s00",
+   "to": null
+  }
+ ],
+ "units": {
+  "art_6": {
+   "id": "art_6",
+   "type": "article",
+   "num": "6",
+   "versions": {
+    "de": [
+     {
+      "stage": "s00",
+      "label": "Artikel 6",
+      "title": "Einreisevoraussetzungen für Drittstaatsangehörige",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "(1)",
+        "t": "Für einen geplanten Aufenthalt im Hoheitsgebiet der Mitgliedstaaten von bis zu 90 Tagen je Zeitraum von 180 Tagen gelten für einen Drittstaatsangehörigen folgende Einreisevoraussetzungen:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.a",
+        "d": 1,
+        "l": "a)",
+        "t": "Er muss im Besitz eines gültigen Reisedokuments sein, das seinen Inhaber zum Überschreiten der Grenze berechtigt;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.b",
+        "d": 1,
+        "l": "b)",
+        "t": "er muss im Besitz eines gültigen Visums sein, falls dies nach der Verordnung (EG) Nr. 539/2001 des Rates vorgeschrieben ist, außer wenn er Inhaber eines gültigen Aufenthaltstitels oder eines gültigen Visums für den längerfristigen Aufenthalt ist;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.c",
+        "d": 1,
+        "l": "c)",
+        "t": "er muss den Zweck und die Umstände des beabsichtigten Aufenthalts belegen;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.s2",
+        "d": 1,
+        "l": "",
+        "t": "Bei der Berechnung des Zeitraums von 90 Tagen je Zeitraum von 180 Tagen wird jeder Tag einbezogen.",
+        "o": "32016R0399"
+       }
+      ]
+     },
+     {
+      "stage": "s04",
+      "label": "Artikel 6",
+      "title": "Einreisevoraussetzungen für Drittstaatsangehörige",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "(1)",
+        "t": "Für einen geplanten Aufenthalt im Hoheitsgebiet der Mitgliedstaaten von bis zu 90 Tagen je Zeitraum von 180 Tagen gelten für einen Drittstaatsangehörigen folgende Einreisevoraussetzungen:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.a",
+        "d": 1,
+        "l": "a)",
+        "t": "Er muss im Besitz eines gültigen Reisedokuments sein, das seinen Inhaber zum Überschreiten der Grenze berechtigt;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.b",
+        "d": 1,
+        "l": "b)",
+        "t": "er muss im Besitz eines gültigen Visums sein, falls dies nach der Verordnung (EG) Nr. 539/2001 des Rates vorgeschrieben ist, oder im Besitz einer gültigen Reisegenehmigung, falls dies nach der Verordnung (EU) 2018/1240 vorgeschrieben ist, außer wenn er Inhaber eines gültigen Aufenthaltstitels ist;",
+        "o": "32018R1240"
+       },
+       {
+        "k": "p1.c",
+        "d": 1,
+        "l": "c)",
+        "t": "er muss den Zweck und die Umstände des beabsichtigten Aufenthalts belegen;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.s2",
+        "d": 1,
+        "l": "",
+        "t": "Bei der Berechnung des Zeitraums von 90 Tagen je Zeitraum von 180 Tagen wird jeder Tag einbezogen.",
+        "o": "32016R0399"
+       }
+      ]
+     }
+    ],
+    "fr": [
+     {
+      "stage": "s00",
+      "label": "Article 6",
+      "title": "Conditions d'entrée pour les ressortissants de pays tiers",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "Pour un séjour prévu sur le territoire des États membres d'une durée n'excédant pas 90 jours sur toute période de 180 jours, les conditions d'entrée pour les ressortissants de pays tiers sont les suivantes:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.a",
+        "d": 1,
+        "l": "a)",
+        "t": "être en possession d'un document de voyage en cours de validité autorisant son titulaire à franchir la frontière;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.b",
+        "d": 1,
+        "l": "b)",
+        "t": "être en possession d'un visa en cours de validité si celui-ci est requis en vertu du règlement (CE) no 539/2001 du Conseil, sauf s'ils sont titulaires d'un titre de séjour en cours de validité;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.c",
+        "d": 1,
+        "l": "c)",
+        "t": "justifier l'objet et les conditions du séjour envisagé;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.s2",
+        "d": 1,
+        "l": "",
+        "t": "Pour le calcul de la période de 90 jours sur toute période de 180 jours, chaque jour est pris en compte.",
+        "o": "32016R0399"
+       }
+      ]
+     },
+     {
+      "stage": "s04",
+      "label": "Article 6",
+      "title": "Conditions d'entrée pour les ressortissants de pays tiers",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "Pour un séjour prévu sur le territoire des États membres d'une durée n'excédant pas 90 jours sur toute période de 180 jours, les conditions d'entrée pour les ressortissants de pays tiers sont les suivantes:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.a",
+        "d": 1,
+        "l": "a)",
+        "t": "être en possession d'un document de voyage en cours de validité autorisant son titulaire à franchir la frontière;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.b",
+        "d": 1,
+        "l": "b)",
+        "t": "être en possession d'un visa en cours de validité si celui-ci est requis en vertu du règlement (CE) no 539/2001 du Conseil, ou d'une autorisation de voyage en cours de validité si celle-ci est requise en vertu du règlement (UE) 2018/1240, sauf s'ils sont titulaires d'un titre de séjour en cours de validité;",
+        "o": "32018R1240"
+       },
+       {
+        "k": "p1.c",
+        "d": 1,
+        "l": "c)",
+        "t": "justifier l'objet et les conditions du séjour envisagé;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.s2",
+        "d": 1,
+        "l": "",
+        "t": "Pour le calcul de la période de 90 jours sur toute période de 180 jours, chaque jour est pris en compte.",
+        "o": "32016R0399"
+       }
+      ]
+     }
+    ],
+    "en": [
+     {
+      "stage": "s00",
+      "label": "Article 6",
+      "title": "Entry conditions for third-country nationals",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "For intended stays on the territory of the Member States of a duration of no more than 90 days in any 180-day period, the entry conditions for third-country nationals shall be the following:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.a",
+        "d": 1,
+        "l": "(a)",
+        "t": "they are in possession of a valid travel document entitling the holder to cross the border;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.b",
+        "d": 1,
+        "l": "(b)",
+        "t": "they are in possession of a valid visa, if required pursuant to Council Regulation (EC) No 539/2001, except where they hold a valid residence permit;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.c",
+        "d": 1,
+        "l": "(c)",
+        "t": "they justify the purpose and conditions of the intended stay;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.s2",
+        "d": 1,
+        "l": "",
+        "t": "For the purposes of calculating the 90-day period in any 180-day period, each day shall be counted.",
+        "o": "32016R0399"
+       }
+      ]
+     },
+     {
+      "stage": "s04",
+      "label": "Article 6",
+      "title": "Entry conditions for third-country nationals",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "For intended stays on the territory of the Member States of a duration of no more than 90 days in any 180-day period, the entry conditions for third-country nationals shall be the following:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.a",
+        "d": 1,
+        "l": "(a)",
+        "t": "they are in possession of a valid travel document entitling the holder to cross the border;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.b",
+        "d": 1,
+        "l": "(b)",
+        "t": "they are in possession of a valid visa, if required pursuant to Council Regulation (EC) No 539/2001, or of a valid travel authorisation if required pursuant to Regulation (EU) 2018/1240, except where they hold a valid residence permit;",
+        "o": "32018R1240"
+       },
+       {
+        "k": "p1.c",
+        "d": 1,
+        "l": "(c)",
+        "t": "they justify the purpose and conditions of the intended stay;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p1.s2",
+        "d": 1,
+        "l": "",
+        "t": "For the purposes of calculating the 90-day period in any 180-day period, each day shall be counted.",
+        "o": "32016R0399"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "art_8": {
+   "id": "art_8",
+   "type": "article",
+   "num": "8",
+   "versions": {
+    "de": [
+     {
+      "stage": "s00",
+      "label": "Artikel 8",
+      "title": "Grenzübertrittskontrollen von Personen",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "(1)",
+        "t": "Der grenzüberschreitende Verkehr an den Außengrenzen unterliegt den Kontrollen durch die Grenzschutzbeamten. Die Kontrollen erfolgen nach Maßgabe dieses Kapitels.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3",
+        "d": 0,
+        "l": "(3)",
+        "t": "Bei der Einreise und Ausreise werden Drittstaatsangehörige eingehenden Kontrollen unterzogen.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a",
+        "d": 1,
+        "l": "a)",
+        "t": "Die eingehende Kontrolle bei der Einreise umfasst die Überprüfung der in Artikel 6 Absatz 1 festgelegten Einreisevoraussetzungen sowie gegebenenfalls der für den Aufenthalt und die Ausübung einer Erwerbstätigkeit erforderlichen Dokumente. Hierzu gehört eine umfassende Prüfung der folgenden Elemente:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.i",
+        "d": 2,
+        "l": "i)",
+        "t": "Überprüfung, ob der Drittstaatsangehörige über ein für den Grenzübertritt gültiges und nicht abgelaufenes Dokument verfügt und ob dem Dokument das gegebenenfalls erforderliche Visum oder der gegebenenfalls erforderliche Aufenthaltstitel beigefügt ist;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.ii",
+        "d": 2,
+        "l": "ii)",
+        "t": "eingehende Prüfung, ob das Reisedokument Anzeichen einer Fälschung oder Verfälschung aufweist;",
+        "o": "32016R0399"
+       }
+      ]
+     },
+     {
+      "stage": "s03",
+      "label": "Artikel 8",
+      "title": "Grenzübertrittskontrollen von Personen",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "(1)",
+        "t": "Der grenzüberschreitende Verkehr an den Außengrenzen unterliegt den Kontrollen durch die Grenzschutzbeamten. Die Kontrollen erfolgen nach Maßgabe dieses Kapitels.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3",
+        "d": 0,
+        "l": "(3)",
+        "t": "Bei der Einreise und Ausreise werden Drittstaatsangehörige eingehenden Kontrollen unterzogen.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a",
+        "d": 1,
+        "l": "a)",
+        "t": "Die eingehende Kontrolle bei der Einreise umfasst die Überprüfung der in Artikel 6 Absatz 1 festgelegten Einreisevoraussetzungen sowie gegebenenfalls der für den Aufenthalt und die Ausübung einer Erwerbstätigkeit erforderlichen Dokumente. Hierzu gehört eine umfassende Prüfung der folgenden Elemente:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.i",
+        "d": 2,
+        "l": "i)",
+        "t": "Überprüfung, ob der Drittstaatsangehörige über ein für den Grenzübertritt gültiges und nicht abgelaufenes Dokument verfügt und ob dem Dokument das gegebenenfalls erforderliche Visum oder der gegebenenfalls erforderliche Aufenthaltstitel beigefügt ist;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.ii",
+        "d": 2,
+        "l": "ii)",
+        "t": "eingehende Prüfung, ob das Reisedokument Anzeichen einer Fälschung oder Verfälschung aufweist;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.s2",
+        "d": 1,
+        "l": "",
+        "t": "Bei der Einreise werden die Daten im EES erfasst.",
+        "o": "32017R2225"
+       }
+      ]
+     },
+     {
+      "stage": "s04",
+      "label": "Artikel 8",
+      "title": "Grenzübertrittskontrollen von Personen",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "(1)",
+        "t": "Der grenzüberschreitende Verkehr an den Außengrenzen unterliegt den Kontrollen durch die Grenzschutzbeamten. Die Kontrollen erfolgen nach Maßgabe dieses Kapitels.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3",
+        "d": 0,
+        "l": "(3)",
+        "t": "Bei der Einreise und Ausreise werden Drittstaatsangehörige eingehenden Kontrollen unterzogen.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a",
+        "d": 1,
+        "l": "a)",
+        "t": "Die eingehende Kontrolle bei der Einreise umfasst die Überprüfung der in Artikel 6 Absatz 1 festgelegten Einreisevoraussetzungen sowie gegebenenfalls der für den Aufenthalt und die Ausübung einer Erwerbstätigkeit erforderlichen Dokumente. Hierzu gehört eine umfassende Prüfung der folgenden Elemente:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.i",
+        "d": 2,
+        "l": "i)",
+        "t": "Überprüfung, ob der Drittstaatsangehörige über ein für den Grenzübertritt gültiges und nicht abgelaufenes Dokument verfügt und ob dem Dokument das gegebenenfalls erforderliche Visum, die gegebenenfalls erforderliche Reisegenehmigung oder der gegebenenfalls erforderliche Aufenthaltstitel beigefügt ist;",
+        "o": "32018R1240",
+        "fn": [
+         {
+          "n": "1",
+          "t": "Verordnung (EU) 2018/1240 (ABl. L 236 vom 19.9.2018, S. 1)."
+         }
+        ]
+       },
+       {
+        "k": "p3.a.ii",
+        "d": 2,
+        "l": "ii)",
+        "t": "eingehende Prüfung, ob das Reisedokument Anzeichen einer Fälschung oder Verfälschung aufweist;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.ba",
+        "d": 1,
+        "l": "ba)",
+        "t": "ist der Drittstaatsangehörige im Besitz einer Reisegenehmigung nach Artikel 6 Absatz 1 Buchstabe b, so umfasst die eingehende Kontrolle bei der Einreise auch die Überprüfung der Echtheit, Gültigkeit und des Status der Reisegenehmigung;",
+        "o": "32018R1240"
+       },
+       {
+        "k": "p3.s2",
+        "d": 1,
+        "l": "",
+        "t": "Bei der Einreise werden die Daten im EES erfasst.",
+        "o": "32017R2225"
+       }
+      ]
+     },
+     {
+      "stage": "s07",
+      "label": "Artikel 8",
+      "title": "Grenzübertrittskontrollen von Personen",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "(1)",
+        "t": "Der grenzüberschreitende Verkehr an den Außengrenzen unterliegt den Kontrollen durch die Grenzschutzbeamten. Die Kontrollen erfolgen nach Maßgabe dieses Kapitels.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3",
+        "d": 0,
+        "l": "(3)",
+        "t": "Bei der Einreise und Ausreise werden Drittstaatsangehörige eingehenden Kontrollen unterzogen.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a",
+        "d": 1,
+        "l": "a)",
+        "t": "Die eingehende Kontrolle bei der Einreise umfasst die Überprüfung der in Artikel 6 Absatz 1 festgelegten Einreisevoraussetzungen sowie gegebenenfalls der für den Aufenthalt und die Ausübung einer Erwerbstätigkeit erforderlichen Dokumente. Hierzu gehört eine umfassende Prüfung der folgenden Elemente:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.i",
+        "d": 2,
+        "l": "i)",
+        "t": "Feststellung, ob der Drittstaatsangehörige über ein für den Grenzübertritt gültiges und nicht abgelaufenes Dokument verfügt und ob dem Dokument das gegebenenfalls erforderliche Visum, die gegebenenfalls erforderliche Reisegenehmigung oder der gegebenenfalls erforderliche Aufenthaltstitel beigefügt ist;",
+        "o": "32024R1717"
+       },
+       {
+        "k": "p3.a.ii",
+        "d": 2,
+        "l": "ii)",
+        "t": "eingehende Prüfung, ob das Reisedokument Anzeichen einer Fälschung oder Verfälschung aufweist;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.ba",
+        "d": 1,
+        "l": "ba)",
+        "t": "ist der Drittstaatsangehörige im Besitz einer Reisegenehmigung nach Artikel 6 Absatz 1 Buchstabe b, so umfasst die eingehende Kontrolle bei der Einreise auch die Überprüfung der Echtheit, Gültigkeit und des Status der Reisegenehmigung;",
+        "o": "32018R1240"
+       },
+       {
+        "k": "p3.s2",
+        "d": 1,
+        "l": "",
+        "t": "Bei der Einreise werden die Daten im EES erfasst.",
+        "o": "32017R2225"
+       }
+      ]
+     }
+    ],
+    "fr": [
+     {
+      "stage": "s00",
+      "label": "Article 8",
+      "title": "Vérifications aux frontières portant sur les personnes",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "Les mouvements transfrontaliers aux frontières extérieures font l'objet de vérifications de la part des garde-frontières. Les vérifications sont effectuées conformément au présent chapitre.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3",
+        "d": 0,
+        "l": "3.",
+        "t": "À l'entrée et à la sortie, les ressortissants de pays tiers sont soumis à des vérifications approfondies.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a",
+        "d": 1,
+        "l": "a)",
+        "t": "Les vérifications approfondies à l'entrée comportent la vérification des conditions d'entrée fixées à l'article 6, paragraphe 1. Elles comprennent un examen détaillé des éléments suivants:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.i",
+        "d": 2,
+        "l": "i)",
+        "t": "la vérification que le ressortissant de pays tiers est en possession d'un document valable et non expiré pour le franchissement de la frontière, et que ce document est accompagné, le cas échéant, du visa ou du permis de séjour requis;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.ii",
+        "d": 2,
+        "l": "ii)",
+        "t": "l'examen approfondi du document de voyage, à la recherche d'indices de falsification ou de contrefaçon;",
+        "o": "32016R0399"
+       }
+      ]
+     },
+     {
+      "stage": "s03",
+      "label": "Article 8",
+      "title": "Vérifications aux frontières portant sur les personnes",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "Les mouvements transfrontaliers aux frontières extérieures font l'objet de vérifications de la part des garde-frontières. Les vérifications sont effectuées conformément au présent chapitre.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3",
+        "d": 0,
+        "l": "3.",
+        "t": "À l'entrée et à la sortie, les ressortissants de pays tiers sont soumis à des vérifications approfondies.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a",
+        "d": 1,
+        "l": "a)",
+        "t": "Les vérifications approfondies à l'entrée comportent la vérification des conditions d'entrée fixées à l'article 6, paragraphe 1. Elles comprennent un examen détaillé des éléments suivants:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.i",
+        "d": 2,
+        "l": "i)",
+        "t": "la vérification que le ressortissant de pays tiers est en possession d'un document valable et non expiré pour le franchissement de la frontière, et que ce document est accompagné, le cas échéant, du visa ou du permis de séjour requis;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.ii",
+        "d": 2,
+        "l": "ii)",
+        "t": "l'examen approfondi du document de voyage, à la recherche d'indices de falsification ou de contrefaçon;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.s2",
+        "d": 1,
+        "l": "",
+        "t": "À l'entrée, les données sont enregistrées dans l'EES.",
+        "o": "32017R2225"
+       }
+      ]
+     },
+     {
+      "stage": "s04",
+      "label": "Article 8",
+      "title": "Vérifications aux frontières portant sur les personnes",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "Les mouvements transfrontaliers aux frontières extérieures font l'objet de vérifications de la part des garde-frontières. Les vérifications sont effectuées conformément au présent chapitre.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3",
+        "d": 0,
+        "l": "3.",
+        "t": "À l'entrée et à la sortie, les ressortissants de pays tiers sont soumis à des vérifications approfondies.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a",
+        "d": 1,
+        "l": "a)",
+        "t": "Les vérifications approfondies à l'entrée comportent la vérification des conditions d'entrée fixées à l'article 6, paragraphe 1. Elles comprennent un examen détaillé des éléments suivants:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.i",
+        "d": 2,
+        "l": "i)",
+        "t": "la vérification que le ressortissant de pays tiers est en possession d'un document valable et non expiré pour le franchissement de la frontière, et que ce document est accompagné, le cas échéant, du visa, de l'autorisation de voyage ou du permis de séjour requis;",
+        "o": "32018R1240",
+        "fn": [
+         {
+          "n": "1",
+          "t": "Règlement (UE) 2018/1240 (JO L 236 du 19.9.2018, p. 1)."
+         }
+        ]
+       },
+       {
+        "k": "p3.a.ii",
+        "d": 2,
+        "l": "ii)",
+        "t": "l'examen approfondi du document de voyage, à la recherche d'indices de falsification ou de contrefaçon;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.ba",
+        "d": 1,
+        "l": "b bis)",
+        "t": "si le ressortissant de pays tiers est titulaire d'une autorisation de voyage visée à l'article 6, paragraphe 1, point b), les vérifications approfondies à l'entrée comportent également la vérification de l'authenticité, de la validité et du statut de l'autorisation de voyage;",
+        "o": "32018R1240"
+       },
+       {
+        "k": "p3.s2",
+        "d": 1,
+        "l": "",
+        "t": "À l'entrée, les données sont enregistrées dans l'EES.",
+        "o": "32017R2225"
+       }
+      ]
+     },
+     {
+      "stage": "s07",
+      "label": "Article 8",
+      "title": "Vérifications aux frontières portant sur les personnes",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "Les mouvements transfrontaliers aux frontières extérieures font l'objet de vérifications de la part des garde-frontières. Les vérifications sont effectuées conformément au présent chapitre.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3",
+        "d": 0,
+        "l": "3.",
+        "t": "À l'entrée et à la sortie, les ressortissants de pays tiers sont soumis à des vérifications approfondies.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a",
+        "d": 1,
+        "l": "a)",
+        "t": "Les vérifications approfondies à l'entrée comportent la vérification des conditions d'entrée fixées à l'article 6, paragraphe 1. Elles comprennent un examen détaillé des éléments suivants:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.i",
+        "d": 2,
+        "l": "i)",
+        "t": "la vérification que le ressortissant de pays tiers est en possession d'un document valable et non expiré pour le franchissement de la frontière, et que ce document est accompagné, le cas échéant, du visa, de l'autorisation de voyage ou du permis de séjour requis;",
+        "o": "32024R1717"
+       },
+       {
+        "k": "p3.a.ii",
+        "d": 2,
+        "l": "ii)",
+        "t": "l'examen approfondi du document de voyage, à la recherche d'indices de falsification ou de contrefaçon;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.ba",
+        "d": 1,
+        "l": "b bis)",
+        "t": "si le ressortissant de pays tiers est titulaire d'une autorisation de voyage visée à l'article 6, paragraphe 1, point b), les vérifications approfondies à l'entrée comportent également la vérification de l'authenticité, de la validité et du statut de l'autorisation de voyage;",
+        "o": "32018R1240"
+       },
+       {
+        "k": "p3.s2",
+        "d": 1,
+        "l": "",
+        "t": "À l'entrée, les données sont enregistrées dans l'EES.",
+        "o": "32017R2225"
+       }
+      ]
+     }
+    ],
+    "en": [
+     {
+      "stage": "s00",
+      "label": "Article 8",
+      "title": "Border checks on persons",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "Cross-border movement at external borders shall be subject to checks by border guards. Checks shall be carried out in accordance with this Chapter.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3",
+        "d": 0,
+        "l": "3.",
+        "t": "On entry and exit, third-country nationals shall be subject to thorough checks.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a",
+        "d": 1,
+        "l": "(a)",
+        "t": "Thorough checks on entry shall comprise verification of the conditions governing entry laid down in Article 6(1). They shall include a thorough examination of the following elements:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.i",
+        "d": 2,
+        "l": "(i)",
+        "t": "verification that the third-country national is in possession of a document which is valid for crossing the border and which has not expired, and that the document is accompanied, where applicable, by the requisite visa or residence permit;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.ii",
+        "d": 2,
+        "l": "(ii)",
+        "t": "a thorough scrutiny of the travel document for signs of falsification or counterfeiting;",
+        "o": "32016R0399"
+       }
+      ]
+     },
+     {
+      "stage": "s03",
+      "label": "Article 8",
+      "title": "Border checks on persons",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "Cross-border movement at external borders shall be subject to checks by border guards. Checks shall be carried out in accordance with this Chapter.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3",
+        "d": 0,
+        "l": "3.",
+        "t": "On entry and exit, third-country nationals shall be subject to thorough checks.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a",
+        "d": 1,
+        "l": "(a)",
+        "t": "Thorough checks on entry shall comprise verification of the conditions governing entry laid down in Article 6(1). They shall include a thorough examination of the following elements:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.i",
+        "d": 2,
+        "l": "(i)",
+        "t": "verification that the third-country national is in possession of a document which is valid for crossing the border and which has not expired, and that the document is accompanied, where applicable, by the requisite visa or residence permit;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.ii",
+        "d": 2,
+        "l": "(ii)",
+        "t": "a thorough scrutiny of the travel document for signs of falsification or counterfeiting;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.s2",
+        "d": 1,
+        "l": "",
+        "t": "On entry, the data shall be recorded in the EES.",
+        "o": "32017R2225"
+       }
+      ]
+     },
+     {
+      "stage": "s04",
+      "label": "Article 8",
+      "title": "Border checks on persons",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "Cross-border movement at external borders shall be subject to checks by border guards. Checks shall be carried out in accordance with this Chapter.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3",
+        "d": 0,
+        "l": "3.",
+        "t": "On entry and exit, third-country nationals shall be subject to thorough checks.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a",
+        "d": 1,
+        "l": "(a)",
+        "t": "Thorough checks on entry shall comprise verification of the conditions governing entry laid down in Article 6(1). They shall include a thorough examination of the following elements:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.i",
+        "d": 2,
+        "l": "(i)",
+        "t": "verification that the third-country national is in possession of a document which is valid for crossing the border and which has not expired, and that the document is accompanied, where applicable, by the requisite visa, travel authorisation or residence permit;",
+        "o": "32018R1240",
+        "fn": [
+         {
+          "n": "1",
+          "t": "Regulation (EU) 2018/1240 (OJ L 236, 19.9.2018, p. 1)."
+         }
+        ]
+       },
+       {
+        "k": "p3.a.ii",
+        "d": 2,
+        "l": "(ii)",
+        "t": "a thorough scrutiny of the travel document for signs of falsification or counterfeiting;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.ba",
+        "d": 1,
+        "l": "(ba)",
+        "t": "if the third-country national holds a travel authorisation referred to in point (b) of Article 6(1), the thorough checks on entry shall also comprise the verification of the authenticity, validity and status of the travel authorisation;",
+        "o": "32018R1240"
+       },
+       {
+        "k": "p3.s2",
+        "d": 1,
+        "l": "",
+        "t": "On entry, the data shall be recorded in the EES.",
+        "o": "32017R2225"
+       }
+      ]
+     },
+     {
+      "stage": "s07",
+      "label": "Article 8",
+      "title": "Border checks on persons",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "Cross-border movement at external borders shall be subject to checks by border guards. Checks shall be carried out in accordance with this Chapter.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3",
+        "d": 0,
+        "l": "3.",
+        "t": "On entry and exit, third-country nationals shall be subject to thorough checks.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a",
+        "d": 1,
+        "l": "(a)",
+        "t": "Thorough checks on entry shall comprise verification of the conditions governing entry laid down in Article 6(1). They shall include a thorough examination of the following elements:",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.a.i",
+        "d": 2,
+        "l": "(i)",
+        "t": "verification that the third-country national is in possession of a valid, non-expired document for crossing the border, and that the document is accompanied, where applicable, by the requisite visa, travel authorisation or residence permit;",
+        "o": "32024R1717"
+       },
+       {
+        "k": "p3.a.ii",
+        "d": 2,
+        "l": "(ii)",
+        "t": "a thorough scrutiny of the travel document for signs of falsification or counterfeiting;",
+        "o": "32016R0399"
+       },
+       {
+        "k": "p3.ba",
+        "d": 1,
+        "l": "(ba)",
+        "t": "if the third-country national holds a travel authorisation referred to in point (b) of Article 6(1), the thorough checks on entry shall also comprise the verification of the authenticity, validity and status of the travel authorisation;",
+        "o": "32018R1240"
+       },
+       {
+        "k": "p3.s2",
+        "d": 1,
+        "l": "",
+        "t": "On entry, the data shall be recorded in the EES.",
+        "o": "32017R2225"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "art_8a": {
+   "id": "art_8a",
+   "type": "article",
+   "num": "8a",
+   "versions": {
+    "de": [
+     {
+      "stage": "s03",
+      "label": "Artikel 8a",
+      "title": "Automatisierte Grenzkontrollsysteme",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "(1)",
+        "t": "Self-Service-Systeme können für Personen verwendet werden, deren Grenzübertritt im EES zu erfassen ist.",
+        "o": "32017R2225"
+       }
+      ]
+     }
+    ],
+    "fr": [
+     {
+      "stage": "s03",
+      "label": "Article 8 bis",
+      "title": "Systèmes de contrôle automatisé aux frontières",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "Les systèmes en libre-service peuvent être utilisés pour les personnes dont le franchissement de la frontière doit être enregistré dans l'EES.",
+        "o": "32017R2225"
+       }
+      ]
+     }
+    ],
+    "en": [
+     {
+      "stage": "s03",
+      "label": "Article 8a",
+      "title": "Automated border control systems",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "Self-service systems may be used for persons whose border crossing is to be registered in the EES.",
+        "o": "32017R2225"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "art_9": {
+   "id": "art_9",
+   "type": "article",
+   "num": "9",
+   "versions": {
+    "de": [
+     {
+      "stage": "s00",
+      "label": "Artikel 9",
+      "title": "Lockerung der Grenzübertrittskontrollen",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "(1)",
+        "t": "Die Grenzübertrittskontrollen an den Außengrenzen können infolge außergewöhnlicher und unvorhersehbarer Umstände gelockert werden.",
+        "o": "32016R0399"
+       }
+      ]
+     },
+     {
+      "stage": "s01",
+      "label": "Artikel 9",
+      "title": "Lockerung der Grenzübertrittskontrollen",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "(1)",
+        "t": "Die Grenzübertrittskontrollen an den Außengrenzen können infolge außergewöhnlicher und unvorhersehbarer Umstände gelockert werden; die Agentur wird unterrichtet.",
+        "o": "32016R1624"
+       }
+      ]
+     },
+     {
+      "stage": "s07",
+      "label": "Artikel 9",
+      "title": "",
+      "repealed": true,
+      "blocks": []
+     }
+    ],
+    "fr": [
+     {
+      "stage": "s00",
+      "label": "Article 9",
+      "title": "Assouplissement des vérifications aux frontières",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "Les vérifications aux frontières extérieures peuvent faire l'objet d'un assouplissement en raison de circonstances exceptionnelles et imprévues.",
+        "o": "32016R0399"
+       }
+      ]
+     },
+     {
+      "stage": "s01",
+      "label": "Article 9",
+      "title": "Assouplissement des vérifications aux frontières",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "Les vérifications aux frontières extérieures peuvent faire l'objet d'un assouplissement en raison de circonstances exceptionnelles et imprévues; l'Agence en est informée.",
+        "o": "32016R1624"
+       }
+      ]
+     },
+     {
+      "stage": "s07",
+      "label": "Article 9",
+      "title": "",
+      "repealed": true,
+      "blocks": []
+     }
+    ],
+    "en": [
+     {
+      "stage": "s00",
+      "label": "Article 9",
+      "title": "Relaxation of border checks",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "Border checks at external borders may be relaxed as a result of exceptional and unforeseen circumstances.",
+        "o": "32016R0399"
+       }
+      ]
+     },
+     {
+      "stage": "s01",
+      "label": "Article 9",
+      "title": "Relaxation of border checks",
+      "blocks": [
+       {
+        "k": "p1",
+        "d": 0,
+        "l": "1.",
+        "t": "Border checks at external borders may be relaxed as a result of exceptional and unforeseen circumstances; the Agency shall be informed.",
+        "o": "32016R1624"
+       }
+      ]
+     },
+     {
+      "stage": "s07",
+      "label": "Article 9",
+      "title": "",
+      "repealed": true,
+      "blocks": []
+     }
+    ]
+   }
+  },
+  "anx_V": {
+   "id": "anx_V",
+   "type": "annex",
+   "num": "V",
+   "versions": {
+    "de": [
+     {
+      "stage": "s00",
+      "label": "ANHANG V",
+      "title": "",
+      "blocks": [
+       {
+        "k": "ptA",
+        "d": 0,
+        "l": "TEIL A",
+        "t": "Verfahren für die Einreiseverweigerung an der Grenze",
+        "o": "32016R0399",
+        "ty": "heading"
+       },
+       {
+        "k": "ptA.n1",
+        "d": 1,
+        "l": "1.",
+        "t": "Bei der Einreiseverweigerung füllt der zuständige Grenzschutzbeamte das Standardformular aus.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "ptB",
+        "d": 0,
+        "l": "TEIL B",
+        "t": "Standardformular für die Einreiseverweigerung an der Grenze",
+        "o": "32016R0399",
+        "ty": "heading"
+       },
+       {
+        "k": "ptB.t1",
+        "d": 1,
+        "l": "",
+        "t": "kein gültiges Reisedokument A | kein gültiges Visum C",
+        "o": "32016R0399",
+        "ty": "table",
+        "html": "<table><thead><tr><th>Grund</th><th>Kürzel</th></tr></thead><tbody><tr><td>kein gültiges Reisedokument</td><td>A</td></tr><tr><td>kein gültiges Visum</td><td>C</td></tr></tbody></table>"
+       },
+       {
+        "k": "ptB.g1",
+        "d": 1,
+        "l": "",
+        "t": "Formular (Abbildung)",
+        "o": "32016R0399",
+        "ty": "img",
+        "asset": "fx01"
+       }
+      ]
+     },
+     {
+      "stage": "s04",
+      "label": "ANHANG V",
+      "title": "",
+      "blocks": [
+       {
+        "k": "ptA",
+        "d": 0,
+        "l": "TEIL A",
+        "t": "Verfahren für die Einreiseverweigerung an der Grenze",
+        "o": "32016R0399",
+        "ty": "heading"
+       },
+       {
+        "k": "ptA.n1",
+        "d": 1,
+        "l": "1.",
+        "t": "Bei der Einreiseverweigerung füllt der zuständige Grenzschutzbeamte das Standardformular aus.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "ptB",
+        "d": 0,
+        "l": "TEIL B",
+        "t": "Standardformular für die Einreiseverweigerung an der Grenze",
+        "o": "32016R0399",
+        "ty": "heading"
+       },
+       {
+        "k": "ptB.t1",
+        "d": 1,
+        "l": "",
+        "t": "kein gültiges Reisedokument A | kein gültiges Visum C | keine gültige Reisegenehmigung C",
+        "o": "32018R1240",
+        "ty": "table",
+        "html": "<table><thead><tr><th>Grund</th><th>Kürzel</th></tr></thead><tbody><tr><td>kein gültiges Reisedokument</td><td>A</td></tr><tr><td>kein gültiges Visum</td><td>C</td></tr><tr><td>keine gültige Reisegenehmigung</td><td>C</td></tr></tbody></table>"
+       },
+       {
+        "k": "ptB.g1",
+        "d": 1,
+        "l": "",
+        "t": "Formular (Abbildung)",
+        "o": "32016R0399",
+        "ty": "img",
+        "asset": "fx01"
+       }
+      ]
+     }
+    ],
+    "fr": [
+     {
+      "stage": "s00",
+      "label": "ANNEXE V",
+      "title": "",
+      "blocks": [
+       {
+        "k": "ptA",
+        "d": 0,
+        "l": "PARTIE A",
+        "t": "Modalités de refus d'entrée à la frontière",
+        "o": "32016R0399",
+        "ty": "heading"
+       },
+       {
+        "k": "ptA.n1",
+        "d": 1,
+        "l": "1.",
+        "t": "En cas de refus d'entrée, le garde-frontière compétent remplit le formulaire uniforme.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "ptB",
+        "d": 0,
+        "l": "PARTIE B",
+        "t": "Formulaire uniforme de refus d'entrée à la frontière",
+        "o": "32016R0399",
+        "ty": "heading"
+       },
+       {
+        "k": "ptB.t1",
+        "d": 1,
+        "l": "",
+        "t": "pas de document de voyage valable A | pas de visa valable C",
+        "o": "32016R0399",
+        "ty": "table",
+        "html": "<table><thead><tr><th>Motif</th><th>Code</th></tr></thead><tbody><tr><td>pas de document de voyage valable</td><td>A</td></tr><tr><td>pas de visa valable</td><td>C</td></tr></tbody></table>"
+       },
+       {
+        "k": "ptB.g1",
+        "d": 1,
+        "l": "",
+        "t": "Formulaire (image)",
+        "o": "32016R0399",
+        "ty": "img",
+        "asset": "fx01"
+       }
+      ]
+     },
+     {
+      "stage": "s04",
+      "label": "ANNEXE V",
+      "title": "",
+      "blocks": [
+       {
+        "k": "ptA",
+        "d": 0,
+        "l": "PARTIE A",
+        "t": "Modalités de refus d'entrée à la frontière",
+        "o": "32016R0399",
+        "ty": "heading"
+       },
+       {
+        "k": "ptA.n1",
+        "d": 1,
+        "l": "1.",
+        "t": "En cas de refus d'entrée, le garde-frontière compétent remplit le formulaire uniforme.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "ptB",
+        "d": 0,
+        "l": "PARTIE B",
+        "t": "Formulaire uniforme de refus d'entrée à la frontière",
+        "o": "32016R0399",
+        "ty": "heading"
+       },
+       {
+        "k": "ptB.t1",
+        "d": 1,
+        "l": "",
+        "t": "pas de document de voyage valable A | pas de visa valable C | pas d'autorisation de voyage valable C",
+        "o": "32018R1240",
+        "ty": "table",
+        "html": "<table><thead><tr><th>Motif</th><th>Code</th></tr></thead><tbody><tr><td>pas de document de voyage valable</td><td>A</td></tr><tr><td>pas de visa valable</td><td>C</td></tr><tr><td>pas d'autorisation de voyage valable</td><td>C</td></tr></tbody></table>"
+       },
+       {
+        "k": "ptB.g1",
+        "d": 1,
+        "l": "",
+        "t": "Formulaire (image)",
+        "o": "32016R0399",
+        "ty": "img",
+        "asset": "fx01"
+       }
+      ]
+     }
+    ],
+    "en": [
+     {
+      "stage": "s00",
+      "label": "ANNEX V",
+      "title": "",
+      "blocks": [
+       {
+        "k": "ptA",
+        "d": 0,
+        "l": "PART A",
+        "t": "Procedures for refusing entry at the border",
+        "o": "32016R0399",
+        "ty": "heading"
+       },
+       {
+        "k": "ptA.n1",
+        "d": 1,
+        "l": "1.",
+        "t": "In the event of refusal of entry, the competent border guard shall fill in the standard form.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "ptB",
+        "d": 0,
+        "l": "PART B",
+        "t": "Standard form for refusal of entry at the border",
+        "o": "32016R0399",
+        "ty": "heading"
+       },
+       {
+        "k": "ptB.t1",
+        "d": 1,
+        "l": "",
+        "t": "no valid travel document A | no valid visa C",
+        "o": "32016R0399",
+        "ty": "table",
+        "html": "<table><thead><tr><th>Reason</th><th>Code</th></tr></thead><tbody><tr><td>no valid travel document</td><td>A</td></tr><tr><td>no valid visa</td><td>C</td></tr></tbody></table>"
+       },
+       {
+        "k": "ptB.g1",
+        "d": 1,
+        "l": "",
+        "t": "Form (image)",
+        "o": "32016R0399",
+        "ty": "img",
+        "asset": "fx01"
+       }
+      ]
+     },
+     {
+      "stage": "s04",
+      "label": "ANNEX V",
+      "title": "",
+      "blocks": [
+       {
+        "k": "ptA",
+        "d": 0,
+        "l": "PART A",
+        "t": "Procedures for refusing entry at the border",
+        "o": "32016R0399",
+        "ty": "heading"
+       },
+       {
+        "k": "ptA.n1",
+        "d": 1,
+        "l": "1.",
+        "t": "In the event of refusal of entry, the competent border guard shall fill in the standard form.",
+        "o": "32016R0399"
+       },
+       {
+        "k": "ptB",
+        "d": 0,
+        "l": "PART B",
+        "t": "Standard form for refusal of entry at the border",
+        "o": "32016R0399",
+        "ty": "heading"
+       },
+       {
+        "k": "ptB.t1",
+        "d": 1,
+        "l": "",
+        "t": "no valid travel document A | no valid visa C | no valid travel authorisation C",
+        "o": "32018R1240",
+        "ty": "table",
+        "html": "<table><thead><tr><th>Reason</th><th>Code</th></tr></thead><tbody><tr><td>no valid travel document</td><td>A</td></tr><tr><td>no valid visa</td><td>C</td></tr><tr><td>no valid travel authorisation</td><td>C</td></tr></tbody></table>"
+       },
+       {
+        "k": "ptB.g1",
+        "d": 1,
+        "l": "",
+        "t": "Form (image)",
+        "o": "32016R0399",
+        "ty": "img",
+        "asset": "fx01"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,38 @@
+<!-- @dsCard group="Status" height=330 -->
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>body{margin:0;background:var(--canvas)}</style>
+</head>
+<body>
+<div class="ui-root" style="padding: 24px; background: var(--canvas)">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 900px">
+<div class="ui-notice" role="note"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4l9 16H3z"></path><path d="M12 10v4"></path><path d="M12 17h.01"></path></svg><p><strong>Konsolidierte Fassung, ergänzt.</strong> Konsolidierte Fassung vom 12.10.2025 von EUR-Lex (enthält die Berichtigung 32024R1717R(01), nur DE betroffen); ergänzt um Art. 80 der Verordnung (EU) 2018/1240.</p></div>
+<div class="ui-notice ui-notice--info" role="note"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="9.5"></rect><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"></path></svg><p><strong>Vertraulich.</strong> Dossiers bleiben im Browser dieses Geräts; nichts wird übertragen. Projektdateien und Word-Dokumente wie Verhandlungsunterlagen der höchsten Einstufung behandeln.</p></div>
+<div class="ui-notice ui-notice--error" role="alert"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4l9 16H3z"></path><path d="M12 10v4"></path><path d="M12 17h.01"></path></svg><p><strong>Export fehlgeschlagen.</strong> Die Karte ist für ein PNG zu lang. Eine einzelne Bestimmung wählen oder PDF exportieren.</p></div>
+<div class="ui-notice ui-notice--success" role="status"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><p><strong>PDF A4 erstellt.</strong> Die Datei liegt im Download-Ordner.</p></div>
+</div>
+</div>
+<script>
+document.querySelectorAll('.ui-seg').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('[role="tablist"]').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('[role="tab"]'); if (!b) return;
+    g.querySelectorAll('[role="tab"]').forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('.ui-stagebar').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('.ui-stage'); if (!b) return;
+    g.querySelectorAll('.ui-stage').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+</script>
+</body>
+</html>

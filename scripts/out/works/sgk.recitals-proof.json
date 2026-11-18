@@ -1,0 +1,24 @@
+{
+ "dryRun": true,
+ "baselineSha256": "ce504492e7fc1693147391a845be1afad511866bf1d5f9c7e5aba799edc72742",
+ "afterSha256": "91a5d964f71be2b9c7ba678af4e19e679e3b011bc389c79000be97cbb31100d2",
+ "afterWithoutRctSha256": "ce504492e7fc1693147391a845be1afad511866bf1d5f9c7e5aba799edc72742",
+ "identical": true,
+ "hadRct": false,
+ "recitals": {
+  "de": {
+   "recitals": 44,
+   "blocks": 44
+  },
+  "fr": {
+   "recitals": 44,
+   "blocks": 44
+  },
+  "en": {
+   "recitals": 44,
+   "blocks": 44
+  }
+ },
+ "bytesBefore": 1551555,
+ "bytesAfter": 1640421
+}

@@ -1,0 +1,1576 @@
+{
+ "kind": "chronology",
+ "title": "Art. 8 SGK",
+ "subtitle": "Chronologie der Fassungen (ganze Einheit, nur geänderte Blöcke)",
+ "unitLine": "Art. 8: Grenzübertrittskontrollen von Personen",
+ "brand": "SGK-Navigator",
+ "work": "Schengener Grenzkodex",
+ "textLang": "de",
+ "uiLang": "de",
+ "sections": [
+  {
+   "heading": "VO (EU) 2016/399",
+   "code": "Basis",
+   "tag": "Basistext",
+   "color": "#848E99",
+   "meta": [
+    "Basisakt",
+    "angenommen am 9. März 2016",
+    "ABl. L 77 vom 23.3.2016, S. 1",
+    "anwendbar seit 12. April 2016"
+   ],
+   "flags": [],
+   "blocks": [
+    {
+     "key": "p1",
+     "label": "(1)",
+     "depth": 0,
+     "runs": [
+      {
+       "t": "Der grenzüberschreitende Verkehr an den Außengrenzen unterliegt den Kontrollen durch die Grenzschutzbeamten. Die Kontrollen erfolgen nach Maßgabe dieses Kapitels."
+      }
+     ]
+    },
+    {
+     "key": "p1.s2",
+     "label": "",
+     "depth": 1,
+     "runs": [
+      {
+       "t": "Die Kontrollen können sich auch auf die Fortbewegungsmittel der die Grenze überschreitenden Personen und die von ihnen mitgeführten Sachen erstrecken. Werden Durchsuchungen durchgeführt, so gelten die Rechtsvorschriften des betreffenden Mitgliedstaats."
+      }
+     ]
+    },
+    {
+     "key": "p2",
+     "label": "(2)",
+     "depth": 0,
+     "runs": [
+      {
+       "t": "Alle Personen werden einer Mindestkontrolle unterzogen, die die Feststellung ihrer Identität anhand der vorgelegten oder vorgezeigten Reisedokumente ermöglicht. Eine solche Mindestkontrolle besteht aus einer raschen und einfachen Überprüfung der Gültigkeit des Dokuments, das dem rechtmäßigen Inhaber den Grenzübertritt erlaubt, und der gegebenenfalls vorhandenen Fälschungs- und Verfälschungsmerkmale, bei der gegebenenfalls technische Geräte eingesetzt und ausschließlich die Daten über gestohlene, missbräuchlich verwendete, abhanden gekommene und für ungültig erklärte Dokumente in den einschlägigen Datenbanken abgefragt werden."
+      }
+     ]
+    },
+    {
+     "key": "p2.s2",
+     "label": "",
+     "depth": 1,
+     "runs": [
+      {
+       "t": "Die in Unterabsatz 1 genannte Mindestkontrolle ist das übliche Verfahren bei Personen, die nach Unionsrecht Anspruch auf freien Personenverkehr haben."
+      }
+     ]
+    },
+    {
+     "key": "p2.s3",
+     "label": "",
+     "depth": 1,
+     "runs": [
+      {
+       "t": "Auf nicht systematische Weise können die Grenzschutzbeamten jedoch bei der Durchführung von Mindestkontrollen bei Personen, die nach Unionsrecht Anspruch auf freien Personenverkehr haben, die nationalen und europäischen Datenbanken abfragen, um sicherzustellen, dass eine solche Person keine tatsächliche, gegenwärtige und erhebliche Gefahr für die innere Sicherheit, die öffentliche Ordnung, die internationalen Beziehungen der Mitgliedstaaten oder die öffentliche Gesundheit darstellt."
+      }
+     ]
+    },
+    {
+     "key": "p2.s4",
+     "label": "",
+     "depth": 1,
+     "runs": [
+      {
+       "t": "Das Recht von Personen, die nach Unionsrecht Anspruch auf freien Personenverkehr haben, zur Einreise in das Hoheitsgebiet des betreffenden Mitgliedstaats gemäß der Richtlinie 2004/38/EG wird von den Ergebnissen solcher Konsultationen nicht beeinträchtigt."
+      }
+     ]
+    },
+    {
+     "key": "p3",
+     "label": "(3)",
+     "depth": 0,
+     "runs": [
+      {
+       "t": "Drittstaatsangehörige werden bei der Ein- und Ausreise wie folgt eingehend kontrolliert:"
+      }
+     ]
+    },
+    {
+     "key": "p3.a",
+     "label": "a)",
+     "depth": 1,
+     "runs": [
+      {
+       "t": "Die eingehende Kontrolle bei der Einreise umfasst die Überprüfung der in Artikel 6 Absatz 1 festgelegten Einreisevoraussetzungen sowie gegebenenfalls der für den Aufenthalt und die Ausübung einer Erwerbstätigkeit erforderlichen Erlaubnisse. Hierzu gehört eine umfassende Prüfung von Folgendem:"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.i",
+     "label": "i)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Überprüfung, ob der Drittstaatsangehörige über ein für den Grenzübertritt gültiges und nicht abgelaufenes Dokument verfügt und ob dem Dokument das gegebenenfalls erforderliche Visum oder der gegebenenfalls erforderliche Aufenthaltstitel beigefügt ist;"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.ii",
+     "label": "ii)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "eingehende Prüfung, ob das Reisedokument Fälschungs- oder Verfälschungsmerkmale aufweist;"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.iii",
+     "label": "iii)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Prüfung der Ein- und Ausreisestempel im Reisedokument des betreffenden Drittstaatsangehörigen, um durch einen Vergleich der Ein- und Ausreisedaten festzustellen, ob die zulässige Höchstdauer des Aufenthalts im Hoheitsgebiet der Mitgliedstaaten bereits überschritten wurde;"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.iv",
+     "label": "iv)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Überprüfung der Abfahrts- und Zielorte des betreffenden Drittstaatsangehörigen sowie des Zwecks des beabsichtigten Aufenthalts und, soweit erforderlich, Überprüfung der entsprechenden Belege;"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.v",
+     "label": "v)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Überprüfung, ob der betreffende Drittstaatsangehörige über ausreichende Mittel zur Bestreitung des Lebensunterhalts für die beabsichtigte Dauer und den beabsichtigten Zweck des Aufenthalts, für die Rückreise in den Herkunftsstaat oder für die Durchreise in einen Drittstaat, in dem seine Zulassung gewährleistet ist, verfügt oder in der Lage ist, diese Mittel rechtmäßig zu erwerben;"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.vi",
+     "label": "vi)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Überprüfung, ob der betreffende Drittstaatsangehörige, sein Fortbewegungsmittel und die mitgeführten Sachen eine Gefahr für die öffentliche Ordnung, die innere Sicherheit, die öffentliche Gesundheit oder die internationalen Beziehungen eines der Mitgliedstaaten darstellen. Diese Überprüfung umfasst den unmittelbaren Abruf der Personendaten und -ausschreibungen und — soweit erforderlich — der Sachdaten und -ausschreibungen im SIS und in den nationalen Datenbeständen sowie gegebenenfalls die Durchführung der aufgrund der Ausschreibung erforderlichen Maßnahmen."
+      }
+     ]
+    },
+    {
+     "key": "p3.b",
+     "label": "b)",
+     "depth": 1,
+     "runs": [
+      {
+       "t": "Befindet sich der Drittstaatsangehörige im Besitz eines Visums gemäß Artikel 6 Absatz 1 Buchstabe b, umfasst die eingehende Kontrolle bei der Einreise auch die Verifizierung der Identität des Visuminhabers und der Echtheit des Visums; dazu wird eine Abfrage des Visa-Informationssystems (VIS) gemäß Artikel 18 der Verordnung (EG) Nr. 767/2008 durchgeführt."
+      }
+     ]
+    },
+    {
+     "key": "p3.c",
+     "label": "c)",
+     "depth": 1,
+     "runs": [
+      {
+       "t": "Abweichend davon kann eine Abfrage des VIS in allen Fällen anhand der Nummer der Visummarke und stichprobenartig anhand der Nummer der Visummarke in Kombination mit der Verifizierung der Fingerabdrücke durchgeführt werden,"
+      }
+     ]
+    },
+    {
+     "key": "p3.c.i",
+     "label": "i)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "wenn die Intensität des Verkehrsaufkommens zu übermäßigen Wartezeiten an der Grenzübergangsstelle führt,"
+      }
+     ]
+    },
+    {
+     "key": "p3.c.ii",
+     "label": "ii)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "wenn alle Ressourcen in Bezug auf Personal, Einrichtungen und Organisation ausgeschöpft worden sind und"
+      }
+     ]
+    },
+    {
+     "key": "p3.c.iii",
+     "label": "iii)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "wenn eine Beurteilung ergeben hat, dass kein Risiko in Bezug auf die innere Sicherheit und die illegale Einwanderung besteht."
+      }
+     ]
+    },
+    {
+     "key": "p3.c.s2",
+     "label": "",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "In allen Fällen, in denen jedoch Zweifel an der Identität des Visuminhabers und/oder an der Echtheit des Visums bestehen, wird eine Abfrage des VIS systematisch anhand der Nummer der Visummarke in Kombination mit der Verifizierung der Fingerabdrücke durchgeführt."
+      }
+     ]
+    },
+    {
+     "key": "p3.c.s3",
+     "label": "",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Diese Ausnahme ist nur so lange an der betreffenden Grenzübergangsstelle zulässig, wie die in Ziffern i), ii) und iii) genannten Bedingungen erfüllt sind."
+      }
+     ]
+    },
+    {
+     "key": "p3.d",
+     "label": "d)",
+     "depth": 1,
+     "runs": [
+      {
+       "t": "Die Entscheidung, eine Abfrage des VIS gemäß Buchstabe c durchzuführen, wird auf der Ebene des leitenden Grenzschutzbeamten an der Grenzübergangsstelle oder auf höherer Ebene getroffen."
+      }
+     ]
+    },
+    {
+     "key": "p3.d.s2",
+     "label": "",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Die betreffenden Mitgliedstaaten unterrichten die anderen Mitgliedstaaten und die Kommission umgehend über eine etwaige diesbezügliche Entscheidung."
+      }
+     ]
+    },
+    {
+     "key": "p3.e",
+     "label": "e)",
+     "depth": 1,
+     "runs": [
+      {
+       "t": "Alle Mitgliedstaaten übermitteln dem Europäischen Parlament und der Kommission jährlich einen Bericht über die Anwendung von Buchstabe c, der auch die Zahl der Drittstaatsangehörigen enthält, die im Rahmen des VIS allein anhand der Nummer der Visummarke überprüft wurden, sowie die Dauer der Wartezeit gemäß Buchstabe c Ziffer i."
+      }
+     ]
+    },
+    {
+     "key": "p3.f",
+     "label": "f)",
+     "depth": 1,
+     "runs": [
+      {
+       "t": "Die Buchstaben c und d gelten für einen Zeitraum von höchstens drei Jahren, der drei Jahre nach dem Datum beginnt, an dem das VIS in Betrieb genommen wurde. Vor Ablauf des zweiten Jahres der Anwendung der Buchstaben c und d übermittelt die Kommission dem Europäischen Parlament und dem Rat eine Bewertung der Umsetzung dieser Buchstaben. Auf der Grundlage dieser Bewertung können das Europäische Parlament oder der Rat die Kommission auffordern, angemessene Änderungen zu dieser Verordnung vorzuschlagen."
+      }
+     ]
+    },
+    {
+     "key": "p3.g",
+     "label": "g)",
+     "depth": 1,
+     "runs": [
+      {
+       "t": "Die eingehende Kontrolle bei der Ausreise umfasst:"
+      }
+     ]
+    },
+    {
+     "key": "p3.g.i",
+     "label": "i)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Überprüfung, ob der Drittstaatsangehörige über ein für den Grenzübertritt gültiges Dokument verfügt;"
+      }
+     ]
+    },
+    {
+     "key": "p3.g.ii",
+     "label": "ii)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Überprüfung, ob das Reisedokument Fälschungs- oder Verfälschungsmerkmale aufweist;"
+      }
+     ]
+    },
+    {
+     "key": "p3.g.iii",
+     "label": "iii)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "soweit möglich Überprüfung, ob der Drittstaatsangehörige nicht als eine Gefahr für die öffentliche Ordnung, die innere Sicherheit oder die internationalen Beziehungen eines der Mitgliedstaaten angesehen wird."
+      }
+     ]
+    },
+    {
+     "key": "p3.h",
+     "label": "h)",
+     "depth": 1,
+     "runs": [
+      {
+       "t": "Zusätzlich zu der in Buchstabe g genannten Kontrolle kann die eingehende Kontrolle bei der Ausreise auch folgende Gesichtspunkte umfassen:"
+      }
+     ]
+    },
+    {
+     "key": "p3.h.i",
+     "label": "i)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Überprüfung, ob die Person im Besitz eines gültigen Visums ist, falls dies nach der Verordnung (EG) Nr. 539/2001 vorgeschrieben ist, außer wenn sie Inhaber eines gültigen Aufenthaltstitels ist; eine solche Überprüfung kann auch eine Abfrage des VIS gemäß Artikel 18 der Verordnung (EG) Nr. 767/2008 umfassen;"
+      }
+     ]
+    },
+    {
+     "key": "p3.h.ii",
+     "label": "ii)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Überprüfung, ob die Person nicht die zulässige Höchstdauer des Aufenthalts im Hoheitsgebiet der Mitgliedstaaten überschritten hat;"
+      }
+     ]
+    },
+    {
+     "key": "p3.h.iii",
+     "label": "iii)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Abruf der Personen- und Sachausschreibungen im SIS und in den nationalen Datenbeständen."
+      }
+     ]
+    },
+    {
+     "key": "p3.i",
+     "label": "i)",
+     "depth": 1,
+     "runs": [
+      {
+       "t": "Zum Zwecke der Identifizierung einer Person, die die Bedingungen für die Einreise oder den Aufenthalt im Hoheitsgebiet der Mitgliedstaaten nicht oder nicht mehr erfüllt, sind Abfragen des VIS gemäß Artikel 20 der Verordnung (EG) Nr. 767/2008 zulässig."
+      }
+     ]
+    },
+    {
+     "key": "p4",
+     "label": "(4)",
+     "depth": 0,
+     "runs": [
+      {
+       "t": "Soweit entsprechende Einrichtungen vorhanden sind, werden solche eingehenden Kontrollen auf Antrag des Drittstaatsangehörigen in einem privaten Bereich durchgeführt."
+      }
+     ]
+    },
+    {
+     "key": "p5",
+     "label": "(5)",
+     "depth": 0,
+     "runs": [
+      {
+       "t": "Unbeschadet des Unterabsatzes 2 werden Drittstaatsangehörige, die einer eingehenden Kontrolle in der zweiten Kontrolllinie unterzogen werden, schriftlich in einer Sprache, die sie verstehen oder bei der vernünftigerweise davon ausgegangen werden kann, dass sie sie verstehen, oder in einer anderen wirksamen Form über den Zweck und das Verfahren einer solchen Kontrolle unterrichtet."
+      }
+     ]
+    },
+    {
+     "key": "p5.s2",
+     "label": "",
+     "depth": 1,
+     "runs": [
+      {
+       "t": "Diese Informationen müssen in allen Amtssprachen der Union sowie in der/den Sprache(n) des/der an den betreffenden Mitgliedstaat angrenzenden Staates/Staaten verfügbar sein und darauf hinweisen, dass der Drittstaatsangehörige um den Namen oder die Dienstausweisnummer der Grenzschutzbeamten, die die eingehende Kontrolle in der zweiten Kontrolllinie durchführen, sowie um die Bezeichnung der Grenzübergangsstelle und um das Datum, an dem die Grenze überschritten wurde, ersuchen kann."
+      }
+     ]
+    },
+    {
+     "key": "p6",
+     "label": "(6)",
+     "depth": 0,
+     "runs": [
+      {
+       "t": "Kontrollen von Personen, die nach Unionsrecht Anspruch auf freien Personenverkehr haben, werden in Übereinstimmung mit der Richtlinie 2004/38/EG durchgeführt."
+      }
+     ]
+    },
+    {
+     "key": "p7",
+     "label": "(7)",
+     "depth": 0,
+     "runs": [
+      {
+       "t": "Detaillierte Vorschriften für die zu erfassenden Informationen sind in Anhang II enthalten."
+      }
+     ]
+    },
+    {
+     "key": "p8",
+     "label": "(8)",
+     "depth": 0,
+     "runs": [
+      {
+       "t": "Wird Artikel 5 Absatz 2 Buchstabe a oder b angewandt, so dürfen die Mitgliedstaaten auch von den Bestimmungen dieses Artikels abweichen."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "VO (EU) 2017/458",
+   "code": "Syst. Abfr.",
+   "tag": "geändert",
+   "color": "#E69F00",
+   "meta": [
+    "angenommen am 15. März 2017",
+    "ABl. L 74 vom 18.3.2017, S. 1",
+    "anwendbar seit 7. April 2017"
+   ],
+   "flags": [],
+   "blocks": [
+    {
+     "key": "p2",
+     "label": "(2)",
+     "depth": 0,
+     "runs": [
+      {
+       "t": "Alle Personen werden einer Mindestkontrolle unterzogen, die die Feststellung ihrer Identität anhand der vorgelegten oder vorgezeigten Reisedokumente ermöglicht. Eine solche Mindestkontrolle besteht aus einer raschen und einfachen Überprüfung der Gültigkeit des Dokuments, das dem rechtmäßigen Inhaber den Grenzübertritt erlaubt, und der gegebenenfalls vorhandenen Fälschungs- und Verfälschungsmerkmale, bei der gegebenenfalls technische Geräte eingesetzt und ausschließlich die Daten über gestohlene, missbräuchlich verwendete, abhanden gekommene und für ungültig erklärte Dokumente in den einschlägigen Datenbanken abgefragt werden.",
+       "op": "del"
+      },
+      {
+       "t": "Personen, die nach Unionsrecht Anspruch auf freien Personenverkehr haben, werden bei der Ein- und Ausreise folgenden Kontrollen unterzogen:",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2.s2",
+     "label": "",
+     "depth": 1,
+     "op": "del",
+     "runs": [
+      {
+       "t": "Die in Unterabsatz 1 genannte Mindestkontrolle ist das übliche Verfahren bei Personen, die nach Unionsrecht Anspruch auf freien Personenverkehr haben.",
+       "op": "del"
+      }
+     ]
+    },
+    {
+     "key": "p2.s3",
+     "label": "",
+     "depth": 1,
+     "op": "del",
+     "runs": [
+      {
+       "t": "Auf nicht systematische Weise können die Grenzschutzbeamten jedoch bei der Durchführung von Mindestkontrollen bei Personen, die nach Unionsrecht Anspruch auf freien Personenverkehr haben, die nationalen und europäischen Datenbanken abfragen, um sicherzustellen, dass eine solche Person keine tatsächliche, gegenwärtige und erhebliche Gefahr für die innere Sicherheit, die öffentliche Ordnung, die internationalen Beziehungen der Mitgliedstaaten oder die öffentliche Gesundheit darstellt.",
+       "op": "del"
+      }
+     ]
+    },
+    {
+     "key": "p2.s4",
+     "label": "",
+     "depth": 1,
+     "op": "del",
+     "runs": [
+      {
+       "t": "Das Recht von Personen, die nach Unionsrecht Anspruch auf freien Personenverkehr haben, zur Einreise in das Hoheitsgebiet des betreffenden Mitgliedstaats gemäß der Richtlinie 2004/38/EG wird von den Ergebnissen solcher Konsultationen nicht beeinträchtigt.",
+       "op": "del"
+      }
+     ]
+    },
+    {
+     "key": "p2.a",
+     "label": "a)",
+     "depth": 1,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Überprüfung der Identität und der Staatsangehörigkeit der Person sowie der Echtheit des Reisedokuments und seiner Gültigkeit für den Grenzübertritt, unter anderem durch Abfrage der einschlägigen Datenbanken, insbesondere",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2.a.n1",
+     "label": "1.",
+     "depth": 2,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "des SIS,",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2.a.n2",
+     "label": "2.",
+     "depth": 2,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "der Interpol-Datenbank für gestohlene und verlorene Reisedokumente (SLTD),",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2.a.n3",
+     "label": "3.",
+     "depth": 2,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "nationaler Datenbanken mit Angaben zu gestohlenen, unterschlagenen, verlorenen oder für ungültig erklärten Reisedokumenten.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2.a.s2",
+     "label": "",
+     "depth": 2,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Bei Pässen und Reisedokumenten mit einem Speichermedium nach Artikel 1 Absatz 2 der Verordnung (EG) Nr. 2252/2004 des Rates wird die Authentizität der Daten auf dem Chip geprüft.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2.b",
+     "label": "b)",
+     "depth": 1,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Überprüfung, ob eine Person, die nach Unionsrecht Anspruch auf freien Personenverkehr hat, nicht als Gefahr für die öffentliche Ordnung, die innere Sicherheit, die öffentliche Gesundheit oder die internationalen Beziehungen eines der Mitgliedstaaten angesehen wird, unter anderem durch Abfrage des SIS und anderer einschlägiger Unionsdatenbanken. Dies steht einer Abfrage von nationalen Datenbanken und Interpol-Datenbanken nicht entgegen.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2.b.s2",
+     "label": "",
+     "depth": 2,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Bei Zweifeln an der Echtheit des Reisedokuments oder an der Identität des Inhabers soll mindestens einer der biometrischen Identifikatoren, die in die gemäß der Verordnung (EG) Nr. 2252/2004 ausgestellten Pässe und Reisedokumente integriert sind, überprüft werden. Nach Möglichkeit ist eine solche Überprüfung auch bei Reisedokumenten durchzuführen, die nicht unter jene Verordnung fallen.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2a",
+     "label": "(2a)",
+     "depth": 0,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Würden die Abfragen der Datenbanken nach Absatz 2 Buchstaben a und b zu unverhältnismäßigen Auswirkungen auf den Verkehrsfluss führen, so kann ein Mitgliedstaat beschließen, diese Abfragen in gezielter Weise an einer bestimmten Grenzübergangsstelle nach einer Bewertung der Risiken für die öffentliche Ordnung, die innere Sicherheit, die öffentliche Gesundheit oder die internationalen Beziehungen eines der Mitgliedstaaten durchzuführen.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2a.s2",
+     "label": "",
+     "depth": 1,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Umfang und Dauer der vorübergehenden Begrenzung auf gezielte Abfragen der Datenbanken dürfen nicht über das unbedingt erforderliche Maß hinausgehen und werden gemäß einer von dem betroffenen Mitgliedstaat durchgeführten Risikobewertung festgelegt. In der Risikobewertung werden die Gründe für die vorübergehende Begrenzung auf gezielte Abfragen der Datenbanken dargelegt und unter anderem die unverhältnismäßigen Auswirkungen auf den Verkehrsfluss berücksichtigt; darüber hinaus enthält die Risikobewertung Statistiken über beförderte Personen und Vorfälle, die im Zusammenhang mit grenzüberscheitender Kriminalität stehen. Die Risikobewertung wird regelmäßig aktualisiert.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2a.s3",
+     "label": "",
+     "depth": 1,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Personen, bei denen grundsätzlich keine gezielte Abfrage der Datenbanken durchgeführt wird, werden mindestens einer Kontrolle unterzogen, bei der ihre Identität anhand der vorgelegten oder vorgezeigten Reisedokumente festgestellt wird. Eine solche Kontrolle besteht in einer raschen und einfachen Überprüfung der Gültigkeit des Reisedokuments für den Grenzübertritt, und es sollte, gegebenenfalls mithilfe technischer Geräte, nach Fälschungs- oder Verfälschungsmerkmalen gesucht werden, und, im Falle von Zweifeln in Bezug auf das Reisedokument oder wenn es Anzeichen gibt, dass eine solche Person eine Gefahr für die öffentliche Ordnung, die innere Sicherheit, die öffentliche Gesundheit oder die internationalen Beziehungen der Mitgliedstaaten darstellen könnte, fragt der Grenzschutzbeamte die in Absatz 2 Buchstaben a und b genannten Datenbanken ab.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2a.s4",
+     "label": "",
+     "depth": 1,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Der betroffene Mitgliedstaat übermittelt seine Risikobewertung und deren Aktualisierungen unverzüglich an die mit der Verordnung (EU) 2016/1624 des Europäischen Parlamentes und des Rates errichtete Europäische Agentur für die Grenz- und Küstenwache (im Folgenden „Agentur“) und erstattet der Kommission und der Agentur alle sechs Monate Bericht über die gezielten Abfragen der Datenbanken. Der betroffene Mitgliedstaat kann beschließen, die Risikobewertung oder Teile davon als Verschlusssache einzustufen.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2b",
+     "label": "(2b)",
+     "depth": 0,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Hat ein Mitgliedstaat die Absicht, gezielte Abfragen der Datenbanken nach Absatz 2a durchzuführen, so teilt er dies den anderen Mitgliedstaaten, der Agentur und der Kommission unverzüglich mit. Der betroffene Mitgliedstaat kann beschließen, die Meldung oder Teile davon als Verschlusssache einzustufen.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2b.s2",
+     "label": "",
+     "depth": 1,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Falls die Mitgliedstaaten, die Agentur oder die Kommission Bedenken angesichts der Absicht, gezielte Abfragen der Datenbanken durchzuführen, haben, so unterrichten sie den betreffenden Mitgliedstaat unverzüglich über diese Bedenken. Der betreffende Mitgliedstaat trägt diesen Bedenken Rechnung.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2c",
+     "label": "(2c)",
+     "depth": 0,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Die Kommission legt dem Europäischen Parlament und dem Rat bis zum 8. April 2019 eine Bewertung der Umsetzung und der Auswirkungen des Absatz 2 vor.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2d",
+     "label": "(2d)",
+     "depth": 0,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "In Bezug auf Luftgrenzen gelten die Absätze 2a und 2b für eine Übergangsfrist von höchstens sechs Monaten ab dem 7. April 2017.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2d.s2",
+     "label": "",
+     "depth": 1,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Bestehen an einem bestimmten Flughafen besondere Schwierigkeiten hinsichtlich der Infrastruktur, die mehr Zeit für die Anpassungen erfordern, mit denen die Durchführung systematischer Abfragen der Datenbanken ohne unverhältnismäßige Auswirkungen auf den Verkehrsfluss ermöglicht wird, so kann die in Unterabsatz 1 genannte Frist von sechs Monaten im Einklang mit dem in Unterabsatz 3 festgelegten Verfahren für diesen bestimmten Flughafen ausnahmsweise um höchstens 18 Monate verlängert werden.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2d.s3",
+     "label": "",
+     "depth": 1,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Zu diesem Zweck unterrichtet der Mitgliedstaat die Kommission, die Agentur und die anderen Mitgliedstaaten spätestens drei Monate vor Ablauf des in Unterabsatz 1 genannten Übergangszeitraums über die besonderen Schwierigkeiten hinsichtlich der Infrastruktur an dem betreffenden Flughafen, über die geplanten Maßnahmen zu deren Behebung und über die Zeit, die für ihre Durchführung benötigt wird.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2d.s4",
+     "label": "",
+     "depth": 1,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Bestehen besondere Schwierigkeiten hinsichtlich der Infrastruktur, die mehr Zeit für die Anpassungen erfordern, so erteilt die Kommission dem betreffenden Mitgliedstaat innerhalb eines Monats nach Eingang der in Unterabsatz 3 genannten Mitteilung und nach Anhörung der Agentur die Genehmigung, den Übergangszeitraum für diesen betreffenden Flughafen zu verlängern, und legt, soweit angezeigt, die Dauer dieser Verlängerung fest.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2e",
+     "label": "(2e)",
+     "depth": 0,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Die Abfragen der Datenbanken nach Absatz 2 Buchstaben a und b können im Voraus auf der Grundlage von Angaben über die beförderten Personen durchgeführt werden, die im Einklang mit der Richtlinie 2004/82/EG des Rates oder mit anderen Unions- oder nationalen Rechtsvorschriften übermittelt wurden.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2e.s2",
+     "label": "",
+     "depth": 1,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Falls diese Abfragen im Voraus auf der Grundlage der Angaben über die beförderten Personen erfolgen, werden die im Voraus erhaltenen Daten mit den im Reisedokument enthaltenen Daten an der Grenzübergangsstelle abgeglichen. Die Identität und die Staatsangehörigkeit der betreffenden Person sowie die Echtheit des Reisedokuments und seine Gültigkeit für den Grenzübertritt wird ebenfalls überprüft.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2f",
+     "label": "(2f)",
+     "depth": 0,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Abweichend von Absatz 2 dürfen Personen, die nach Unionsrecht Anspruch auf freien Personenverkehr haben, beim Überschreiten der Landbinnengrenzen der Mitgliedstaaten, bei denen die Überprüfung nach Maßgabe der geltenden Schengen-Bewertungsverfahren bereits erfolgreich abgeschlossen ist, aber noch nicht beschlossen worden ist, die Kontrollen an ihren Binnengrenzen gemäß den einschlägigen Bestimmungen der jeweiligen Beitrittsakte aufzuheben, den Ausreisekontrollen gemäß Absatz 2 nicht systematisch, sondern nur auf Grundlage einer Risikobewertung unterworfen werden.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.i",
+     "label": "i)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Überprüfung, ob der Drittstaatsangehörige über ein für den Grenzübertritt gültiges und nicht abgelaufenes Dokument verfügt und ob dem Dokument das gegebenenfalls erforderliche Visum oder der gegebenenfalls erforderliche Aufenthaltstitel beigefügt ist;",
+       "op": "del"
+      },
+      {
+       "t": "Überprüfung der Identität und der Staatsangehörigkeit des Drittstaatsangehörigen sowie der Echtheit des Reisedokuments und seiner Gültigkeit für den Grenzübertritt, unter anderem durch Abfrage der einschlägigen Datenbanken, insbesondere",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.i.n1",
+     "label": "1.",
+     "depth": 3,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "des SIS,",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.i.n2",
+     "label": "2.",
+     "depth": 3,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "der Interpol-Datenbank für SLTD,",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.i.n3",
+     "label": "3.",
+     "depth": 3,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "nationaler Datenbanken mit Angaben zu gestohlenen, unterschlagenen, verlorenen oder für ungültig erklärten Reisedokumenten.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.i.s2",
+     "label": "",
+     "depth": 3,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Bei Pässen und Reisedokumenten mit einem Speichermedium wird vorbehaltlich der Verfügbarkeit gültiger Zertifikate die Authentizität der Daten auf dem Chip geprüft;",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.ii",
+     "label": "ii)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "eingehende Prüfung, ob das Reisedokument Fälschungs- oder Verfälschungsmerkmale aufweist;",
+       "op": "del"
+      },
+      {
+       "t": "Überprüfung, ob dem Reisedokument gegebenenfalls das erforderliche Visum oder der erforderliche Aufenthaltstitel beigefügt ist;",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.vi",
+     "label": "vi)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Überprüfung, ob der betreffende Drittstaatsangehörige, sein Fortbewegungsmittel und die mitgeführten Sachen eine Gefahr für die öffentliche Ordnung, die innere Sicherheit, die öffentliche Gesundheit oder die internationalen Beziehungen eines der Mitgliedstaaten darstellen. Diese Überprüfung umfasst den unmittelbaren Abruf der Personendaten und -ausschreibungen und — soweit erforderlich — der Sachdaten und -ausschreibungen im SIS und in "
+      },
+      {
+       "t": "den nationalen Datenbeständen",
+       "op": "del"
+      },
+      {
+       "t": "anderen einschlägigen Unionsdatenbanken",
+       "op": "ins"
+      },
+      {
+       "t": " sowie gegebenenfalls die Durchführung der aufgrund der Ausschreibung erforderlichen Maßnahmen."
+      },
+      {
+       "t": " Dies steht einer Abfrage von nationalen Datenbanken und Interpol-Datenbanken nicht entgegen.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.g.i",
+     "label": "i)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Überprüfung, ob der Drittstaatsangehörige über ein für den Grenzübertritt gültiges Dokument verfügt;",
+       "op": "del"
+      },
+      {
+       "t": "Überprüfung der Identität und der Staatsangehörigkeit des Drittstaatsangehörigen sowie der Echtheit des Reisedokuments und seiner Gültigkeit für den Grenzübertritt, unter anderem durch Abfrage der einschlägigen Datenbanken, insbesondere",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.g.i.n1",
+     "label": "1.",
+     "depth": 3,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "des SIS,",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.g.i.n2",
+     "label": "2.",
+     "depth": 3,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "der Interpol-Datenbank für SLTD,",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.g.i.n3",
+     "label": "3.",
+     "depth": 3,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "nationaler Datenbanken mit Angaben zu gestohlenen, unterschlagenen, verlorenen oder für ungültig erklärten Reisedokumenten.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.g.i.s2",
+     "label": "",
+     "depth": 3,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Bei Pässen und Reisedokumenten mit einem Speichermedium wird vorbehaltlich der Verfügbarkeit gültiger Zertifikate die Authentizität der Daten auf dem Chip geprüft;",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.g.ii",
+     "label": "ii)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Überprüfung, ob das Reisedokument Fälschungs- oder Verfälschungsmerkmale aufweist;",
+       "op": "del"
+      },
+      {
+       "t": "Überprüfung, ob der Drittstaatsangehörige nicht als eine Gefahr für die öffentliche Ordnung, die innere Sicherheit, die öffentliche Gesundheit oder die internationalen Beziehungen eines der Mitgliedstaaten angesehen wird, unter anderem durch Abfrage des SIS und anderer einschlägiger Unionsdatenbanken. Dies steht einer Abfrage von nationalen Datenbanken und Interpol-Datenbanken nicht entgegen.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.g.iii",
+     "label": "iii)",
+     "depth": 2,
+     "op": "del",
+     "runs": [
+      {
+       "t": "soweit möglich Überprüfung, ob der Drittstaatsangehörige nicht als eine Gefahr für die öffentliche Ordnung, die innere Sicherheit oder die internationalen Beziehungen eines der Mitgliedstaaten angesehen wird.",
+       "op": "del"
+      }
+     ]
+    },
+    {
+     "key": "p3.h.iii",
+     "label": "iii)",
+     "depth": 2,
+     "op": "del",
+     "runs": [
+      {
+       "t": "Abruf der Personen- und Sachausschreibungen im SIS und in den nationalen Datenbeständen.",
+       "op": "del"
+      }
+     ]
+    },
+    {
+     "key": "p3.ia",
+     "label": "ia)",
+     "depth": 1,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Die Abfrage der Datenbanken nach Buchstabe a Ziffern i und vi und Buchstabe g können im Voraus auf der Grundlage von Angaben über die beförderten Personen durchgeführt werden, die im Einklang mit der Richtlinie 2004/82/EG oder mit anderen Unions- oder nationalen Rechtsvorschriften übermittelt wurden.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.ia.s2",
+     "label": "",
+     "depth": 2,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Falls diese Abfragen im Voraus auf der Grundlage der Angaben über die beförderten Personen erfolgen, werden die im Voraus erhaltenen Daten mit den im Reisedokument enthaltenen Daten an der Grenzübergangsstelle abgeglichen. Die Identität und Staatsangehörigkeit der betreffenden Person sowie die Echtheit des Reisedokuments und seine Gültigkeit für den Grenzübertritt wird ebenfalls überprüft.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.ib",
+     "label": "ib)",
+     "depth": 1,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Bestehen Zweifel an der Echtheit des Reisedokuments oder an der Identität des Drittstaatsangehörigen, so umfassen die Abfragen, wenn möglich, die Überprüfung von mindestens einem der biometrischen Identifikatoren, die in den Reisedokumenten integriert sind.",
+       "op": "ins"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "VO (EU) 2017/2225",
+   "code": "EES",
+   "tag": "geändert",
+   "color": "#009E73",
+   "meta": [
+    "angenommen am 30. November 2017",
+    "ABl. L 327 vom 9.12.2017, S. 1",
+    "anwendbar seit 12. Oktober 2025"
+   ],
+   "flags": [
+    {
+     "kind": "reconstructed",
+     "label": "rekonstruiert"
+    }
+   ],
+   "blocks": [
+    {
+     "key": "p2.a.s2",
+     "label": "",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Bei Pässen und Reisedokumenten mit einem Speichermedium nach Artikel 1 Absatz 2 der Verordnung (EG) Nr. 2252/2004 des Rates wird die Authentizität der Daten auf dem Chip geprüft.",
+       "op": "del"
+      },
+      {
+       "t": "Enthält das Reisedokument ein elektronisches Speichermedium (Chip), werden die Echtheit und Integrität der Daten auf dem auf dem elektronischen Speichermedium (Chip) anhand der vollständigen gültigen Zertifikatkette bestätigt, sofern dies nicht aus technischen Gründen oder — im Falle der Ausstellung des Reisedokuments durch einen Drittstaat — mangels gültiger Zertifikate unmöglich ist.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p2.b.s3",
+     "label": "",
+     "depth": 2,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Bei Personen, deren Einreise gemäß Artikel 6a der vorliegenden Verordnung im EES zu erfassen ist, wird eine Überprüfung ihrer Identität gemäß Artikel 23 Absatz 2 der Verordnung (EU) 2017/2226 und gegebenenfalls ihre Identifizierung gemäß Artikel 23 Absatz 4 jener Verordnung vorgenommen.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.i.s2",
+     "label": "",
+     "depth": 3,
+     "runs": [
+      {
+       "t": "Bei Pässen und Reisedokumenten mit einem "
+      },
+      {
+       "t": "Speichermedium",
+       "op": "del"
+      },
+      {
+       "t": "elektronischen Speichermedium (Chip)",
+       "op": "ins"
+      },
+      {
+       "t": " wird vorbehaltlich der Verfügbarkeit gültiger Zertifikate die "
+      },
+      {
+       "t": "Authentizität",
+       "op": "del"
+      },
+      {
+       "t": "Echtheit und Integrität",
+       "op": "ins"
+      },
+      {
+       "t": " der Daten auf dem "
+      },
+      {
+       "t": "Chip geprüft;",
+       "op": "del"
+      },
+      {
+       "t": "elektronischen Speichermedium (Chip) geprüft.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.i.s3",
+     "label": "",
+     "depth": 3,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Sofern auf dem elektronischen Speichermedium (Chip) des Reisedokuments ein Gesichtsbild vorhanden ist und der Zugriff auf dieses Gesichtsbild technisch möglich ist, wird bei der Überprüfung auch dieses Gesichtsbild geprüft, indem es elektronisch mit dem vor Ort aufgenommenen Gesichtsbild des betreffenden Drittstaatsangehörigen verglichen wird; davon ausgenommen sind Drittstaatsangehörige, für die bereits ein persönliches Dossier im EES angelegt wurde. Wenn technisch und rechtlich möglich, kann diese Überprüfung durch den Abgleich der vor Ort abgenommenen Fingerabdrücke mit den auf dem elektronischen Speichermedium (Chip) gespeicherten Fingerabdrücken erfolgen;",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.iii",
+     "label": "iii)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Prüfung der Ein- und Ausreisestempel im Reisedokument des betreffenden Drittstaatsangehörigen, um durch einen Vergleich der Ein- und Ausreisedaten festzustellen, ob die zulässige Höchstdauer des Aufenthalts im Hoheitsgebiet der Mitgliedstaaten bereits überschritten wurde;",
+       "op": "del"
+      },
+      {
+       "t": "Bei Personen, deren Einreise beziehungsweise Einreiseverweigerung gemäß Artikel 6a der vorliegenden Verordnung im EES zu erfassen ist, Überprüfung ihrer Identität gemäß Artikel 23 Absatz 2 der Verordnung (EU) 2017/2226 und gegebenenfalls ihre Identifizierung gemäß Artikel 23 Absatz 4 jener Verordnung;",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.a.iiia",
+     "label": "iiia)",
+     "depth": 2,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Bei Personen, deren Einreise beziehungsweise Einreiseverweigerung gemäß Artikel 6a der vorliegenden Verordnung im EES zu erfassen ist, Überprüfung, ob der Drittstaatsangehörige die zulässige Höchstdauer des Aufenthalts im Hoheitsgebiet der Mitgliedstaaten erreicht oder überschritten hat, und bei Drittstaatsangehörigen im Besitz eines für eine oder zwei Einreisen ausgestellten Visums, ob die maximal zulässige Zahl der Einreisen eingehalten wurde; dazu wird eine Abfrage des EES gemäß Artikel 23 der Verordnung (EU) 2017/2226 durchgeführt;",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.g.i.n2",
+     "label": "2.",
+     "depth": 3,
+     "runs": [
+      {
+       "t": "der "
+      },
+      {
+       "t": "Interpol-Datenbank für SLTD",
+       "op": "del"
+      },
+      {
+       "t": "SLTD-Datenbank von Interpol",
+       "op": "ins"
+      },
+      {
+       "t": ","
+      }
+     ]
+    },
+    {
+     "key": "p3.g.i.n3",
+     "label": "3.",
+     "depth": 3,
+     "runs": [
+      {
+       "t": "nationaler Datenbanken mit Angaben zu gestohlenen, "
+      },
+      {
+       "t": "unterschlagenen, verlorenen oder",
+       "op": "del"
+      },
+      {
+       "t": "missbräuchlich verwendeten, abhanden gekommenen und",
+       "op": "ins"
+      },
+      {
+       "t": " für ungültig erklärten Reisedokumenten."
+      }
+     ]
+    },
+    {
+     "key": "p3.g.i.s2",
+     "label": "",
+     "depth": 3,
+     "runs": [
+      {
+       "t": "Bei Pässen und Reisedokumenten mit einem "
+      },
+      {
+       "t": "Speichermedium",
+       "op": "del"
+      },
+      {
+       "t": "elektronischen Speichermedium (Chip)",
+       "op": "ins"
+      },
+      {
+       "t": " wird vorbehaltlich der Verfügbarkeit gültiger Zertifikate die "
+      },
+      {
+       "t": "Authentizität",
+       "op": "del"
+      },
+      {
+       "t": "Echtheit und Integrität",
+       "op": "ins"
+      },
+      {
+       "t": " der Daten auf dem "
+      },
+      {
+       "t": "Chip geprüft;",
+       "op": "del"
+      },
+      {
+       "t": "elektronischen Speichermedium (Chip) geprüft.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.g.i.s3",
+     "label": "",
+     "depth": 3,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Sofern auf dem elektronischen Speichermedium (Chip) des Reisedokuments ein Gesichtsbild vorhanden ist und der Zugriff auf dieses Gesichtsbild technisch möglich ist, wird bei der Überprüfung auch dieses Gesichtsbild geprüft, indem es elektronisch mit dem vor Ort aufgenommenen Gesichtsbild des betreffenden Drittstaatsangehörigen verglichen wird; davon ausgenommen sind Drittstaatsangehörige, für die bereits ein persönliches Dossier im EES angelegt wurde. Wenn technisch und rechtlich möglich, kann diese Überprüfung durch den Abgleich der vor Ort abgenommenen Fingerabdrücke mit den auf dem elektronischen Speichermedium (Chip) gespeicherten Fingerabdrücken erfolgen.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.g.iii",
+     "label": "iii)",
+     "depth": 2,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "bei Personen, deren Ausreise gemäß Artikel 6a der vorliegenden Verordnung im EES zu erfassen ist, eine Überprüfung ihrer Identität gemäß Artikel 23 Absatz 2 der Verordnung (EU) 2017/2226 und gegebenenfalls ihre Identifizierung gemäß Artikel 23 Absatz 4 jener Verordnung.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.g.iv",
+     "label": "iv)",
+     "depth": 2,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "bei Personen, deren Ausreise gemäß Artikel 6a der vorliegenden Verordnung im EES zu erfassen ist, Überprüfung, ob der Drittstaatsangehörige die zulässige Höchstdauer des Aufenthalts im Hoheitsgebiet der Mitgliedstaaten überschritten hat, durch eine Abfrage des EES gemäß Artikel 23 Absatz 3 der Verordnung (EU) 2017/2226.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.h.ii",
+     "label": "ii)",
+     "depth": 2,
+     "op": "del",
+     "runs": [
+      {
+       "t": "Überprüfung, ob die Person nicht die zulässige Höchstdauer des Aufenthalts im Hoheitsgebiet der Mitgliedstaaten überschritten hat;",
+       "op": "del"
+      }
+     ]
+    },
+    {
+     "key": "p3.i",
+     "label": "i)",
+     "depth": 1,
+     "runs": [
+      {
+       "t": "Zum Zwecke der Identifizierung einer Person, die die Bedingungen für die Einreise oder den Aufenthalt im Hoheitsgebiet der Mitgliedstaaten nicht oder nicht mehr erfüllt, sind Abfragen des VIS gemäß Artikel 20 der Verordnung (EG) Nr. 767/2008 "
+      },
+      {
+       "t": "sowie Abfragen des EES gemäß Artikel 27 der Verordnung (EU) 2017/2226 ",
+       "op": "ins"
+      },
+      {
+       "t": "zulässig."
+      }
+     ]
+    },
+    {
+     "key": "p9",
+     "label": "(9)",
+     "depth": 0,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Drittstaatsangehörige werden über die maximale Dauer des zulässigen Aufenthalts unter Berücksichtigung der Zahl der Einreisen und der Aufenthaltsdauer, die aufgrund des Visums zulässig sind, informiert. Diese Informationen wird entweder vom Grenzschutzbeamten bei Grenzübertrittskontrollen oder mittels einer an der Grenzübergangsstelle installierten Einrichtung erteilt, die es den Drittstaatsangehörigen ermöglicht, den Web-Dienst gemäß Artikel 13 Absätze 1 und 2 der Verordnung (EU) 2017/2226 abzufragen.",
+       "op": "ins"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "VO (EU) 2018/1240",
+   "code": "ETIAS",
+   "tag": "geändert",
+   "color": "#CC79A7",
+   "meta": [
+    "angenommen am 12. September 2018",
+    "ABl. L 236 vom 19.9.2018, S. 1"
+   ],
+   "flags": [
+    {
+     "kind": "reconstructed",
+     "label": "rekonstruiert"
+    },
+    {
+     "kind": "not-applicable",
+     "label": "noch nicht anwendbar"
+    }
+   ],
+   "blocks": [
+    {
+     "key": "p3.a.ii",
+     "label": "ii)",
+     "depth": 2,
+     "runs": [
+      {
+       "t": "Überprüfung, ob dem Reisedokument gegebenenfalls das erforderliche Visum"
+      },
+      {
+       "t": ", die erforderliche Reisegenehmigung",
+       "op": "ins"
+      },
+      {
+       "t": " oder der erforderliche Aufenthaltstitel beigefügt ist;"
+      }
+     ]
+    },
+    {
+     "key": "p3.ba",
+     "label": "ba)",
+     "depth": 1,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Falls der Drittstaatsangehörige über eine Reisegenehmigung nach Artikel 6 Absatz 1 Buchstabe b dieser Verordnung verfügt, erstreckt sich die eingehende Kontrolle bei der Einreise auch auf die Überprüfung der Echtheit, der Gültigkeit und des Status der Reisegenehmigung sowie gegebenenfalls der Identität des Inhabers der Reisegenehmigung durch Abfrage des ETIAS gemäß Artikel 47 der der Verordnung (EU) 2018/1240. Wenn die Abfrage gemäß Artikel 47 Absätze 1 und 2 der Verordnung (EU) 2018/1240 technisch nicht möglich ist, gilt Artikel 48 Absatz 3 der vorgenannten Verordnung.",
+       "op": "ins"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "VO (EU) 2019/817",
+   "code": "Interop.",
+   "tag": "geändert",
+   "color": "#56B4E9",
+   "meta": [
+    "angenommen am 20. Mai 2019",
+    "ABl. L 135 vom 22.5.2019, S. 27"
+   ],
+   "flags": [
+    {
+     "kind": "reconstructed",
+     "label": "rekonstruiert"
+    },
+    {
+     "kind": "not-applicable",
+     "label": "noch nicht anwendbar"
+    }
+   ],
+   "blocks": [
+    {
+     "key": "p4a",
+     "label": "(4a)",
+     "depth": 0,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Falls bei der Ein- oder Ausreise eine Abfrage der einschlägigen Datenbanken, einschließlich des Detektors für Mehrfachidentitäten, durch das Europäische Suchportal, die mit Artikel 25 Absatz 1 bzw. Artikel 6 Absatz 1 der Verordnung (EU) 2019/817 des Europäischen Parlaments und des Rates eingerichtet wurden, eine gelbe oder rote Verknüpfung anzeigt, führt der Grenzschutzbeamte eine Abfrage im gemeinsamen Speicher für Identitätsdaten gemäß Artikel 17 Absatz 1 der genannten Verordnung oder im SIS oder in beidem durch, um die Unterschiede bei den verknüpften Identitätsdaten oder Reisedokumentendaten zu prüfen. Der Grenzschutzbeamte führt sämtliche zusätzlichen Überprüfungen durch, die für eine Entscheidung über den Status und die Farbe der Verknüpfung erforderlich sind.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p4a.s2",
+     "label": "",
+     "depth": 1,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Gemäß Artikel 69 Absatz 1 der Verordnung (EU) 2019/817 gilt dieser Absatz ab dem Zeitpunkt der Inbetriebnahme des Detektors für Mehrfachidentitäten nach Artikel 72 Absatz 4 der genannten Verordnung.",
+       "op": "ins"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "VO (EU) 2021/1134",
+   "code": "VIS",
+   "tag": "geändert",
+   "color": "#999933",
+   "meta": [
+    "angenommen am 7. Juli 2021",
+    "ABl. L 248 vom 13.7.2021, S. 11"
+   ],
+   "flags": [
+    {
+     "kind": "reconstructed",
+     "label": "rekonstruiert"
+    },
+    {
+     "kind": "not-applicable",
+     "label": "noch nicht anwendbar"
+    }
+   ],
+   "blocks": [
+    {
+     "key": "p3.c",
+     "label": "c)",
+     "depth": 1,
+     "op": "del",
+     "runs": [
+      {
+       "t": "Abweichend davon kann eine Abfrage des VIS in allen Fällen anhand der Nummer der Visummarke und stichprobenartig anhand der Nummer der Visummarke in Kombination mit der Verifizierung der Fingerabdrücke durchgeführt werden,",
+       "op": "del"
+      }
+     ]
+    },
+    {
+     "key": "p3.c.i",
+     "label": "i)",
+     "depth": 2,
+     "op": "del",
+     "runs": [
+      {
+       "t": "wenn die Intensität des Verkehrsaufkommens zu übermäßigen Wartezeiten an der Grenzübergangsstelle führt,",
+       "op": "del"
+      }
+     ]
+    },
+    {
+     "key": "p3.c.ii",
+     "label": "ii)",
+     "depth": 2,
+     "op": "del",
+     "runs": [
+      {
+       "t": "wenn alle Ressourcen in Bezug auf Personal, Einrichtungen und Organisation ausgeschöpft worden sind und",
+       "op": "del"
+      }
+     ]
+    },
+    {
+     "key": "p3.c.iii",
+     "label": "iii)",
+     "depth": 2,
+     "op": "del",
+     "runs": [
+      {
+       "t": "wenn eine Beurteilung ergeben hat, dass kein Risiko in Bezug auf die innere Sicherheit und die illegale Einwanderung besteht.",
+       "op": "del"
+      }
+     ]
+    },
+    {
+     "key": "p3.c.s2",
+     "label": "",
+     "depth": 2,
+     "op": "del",
+     "runs": [
+      {
+       "t": "In allen Fällen, in denen jedoch Zweifel an der Identität des Visuminhabers und/oder an der Echtheit des Visums bestehen, wird eine Abfrage des VIS systematisch anhand der Nummer der Visummarke in Kombination mit der Verifizierung der Fingerabdrücke durchgeführt.",
+       "op": "del"
+      }
+     ]
+    },
+    {
+     "key": "p3.c.s3",
+     "label": "",
+     "depth": 2,
+     "op": "del",
+     "runs": [
+      {
+       "t": "Diese Ausnahme ist nur so lange an der betreffenden Grenzübergangsstelle zulässig, wie die in Ziffern i), ii) und iii) genannten Bedingungen erfüllt sind.",
+       "op": "del"
+      }
+     ]
+    },
+    {
+     "key": "p3.d",
+     "label": "d)",
+     "depth": 1,
+     "op": "del",
+     "runs": [
+      {
+       "t": "Die Entscheidung, eine Abfrage des VIS gemäß Buchstabe c durchzuführen, wird auf der Ebene des leitenden Grenzschutzbeamten an der Grenzübergangsstelle oder auf höherer Ebene getroffen.",
+       "op": "del"
+      }
+     ]
+    },
+    {
+     "key": "p3.d.s2",
+     "label": "",
+     "depth": 2,
+     "op": "del",
+     "runs": [
+      {
+       "t": "Die betreffenden Mitgliedstaaten unterrichten die anderen Mitgliedstaaten und die Kommission umgehend über eine etwaige diesbezügliche Entscheidung.",
+       "op": "del"
+      }
+     ]
+    },
+    {
+     "key": "p3.e",
+     "label": "e)",
+     "depth": 1,
+     "op": "del",
+     "runs": [
+      {
+       "t": "Alle Mitgliedstaaten übermitteln dem Europäischen Parlament und der Kommission jährlich einen Bericht über die Anwendung von Buchstabe c, der auch die Zahl der Drittstaatsangehörigen enthält, die im Rahmen des VIS allein anhand der Nummer der Visummarke überprüft wurden, sowie die Dauer der Wartezeit gemäß Buchstabe c Ziffer i.",
+       "op": "del"
+      }
+     ]
+    },
+    {
+     "key": "p3.f",
+     "label": "f)",
+     "depth": 1,
+     "op": "del",
+     "runs": [
+      {
+       "t": "Die Buchstaben c und d gelten für einen Zeitraum von höchstens drei Jahren, der drei Jahre nach dem Datum beginnt, an dem das VIS in Betrieb genommen wurde. Vor Ablauf des zweiten Jahres der Anwendung der Buchstaben c und d übermittelt die Kommission dem Europäischen Parlament und dem Rat eine Bewertung der Umsetzung dieser Buchstaben. Auf der Grundlage dieser Bewertung können das Europäische Parlament oder der Rat die Kommission auffordern, angemessene Änderungen zu dieser Verordnung vorzuschlagen.",
+       "op": "del"
+      }
+     ]
+    },
+    {
+     "key": "p3.bb",
+     "label": "bb)",
+     "depth": 1,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Befindet sich der Drittstaatsangehörige im Besitz eines Visums für einen längerfristigen Aufenthalt oder eines Aufenthaltstitels, so umfasst die eingehende Kontrolle bei der Einreise die Verifizierung der Identität des Inhabers des Visums für einen längerfristigen Aufenthalt oder des Aufenthaltstitels und der Echtheit und Gültigkeit des Visums für einen längerfristigen Aufenthalt oder des Aufenthaltstitels mittels einer Abfrage im VIS gemäß Artikel 22g der Verordnung (EG) Nr. 767/2008.",
+       "op": "ins"
+      }
+     ]
+    },
+    {
+     "key": "p3.bb.s2",
+     "label": "",
+     "depth": 2,
+     "op": "ins",
+     "runs": [
+      {
+       "t": "Ist die Verifizierung der Identität des Inhabers des Visums für einen längerfristigen Aufenthalt oder des Aufenthaltstitels oder der Echtheit und Gültigkeit des Visums für einen längerfristigen Aufenthalt oder des Aufenthaltstitels nicht erfolgreich oder bestehen Zweifel an der Identität des Inhabers, der Echtheit des Visums für einen längerfristigen Aufenthalt oder Aufenthaltstitels oder des Reisedokuments, so verifizieren die dazu ermächtigten Bediensteten dieser zuständigen Behörden den Chip des Dokuments.",
+       "op": "ins"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "columns": null,
+ "legend": [
+  {
+   "code": "Syst. Abfr.",
+   "label": "VO (EU) 2017/458",
+   "color": "#E69F00"
+  },
+  {
+   "code": "EES",
+   "label": "VO (EU) 2017/2225",
+   "color": "#009E73"
+  },
+  {
+   "code": "ETIAS",
+   "label": "VO (EU) 2018/1240",
+   "color": "#CC79A7"
+  },
+  {
+   "code": "Interop.",
+   "label": "VO (EU) 2019/817",
+   "color": "#56B4E9"
+  },
+  {
+   "code": "VIS",
+   "label": "VO (EU) 2021/1134",
+   "color": "#999933"
+  },
+  {
+   "op": "ins",
+   "label": "eingefügt"
+  },
+  {
+   "op": "del",
+   "label": "gestrichen"
+  }
+ ],
+ "footnotes": [
+  {
+   "mark": "1",
+   "text": "Stände nach VO (EU) 2017/2225, 2019/817 und 2021/1134 sind aus den Änderungsakten rekonstruiert."
+  }
+ ],
+ "source": "Quelle: EUR-Lex, Verordnung (EU) 2016/399 (SGK), alle Stände bis Berichtigung R(01) zu VO (EU) 2024/1717 (12. Oktober 2025).",
+ "disclaimer": "Massgebend ist allein das Amtsblatt der EU; konsolidierte und rekonstruierte Fassungen sind nicht rechtsverbindlich. Erstellt am 12. November 2026 mit SGK-Navigator."
+}

@@ -1,0 +1,36 @@
+<!-- @dsCard group="Rechtsakte" height=150 -->
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>body{margin:0;background:var(--canvas)}</style>
+</head>
+<body>
+<div class="ui-root" style="padding: 24px; background: var(--canvas)">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<div class="ui-stagebar" role="group" aria-label="Stand"><button type="button" class="ui-stage" aria-pressed="false"><b><i class="ui-swatch" data-act="base" aria-hidden="true"></i>Basis</b><span>2016</span></button><button type="button" class="ui-stage" aria-pressed="false"><b><i class="ui-swatch" data-act="frontex" aria-hidden="true"></i>Frontex</b><span>2016</span></button><button type="button" class="ui-stage" aria-pressed="false"><b><i class="ui-swatch" data-act="sys" aria-hidden="true"></i>Syst. Abfr.</b><span>2017*<i class="ui-dot" aria-label="ändert diese Einheit"></i></span></button><button type="button" class="ui-stage" aria-pressed="false"><b><i class="ui-swatch" data-act="ees" aria-hidden="true"></i>EES</b><span>2017*<i class="ui-dot" aria-label="ändert diese Einheit"></i></span></button><button type="button" class="ui-stage" aria-pressed="false"><b><i class="ui-swatch ui-swatch--pending" data-act="etias" aria-hidden="true"></i>ETIAS</b><span>2018*<i class="ui-dot" aria-label="ändert diese Einheit"></i></span></button><button type="button" class="ui-stage" aria-pressed="false"><b><i class="ui-swatch ui-swatch--pending" data-act="interop" aria-hidden="true"></i>Interop.</b><span>2019*<i class="ui-dot" aria-label="ändert diese Einheit"></i></span></button><button type="button" class="ui-stage" aria-pressed="false"><b><i class="ui-swatch ui-swatch--pending" data-act="vis" aria-hidden="true"></i>VIS</b><span>2021*<i class="ui-dot" aria-label="ändert diese Einheit"></i></span></button><button type="button" class="ui-stage" aria-pressed="false"><b><i class="ui-swatch" data-act="reform" aria-hidden="true"></i>Reform 2024</b><span>2024*</span></button><button type="button" class="ui-stage" aria-pressed="true"><b><i class="ui-swatch" data-act="reform" aria-hidden="true"></i>Reform 2024 Ber.</b><span>2025* DE</span></button></div>
+<div class="ui-legend"><span><i class="ui-dot" style="width: 5px; height: 5px; border-radius: 50%; background: var(--ink)"></i>ändert diese Einheit</span><span>* rekonstruiert oder ergänzt</span><span><i class="ui-swatch ui-swatch--pending" data-act="etias" aria-hidden="true"></i>schraffiert: beschlossen, noch nicht anwendbar</span></div>
+</div>
+</div>
+<script>
+document.querySelectorAll('.ui-seg').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('[role="tablist"]').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('[role="tab"]'); if (!b) return;
+    g.querySelectorAll('[role="tab"]').forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('.ui-stagebar').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('.ui-stage'); if (!b) return;
+    g.querySelectorAll('.ui-stage').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+</script>
+</body>
+</html>

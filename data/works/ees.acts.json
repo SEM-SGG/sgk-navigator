@@ -1,0 +1,804 @@
+[
+ {
+  "celex": "32017R2226",
+  "kind": "base",
+  "number": "(EU) 2017/2226",
+  "topic": {
+   "de": "EES",
+   "fr": "EES",
+   "en": "EES"
+  },
+  "title": {
+   "de": "Verordnung (EU) 2017/2226 des Europäischen Parlaments und des Rates vom 30. November 2017 über ein Einreise-/Ausreisesystem (EES) zur Erfassung der Ein- und Ausreisedaten sowie der Einreiseverweigerungsdaten von Drittstaatsangehörigen an den Außengrenzen der Mitgliedstaaten und zur Festlegung der Bedingungen für den Zugang zum EES zu Gefahrenabwehr- und Strafverfolgungszwecken und zur Änderung des Übereinkommens zur Durchführung des Übereinkommens von Schengen sowie der Verordnungen (EG) Nr. 767/2008 und (EU) Nr. 1077/2011",
+   "fr": "Règlement (UE) 2017/2226 du Parlement européen et du Conseil du 30 novembre 2017 portant création d’un système d’entrée/de sortie (EES) pour enregistrer les données relatives aux entrées, aux sorties et aux refus d’entrée concernant les ressortissants de pays tiers qui franchissent les frontières extérieures des États membres et portant détermination des conditions d’accès à l’EES à des fins répressives, et modifiant la convention d’application de l’accord de Schengen et les règlements (CE) no 767/2008 et (UE) no 1077/2011",
+   "en": "Regulation (EU) 2017/2226 of the European Parliament and of the Council of 30 November 2017 establishing an Entry/Exit System (EES) to register entry and exit data and refusal of entry data of third-country nationals crossing the external borders of the Member States and determining the conditions for access to the EES for law enforcement purposes, and amending the Convention implementing the Schengen Agreement and Regulations (EC) No 767/2008 and (EU) No 1077/2011"
+  },
+  "adopted": "2017-11-30",
+  "published": "2017-12-09",
+  "oj": {
+   "de": "ABl. L 327 vom 9.12.2017, S. 20",
+   "fr": "JO L 327 du 9.12.2017, p. 20",
+   "en": "OJ L 327 9.12.2017, p. 20"
+  },
+  "inForce": "2017-12-29",
+  "application": {
+   "status": "unknown",
+   "date": null,
+   "basis": null,
+   "note": {
+    "de": "Anwendbarkeit nicht geprüft.",
+    "fr": "Applicabilité non vérifiée.",
+    "en": "Applicability not checked."
+   }
+  },
+  "changes": [],
+  "langs": null,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32017R2226",
+  "stage": "s00",
+  "confidence": "check",
+  "checkNote": "Metadaten maschinell aus Cellar (SPARQL) und dem Kopf der konsolidierten Fassungen; Anwendbarkeit nicht geprüft."
+ },
+ {
+  "celex": "32018R1240",
+  "kind": "amendment",
+  "number": "(EU) 2018/1240",
+  "topic": {
+   "de": "ETIAS",
+   "fr": "ETIAS",
+   "en": "ETIAS"
+  },
+  "title": {
+   "de": "Verordnung (EU) 2018/1240 des Europäischen Parlaments und des Rates vom 12. September 2018 über die Einrichtung eines Europäischen Reiseinformations- und -genehmigungssystems (ETIAS) und zur Änderung der Verordnungen (EU) Nr. 1077/2011, (EU) Nr. 515/2014, (EU) 2016/399, (EU) 2016/1624 und (EU) 2017/2226",
+   "fr": "Règlement (UE) 2018/1240 du Parlement européen et du Conseil du 12 septembre 2018 portant création d’un système européen d’information et d’autorisation concernant les voyages (ETIAS) et modifiant les règlements (UE) no 1077/2011, (UE) no 515/2014, (UE) 2016/399, (UE) 2016/1624 et (UE) 2017/2226",
+   "en": "Regulation (EU) 2018/1240 of the European Parliament and of the Council of 12 September 2018 establishing a European Travel Information and Authorisation System (ETIAS) and amending Regulations (EU) No 1077/2011, (EU) No 515/2014, (EU) 2016/399, (EU) 2016/1624 and (EU) 2017/2226"
+  },
+  "adopted": "2018-09-12",
+  "published": "2018-09-19",
+  "oj": {
+   "de": "ABl. L 236 vom 19.9.2018, S. 1",
+   "fr": "JO L 236 du 19.9.2018, p. 1",
+   "en": "OJ L 236, 19.9.2018, p. 1"
+  },
+  "inForce": "2018-10-09",
+  "application": {
+   "status": "unknown",
+   "date": null,
+   "basis": null,
+   "note": {
+    "de": "Anwendbarkeit nicht geprüft.",
+    "fr": "Applicabilité non vérifiée.",
+    "en": "Applicability not checked."
+   }
+  },
+  "changes": [
+   {
+    "unit": "art_64",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p5"
+    ],
+    "stage": "s01",
+    "applicableFrom": null
+   }
+  ],
+  "langs": null,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32018R1240",
+  "stage": "s01",
+  "confidence": "check",
+  "checkNote": "Metadaten maschinell aus Cellar (SPARQL) und dem Kopf der konsolidierten Fassungen; Anwendbarkeit nicht geprüft."
+ },
+ {
+  "celex": "32017R2226R(01)",
+  "kind": "corrigendum",
+  "number": "(EU) 2017/2226, Berichtigung R(01)",
+  "topic": {
+   "de": "Berichtigung EES",
+   "fr": "Rectificatif EES",
+   "en": "Corrigendum EES"
+  },
+  "title": {
+   "de": "Berichtigung der Verordnung (EU) 2017/2226 des Europäischen Parlaments und des Rates vom 30. November 2017 über ein Einreise-/Ausreisesystem (EES) zur Erfassung der Ein- und Ausreisedaten sowie der Einreiseverweigerungsdaten von Drittstaatsangehörigen an den Außengrenzen der Mitgliedstaaten und zur Festlegung der Bedingungen für den Zugang zum EES zu Gefahrenabwehr- und Strafverfolgungszwecken und zur Änderung des Übereinkommens zur Durchführung des Übereinkommens von Schengen sowie der Verordnungen (EG) Nr. 767/2008 und (EU) Nr. 1077/2011 (ABl. L 327 vom 9.12.2017)",
+   "fr": "Rectificatif au règlement (UE) 2017/2226 du Parlement européen et du Conseil du 30 novembre 2017 portant création d’un système d’entrée/de sortie (EES) pour enregistrer les données relatives aux entrées, aux sorties et aux refus d’entrée concernant les ressortissants de pays tiers qui franchissent les frontières extérieures des États membres et portant détermination des conditions d’accès à l’EES à des fins répressives, et modifiant la convention d’application de l’accord de Schengen et les règlements (CE) no 767/2008 et (UE) no 1077/2011 (JO L 327 du 9.12.2017)",
+   "en": "Corrigendum to Regulation (EU) 2017/2226 of the European Parliament and of the Council of 30 November 2017 establishing an Entry/Exit System (EES) to register entry and exit data and refusal of entry data of third-country nationals crossing the external borders of the Member States and determining the conditions for access to the EES for law enforcement purposes, and amending the Convention implementing the Schengen Agreement and Regulations (EC) No 767/2008 and (EU) No 1077/2011 (OJ L 327, 9.12.2017)"
+  },
+  "adopted": null,
+  "published": "2018-10-15",
+  "oj": {
+   "de": "ABl. L 258 vom 15.10.2018, S. 5",
+   "fr": "JO L 258 du 15.10.2018, p. 5",
+   "en": "OJ L 258, 15.10.2018, p. 5"
+  },
+  "inForce": null,
+  "application": {
+   "status": "unknown",
+   "date": null,
+   "basis": null,
+   "note": {
+    "de": "Anwendbarkeit nicht geprüft.",
+    "fr": "Applicabilité non vérifiée.",
+    "en": "Applicability not checked."
+   }
+  },
+  "changes": [
+   {
+    "unit": "art_2",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p1.b.i",
+     "p3.a",
+     "p3.f",
+     "p4.a"
+    ],
+    "stage": "s01",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_11",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p1.a"
+    ],
+    "stage": "s01",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_12",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p2"
+    ],
+    "stage": "s01",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_16",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p2.c.i",
+     "p2.d"
+    ],
+    "stage": "s01",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_23",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p2.s2"
+    ],
+    "stage": "s01",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_32",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p1.a"
+    ],
+    "stage": "s01",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_35",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p6.s2"
+    ],
+    "stage": "s01",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_48",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "s1"
+    ],
+    "stage": "s01",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_57",
+    "key": null,
+    "action": "amended",
+    "keys": [],
+    "stage": "s01",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_61",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "n1.b.q1"
+    ],
+    "stage": "s01",
+    "applicableFrom": null
+   }
+  ],
+  "langs": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "eurlex": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32017R2226R(01)",
+  "stage": "s01",
+  "confidence": "check",
+  "checkNote": "Metadaten maschinell aus Cellar (SPARQL) und dem Kopf der konsolidierten Fassungen; Anwendbarkeit nicht geprüft.",
+  "corrects": "32017R2226"
+ },
+ {
+  "celex": "32017R2226R(03)",
+  "kind": "corrigendum",
+  "number": "(EU) 2017/2226, Berichtigung R(03)",
+  "topic": {
+   "de": "Berichtigung EES",
+   "fr": "Rectificatif EES",
+   "en": "Corrigendum EES"
+  },
+  "title": {
+   "de": null,
+   "fr": null,
+   "en": "Corrigendum to Regulation (EU) 2017/2226 of the European Parliament and of the Council of 30 November 2017 establishing an Entry/Exit System (EES) to register entry and exit data and refusal of entry data of third-country nationals crossing the external borders of the Member States and determining the conditions for access to the EES for law enforcement purposes, and amending the Convention implementing the Schengen Agreement and Regulations (EC) No 767/2008 and (EU) No 1077/2011 (OJ L 327, 9.12.2017)"
+  },
+  "adopted": null,
+  "published": "2019-05-03",
+  "oj": {
+   "de": null,
+   "fr": null,
+   "en": "OJ L 117, 3.5.2019, p. 14"
+  },
+  "inForce": null,
+  "application": {
+   "status": "unknown",
+   "date": null,
+   "basis": null,
+   "note": {
+    "de": "Anwendbarkeit nicht geprüft.",
+    "fr": "Applicabilité non vérifiée.",
+    "en": "Applicability not checked."
+   }
+  },
+  "changes": [
+   {
+    "unit": "art_61",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "n6.q9",
+     "n6.q14",
+     "n8.q8"
+    ],
+    "stage": "s01",
+    "applicableFrom": null
+   }
+  ],
+  "langs": [
+   "en"
+  ],
+  "eurlex": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32017R2226R(03)",
+  "stage": "s01",
+  "confidence": "check",
+  "checkNote": "Metadaten maschinell aus Cellar (SPARQL) und dem Kopf der konsolidierten Fassungen; Anwendbarkeit nicht geprüft.",
+  "corrects": "32017R2226"
+ },
+ {
+  "celex": "32019R0817",
+  "kind": "amendment",
+  "number": "(EU) 2019/817",
+  "topic": {
+   "de": "Interoperabilität",
+   "fr": "interopérabilité",
+   "en": "interoperability"
+  },
+  "title": {
+   "de": "Verordnung (EU) 2019/817 des Europäischen Parlaments und des Rates vom 20. Mai 2019 zur Errichtung eines Rahmens für die Interoperabilität zwischen EU-Informationssystemen in den Bereichen Grenzen und Visa und zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 und (EU) 2018/1861 des Europäischen Parlaments und des Rates, der Entscheidung 2004/512/EG des Rates und des Beschlusses 2008/633/JI des Rates",
+   "fr": "Règlement (UE) 2019/817 du Parlement européen et du Conseil du 20 mai 2019 portant établissement d'un cadre pour l'interopérabilité des systèmes d'information de l'UE dans le domaine des frontières et des visas et modifiant les règlements (CE) n° 767/2008, (UE) 2016/399, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1726 et (UE) 2018/1861 du Parlement européen et du Conseil et les décisions 2004/512/CE et 2008/633/JAI du Conseil",
+   "en": "Regulation (EU) 2019/817 of the European Parliament and of the Council of 20 May 2019 on establishing a framework for interoperability between EU information systems in the field of borders and visa and amending Regulations (EC) No 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 and (EU) 2018/1861 of the European Parliament and of the Council and Council Decisions 2004/512/EC and 2008/633/JHA"
+  },
+  "adopted": "2019-05-20",
+  "published": "2019-05-22",
+  "oj": {
+   "de": "ABl. L 135 vom 22.5.2019, S. 27",
+   "fr": "JO L 135 du 22.5.2019, p. 27",
+   "en": "OJ L 135, 22.5.2019, p. 27"
+  },
+  "inForce": "2019-06-11",
+  "application": {
+   "status": "unknown",
+   "date": null,
+   "basis": null,
+   "note": {
+    "de": "Anwendbarkeit nicht geprüft.",
+    "fr": "Applicabilité non vérifiée.",
+    "en": "Applicability not checked."
+   }
+  },
+  "changes": [
+   {
+    "unit": "art_1",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p3"
+    ],
+    "stage": "s02",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_3",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p1.n22",
+     "p1.n22a",
+     "p1.n32",
+     "p1.n33"
+    ],
+    "stage": "s02",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_6",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p1.j"
+    ],
+    "stage": "s02",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_7",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p1.aa",
+     "p1.f",
+     "p1a"
+    ],
+    "stage": "s02",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_9",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p4"
+    ],
+    "stage": "s02",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_21",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p1",
+     "p2"
+    ],
+    "stage": "s02",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_23",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p2a",
+     "p4"
+    ],
+    "stage": "s02",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_32",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p1a"
+    ],
+    "stage": "s02",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_33",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p1a"
+    ],
+    "stage": "s02",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_34",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p1",
+     "p2",
+     "p5"
+    ],
+    "stage": "s02",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_35",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p7"
+    ],
+    "stage": "s02",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_36",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "s1"
+    ],
+    "stage": "s02",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_37",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p1",
+     "p3"
+    ],
+    "stage": "s02",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_46",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p1.f"
+    ],
+    "stage": "s02",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_63",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p2",
+     "p4.s2"
+    ],
+    "stage": "s02",
+    "applicableFrom": null
+   }
+  ],
+  "langs": null,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019R0817",
+  "stage": "s02",
+  "confidence": "check",
+  "checkNote": "Metadaten maschinell aus Cellar (SPARQL) und dem Kopf der konsolidierten Fassungen; Anwendbarkeit nicht geprüft."
+ },
+ {
+  "celex": "32021R1134",
+  "kind": "amendment",
+  "number": "(EU) 2021/1134",
+  "topic": {
+   "de": "VIS-Revision",
+   "fr": "Révision du VIS",
+   "en": "VIS revision"
+  },
+  "title": {
+   "de": "Verordnung (EU) 2021/1134 des Europäischen Parlaments und des Rates vom 7. Juli 2021 zur Änderung der Verordnungen (EG) Nr. 767/2008, (EG) Nr. 810/2009, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861, (EU) 2019/817 und (EU) 2019/1896 des Europäischen Parlaments und des Rates und zur Aufhebung der Entscheidung 2004/512/EG und des Beschlusses 2008/633/JI des Rates zur Reform des Visa-Informationssystems",
+   "fr": "Règlement (UE) 2021/1134 du Parlement européen et du Conseil du 7 juillet 2021 modifiant les règlements (CE) no 767/2008, (CE) no 810/2009, (UE) 2016/399, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1860, (UE) 2018/1861, (UE) 2019/817 et (UE) 2019/1896 du Parlement européen et du Conseil et abrogeant les décisions 2004/512/CE et 2008/633/JAI du Conseil, aux fins de réformer le système d’information sur les visas",
+   "en": "Regulation (EU) 2021/1134 of the European Parliament and of the Council of 7 July 2021 amending Regulations (EC) No 767/2008, (EC) No 810/2009, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861, (EU) 2019/817 and (EU) 2019/1896 of the European Parliament and of the Council and repealing Council Decisions 2004/512/EC and 2008/633/JHA, for the purpose of reforming the Visa Information System"
+  },
+  "adopted": "2021-07-07",
+  "published": "2021-07-13",
+  "oj": {
+   "de": "ABl. L 248 vom 13.7.2021, S. 11",
+   "fr": "JO L 248 du 13.7.2021, p. 11",
+   "en": "OJ L 248, 13.7.2021, p. 11"
+  },
+  "inForce": "2021-08-02",
+  "application": {
+   "status": "unknown",
+   "date": null,
+   "basis": null,
+   "note": {
+    "de": "Anwendbarkeit nicht geprüft.",
+    "fr": "Applicabilité non vérifiée.",
+    "en": "Applicability not checked."
+   }
+  },
+  "changes": [
+   {
+    "unit": "art_9",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p2.s2"
+    ],
+    "stage": "s03",
+    "applicableFrom": null
+   }
+  ],
+  "langs": null,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32021R1134",
+  "stage": "s03",
+  "confidence": "check",
+  "checkNote": "Metadaten maschinell aus Cellar (SPARQL) und dem Kopf der konsolidierten Fassungen; Anwendbarkeit nicht geprüft."
+ },
+ {
+  "celex": "32021R1152",
+  "kind": "amendment",
+  "number": "(EU) 2021/1152",
+  "topic": {
+   "de": "ETIAS-Zugang",
+   "fr": "accès ETIAS",
+   "en": "ETIAS access"
+  },
+  "title": {
+   "de": "Verordnung (EU) 2021/1152 des Europäischen Parlaments und des Rates vom 7. Juli 2021 zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861 und (EU) 2019/817 hinsichtlich der Festlegung der Bedingungen für den Zugang zu anderen EU-Informationssystemen für die Zwecke des Europäischen Reiseinformations- und -genehmigungssystems",
+   "fr": "Règlement (UE) 2021/1152 du Parlement européen et du Conseil du 7 juillet 2021 modifiant les règlements (CE) no 767/2008, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1860, (UE) 2018/1861 et (UE) 2019/817 en ce qui concerne l’établissement des conditions d’accès aux autres systèmes d’information de l’UE aux fins du système européen d’information et d’autorisation concernant les voyages",
+   "en": "Regulation (EU) 2021/1152 of the European Parliament and of the Council of 7 July 2021 amending Regulations (EC) No 767/2008, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861 and (EU) 2019/817 as regards the establishment of the conditions for accessing other EU information systems for the purposes of the European Travel Information and Authorisation System"
+  },
+  "adopted": "2021-07-07",
+  "published": "2021-07-14",
+  "oj": {
+   "de": "ABl. L 249 vom 14.7.2021, S. 15",
+   "fr": "JO L 249 du 14.7.2021, p. 15",
+   "en": "OJ L 249, 14.7.2021, p. 15"
+  },
+  "inForce": "2021-08-03",
+  "application": {
+   "status": "unknown",
+   "date": null,
+   "basis": null,
+   "note": {
+    "de": "Anwendbarkeit nicht geprüft.",
+    "fr": "Applicabilité non vérifiée.",
+    "en": "Applicability not checked."
+   }
+  },
+  "changes": [
+   {
+    "unit": "art_6",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p1.k"
+    ],
+    "stage": "s03",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8a",
+    "key": null,
+    "action": "inserted",
+    "keys": [
+     "p1",
+     "p1.s2",
+     "p1.a",
+     "p1.b",
+     "p1.c",
+     "p2"
+    ],
+    "stage": "s03",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_8b",
+    "key": null,
+    "action": "inserted",
+    "keys": [
+     "p1",
+     "p2",
+     "p2.s2",
+     "p2.s3"
+    ],
+    "stage": "s03",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_9",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p2a"
+    ],
+    "stage": "s03",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_13a",
+    "key": null,
+    "action": "inserted",
+    "keys": [
+     "p1",
+     "p2",
+     "p3",
+     "p4"
+    ],
+    "stage": "s03",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_17",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p2.s2",
+     "p2.a",
+     "p2.b",
+     "p2.c"
+    ],
+    "stage": "s03",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_18",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p1.b"
+    ],
+    "stage": "s03",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_25a",
+    "key": null,
+    "action": "inserted",
+    "keys": [
+     "p1",
+     "p2"
+    ],
+    "stage": "s03",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_25b",
+    "key": null,
+    "action": "inserted",
+    "keys": [
+     "p1",
+     "p2",
+     "p3"
+    ],
+    "stage": "s03",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_28",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "s1"
+    ],
+    "stage": "s03",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_46",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p2.s2"
+    ],
+    "stage": "s03",
+    "applicableFrom": null
+   },
+   {
+    "unit": "anx_III",
+    "key": null,
+    "action": "inserted",
+    "keys": [
+     "t1"
+    ],
+    "stage": "s03",
+    "applicableFrom": null
+   }
+  ],
+  "langs": null,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32021R1152",
+  "stage": "s03",
+  "confidence": "check",
+  "checkNote": "Metadaten maschinell aus Cellar (SPARQL) und dem Kopf der konsolidierten Fassungen; Anwendbarkeit nicht geprüft."
+ },
+ {
+  "celex": "32024R1356",
+  "kind": "amendment",
+  "number": "(EU) 2024/1356",
+  "topic": {
+   "de": "Überprüfung",
+   "fr": "filtrage",
+   "en": "screening"
+  },
+  "title": {
+   "de": "Verordnung (EU) 2024/1356 des Europäischen Parlaments und des Rates vom 14. Mai 2024 zur Einführung der Überprüfung von Drittstaatsangehörigen an den Außengrenzen und zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2017/2226, (EU) 2018/1240 und (EU) 2019/817",
+   "fr": "Règlement (UE) 2024/1356 du Parlement européen et du Conseil du 14 mai 2024 établissant le filtrage des ressortissants de pays tiers aux frontières extérieures et modifiant les règlements (CE) n° 767/2008, (UE) 2017/2226, (UE) 2018/1240 et (UE) 2019/817",
+   "en": "Regulation (EU) 2024/1356 of the European Parliament and of the Council of 14 May 2024 introducing the screening of third-country nationals at the external borders and amending Regulations (EC) No 767/2008, (EU) 2017/2226, (EU) 2018/1240 and (EU) 2019/817"
+  },
+  "adopted": "2024-05-14",
+  "published": "2024-05-22",
+  "oj": {
+   "de": "ABl. L, 2024/1356, 22.5.2024",
+   "fr": "JO L, 2024/1356, 22.5.2024",
+   "en": "OJ L, 2024/1356, 22.5.2024"
+  },
+  "inForce": "2024-06-11",
+  "application": {
+   "status": "unknown",
+   "date": null,
+   "basis": null,
+   "note": {
+    "de": "Anwendbarkeit nicht geprüft.",
+    "fr": "Applicabilité non vérifiée.",
+    "en": "Applicability not checked."
+   }
+  },
+  "changes": [
+   {
+    "unit": "art_6",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p1.l"
+    ],
+    "stage": "s04",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_9",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p2b",
+     "p4"
+    ],
+    "stage": "s04",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_24a",
+    "key": null,
+    "action": "inserted",
+    "keys": [
+     "s1",
+     "s2",
+     "s3"
+    ],
+    "stage": "s04",
+    "applicableFrom": null
+   },
+   {
+    "unit": "art_46",
+    "key": null,
+    "action": "amended",
+    "keys": [
+     "p1.a"
+    ],
+    "stage": "s04",
+    "applicableFrom": null
+   }
+  ],
+  "langs": null,
+  "eurlex": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1356",
+  "stage": "s04",
+  "confidence": "check",
+  "checkNote": "Metadaten maschinell aus Cellar (SPARQL) und dem Kopf der konsolidierten Fassungen; Anwendbarkeit nicht geprüft."
+ }
+]

@@ -1,0 +1,38 @@
+<!-- @dsCard group="Navigation" height=210 -->
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>body{margin:0;background:var(--canvas)}</style>
+</head>
+<body>
+<div class="ui-root" style="padding: 0px; background: var(--canvas)">
+<header>
+<div class="ui-utility"><nav aria-label="Module"><a href="#" aria-current="page"><b>Rechtsakte</b><span>SGK, EES, ETIAS, VIS, IO</span></a><a href="#"><b>Verhandlung</b><span>Fassungen, Position CH, Konsultation</span></a></nav><span>Datenstand 11. November 2026 · Oberfläche <a href="#" style="display: inline; padding: 0 4px; border: 0; color: var(--ink)"><b>DE</b></a> <a href="#" style="display: inline; padding: 0 4px; border: 0">FR</a></span></div>
+<div class="ui-topnav"><div style="display: flex; align-items: center; height: 100%"><a class="ui-brand" href="#"><b>SGK</b> Navigator</a><nav aria-label="Ansichten"><a href="#">Übersicht</a><a href="#" aria-current="page">Lesen</a><a href="#">Chronologie</a><a href="#">Vergleich</a><a href="#">Aktualisieren</a><a href="#">Anleitung</a><a href="#">Info</a></nav></div>
+<div class="ui-topnav-tools"><button type="button" aria-label="Suchen"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l4.5 4.5"></path></svg></button><button type="button"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16l-1.6 10H5.6z"></path><path d="M9 9l3-5 3 5"></path></svg>Sammelkorb <span class="ui-count">3</span></button></div></div>
+<div class="ui-tabs" role="tablist" aria-label="Rechtsakt" style="padding: 0 32px"><button type="button" role="tab" class="ui-tab" aria-selected="true">SGK <small>2016/399</small></button><button type="button" role="tab" class="ui-tab" aria-selected="false">EES-VO <small>2017/2226</small></button><button type="button" role="tab" class="ui-tab" aria-selected="false">ETIAS-VO <small>2018/1240</small></button><button type="button" role="tab" class="ui-tab" aria-selected="false">VIS-VO <small>767/2008</small></button><button type="button" role="tab" class="ui-tab" aria-selected="false">IO-VO <small>2019/817</small></button></div>
+</header>
+</div>
+<script>
+document.querySelectorAll('.ui-seg').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('[role="tablist"]').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('[role="tab"]'); if (!b) return;
+    g.querySelectorAll('[role="tab"]').forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('.ui-stagebar').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('.ui-stage'); if (!b) return;
+    g.querySelectorAll('.ui-stage').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+</script>
+</body>
+</html>

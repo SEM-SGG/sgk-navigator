@@ -1,0 +1,127 @@
+{
+ "kind": "chronology",
+ "title": "Art. 8 Abs. 3 Bst. a Ziff. ii SGK",
+ "subtitle": "Chronologie der Fassungen (Rechtstext EN)",
+ "unitLine": "Art. 8: Grenzübertrittskontrollen von Personen",
+ "brand": "SGK-Navigator",
+ "work": "Schengener Grenzkodex",
+ "textLang": "en",
+ "uiLang": "de",
+ "sections": [
+  {
+   "heading": "VO (EU) 2016/399",
+   "code": "Basis",
+   "tag": "Basistext",
+   "color": "#848E99",
+   "meta": [
+    "Basisakt",
+    "angenommen am 9. März 2016",
+    "ABl. L 77 vom 23.3.2016, S. 1",
+    "anwendbar seit 12. April 2016"
+   ],
+   "flags": [],
+   "blocks": [
+    {
+     "key": "p3.a.ii",
+     "label": "(ii)",
+     "depth": 0,
+     "runs": [
+      {
+       "t": "thorough scrutiny of the travel document for signs of falsification or counterfeiting;"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "VO (EU) 2017/458",
+   "code": "Syst. Abfr.",
+   "tag": "ersetzt",
+   "color": "#E69F00",
+   "meta": [
+    "angenommen am 15. März 2017",
+    "ABl. L 74 vom 18.3.2017, S. 1",
+    "anwendbar seit 7. April 2017"
+   ],
+   "flags": [],
+   "blocks": [
+    {
+     "key": "p3.a.ii",
+     "label": "(ii)",
+     "depth": 0,
+     "runs": [
+      {
+       "t": "thorough scrutiny of the travel document for signs of falsification or counterfeiting;",
+       "op": "del"
+      },
+      {
+       "t": "verification that the travel document is accompanied, where applicable, by the requisite visa or residence permit;",
+       "op": "ins"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Berichtigung R(03) zu VO (EU) 2018/1240",
+   "code": "ETIAS",
+   "tag": "ersetzt",
+   "color": "#CC79A7",
+   "meta": [
+    "ABl. L 193 vom 17.6.2020, S. 16"
+   ],
+   "flags": [
+    {
+     "kind": "reconstructed",
+     "label": "rekonstruiert"
+    },
+    {
+     "kind": "not-applicable",
+     "label": "noch nicht anwendbar"
+    }
+   ],
+   "blocks": [
+    {
+     "key": "p3.a.ii",
+     "label": "(ii)",
+     "depth": 0,
+     "runs": [
+      {
+       "t": "verification that the travel document is accompanied, where applicable, by the requisite visa"
+      },
+      {
+       "t": ", travel authorisation",
+       "op": "ins"
+      },
+      {
+       "t": " or residence permit;"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "columns": null,
+ "legend": [
+  {
+   "code": "Syst. Abfr.",
+   "label": "VO (EU) 2017/458",
+   "color": "#E69F00"
+  },
+  {
+   "code": "ETIAS",
+   "label": "VO (EU) 2018/1240",
+   "color": "#CC79A7"
+  },
+  {
+   "op": "ins",
+   "label": "eingefügt"
+  },
+  {
+   "op": "del",
+   "label": "gestrichen"
+  }
+ ],
+ "source": "Quelle: EUR-Lex, Verordnung (EU) 2016/399 (SGK), Stand nach Berichtigung R(03) zu VO (EU) 2018/1240 (19. September 2018).",
+ "disclaimer": "Massgebend ist allein das Amtsblatt der EU; konsolidierte und rekonstruierte Fassungen sind nicht rechtsverbindlich. Erstellt am 12. November 2026 mit SGK-Navigator."
+}

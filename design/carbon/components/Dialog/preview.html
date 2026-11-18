@@ -1,0 +1,38 @@
+<!-- @dsCard group="Overlays" height=420 -->
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>body{margin:0;background:var(--canvas)}</style>
+</head>
+<body>
+<div class="ui-root" style="padding: 24px; background: var(--canvas)">
+<div class="ui-overlay" style="padding: 32px; display: flex; gap: 32px; align-items: flex-start">
+<div class="ui-dialog" role="dialog" aria-labelledby="dlg-t"><div class="ui-dialog-head"><h2 id="dlg-t">Beispiel-Dossier laden</h2><button type="button" class="ui-btn ui-btn--ghost ui-btn--icon" aria-label="Schliessen"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6L6 18"></path></svg></button></div>
+<div class="ui-dialog-body">Die Beispiele stammen aus öffentlichen Dokumenten des Rats und der Kommission. Positionen und Konsultationen darin sind fiktiv.</div>
+<div class="ui-dialog-foot"><button type="button" class="ui-btn ui-btn--secondary">Abbrechen</button><button type="button" class="ui-btn ui-btn--primary">Laden</button></div></div>
+<div class="ui-menu" role="menu" aria-label="Karte exportieren"><button type="button" role="menuitem">PNG A4 <small>2-fach</small></button><button type="button" role="menuitem">PDF A4</button><button type="button" role="menuitem">PNG 16:9 <small>Folie</small></button><button type="button" role="menuitem">PDF 16:9</button><hr><button type="button" role="menuitem">In Sammelkorb (A4)</button><button type="button" role="menuitem">Druckansicht</button></div>
+</div>
+</div>
+<script>
+document.querySelectorAll('.ui-seg').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('[role="tablist"]').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('[role="tab"]'); if (!b) return;
+    g.querySelectorAll('[role="tab"]').forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('.ui-stagebar').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('.ui-stage'); if (!b) return;
+    g.querySelectorAll('.ui-stage').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+</script>
+</body>
+</html>

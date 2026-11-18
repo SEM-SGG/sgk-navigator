@@ -1,0 +1,38 @@
+<!-- @dsCard group="Verhandlung" height=500 -->
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>body{margin:0;background:var(--canvas)}</style>
+</head>
+<body>
+<div class="ui-root" style="padding: 24px; background: var(--canvas)">
+<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; font-size: 12px; letter-spacing: 0.32px; color: var(--ink-muted)"><span>Auszeichnung der Quelle:</span><ins class="ui-ins">neu</ins><del class="ui-del">gestrichen</del><span>327 Zeilen · 4 Fassungen</span></div>
+<div style="overflow-x: auto"><div class="ui-table" style="--cols: 96px repeat(4, minmax(160px, 1fr)) 240px; min-width: 1100px">
+<div class="ui-table-head"><span style="font-weight: 400; font-size: 12px; color: var(--ink-muted)">Zeile</span><span class="ui-track-head" data-track="com">Kommission<small>COM(2021) 891</small></span><span class="ui-track-head" data-track="ep">Europäisches Parlament<small>A9-0280/2023</small></span><span class="ui-track-head" data-track="council">Rat<small>ST 14288/23</small></span><span class="ui-track-head" data-track="agreement">Kompromiss (Trilog)<small>jüngste Fassung</small></span><span><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4"></path><path d="M5 4h11l-2 4 2 4H5"></path></svg>Position CH</span></div>
+<div class="ui-table-row"><div class="ui-table-cite">124<span style="font-weight: 400; color: var(--ink-muted)">Art. 23a</span></div><div class="ui-table-legal">Article 23a<br>Procedure for transferring persons apprehended at the internal borders</div><div class="ui-table-legal">Article 23a<br>Procedure for <del class="ui-del">transferring</del><ins class="ui-ins">the possible transfer of</ins> persons apprehended <del class="ui-del">at</del><ins class="ui-ins">in the vicinity of</ins> the internal borders</div><div class="ui-table-legal">Article 23a<br><ins class="ui-ins">Procedure for transferring illegally staying third-country nationals apprehended in border areas</ins></div><div class="ui-table-empty">kein Text in dieser Fassung</div><div class="ui-pos-cell" style="display: flex; flex-direction: column; gap: 8px"><span style="display: flex; flex-wrap: wrap; gap: 6px"><span class="ui-tag ui-tag--scrutiny">Prüfvorbehalt</span><span class="ui-tag ui-tag--outline">Priorität mittel</span></span><span style="font-size: 13px">Beispieltext (fiktiv): Titel offen halten, bis Abs. 1 bereinigt ist.</span></div></div>
+<div class="ui-table-row"><div class="ui-table-cite">125<span style="font-weight: 400; color: var(--ink-muted)">Art. 23a Abs. 1</span></div><div class="ui-table-legal">1. This Article applies to the apprehension of a third-country national in the vicinity of internal borders, in circumstances where all of the following conditions are fulfilled:</div><div class="ui-table-legal">1. <ins class="ui-ins">Without prejudice to Article 22,</ins> this Article applies to the apprehension of <del class="ui-del">a</del><ins class="ui-ins">an irregularly-staying</ins> third-country national in the vicinity of internal borders, in circumstances where <del class="ui-del">all of</del> the following conditions are fulfilled:</div><div class="ui-table-legal">1. This Article <del class="ui-del">applies to the apprehension of a</del><ins class="ui-ins">lays down the procedure for the transfer of an illegally staying</ins> third-country national <ins class="ui-ins">apprehended in border areas as referred to in Article 23</ins><del class="ui-del">in the vicinity of internal borders</del>, in circumstances where <del class="ui-del">all of</del> the following conditions are fulfilled:</div><div class="ui-table-legal">1. <ins class="ui-ins">Without prejudice to Article 22,</ins> this Article <del class="ui-del">applies to the apprehension</del><ins class="ui-ins">lays down the procedure for the transfer</ins> of a third-country national <ins class="ui-ins">apprehended in border areas as referred to in Article 23</ins> <del class="ui-del">in the vicinity of internal borders,</del> in circumstances where <del class="ui-del">all of</del> the following conditions are fulfilled:</div><div class="ui-pos-cell" style="display: flex; flex-direction: column; gap: 8px"><span style="display: flex; flex-wrap: wrap; gap: 6px"><span class="ui-tag ui-tag--with-changes">Unterstützung mit Änderungen</span><span class="ui-tag ui-tag--outline">Priorität hoch</span></span><span style="font-size: 13px">Beispieltext (fiktiv): Verweis auf Art. 22 begrüssen; Grenzgebiete präzisieren.</span></div></div>
+</div></div>
+</div>
+<script>
+document.querySelectorAll('.ui-seg').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('[role="tablist"]').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('[role="tab"]'); if (!b) return;
+    g.querySelectorAll('[role="tab"]').forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('.ui-stagebar').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('.ui-stage'); if (!b) return;
+    g.querySelectorAll('.ui-stage').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+</script>
+</body>
+</html>

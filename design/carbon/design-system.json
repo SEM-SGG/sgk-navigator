@@ -1,0 +1,25 @@
+{
+  "v": 3,
+  "assetGroups": {},
+  "blobs": {},
+  "createdOnFiles": {
+    "at": "2026-11-14T23:31:37Z",
+    "v": 1
+  },
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "groups": [],
+  "lastChange": {
+    "at": "2026-11-14T23:35:54Z",
+    "by": "SEM-SGG",
+    "note": "Umbenannt in Carbon",
+    "via": ""
+  },
+  "layout": "files",
+  "libraries": [],
+  "namespace": "SGK",
+  "sections": {},
+  "title": "Carbon"
+}

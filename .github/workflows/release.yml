@@ -1,0 +1,124 @@
+# Erstellt eine neue Version: Build aus dem Quellcode mit der angegebenen Version, Tests, Release mit der Datei
+# SGK-Navigator.html, danach die Download-Seite mit version.json auf GitHub Pages.
+#
+# Auslösen (siehe MAINTAINING.md, «Release erstellen»):
+#   - Actions → «Release» → «Run workflow»: Version eintragen (z. B. 2026.12.12), optional Kurztext DE/FR. Der Workflow legt
+#     den Tag v2026.12.12 selbst an. Nur vom Branch main.
+#   - oder einen Tag v2026.12.12 pushen (dafür muss die Umgebung github-pages Tags v* zulassen, siehe MAINTAINING.md).
+# Die gebaute HTML-Datei wird nicht ins Repo committet; sie liegt nur im Release.
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version JJJJ.MM.TT, z. B. 2026.12.12 (zweite Version am selben Tag: 2026.12.12-2)'
+        required: true
+        type: string
+      notes_de:
+        description: 'Was ist neu (Deutsch, ein bis zwei Sätze; leer = Standardtext)'
+        required: false
+        type: string
+      notes_fr:
+        description: 'Nouveautés (français, une ou deux phrases; vide = texte standard)'
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Bauen, testen, Release erstellen
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: write
+    outputs:
+      version: ${{ steps.v.outputs.version }}
+    env:
+      OFFLINE: '1'
+      SGK_CHROME: bundled
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Version bestimmen und prüfen
+        id: v
+        env:
+          GH_TOKEN: ${{ github.token }}
+          INPUT_VERSION: ${{ inputs.version }}
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "push" ]; then v="${GITHUB_REF_NAME#v}"; else
+            v="$(printf '%s' "$INPUT_VERSION" | tr -d '[:space:]')"; v="${v#v}"
+            if [ "$GITHUB_REF" != "refs/heads/main" ]; then echo "::error::Release nur vom Branch main (gewählt: $GITHUB_REF_NAME)."; exit 1; fi
+          fi
+          if ! printf '%s' "$v" | grep -Eq '^[0-9]{4}\.[0-9]{2}\.[0-9]{2}(-[0-9]+)?$'; then
+            echo "::error::Version «$v» entspricht nicht dem Schema JJJJ.MM.TT oder JJJJ.MM.TT-n (z. B. 2026.12.12)."; exit 1
+          fi
+          if gh release view "v$v" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "::error::Das Release v$v gibt es schon. Andere Version wählen, z. B. $v-2."; exit 1
+          fi
+          echo "version=$v" >> "$GITHUB_OUTPUT"
+          echo "Version: $v"
+
+      - name: Abhängigkeiten installieren
+        run: npm ci
+
+      - name: Einheitstests
+        run: npm run test:unit
+
+      - name: SGK-Navigator.html bauen
+        run: node build.mjs --version "${{ steps.v.outputs.version }}" --out dist/SGK-Navigator.html
+
+      - name: Kurzprüfung der Oberfläche (Start, Hinweis auf neue Versionen)
+        run: |
+          npx playwright install --with-deps chromium
+          npx playwright test -c test/app/playwright.config.mjs app.spec.mjs version.spec.mjs --grep-invert "@netz|@daten"
+
+      - name: Download-Seite und version.json bauen
+        env:
+          SGK_NOTES_DE: ${{ inputs.notes_de }}
+          SGK_NOTES_FR: ${{ inputs.notes_fr }}
+        run: node scripts/build-site.mjs --version "${{ steps.v.outputs.version }}" --file dist/SGK-Navigator.html --out dist/site --release-notes dist/release-notes.md
+
+      - name: Release erstellen
+        env:
+          GH_TOKEN: ${{ github.token }}
+          V: ${{ steps.v.outputs.version }}
+        run: |
+          target=()
+          if [ "$GITHUB_EVENT_NAME" != "push" ]; then target=(--target "$GITHUB_SHA"); fi
+          gh release create "v$V" dist/SGK-Navigator.html --repo "$GITHUB_REPOSITORY" "${target[@]}" \
+            --title "SGK-Navigator $V" --notes-file dist/release-notes.md --latest
+
+      - name: Download-Seite für GitHub Pages bereitstellen
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist/site
+
+  pages:
+    name: Download-Seite veröffentlichen
+    needs: release
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Auf GitHub Pages veröffentlichen
+        id: deployment
+        uses: actions/deploy-pages@v5

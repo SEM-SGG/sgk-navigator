@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="SGK-Navigator herunterladen: Änderungen am Schengener Grenzkodex und an weiteren Verordnungen zu Grenze und Visa nachverfolgen. Télécharger le SGK-Navigator.">
+<title>SGK-Navigator herunterladen · Télécharger le SGK-Navigator</title>
+<link rel="stylesheet" href="site.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+<a class="skip" href="#main"><span data-l="de" lang="de-CH">Zum Inhalt springen</span><span data-l="fr" lang="fr-CH">Aller au contenu</span></a>
+<header class="head">
+  <div class="head-in">
+    <p class="brand"><span class="brand-mark" aria-hidden="true"></span>SGK-Navigator</p>
+    <div class="lang-switch" role="group" aria-label="Sprache · Langue" hidden>
+      <button type="button" class="lang-btn" data-set-lang="de" lang="de-CH" aria-pressed="true">Deutsch</button>
+      <button type="button" class="lang-btn" data-set-lang="fr" lang="fr-CH" aria-pressed="false">Français</button>
+    </div>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+
+<div class="lang-block" data-l="de" lang="de-CH">
+  <section class="hero" aria-labelledby="de-h1">
+    <h1 id="de-h1">SGK-Navigator</h1>
+    <p class="lead">Änderungen am Schengener Grenzkodex und an weiteren Verordnungen zu Grenze und Visa (EES, ETIAS, VIS, Interoperabilität) nachverfolgen: Wortlaut jeder Fassung, Vergleich zweier Stände, Chronologie je Bestimmung und Export nach Word und PDF. Texte auf Deutsch, Französisch und Englisch.</p>
+    <p class="cta"><a class="btn btn-primary" id="dl-de" data-v="url" href="{{URL}}" download="SGK-Navigator.html"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 32 32"><path fill="currentColor" d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10 10-10z"/></svg>SGK-Navigator herunterladen</a></p>
+    <p class="meta">Version <span class="mono" data-v="version">{{VERSION}}</span> vom <span data-v="date-de">{{DATE_DE}}</span> · eine HTML-Datei, rund {{SIZE_MB}} MB · kein GitHub-Konto nötig</p>
+    <p class="meta small">Funktioniert der Link nicht, die Datei <a href="{{LATEST}}">über diesen Link</a> oder unter <a href="{{RELEASES}}">Releases</a> herunterladen.</p>
+  </section>
+
+  <section aria-labelledby="de-steps">
+    <h2 id="de-steps">In drei Schritten</h2>
+    <ol class="steps">
+      <li><span class="step-n" aria-hidden="true">1</span><div><h3>Herunterladen</h3><p>«SGK-Navigator herunterladen» wählen. Der Browser speichert die Datei <span class="mono">SGK-Navigator.html</span>, meist im Ordner «Downloads».</p></div></li>
+      <li><span class="step-n" aria-hidden="true">2</span><div><h3>Öffnen</h3><p>Die Datei doppelklicken. Sie öffnet sich in Chrome oder Edge. Eine Installation ist nicht nötig; das Tool funktioniert auch ohne Internetverbindung.</p></div></li>
+      <li><span class="step-n" aria-hidden="true">3</span><div><h3>Im selben Browser bleiben</h3><p>Hochgeladene Fassungen, Notizen und Positionen speichert der Browser, nicht die Datei. Eine neue Version deshalb im selben Browser öffnen; die Daten stehen dort wieder zur Verfügung. Zur Sicherheit vorher im Tool eine Projektdatei exportieren.</p></div></li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="de-neu" id="neu">
+    <h2 id="de-neu">Was ist neu</h2>
+    <p data-v="notes-de">{{NOTES_DE}}</p>
+    <h3>Datenstand dieser Version</h3>
+    <ul class="facts">{{STAND_DE}}</ul>
+    <p class="small">Neuere konsolidierte Fassungen lassen sich im Tool unter «Aktualisieren» selbst laden. Ein Hinweis im Tool meldet neue Versionen; dafür fragt es höchstens einmal pro Tag diese Seite ab, ohne Daten aus dem Tool zu übertragen. <a href="{{RELEASE}}">Versionshinweise auf GitHub</a></p>
+  </section>
+
+  <div class="notice notice-warning" role="note">
+    <svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 32 32"><path fill="currentColor" d="M16 2a14 14 0 1 0 14 14A14 14 0 0 0 16 2m-1.1 6h2.2v11h-2.2zM16 25a1.5 1.5 0 1 1 1.5-1.5A1.5 1.5 0 0 1 16 25"/></svg>
+    <div><p><strong>Keine amtliche Veröffentlichung.</strong> Massgebend ist allein das Amtsblatt der Europäischen Union. Das Tool zeigt auch berechnete und rekonstruierte Stände; sie sind im Tool als solche gekennzeichnet.</p></div>
+  </div>
+
+  <section aria-labelledby="de-kontakt">
+    <h2 id="de-kontakt">Kontakt</h2>
+    <p>Sektion Grundlagen Grenze (SGG), Staatssekretariat für Migration SEM</p>
+    <p><a href="{{ISSUES}}">Fehler melden</a> (dafür ist ein GitHub-Konto nötig; bitte keine vertraulichen Inhalte eintragen) · <a href="{{REPO}}">Quellcode auf GitHub</a></p>
+  </section>
+</div>
+
+<div class="lang-block" data-l="fr" lang="fr-CH">
+  <section class="hero" aria-labelledby="fr-h1">
+    <h1 id="fr-h1">SGK-Navigator</h1>
+    <p class="lead">Suivre les modifications du code frontières Schengen et d’autres règlements relatifs aux frontières et aux visas (EES, ETIAS, VIS, interopérabilité)&#8239;: texte de chaque version, comparaison de deux états, chronologie par disposition et export vers Word et PDF. Textes en allemand, français et anglais.</p>
+    <p class="cta"><a class="btn btn-primary" id="dl-fr" data-v="url" href="{{URL}}" download="SGK-Navigator.html"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 32 32"><path fill="currentColor" d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10 10-10z"/></svg>Télécharger le SGK-Navigator</a></p>
+    <p class="meta">Version <span class="mono" data-v="version">{{VERSION}}</span> du <span data-v="date-fr">{{DATE_FR}}</span> · un fichier HTML d’environ {{SIZE_MB}}&#160;Mo · aucun compte GitHub nécessaire</p>
+    <p class="meta small">Si le lien ne fonctionne pas, télécharger le fichier <a href="{{LATEST}}">par ce lien</a> ou sous <a href="{{RELEASES}}">Releases</a>.</p>
+  </section>
+
+  <section aria-labelledby="fr-steps">
+    <h2 id="fr-steps">En trois étapes</h2>
+    <ol class="steps">
+      <li><span class="step-n" aria-hidden="true">1</span><div><h3>Télécharger</h3><p>Choisir «&#8239;Télécharger le SGK-Navigator&#8239;». Le navigateur enregistre le fichier <span class="mono">SGK-Navigator.html</span>, en général dans le dossier «&#8239;Téléchargements&#8239;».</p></div></li>
+      <li><span class="step-n" aria-hidden="true">2</span><div><h3>Ouvrir</h3><p>Double-cliquer sur le fichier. Il s’ouvre dans Chrome ou Edge. Aucune installation n’est nécessaire&#8239;; l’outil fonctionne aussi sans connexion Internet.</p></div></li>
+      <li><span class="step-n" aria-hidden="true">3</span><div><h3>Rester dans le même navigateur</h3><p>Les versions importées, les notes et les positions sont enregistrées par le navigateur, pas dans le fichier. Ouvrir donc une nouvelle version dans le même navigateur&#8239;; les données y sont de nouveau disponibles. Par précaution, exporter auparavant un fichier de projet dans l’outil.</p></div></li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="fr-neu" id="nouveau">
+    <h2 id="fr-neu">Nouveautés</h2>
+    <p data-v="notes-fr">{{NOTES_FR}}</p>
+    <h3>État des données de cette version</h3>
+    <ul class="facts">{{STAND_FR}}</ul>
+    <p class="small">Des versions consolidées plus récentes peuvent être importées dans l’outil sous «&#8239;Actualiser&#8239;». Un avis dans l’outil signale les nouvelles versions&#8239;; pour cela, l’outil consulte cette page au plus une fois par jour, sans transmettre de données. <a href="{{RELEASE}}">Notes de version sur GitHub</a></p>
+  </section>
+
+  <div class="notice notice-warning" role="note">
+    <svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 32 32"><path fill="currentColor" d="M16 2a14 14 0 1 0 14 14A14 14 0 0 0 16 2m-1.1 6h2.2v11h-2.2zM16 25a1.5 1.5 0 1 1 1.5-1.5A1.5 1.5 0 0 1 16 25"/></svg>
+    <div><p><strong>Pas une publication officielle.</strong> Seul le Journal officiel de l’Union européenne fait foi. L’outil montre aussi des états calculés et reconstitués&#8239;; ils y sont signalés comme tels.</p></div>
+  </div>
+
+  <section aria-labelledby="fr-contact">
+    <h2 id="fr-contact">Contact</h2>
+    <p>Sektion Grundlagen Grenze (SGG), Secrétariat d’État aux migrations SEM</p>
+    <p><a href="{{ISSUES}}">Signaler une erreur</a> (un compte GitHub est nécessaire&#8239;; ne saisir aucun contenu confidentiel) · <a href="{{REPO}}">Code source sur GitHub</a></p>
+  </section>
+</div>
+
+</main>
+<footer class="foot">
+  <div class="foot-in">
+    <p data-l="de" lang="de-CH">Texte des EU-Rechts: © Europäische Union, EUR-Lex; Wiederverwendung nach Beschluss 2011/833/EU. Schrift IBM Plex (SIL Open Font License 1.1).</p>
+    <p data-l="fr" lang="fr-CH">Textes du droit de l’UE&#8239;: © Union européenne, EUR-Lex&#8239;; réutilisation selon la décision 2011/833/UE. Police IBM Plex (SIL Open Font License 1.1).</p>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+ "_doc": "Entscheide zum Abgleich Lesung 1 (pass1.json) / Lesung 2 (pass2.json), am Bild geklärt. Grundlage für data/forms.json ist pass2.json; corrections ändern einzelne Blöcke. Jede Textabweichung aus compare.mjs ist hier entschieden.",
+ "corrections": [
+  { "asset": "4fe081b8a4db27cc", "k": "fF", "from": "a déjà séjourné", "to": "à déjà séjourné", "reason": "Bild (Originalauflösung, 4-fach vergrössert) zeigt «à déjà»; Lesung 1 richtig, Lesung 2 hatte stillschweigend korrigiert. Auch verborgener EUR-Lex-Bildtext: «à déjà». Fehler der Quelle, wörtlich übernommen (sic)." },
+  { "asset": "3e0813af8e8324b5", "k": "fF", "from": "a déjà séjourné", "to": "à déjà séjourné", "reason": "wie oben, Fassung nach EES (Bild 2843 px, vergrössert): «à déjà»." }
+ ],
+ "kept": [
+  { "assets": ["620ddf9db6ceee5d", "4fe081b8a4db27cc", "d91a0d752a6f6743", "fb750e52db7119e8", "3e0813af8e8324b5", "1498afb43939b68f", "f26c73a070ca7c36", "2a3c6e55d18d6f7d", "847372fb34db23a2"], "issue": "Fussnotenzeichen (1) am Ende der zweiten Linie: Lesung 1 eigener Block «… (1)», Lesung 2 am Ende von f2 (Staatsemblem).", "decision": "Lesung 2: das Zeichen gehört zum Emblem (Fussnote «kein Logo erforderlich»); kein Textunterschied." },
+  { "assets": ["3636ee9cf4f75df2", "3a8092fcfd6d0782", "b0d4aecea165ef09"], "issue": "Schild Anhang III Teil D.1: Lesung 1 ein Block mit Zeilenumbruch, Lesung 2 zwei Blöcke.", "decision": "Lesung 2: gleiche Gliederung wie Teil A (f1 Staatenkürzel, f2 Bezeichnung), damit die Schilder als Text vergleichbar sind; kein Textunterschied." },
+  { "assets": ["d91a0d752a6f6743", "1498afb43939b68f"], "issue": "Kursivumfang in f13 «(indicate references to the national law in force),» und f21 «(each State … appeal).»", "decision": "Lesung 2 nach Vergrösserung: in f13 ist das Komma nach der Klammer kursiv gesetzt, in f21 die öffnende Klammer gerade, die schliessende kursiv, der Punkt gerade." },
+  { "assets": ["4fe081b8a4db27cc", "3e0813af8e8324b5", "9c30f9123a79d571"], "issue": "Leerzeichen neben Ausfülllinien («…,» / «… ,», «Code)…», «Surname…»).", "decision": "Lesung 2: Ausfülllinien einheitlich als « … » mit Leerzeichen; die Lage der Linie ist kein Wortlaut." }
+ ]
+}

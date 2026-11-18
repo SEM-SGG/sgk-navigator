@@ -1,0 +1,3717 @@
+[
+ {
+  "unit": "anx_III",
+  "key": "ptA.g1",
+  "lang": "de",
+  "asset": "5cd48ff41e48bbff",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "EU<br>EWR<br>CH"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "BÜRGER"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund; im Sternenkreis die Kürzel (f1), darunter die Bezeichnung (f2).",
+   "fr": "Panneau: texte blanc sur fond sombre; dans le cercle d’étoiles les sigles (f1), au-dessous la désignation (f2).",
+   "en": "Sign: white lettering on a dark background; abbreviations inside the circle of stars (f1), designation below (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptB1.g1",
+  "lang": "de",
+  "asset": "b534829cb83bd3e2",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "VISUM<br><i>NICHT<br>ERFORDERLICH</i>"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund; zweiter Teil kursiv.",
+   "fr": "Panneau: texte blanc sur fond sombre; seconde partie en italique.",
+   "en": "Sign: white lettering on a dark background; second part in italics."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptB2.g1",
+  "lang": "de",
+  "asset": "408d834f9d9c4f22",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "ALLE<br>PÄSSE"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund.",
+   "fr": "Panneau: texte blanc sur fond sombre.",
+   "en": "Sign: white lettering on a dark background."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g1",
+  "lang": "de",
+  "asset": "ff8fb0d4e50eb7eb",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "EU<br>EWR<br>CH"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "PKW"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Sternenkreis mit den Kürzeln (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche cercle d’étoiles avec les sigles (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left circle of stars with the abbreviations (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g2",
+  "lang": "de",
+  "asset": "168dbba703dc447e",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "EU<br>EWR<br>CH"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "BUSSE"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Sternenkreis mit den Kürzeln (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche cercle d’étoiles avec les sigles (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left circle of stars with the abbreviations (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g3",
+  "lang": "de",
+  "asset": "dc95497d317d3b08",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "EU<br>EWR<br>CH"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "LKW"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Sternenkreis mit den Kürzeln (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche cercle d’étoiles avec les sigles (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left circle of stars with the abbreviations (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g4",
+  "lang": "de",
+  "asset": "cf95043b12fa1186",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "NICHT<br>VISUMPFLICH-<br>TIG"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "PKW"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g5",
+  "lang": "de",
+  "asset": "eb0b124000de7ca6",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "NICHT<br>VISUMPFLICH-<br>TIG"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "BUSSE"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g6",
+  "lang": "de",
+  "asset": "1acc80d51227b6be",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "NICHT<br>VISUMPFLICH-<br>TIG"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "LKW"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g7",
+  "lang": "de",
+  "asset": "1828cfcb21f2dd7a",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "ALLE<br>PÄSSE"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "PKW"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g8",
+  "lang": "de",
+  "asset": "d63f661929f41cad",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "ALLE<br>PÄSSE"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "BUSSE"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g9",
+  "lang": "de",
+  "asset": "ad883f3b2a16d926",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "ALLE<br>PÄSSE"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "LKW"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD1.g1",
+  "lang": "de",
+  "asset": "7264ef5ef36dfec5",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [],
+  "layoutNote": {
+   "de": "Piktogramm ohne Schrift, mit Sternenkreis.",
+   "fr": "Pictogramme sans texte, avec cercle d’étoiles.",
+   "en": "Pictogram without lettering, with circle of stars."
+  },
+  "method": "transcription",
+  "checked": "double",
+  "noText": true
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD1.g2",
+  "lang": "de",
+  "asset": "3636ee9cf4f75df2",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "EU / EWR / CH"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "Bürger"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund.",
+   "fr": "Panneau: texte blanc sur fond sombre.",
+   "en": "Sign: white lettering on a dark background."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD2.g1",
+  "lang": "de",
+  "asset": "b145889f8bbb7f10",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [],
+  "layoutNote": {
+   "de": "Piktogramm ohne Schrift.",
+   "fr": "Pictogramme sans texte.",
+   "en": "Pictogram without lettering."
+  },
+  "method": "transcription",
+  "checked": "double",
+  "noText": true
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD2.g2",
+  "lang": "de",
+  "asset": "f6d9e85b6934e941",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "DRITTSTAATS-<br>ANGEHÖRIGE"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund.",
+   "fr": "Panneau: texte blanc sur fond sombre.",
+   "en": "Sign: white lettering on a dark background."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD3.g1",
+  "lang": "de",
+  "asset": "90f3332aa5ae3fab",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [],
+  "layoutNote": {
+   "de": "Piktogramm ohne Schrift.",
+   "fr": "Pictogramme sans texte.",
+   "en": "Pictogram without lettering."
+  },
+  "method": "transcription",
+  "checked": "double",
+  "noText": true
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD3.g2",
+  "lang": "de",
+  "asset": "b086e25b34ff9daa",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "ALLE PÄSSE"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund.",
+   "fr": "Panneau: texte blanc sur fond sombre.",
+   "en": "Sign: white lettering on a dark background."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptE.g1",
+  "lang": "de",
+  "asset": "178bf3a31f6a9951",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "REGISTRIERTE<br>REISENDE"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund, farbiger Rahmen.",
+   "fr": "Panneau: texte blanc sur fond sombre, cadre de couleur.",
+   "en": "Sign: white lettering on a dark background, coloured frame."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptA.g1",
+  "lang": "fr",
+  "asset": "182393e02e8cf0f0",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "UE<br>EEE<br>CH"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "CITOYENS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund; im Sternenkreis die Kürzel (f1), darunter die Bezeichnung (f2).",
+   "fr": "Panneau: texte blanc sur fond sombre; dans le cercle d’étoiles les sigles (f1), au-dessous la désignation (f2).",
+   "en": "Sign: white lettering on a dark background; abbreviations inside the circle of stars (f1), designation below (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptB1.g1",
+  "lang": "fr",
+  "asset": "d41a31c10470e381",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "VISA<br><i>NON REQUIS</i>"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund; zweiter Teil kursiv.",
+   "fr": "Panneau: texte blanc sur fond sombre; seconde partie en italique.",
+   "en": "Sign: white lettering on a dark background; second part in italics."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptB2.g1",
+  "lang": "fr",
+  "asset": "9b8930cca1a89981",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "TOUS<br>PASSEPORTS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund.",
+   "fr": "Panneau: texte blanc sur fond sombre.",
+   "en": "Sign: white lettering on a dark background."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g1",
+  "lang": "fr",
+  "asset": "7462e242b83bdb49",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "UE<br>EEE<br>CH"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "VOITURES"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Sternenkreis mit den Kürzeln (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche cercle d’étoiles avec les sigles (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left circle of stars with the abbreviations (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g2",
+  "lang": "fr",
+  "asset": "4f51ae9eea7daf1d",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "UE<br>EEE<br>CH"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "BUS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Sternenkreis mit den Kürzeln (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche cercle d’étoiles avec les sigles (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left circle of stars with the abbreviations (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g3",
+  "lang": "fr",
+  "asset": "443d26f114259886",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "UE<br>EEE<br>CH"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "CAMIONS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Sternenkreis mit den Kürzeln (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche cercle d’étoiles avec les sigles (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left circle of stars with the abbreviations (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g4",
+  "lang": "fr",
+  "asset": "1a5f7a56eeac32a0",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "VISA<br>NON REQUIS"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "VOITURE"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g5",
+  "lang": "fr",
+  "asset": "7fcc4dc65a7d4aa4",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "VISA<br>NON REQUIS"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "BUS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g6",
+  "lang": "fr",
+  "asset": "6b884205f0ddbf5a",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "VISA<br>NON REQUIS"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "CAMIONS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g7",
+  "lang": "fr",
+  "asset": "5664284f79b3047a",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "TOUS<br>PASSEPORTS"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "VOITURES"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g8",
+  "lang": "fr",
+  "asset": "50eb31ee40c861dd",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "TOUS<br>PASSEPORTS"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "BUS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g9",
+  "lang": "fr",
+  "asset": "56a70140963b0114",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "TOUS<br>PASSEPORTS"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "CAMIONS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD1.g1",
+  "lang": "fr",
+  "asset": "7264ef5ef36dfec5",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [],
+  "layoutNote": {
+   "de": "Piktogramm ohne Schrift, mit Sternenkreis.",
+   "fr": "Pictogramme sans texte, avec cercle d’étoiles.",
+   "en": "Pictogram without lettering, with circle of stars."
+  },
+  "method": "transcription",
+  "checked": "double",
+  "noText": true
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD1.g2",
+  "lang": "fr",
+  "asset": "3a8092fcfd6d0782",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "UE / EEE / CH"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "CITOYENS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund.",
+   "fr": "Panneau: texte blanc sur fond sombre.",
+   "en": "Sign: white lettering on a dark background."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD2.g1",
+  "lang": "fr",
+  "asset": "b145889f8bbb7f10",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [],
+  "layoutNote": {
+   "de": "Piktogramm ohne Schrift.",
+   "fr": "Pictogramme sans texte.",
+   "en": "Pictogram without lettering."
+  },
+  "method": "transcription",
+  "checked": "double",
+  "noText": true
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD2.g2",
+  "lang": "fr",
+  "asset": "d3ed7a1e2bdfb240",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "RESSORTISSANTS DE<br>PAYS TIERS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund.",
+   "fr": "Panneau: texte blanc sur fond sombre.",
+   "en": "Sign: white lettering on a dark background."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD3.g1",
+  "lang": "fr",
+  "asset": "90f3332aa5ae3fab",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [],
+  "layoutNote": {
+   "de": "Piktogramm ohne Schrift.",
+   "fr": "Pictogramme sans texte.",
+   "en": "Pictogram without lettering."
+  },
+  "method": "transcription",
+  "checked": "double",
+  "noText": true
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD3.g2",
+  "lang": "fr",
+  "asset": "9702ef0bf424667a",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "TOUS PASSEPORTS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund.",
+   "fr": "Panneau: texte blanc sur fond sombre.",
+   "en": "Sign: white lettering on a dark background."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptE.g1",
+  "lang": "fr",
+  "asset": "b2babf785cb46240",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "VOYAGEURS<br>ENREGISTRÉS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund, farbiger Rahmen.",
+   "fr": "Panneau: texte blanc sur fond sombre, cadre de couleur.",
+   "en": "Sign: white lettering on a dark background, coloured frame."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptA.g1",
+  "lang": "en",
+  "asset": "05f5b24e38d77724",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "EU<br>EEA<br>CH"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "CITIZENS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund; im Sternenkreis die Kürzel (f1), darunter die Bezeichnung (f2).",
+   "fr": "Panneau: texte blanc sur fond sombre; dans le cercle d’étoiles les sigles (f1), au-dessous la désignation (f2).",
+   "en": "Sign: white lettering on a dark background; abbreviations inside the circle of stars (f1), designation below (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptB1.g1",
+  "lang": "en",
+  "asset": "69ead3154b5b5724",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "VISA<br><i>NOT REQUIRED</i>"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund; zweiter Teil kursiv.",
+   "fr": "Panneau: texte blanc sur fond sombre; seconde partie en italique.",
+   "en": "Sign: white lettering on a dark background; second part in italics."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptB2.g1",
+  "lang": "en",
+  "asset": "0397ebeac71d44c7",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "ALL<br>PASSPORTS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund.",
+   "fr": "Panneau: texte blanc sur fond sombre.",
+   "en": "Sign: white lettering on a dark background."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g1",
+  "lang": "en",
+  "asset": "578dc71f0715b54c",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "EU<br>EEA<br>CH"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "CARS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Sternenkreis mit den Kürzeln (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche cercle d’étoiles avec les sigles (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left circle of stars with the abbreviations (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g2",
+  "lang": "en",
+  "asset": "3ce1f007caf9ff43",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "EU<br>EEA<br>CH"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "BUSES"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Sternenkreis mit den Kürzeln (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche cercle d’étoiles avec les sigles (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left circle of stars with the abbreviations (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g3",
+  "lang": "en",
+  "asset": "d06c8e03969d0ebe",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "EU<br>EEA<br>CH"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "LORRIES"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Sternenkreis mit den Kürzeln (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche cercle d’étoiles avec les sigles (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left circle of stars with the abbreviations (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g4",
+  "lang": "en",
+  "asset": "010e35f1341ff563",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "VISA<br>NOT REQUIRED"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "CARS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g5",
+  "lang": "en",
+  "asset": "67dcd25d6087e679",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "VISA<br>NOT REQUIRED"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "BUSES"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g6",
+  "lang": "en",
+  "asset": "15b06bdd3ca1fcea",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "VISA<br>NOT REQUIRED"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "LORRIES"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g7",
+  "lang": "en",
+  "asset": "28ed06361141dc8d",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "ALL<br>PASSPORTS"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "CARS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g8",
+  "lang": "en",
+  "asset": "4deccacef98a8b60",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "ALL<br>PASSPORTS"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "BUSES"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptC.g9",
+  "lang": "en",
+  "asset": "b78062308af65e76",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "ALL<br>PASSPORTS"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "LORRIES"
+   }
+  ],
+  "layoutNote": {
+   "de": "Zweiteiliges Schild: links Text auf dunklem Grund (f1), rechts Fahrzeugpiktogramm mit Bezeichnung (f2).",
+   "fr": "Panneau en deux parties: à gauche texte sur fond sombre (f1), à droite pictogramme du véhicule avec la désignation (f2).",
+   "en": "Two-part sign: on the left text on a dark background (f1), on the right vehicle pictogram with designation (f2)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD1.g1",
+  "lang": "en",
+  "asset": "7264ef5ef36dfec5",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [],
+  "layoutNote": {
+   "de": "Piktogramm ohne Schrift, mit Sternenkreis.",
+   "fr": "Pictogramme sans texte, avec cercle d’étoiles.",
+   "en": "Pictogram without lettering, with circle of stars."
+  },
+  "method": "transcription",
+  "checked": "double",
+  "noText": true
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD1.g2",
+  "lang": "en",
+  "asset": "b0d4aecea165ef09",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "EU / EEA / CH"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "CITIZENS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund.",
+   "fr": "Panneau: texte blanc sur fond sombre.",
+   "en": "Sign: white lettering on a dark background."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD2.g1",
+  "lang": "en",
+  "asset": "b145889f8bbb7f10",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [],
+  "layoutNote": {
+   "de": "Piktogramm ohne Schrift.",
+   "fr": "Pictogramme sans texte.",
+   "en": "Pictogram without lettering."
+  },
+  "method": "transcription",
+  "checked": "double",
+  "noText": true
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD2.g2",
+  "lang": "en",
+  "asset": "513e51ea15ab5abd",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "THIRD-COUNTRY<br>NATIONALS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund.",
+   "fr": "Panneau: texte blanc sur fond sombre.",
+   "en": "Sign: white lettering on a dark background."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD3.g1",
+  "lang": "en",
+  "asset": "90f3332aa5ae3fab",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [],
+  "layoutNote": {
+   "de": "Piktogramm ohne Schrift.",
+   "fr": "Pictogramme sans texte.",
+   "en": "Pictogram without lettering."
+  },
+  "method": "transcription",
+  "checked": "double",
+  "noText": true
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptD.ptD3.g2",
+  "lang": "en",
+  "asset": "64593db2105e4a3e",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "ALL PASSPORTS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund.",
+   "fr": "Panneau: texte blanc sur fond sombre.",
+   "en": "Sign: white lettering on a dark background."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_III",
+  "key": "ptE.g1",
+  "lang": "en",
+  "asset": "0a77b682f40e5901",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "REGISTERED<br>TRAVELERS"
+   }
+  ],
+  "layoutNote": {
+   "de": "Schild: weisse Schrift auf dunklem Grund, farbiger Rahmen.",
+   "fr": "Panneau: texte blanc sur fond sombre, cadre de couleur.",
+   "en": "Sign: white lettering on a dark background, coloured frame."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_V",
+  "key": "ptB.g1",
+  "lang": "de",
+  "asset": "620ddf9db6ceee5d",
+  "stages": [
+   "s00",
+   "s01",
+   "s02"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "Name des Staates"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "Staatsemblem (Name der Dienststelle) … (<sup>1</sup>)"
+   },
+   {
+    "k": "f3",
+    "l": "",
+    "t": "EINREISEVERWEIGERUNG"
+   },
+   {
+    "k": "f4",
+    "l": "",
+    "t": "Am … um (Uhrzeit) … ist an der Grenzübergangsstelle … vor dem Unterzeichnenden … vorstellig geworden:"
+   },
+   {
+    "k": "f5",
+    "l": "",
+    "t": "Name … Vorname …"
+   },
+   {
+    "k": "f6",
+    "l": "",
+    "t": "geboren am … in … Geschlecht …"
+   },
+   {
+    "k": "f7",
+    "l": "",
+    "t": "Staatsangehörigkeit … wohnhaft in …"
+   },
+   {
+    "k": "f8",
+    "l": "",
+    "t": "Art des Identitätsdokuments … Nummer …"
+   },
+   {
+    "k": "f9",
+    "l": "",
+    "t": "ausgestellt in … am …"
+   },
+   {
+    "k": "f10",
+    "l": "",
+    "t": "Visum Nr. … Art … erteilt von …"
+   },
+   {
+    "k": "f11",
+    "l": "",
+    "t": "gültig vom … bis zum …"
+   },
+   {
+    "k": "f12",
+    "l": "",
+    "t": "mit einer Gültigkeitsdauer von … Tagen zum Zwecke von …"
+   },
+   {
+    "k": "f13",
+    "l": "",
+    "t": "Er/sie, der/die aus … mit … (benutztes Transportmittel, z.B. Flugnummer, angeben) kommt, wird hiermit davon in Kenntnis gesetzt, dass gegen ihn/sie gemäß … <i>(genaue Angabe der geltenden nationalen Rechtsvorschriften)</i> aus folgenden Gründen eine Einreiseverweigerung verfügt wird:"
+   },
+   {
+    "k": "fA",
+    "l": "☐ (A)",
+    "t": "ohne gültige(s) Reisedokument(e)"
+   },
+   {
+    "k": "fB",
+    "l": "☐ (B)",
+    "t": "im Besitz eines falschen, gefälschten oder verfälschten Reisedokuments"
+   },
+   {
+    "k": "fC",
+    "l": "☐ (C)",
+    "t": "ohne gültiges Visum oder gültigen Aufenthaltstitel"
+   },
+   {
+    "k": "fD",
+    "l": "☐ (D)",
+    "t": "im Besitz eines falschen, gefälschten oder verfälschten Visums oder Aufenthaltstitels"
+   },
+   {
+    "k": "fE",
+    "l": "☐ (E)",
+    "t": "verfügt nicht über die erforderlichen Dokumente zum Nachweis von Aufenthaltszweck und -bedingungen."
+   },
+   {
+    "k": "fE.s1",
+    "l": "",
+    "t": "Folgende(s) Dokument(e) wurde(n) nicht vorgelegt: …"
+   },
+   {
+    "k": "fF",
+    "l": "☐ (F)",
+    "t": "hat sich bereits 90 Tage innerhalb eines Zeitraums von 180 Tagen im Gebiet der Mitgliedstaaten aufgehalten"
+   },
+   {
+    "k": "fG",
+    "l": "☐ (G)",
+    "t": "verfügt nicht über ausreichende Mittel zur Bestreitung des Lebensunterhalts im Verhältnis zur Dauer und zu den Umständen des Aufenthalts oder für die Rückkehr in das Herkunfts- oder Durchreiseland"
+   },
+   {
+    "k": "fH",
+    "l": "☐ (H)",
+    "t": "ist zur Einreiseverweigerung ausgeschrieben"
+   },
+   {
+    "k": "fH.n1",
+    "l": "☐",
+    "t": "im SIS"
+   },
+   {
+    "k": "fH.n2",
+    "l": "☐",
+    "t": "im nationalen Verzeichnis"
+   },
+   {
+    "k": "fI",
+    "l": "☐ (I)",
+    "t": "stellt eine Gefahr für die öffentliche Ordnung, die innere Sicherheit, die öffentliche Gesundheit oder die internationalen Beziehungen eines oder mehrerer der Mitgliedstaaten der Europäischen Union dar <i>(Jeder Staat muss Angaben zu den einschlägigen nationalen Rechtsvorschriften für diese Fälle der Einreiseverweigerung machen.)</i>"
+   },
+   {
+    "k": "f20",
+    "l": "",
+    "t": "Bemerkungen"
+   },
+   {
+    "k": "f21",
+    "l": "",
+    "t": "Der/die Betroffene kann nach Maßgabe der nationalen Rechtsvorschriften Rechtsmittel gegen die verfügte Einreiseverweigerung einlegen. Dem/der Betroffenen wird eine Kopie dieses Dokuments ausgehändigt. <i>(Jeder Staat muss Angaben zu den nationalen Rechtsvorschriften und Verfahren betreffend das Rechtsmittel machen.)</i>"
+   },
+   {
+    "k": "f22",
+    "l": "",
+    "t": "Der/die Betroffene"
+   },
+   {
+    "k": "f23",
+    "l": "",
+    "t": "Der Kontrollbeamte"
+   },
+   {
+    "k": "fn1",
+    "l": "(<sup>1</sup>)",
+    "t": "Für Norwegen und Island ist kein Logo erforderlich."
+   }
+  ],
+  "layoutNote": {
+   "de": "Formular mit Rahmen; Ankreuzfelder (☐) bei den Gründen (A) bis (I); Ausfülllinien als «…». Unterschriftsfelder f22 und f23; Fussnote (1).",
+   "fr": "Formulaire encadré; cases à cocher (☐) pour les motifs (A) à (I); lignes à remplir rendues par «…». Cases de signature f22 et f23; note (1).",
+   "en": "Framed form; tick boxes (☐) for grounds (A) to (I); blank lines rendered as “…”. Signature boxes f22 and f23; footnote (1)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_V",
+  "key": "ptB.g1",
+  "lang": "de",
+  "asset": "fb750e52db7119e8",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "Name des Staates"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "Staatsemblem (Name der Dienststelle) … (<sup>1</sup>)"
+   },
+   {
+    "k": "f3",
+    "l": "",
+    "t": "EINREISEVERWEIGERUNG"
+   },
+   {
+    "k": "f4",
+    "l": "",
+    "t": "Am … um (Uhrzeit) … ist an der Grenzübergangsstelle … vor dem Unterzeichnenden … vorstellig geworden:"
+   },
+   {
+    "k": "f5",
+    "l": "",
+    "t": "Name … Vorname …"
+   },
+   {
+    "k": "f6",
+    "l": "",
+    "t": "geboren am … in … Geschlecht …"
+   },
+   {
+    "k": "f7",
+    "l": "",
+    "t": "Staatsangehörigkeit … wohnhaft in …"
+   },
+   {
+    "k": "f8",
+    "l": "",
+    "t": "Art des Identitätsdokuments … Nummer …"
+   },
+   {
+    "k": "f9",
+    "l": "",
+    "t": "ausgestellt in … am …"
+   },
+   {
+    "k": "f10",
+    "l": "",
+    "t": "Visum Nr. … Art … erteilt von …"
+   },
+   {
+    "k": "f11",
+    "l": "",
+    "t": "gültig vom … bis zum …"
+   },
+   {
+    "k": "f12",
+    "l": "",
+    "t": "mit einer Gültigkeitsdauer von … Tagen zum Zwecke von …"
+   },
+   {
+    "k": "f13",
+    "l": "",
+    "t": "Er/sie, der/die aus … mit … (benutztes Transportmittel, z.B. Flugnummer, angeben) kommt, wird hiermit davon in Kenntnis gesetzt, dass gegen ihn/sie gemäß … <i>(genaue Angabe der geltenden nationalen Rechtsvorschriften)</i> aus folgenden Gründen eine Einreiseverweigerung verfügt wird:"
+   },
+   {
+    "k": "fA",
+    "l": "☐ (A)",
+    "t": "ohne gültige(s) Reisedokument(e)"
+   },
+   {
+    "k": "fB",
+    "l": "☐ (B)",
+    "t": "im Besitz eines falschen, gefälschten oder verfälschten Reisedokuments"
+   },
+   {
+    "k": "fC",
+    "l": "☐ (C)",
+    "t": "ohne gültiges Visum oder gültigen Aufenthaltstitel"
+   },
+   {
+    "k": "fD",
+    "l": "☐ (D)",
+    "t": "im Besitz eines falschen, gefälschten oder verfälschten Visums oder Aufenthaltstitels"
+   },
+   {
+    "k": "fE",
+    "l": "☐ (E)",
+    "t": "verfügt nicht über die erforderlichen Dokumente zum Nachweis von Aufenthaltszweck und -bedingungen."
+   },
+   {
+    "k": "fE.s1",
+    "l": "",
+    "t": "Folgende(s) Dokument(e) wurde(n) nicht vorgelegt: …"
+   },
+   {
+    "k": "fF",
+    "l": "☐ (F)",
+    "t": "hat sich bereits 90 Tage innerhalb eines Zeitraums von 180 Tagen im Gebiet der Mitgliedstaaten aufgehalten"
+   },
+   {
+    "k": "fG",
+    "l": "☐ (G)",
+    "t": "verfügt nicht über ausreichende Mittel zur Bestreitung des Lebensunterhalts im Verhältnis zur Dauer und zu den Umständen des Aufenthalts oder für die Rückkehr in das Herkunfts- oder Durchreiseland"
+   },
+   {
+    "k": "fH",
+    "l": "☐ (H)",
+    "t": "ist zur Einreiseverweigerung ausgeschrieben"
+   },
+   {
+    "k": "fH.n1",
+    "l": "☐",
+    "t": "im SIS"
+   },
+   {
+    "k": "fH.n2",
+    "l": "☐",
+    "t": "im nationalen Verzeichnis"
+   },
+   {
+    "k": "fI",
+    "l": "☐ (I)",
+    "t": "stellt eine Gefahr für die öffentliche Ordnung, die innere Sicherheit, die öffentliche Gesundheit oder die internationalen Beziehungen eines oder mehrerer der Mitgliedstaaten der Europäischen Union dar <i>(Jeder Staat muss Angaben zu den einschlägigen nationalen Rechtsvorschriften für diese Fälle der Einreiseverweigerung machen.)</i>"
+   },
+   {
+    "k": "fJ",
+    "l": "☐ (J)",
+    "t": "hat sich geweigert, seine biometrischen Daten bereitzustellen, falls dies erforderlich ist, um"
+   },
+   {
+    "k": "fJ.n1",
+    "l": "☐",
+    "t": "sein persönliches Dossier im Einreise-/Ausreisesystem anzulegen"
+   },
+   {
+    "k": "fJ.n2",
+    "l": "☐",
+    "t": "die Grenzübertrittskontrolle durchzuführen."
+   },
+   {
+    "k": "f20",
+    "l": "",
+    "t": "Bemerkungen"
+   },
+   {
+    "k": "f20.n1",
+    "l": "☐",
+    "t": "(vom Grenzschutzbeamten anzukreuzen, wenn die Daten im Einreise-/Ausreisesystem gespeichert werden)"
+   },
+   {
+    "k": "f20.s1",
+    "l": "",
+    "t": "Hiermit wird die betreffende Person darüber informiert, dass ihre persönlichen Daten sowie Informationen zu der Verweigerung der Einreise gemäß Artikel 18 der Verordnung (EU) 2017/2226 in das Einreise-/Ausreisesystem eingegeben werden."
+   },
+   {
+    "k": "f20.s2",
+    "l": "",
+    "t": "Gemäß Artikel 52 der Verordnung (EU) 2017/2226 hat die betreffende Person das Recht auf Auskunft über die im Einreise-/Ausreisesystem aufgezeichneten Daten, die sie betreffen, und darf verlangen, dass unrichtige Daten über sie berichtigt und unrechtmäßig gespeicherte Daten über sie gelöscht werden."
+   },
+   {
+    "k": "f21",
+    "l": "",
+    "t": "Der/die Betroffene kann nach Maßgabe der nationalen Rechtsvorschriften Rechtsmittel gegen die verfügte Einreiseverweigerung einlegen. Dem/der Betroffenen wird eine Kopie dieses Dokuments ausgehändigt. <i>(Jeder Staat muss Angaben zu den nationalen Rechtsvorschriften und Verfahren betreffend das Rechtsmittel machen.)</i>"
+   },
+   {
+    "k": "f22",
+    "l": "",
+    "t": "Der/die Betroffene"
+   },
+   {
+    "k": "f23",
+    "l": "",
+    "t": "Der Kontrollbeamte"
+   },
+   {
+    "k": "fn1",
+    "l": "(<sup>1</sup>)",
+    "t": "Für Norwegen und Island ist kein Logo erforderlich."
+   }
+  ],
+  "layoutNote": {
+   "de": "Formular mit Rahmen; Ankreuzfelder (☐) bei den Gründen (A) bis (J); Ausfülllinien als «…». Unterschriftsfelder f22 und f23; Fussnote (1). Im Bild stehen die Änderungsmarker ▶(1) … ◀ (Buchstabe J) und ▶(2) … ◀ (Hinweise zum EES) der konsolidierten Fassung; nicht in den Text übernommen. Ab Stand s04 ist Grund (C) durch Art. 80 Nr. 3 der Verordnung (EU) 2018/1240 ersetzt; das Bild zeigt den früheren Wortlaut, massgebend ist Block ptB.c.",
+   "fr": "Formulaire encadré; cases à cocher (☐) pour les motifs (A) à (J); lignes à remplir rendues par «…». Cases de signature f22 et f23; note (1). L’image contient les marqueurs de modification ▶(1) … ◀ (lettre J) et ▶(2) … ◀ (mentions relatives à l’EES) de la version consolidée; non repris dans le texte. À partir de l’état s04, le motif (C) est remplacé par l’art. 80, point 3, du règlement (UE) 2018/1240; l’image montre l’ancien libellé, le bloc ptB.c fait foi.",
+   "en": "Framed form; tick boxes (☐) for grounds (A) to (J); blank lines rendered as “…”. Signature boxes f22 and f23; footnote (1). The image contains the consolidation markers ▶(1) … ◀ (letter J) and ▶(2) … ◀ (EES notices); not carried into the text. From stage s04, ground (C) is replaced by Article 80(3) of Regulation (EU) 2018/1240; the image shows the former wording, block ptB.c prevails."
+  },
+  "method": "transcription",
+  "checked": "double",
+  "superseded": [
+   {
+    "k": "fC",
+    "by": {
+     "unit": "anx_V",
+     "key": "ptB.c"
+    },
+    "from": "s04",
+    "celex": "32018R1240"
+   }
+  ]
+ },
+ {
+  "unit": "anx_V",
+  "key": "ptB.g1",
+  "lang": "fr",
+  "asset": "4fe081b8a4db27cc",
+  "stages": [
+   "s00",
+   "s01",
+   "s02"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "Indication de l’État"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "Logo de l’État (Indication du bureau) … (<sup>1</sup>)"
+   },
+   {
+    "k": "f3",
+    "l": "",
+    "t": "REFUS D’ENTRÉE À LA FRONTIÈRE"
+   },
+   {
+    "k": "f4",
+    "l": "",
+    "t": "Le … à … au point de passage frontalier de … devant les soussignés … s’est présenté(e):"
+   },
+   {
+    "k": "f5",
+    "l": "",
+    "t": "Nom … Prénom …"
+   },
+   {
+    "k": "f6",
+    "l": "",
+    "t": "Né(e) le … à … Sexe …"
+   },
+   {
+    "k": "f7",
+    "l": "",
+    "t": "Nationalité … résidant à …"
+   },
+   {
+    "k": "f8",
+    "l": "",
+    "t": "identifié(e) au moyen de … numéro …"
+   },
+   {
+    "k": "f9",
+    "l": "",
+    "t": "délivré à … le …"
+   },
+   {
+    "k": "f10",
+    "l": "",
+    "t": "muni(e) d’un visa n<sup>o</sup> … de type … délivré par …"
+   },
+   {
+    "k": "f11",
+    "l": "",
+    "t": "valide du … au …"
+   },
+   {
+    "k": "f12",
+    "l": "",
+    "t": "d’une durée de … jours pour les raisons suivantes: …"
+   },
+   {
+    "k": "f13",
+    "l": "",
+    "t": "En provenance de … , arrivé(e) par … (identifier le moyen de transport utilisé, par exemple le numéro de vol), lequel ou laquelle a été informé qu’une décision de refus d’entrée a été prise à son encontre en vertu de <i>(indiquer les références au droit national en vigueur)</i> pour les motifs suivants:"
+   },
+   {
+    "k": "fA",
+    "l": "☐ (A)",
+    "t": "n’est pas détenteur de documents de voyage valables"
+   },
+   {
+    "k": "fB",
+    "l": "☐ (B)",
+    "t": "est en possession d’un document de voyage faux, falsifié, ou altéré"
+   },
+   {
+    "k": "fC",
+    "l": "☐ (C)",
+    "t": "n’est pas détenteur d’un visa ou d’un permis de séjour valable"
+   },
+   {
+    "k": "fD",
+    "l": "☐ (D)",
+    "t": "est en possession d’un visa ou d’un permis de séjour faux, falsifié ou altéré"
+   },
+   {
+    "k": "fE",
+    "l": "☐ (E)",
+    "t": "n’est pas détenteur du ou des document(s) approprié(s) attestant du but et des conditions de séjour."
+   },
+   {
+    "k": "fE.s1",
+    "l": "",
+    "t": "Le(s) document(s) suivant(s) n’a (n’ont) pas pu être produit(s): …"
+   },
+   {
+    "k": "fF",
+    "l": "☐ (F)",
+    "t": "à déjà séjourné 90 jours sur le territoire des États membres de l’Union européenne au cours de la période précédente de 180 jours"
+   },
+   {
+    "k": "fG",
+    "l": "☐ (G)",
+    "t": "ne dispose pas de moyens de subsistance suffisants correspondant à la période et aux modalités de séjour, au retour vers le pays d’origine ou de transit"
+   },
+   {
+    "k": "fH",
+    "l": "☐ (H)",
+    "t": "est signalé(e) aux fins de non-admission"
+   },
+   {
+    "k": "fH.n1",
+    "l": "☐",
+    "t": "dans le SIS"
+   },
+   {
+    "k": "fH.n2",
+    "l": "☐",
+    "t": "dans le fichier national"
+   },
+   {
+    "k": "fI",
+    "l": "☐ (I)",
+    "t": "est considéré(e) comme représentant un danger pour l’ordre public, la sécurité intérieure, la santé publique ou les relations internationales d’un ou de plusieurs États membres de l’Union européenne <i>(chaque État doit indiquer les références à sa réglementation nationale relatives à ces cas de refus d'entrée)</i>."
+   },
+   {
+    "k": "f20",
+    "l": "",
+    "t": "Observations"
+   },
+   {
+    "k": "f21",
+    "l": "",
+    "t": "L’intéressé(e) peut former un recours contre la décision de refus d’entrée conformément à ce qui est prévu par le droit national. Copie de la présente décision est remise à l’intéressé(e) <i>(chaque État doit indiquer les références à sa réglementation et à sa procédure nationales relatives au droit de recours)</i>."
+   },
+   {
+    "k": "f22",
+    "l": "",
+    "t": "L’intéressé(e)"
+   },
+   {
+    "k": "f23",
+    "l": "",
+    "t": "L’agent préposé<br>au contrôle"
+   },
+   {
+    "k": "fn1",
+    "l": "(<sup>1</sup>)",
+    "t": "Aucun symbole n’est requis pour la Norvège et l'Islande."
+   }
+  ],
+  "layoutNote": {
+   "de": "Formular mit Rahmen; Ankreuzfelder (☐) bei den Gründen (A) bis (I); Ausfülllinien als «…». Unterschriftsfelder f22 und f23; Fussnote (1).",
+   "fr": "Formulaire encadré; cases à cocher (☐) pour les motifs (A) à (I); lignes à remplir rendues par «…». Cases de signature f22 et f23; note (1).",
+   "en": "Framed form; tick boxes (☐) for grounds (A) to (I); blank lines rendered as “…”. Signature boxes f22 and f23; footnote (1)."
+  },
+  "method": "transcription",
+  "checked": "double",
+  "sic": [
+   {
+    "k": "fF",
+    "text": "à déjà"
+   }
+  ]
+ },
+ {
+  "unit": "anx_V",
+  "key": "ptB.g1",
+  "lang": "fr",
+  "asset": "3e0813af8e8324b5",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "Indication de l’État"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "Logo de l’État (Indication du bureau) … (<sup>1</sup>)"
+   },
+   {
+    "k": "f3",
+    "l": "",
+    "t": "REFUS D’ENTRÉE À LA FRONTIÈRE"
+   },
+   {
+    "k": "f4",
+    "l": "",
+    "t": "Le … à … au point de passage frontalier de … devant les soussignés … s’est présenté(e):"
+   },
+   {
+    "k": "f5",
+    "l": "",
+    "t": "Nom … Prénom …"
+   },
+   {
+    "k": "f6",
+    "l": "",
+    "t": "Né(e) le … à … Sexe …"
+   },
+   {
+    "k": "f7",
+    "l": "",
+    "t": "Nationalité … résidant à …"
+   },
+   {
+    "k": "f8",
+    "l": "",
+    "t": "identifié(e) au moyen de … numéro …"
+   },
+   {
+    "k": "f9",
+    "l": "",
+    "t": "délivré à … le …"
+   },
+   {
+    "k": "f10",
+    "l": "",
+    "t": "muni(e) d’un visa n<sup>o</sup> … de type … délivré par …"
+   },
+   {
+    "k": "f11",
+    "l": "",
+    "t": "valide du … au …"
+   },
+   {
+    "k": "f12",
+    "l": "",
+    "t": "d’une durée de … jours pour les raisons suivantes: …"
+   },
+   {
+    "k": "f13",
+    "l": "",
+    "t": "En provenance de … , arrivé(e) par … (identifier le moyen de transport utilisé, par exemple le numéro de vol), lequel ou laquelle a été informé qu’une décision de refus d’entrée a été prise à son encontre en vertu de <i>(indiquer les références au droit national en vigueur)</i> pour les motifs suivants:"
+   },
+   {
+    "k": "fA",
+    "l": "☐ (A)",
+    "t": "n’est pas détenteur de documents de voyage valables"
+   },
+   {
+    "k": "fB",
+    "l": "☐ (B)",
+    "t": "est en possession d’un document de voyage faux, falsifié, ou altéré"
+   },
+   {
+    "k": "fC",
+    "l": "☐ (C)",
+    "t": "n’est pas détenteur d’un visa ou d’un permis de séjour valable"
+   },
+   {
+    "k": "fD",
+    "l": "☐ (D)",
+    "t": "est en possession d’un visa ou d’un permis de séjour faux, falsifié ou altéré"
+   },
+   {
+    "k": "fE",
+    "l": "☐ (E)",
+    "t": "n’est pas détenteur du ou des document(s) approprié(s) attestant du but et des conditions de séjour."
+   },
+   {
+    "k": "fE.s1",
+    "l": "",
+    "t": "Le(s) document(s) suivant(s) n’a (n’ont) pas pu être produit(s): …"
+   },
+   {
+    "k": "fF",
+    "l": "☐ (F)",
+    "t": "à déjà séjourné 90 jours sur le territoire des États membres de l’Union européenne au cours de la période précédente de 180 jours"
+   },
+   {
+    "k": "fG",
+    "l": "☐ (G)",
+    "t": "ne dispose pas de moyens de subsistance suffisants correspondant à la période et aux modalités de séjour, au retour vers le pays d’origine ou de transit"
+   },
+   {
+    "k": "fH",
+    "l": "☐ (H)",
+    "t": "est signalé(e) aux fins de non-admission"
+   },
+   {
+    "k": "fH.n1",
+    "l": "☐",
+    "t": "dans le SIS"
+   },
+   {
+    "k": "fH.n2",
+    "l": "☐",
+    "t": "dans le fichier national"
+   },
+   {
+    "k": "fI",
+    "l": "☐ (I)",
+    "t": "est considéré(e) comme représentant un danger pour l’ordre public, la sécurité intérieure, la santé publique ou les relations internationales d’un ou de plusieurs États membres de l’Union européenne <i>(chaque État doit indiquer les références à sa réglementation nationale relatives à ces cas de refus d'entrée)</i>."
+   },
+   {
+    "k": "fJ",
+    "l": "☐ (J)",
+    "t": "a refusé de fournir les données biométriques requises"
+   },
+   {
+    "k": "fJ.n1",
+    "l": "☐",
+    "t": "pour créer le dossier individuel dans le système d’entrée/de sortie"
+   },
+   {
+    "k": "fJ.n2",
+    "l": "☐",
+    "t": "pour effectuer les vérifications aux frontières."
+   },
+   {
+    "k": "f20",
+    "l": "",
+    "t": "Observations"
+   },
+   {
+    "k": "f20.n1",
+    "l": "☐",
+    "t": "(à cocher par le garde-frontière si des données sont stockées dans le système d’entrée/de sortie)"
+   },
+   {
+    "k": "f20.s1",
+    "l": "",
+    "t": "La personne intéressée est informée que ses données à caractère personnel et les informations relatives au présent refus d’entrée sont introduites dans le système d’entrée/de sortie conformément à l’article 18 du règlement (UE) 2017/2226."
+   },
+   {
+    "k": "f20.s2",
+    "l": "",
+    "t": "Conformément à l’article 52 du règlement (UE) 2017/2226, la personne intéressée a le droit d’obtenir les données la concernant qui sont enregistrées dans le système d’entrée/de sortie et peut demander la rectification des données la concernant qui sont erronées et l’effacement des données enregistrées de façon illicite."
+   },
+   {
+    "k": "f21",
+    "l": "",
+    "t": "L’intéressé(e) peut former un recours contre la décision de refus d’entrée conformément à ce qui est prévu par le droit national. Copie de la présente décision est remise à l’intéressé(e) <i>(chaque État doit indiquer les références à sa réglementation et à sa procédure nationales relatives au droit de recours)</i>."
+   },
+   {
+    "k": "f22",
+    "l": "",
+    "t": "L’intéressé(e)"
+   },
+   {
+    "k": "f23",
+    "l": "",
+    "t": "L’agent préposé<br>au contrôle"
+   },
+   {
+    "k": "fn1",
+    "l": "(<sup>1</sup>)",
+    "t": "Aucun symbole n’est requis pour la Norvège et l'Islande."
+   }
+  ],
+  "layoutNote": {
+   "de": "Formular mit Rahmen; Ankreuzfelder (☐) bei den Gründen (A) bis (J); Ausfülllinien als «…». Unterschriftsfelder f22 und f23; Fussnote (1). Im Bild stehen die Änderungsmarker ▶(1) … ◀ (Buchstabe J) und ▶(2) … ◀ (Hinweise zum EES) der konsolidierten Fassung; nicht in den Text übernommen. Ab Stand s04 ist Grund (C) durch Art. 80 Nr. 3 der Verordnung (EU) 2018/1240 ersetzt; das Bild zeigt den früheren Wortlaut, massgebend ist Block ptB.c.",
+   "fr": "Formulaire encadré; cases à cocher (☐) pour les motifs (A) à (J); lignes à remplir rendues par «…». Cases de signature f22 et f23; note (1). L’image contient les marqueurs de modification ▶(1) … ◀ (lettre J) et ▶(2) … ◀ (mentions relatives à l’EES) de la version consolidée; non repris dans le texte. À partir de l’état s04, le motif (C) est remplacé par l’art. 80, point 3, du règlement (UE) 2018/1240; l’image montre l’ancien libellé, le bloc ptB.c fait foi.",
+   "en": "Framed form; tick boxes (☐) for grounds (A) to (J); blank lines rendered as “…”. Signature boxes f22 and f23; footnote (1). The image contains the consolidation markers ▶(1) … ◀ (letter J) and ▶(2) … ◀ (EES notices); not carried into the text. From stage s04, ground (C) is replaced by Article 80(3) of Regulation (EU) 2018/1240; the image shows the former wording, block ptB.c prevails."
+  },
+  "method": "transcription",
+  "checked": "double",
+  "sic": [
+   {
+    "k": "fF",
+    "text": "à déjà"
+   }
+  ],
+  "superseded": [
+   {
+    "k": "fC",
+    "by": {
+     "unit": "anx_V",
+     "key": "ptB.c"
+    },
+    "from": "s04",
+    "celex": "32018R1240"
+   }
+  ]
+ },
+ {
+  "unit": "anx_V",
+  "key": "ptB.g1",
+  "lang": "en",
+  "asset": "d91a0d752a6f6743",
+  "stages": [
+   "s00",
+   "s01",
+   "s02"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "Name of State"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "Logo of State (Name of Office) … (<sup>1</sup>)"
+   },
+   {
+    "k": "f3",
+    "l": "",
+    "t": "REFUSAL OF ENTRY AT THE BORDER"
+   },
+   {
+    "k": "f4",
+    "l": "",
+    "t": "On … at (time) … at the border crossing point … We, the undersigned, … have before us:"
+   },
+   {
+    "k": "f5",
+    "l": "",
+    "t": "Surname … First name …"
+   },
+   {
+    "k": "f6",
+    "l": "",
+    "t": "Date of birth … Place of birth … Sex …"
+   },
+   {
+    "k": "f7",
+    "l": "",
+    "t": "Nationality … Resident in …"
+   },
+   {
+    "k": "f8",
+    "l": "",
+    "t": "Type of identity document … number …"
+   },
+   {
+    "k": "f9",
+    "l": "",
+    "t": "Issued in … on …"
+   },
+   {
+    "k": "f10",
+    "l": "",
+    "t": "Visa number … type … issued by …"
+   },
+   {
+    "k": "f11",
+    "l": "",
+    "t": "valid from … until …"
+   },
+   {
+    "k": "f12",
+    "l": "",
+    "t": "For a period of … days on the following grounds: …"
+   },
+   {
+    "k": "f13",
+    "l": "",
+    "t": "Coming from … by means of … (indicate means of transport used, e.g. flight number), he/she is hereby informed that he/she is refused entry into the country pursuant to <i>(indicate references to the national law in force),</i> for the following reasons:"
+   },
+   {
+    "k": "fA",
+    "l": "☐ (A)",
+    "t": "has no valid travel document(s)"
+   },
+   {
+    "k": "fB",
+    "l": "☐ (B)",
+    "t": "has a false/counterfeit/forged travel document"
+   },
+   {
+    "k": "fC",
+    "l": "☐ (C)",
+    "t": "has no valid visa or residence permit"
+   },
+   {
+    "k": "fD",
+    "l": "☐ (D)",
+    "t": "has a false/counterfeit/forged visa or residence permit"
+   },
+   {
+    "k": "fE",
+    "l": "☐ (E)",
+    "t": "has no appropriate documentaion justifying the purpose and conditions of stay."
+   },
+   {
+    "k": "fE.s1",
+    "l": "",
+    "t": "The following document(s) colud not be provided: …"
+   },
+   {
+    "k": "fF",
+    "l": "☐ (F)",
+    "t": "has already stayed for 90 days in the preceding 180-day period on the territory of the Member States of the European Union"
+   },
+   {
+    "k": "fG",
+    "l": "☐ (G)",
+    "t": "does not have sufficient means of subsistence in relation to the period and form of stay, or the means to return to the country of origin or transit"
+   },
+   {
+    "k": "fH",
+    "l": "☐ (H)",
+    "t": "is a person for whom an alert has been issued for the purposes of refusing entry"
+   },
+   {
+    "k": "fH.n1",
+    "l": "☐",
+    "t": "in the SIS"
+   },
+   {
+    "k": "fH.n2",
+    "l": "☐",
+    "t": "in the national register"
+   },
+   {
+    "k": "fI",
+    "l": "☐ (I)",
+    "t": "is considered to be a <i>threat to public policy, internal security, public health or the international relations</i> of one or more of the Member States of the European Union <i>(each State must indicate the references to national law relating to such cases of refusal of entry)</i>."
+   },
+   {
+    "k": "f20",
+    "l": "",
+    "t": "Comments"
+   },
+   {
+    "k": "f21",
+    "l": "",
+    "t": "The person concerned may appeal against the decision to refuse entry as provided for in national law. The person concerned receives a copy of this document (<i>each State must indicate the references to the national law and procedure relating to the right of appeal)</i>."
+   },
+   {
+    "k": "f22",
+    "l": "",
+    "t": "Person concerned"
+   },
+   {
+    "k": "f23",
+    "l": "",
+    "t": "Officer responsible<br>for checks"
+   },
+   {
+    "k": "fn1",
+    "l": "(<sup>1</sup>)",
+    "t": "No logo is required for Norway and Iceland."
+   }
+  ],
+  "layoutNote": {
+   "de": "Formular mit Rahmen; Ankreuzfelder (☐) bei den Gründen (A) bis (I); Ausfülllinien als «…». Unterschriftsfelder f22 und f23; Fussnote (1).",
+   "fr": "Formulaire encadré; cases à cocher (☐) pour les motifs (A) à (I); lignes à remplir rendues par «…». Cases de signature f22 et f23; note (1).",
+   "en": "Framed form; tick boxes (☐) for grounds (A) to (I); blank lines rendered as “…”. Signature boxes f22 and f23; footnote (1)."
+  },
+  "method": "transcription",
+  "checked": "double",
+  "sic": [
+   {
+    "k": "fE",
+    "text": "documentaion"
+   },
+   {
+    "k": "fE.s1",
+    "text": "colud"
+   }
+  ]
+ },
+ {
+  "unit": "anx_V",
+  "key": "ptB.g1",
+  "lang": "en",
+  "asset": "1498afb43939b68f",
+  "stages": [
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "Name of State"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "Logo of State (Name of Office) … (<sup>1</sup>)"
+   },
+   {
+    "k": "f3",
+    "l": "",
+    "t": "REFUSAL OF ENTRY AT THE BORDER"
+   },
+   {
+    "k": "f4",
+    "l": "",
+    "t": "On … at (time) … at the border crossing point … We, the undersigned, … have before us:"
+   },
+   {
+    "k": "f5",
+    "l": "",
+    "t": "Surname … First name …"
+   },
+   {
+    "k": "f6",
+    "l": "",
+    "t": "Date of birth … Place of birth … Sex …"
+   },
+   {
+    "k": "f7",
+    "l": "",
+    "t": "Nationality … Resident in …"
+   },
+   {
+    "k": "f8",
+    "l": "",
+    "t": "Type of identity document … number …"
+   },
+   {
+    "k": "f9",
+    "l": "",
+    "t": "Issued in … on …"
+   },
+   {
+    "k": "f10",
+    "l": "",
+    "t": "Visa number … type … issued by …"
+   },
+   {
+    "k": "f11",
+    "l": "",
+    "t": "valid from … until …"
+   },
+   {
+    "k": "f12",
+    "l": "",
+    "t": "For a period of … days on the following grounds: …"
+   },
+   {
+    "k": "f13",
+    "l": "",
+    "t": "Coming from … by means of … (indicate means of transport used, e.g. flight number), he/she is hereby informed that he/she is refused entry into the country pursuant to <i>(indicate references to the national law in force),</i> for the following reasons:"
+   },
+   {
+    "k": "fA",
+    "l": "☐ (A)",
+    "t": "has no valid travel document(s)"
+   },
+   {
+    "k": "fB",
+    "l": "☐ (B)",
+    "t": "has a false/counterfeit/forged travel document"
+   },
+   {
+    "k": "fC",
+    "l": "☐ (C)",
+    "t": "has no valid visa or residence permit"
+   },
+   {
+    "k": "fD",
+    "l": "☐ (D)",
+    "t": "has a false/counterfeit/forged visa or residence permit"
+   },
+   {
+    "k": "fE",
+    "l": "☐ (E)",
+    "t": "has no appropriate documentaion justifying the purpose and conditions of stay."
+   },
+   {
+    "k": "fE.s1",
+    "l": "",
+    "t": "The following document(s) colud not be provided: …"
+   },
+   {
+    "k": "fF",
+    "l": "☐ (F)",
+    "t": "has already stayed for 90 days in the preceding 180-day period on the territory of the Member States of the European Union"
+   },
+   {
+    "k": "fG",
+    "l": "☐ (G)",
+    "t": "does not have sufficient means of subsistence in relation to the period and form of stay, or the means to return to the country of origin or transit"
+   },
+   {
+    "k": "fH",
+    "l": "☐ (H)",
+    "t": "is a person for whom an alert has been issued for the purposes of refusing entry"
+   },
+   {
+    "k": "fH.n1",
+    "l": "☐",
+    "t": "in the SIS"
+   },
+   {
+    "k": "fH.n2",
+    "l": "☐",
+    "t": "in the national register"
+   },
+   {
+    "k": "fI",
+    "l": "☐ (I)",
+    "t": "is considered to be a <i>threat to public policy, internal security, public health or the international relations</i> of one or more of the Member States of the European Union <i>(each State must indicate the references to national law relating to such cases of refusal of entry)</i>."
+   },
+   {
+    "k": "fJ",
+    "l": "☐ (J)",
+    "t": "has refused to provide biometric data, if required"
+   },
+   {
+    "k": "fJ.n1",
+    "l": "☐",
+    "t": "for the creation of the individual file in the Entry/Exit System"
+   },
+   {
+    "k": "fJ.n2",
+    "l": "☐",
+    "t": "to carry out the border checks."
+   },
+   {
+    "k": "f20",
+    "l": "",
+    "t": "Comments"
+   },
+   {
+    "k": "f20.n1",
+    "l": "☐",
+    "t": "(to be marked by the border guard if data is stored in the Entry/Exit System)"
+   },
+   {
+    "k": "f20.s1",
+    "l": "",
+    "t": "The person concerned is hereby informed that her/his personal data and information on this refusal of entry are entered in the Entry/Exit System in accordance with Article 18 of Regulation (EU) 2017/2226."
+   },
+   {
+    "k": "f20.s2",
+    "l": "",
+    "t": "In accordance with Article 52 of Regulation (EU) 2017/2226, the person concerned has the right to obtain the data relating to her/him which are recorded in the Entry/Exit System and may request that data relating to her/him which are inaccurate be rectified and that data recorded unlawfully be erased."
+   },
+   {
+    "k": "f21",
+    "l": "",
+    "t": "The person concerned may appeal against the decision to refuse entry as provided for in national law. The person concerned receives a copy of this document (<i>each State must indicate the references to the national law and procedure relating to the right of appeal)</i>."
+   },
+   {
+    "k": "f22",
+    "l": "",
+    "t": "Person concerned"
+   },
+   {
+    "k": "f23",
+    "l": "",
+    "t": "Officer responsible<br>for checks"
+   },
+   {
+    "k": "fn1",
+    "l": "(<sup>1</sup>)",
+    "t": "No logo is required for Norway and Iceland."
+   }
+  ],
+  "layoutNote": {
+   "de": "Formular mit Rahmen; Ankreuzfelder (☐) bei den Gründen (A) bis (J); Ausfülllinien als «…». Unterschriftsfelder f22 und f23; Fussnote (1). Im Bild stehen die Änderungsmarker ▶(1) … ◀ (Buchstabe J) und ▶(2) … ◀ (Hinweise zum EES) der konsolidierten Fassung; nicht in den Text übernommen. Ab Stand s04 ist Grund (C) durch Art. 80 Nr. 3 der Verordnung (EU) 2018/1240 ersetzt; das Bild zeigt den früheren Wortlaut, massgebend ist Block ptB.c.",
+   "fr": "Formulaire encadré; cases à cocher (☐) pour les motifs (A) à (J); lignes à remplir rendues par «…». Cases de signature f22 et f23; note (1). L’image contient les marqueurs de modification ▶(1) … ◀ (lettre J) et ▶(2) … ◀ (mentions relatives à l’EES) de la version consolidée; non repris dans le texte. À partir de l’état s04, le motif (C) est remplacé par l’art. 80, point 3, du règlement (UE) 2018/1240; l’image montre l’ancien libellé, le bloc ptB.c fait foi.",
+   "en": "Framed form; tick boxes (☐) for grounds (A) to (J); blank lines rendered as “…”. Signature boxes f22 and f23; footnote (1). The image contains the consolidation markers ▶(1) … ◀ (letter J) and ▶(2) … ◀ (EES notices); not carried into the text. From stage s04, ground (C) is replaced by Article 80(3) of Regulation (EU) 2018/1240; the image shows the former wording, block ptB.c prevails."
+  },
+  "method": "transcription",
+  "checked": "double",
+  "sic": [
+   {
+    "k": "fE",
+    "text": "documentaion"
+   },
+   {
+    "k": "fE.s1",
+    "text": "colud"
+   }
+  ],
+  "superseded": [
+   {
+    "k": "fC",
+    "by": {
+     "unit": "anx_V",
+     "key": "ptB.c"
+    },
+    "from": "s04",
+    "celex": "32018R1240"
+   }
+  ]
+ },
+ {
+  "unit": "anx_VIII",
+  "key": "g1",
+  "lang": "de",
+  "asset": "f26c73a070ca7c36",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "Name des Staates"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "Staatsemblem … (Name der Dienststelle) … (<sup>1</sup>)"
+   },
+   {
+    "k": "f3",
+    "l": "",
+    "t": "BESTÄTIGUNG DES NACHWEISES FÜR DIE EINHALTUNG DER VORAUSSETZUNGEN FÜR DIE DAUER EINES KURZFRISTIGEN AUFENTHALTS, FALLS DAS REISEDOKUMENT KEINEN EINREISE- ODER AUSREISESTEMPEL AUFWEIST"
+   },
+   {
+    "k": "f4",
+    "l": "",
+    "t": "Am … um (Uhrzeit) … ist in (Ort) … vor der unterzeichnenden Behörde … vorstellig geworden:"
+   },
+   {
+    "k": "f5",
+    "l": "",
+    "t": "Name … Vorname …"
+   },
+   {
+    "k": "f6",
+    "l": "",
+    "t": "Geburtsdatum … Geburtsort … Geschlecht …"
+   },
+   {
+    "k": "f7",
+    "l": "",
+    "t": "Staatsangehörigkeit … wohnhaft in …"
+   },
+   {
+    "k": "f8",
+    "l": "",
+    "t": "Reisedokument … Nummer …"
+   },
+   {
+    "k": "f9",
+    "l": "",
+    "t": "ausgestellt in … am …"
+   },
+   {
+    "k": "f10",
+    "l": "",
+    "t": "Visumnummer … (gegebenenfalls) erteilt von …"
+   },
+   {
+    "k": "f11",
+    "l": "",
+    "t": "mit einer Gültigkeitsdauer von … Tagen zum Zwecke von …"
+   },
+   {
+    "k": "f12",
+    "l": "",
+    "t": "Aufgrund der Nachweise für die Dauer seines (ihres) Aufenthalts im Hoheitsgebiet der Mitgliedstaaten, die er (sie) erbracht hat, wird davon ausgegangen, dass er (sie) am … in … an der Grenzübergangsstelle … in den Mitgliedstaat … eingereist oder daraus ausgereist ist."
+   },
+   {
+    "k": "f13",
+    "l": "",
+    "t": "Kontaktaufnahme mit der unterzeichnenden Behörde über:"
+   },
+   {
+    "k": "f13.n1",
+    "l": "",
+    "t": "Tel.: …"
+   },
+   {
+    "k": "f13.n2",
+    "l": "",
+    "t": "Fax: …"
+   },
+   {
+    "k": "f13.n3",
+    "l": "",
+    "t": "E-Mail: …"
+   },
+   {
+    "k": "f14",
+    "l": "",
+    "t": "Der/die Betroffene erhält eine Kopie dieses Dokuments."
+   },
+   {
+    "k": "f15",
+    "l": "",
+    "t": "Der/die Betroffene"
+   },
+   {
+    "k": "f16",
+    "l": "",
+    "t": "Der zuständige Beamte<br>+ Stempel"
+   },
+   {
+    "k": "fn1",
+    "l": "(<sup>1</sup>)",
+    "t": "Für Island und Norwegen ist kein Logo erforderlich."
+   }
+  ],
+  "layoutNote": {
+   "de": "Formular mit Rahmen; Ausfülllinien als «…». Unterschriftsfelder f15 und f16; Fussnote (1).",
+   "fr": "Formulaire encadré; lignes à remplir rendues par «…». Cases de signature f15 et f16; note (1).",
+   "en": "Framed form; blank lines rendered as “…”. Signature boxes f15 and f16; footnote (1)."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_VIII",
+  "key": "g1",
+  "lang": "fr",
+  "asset": "2a3c6e55d18d6f7d",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "Indication de l’État"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "Logo de l'État … (Indication du bureau) … (<sup>1</sup>)"
+   },
+   {
+    "k": "f3",
+    "l": "",
+    "t": "ACCEPTATION DES ÉLÉMENTS DE PREUVE CONCERNANT LE RESPECT DES CONDITIONS RELATIVES À LADURÉE D'UN COURT SÉJOUR DANS LE CAS OÙ LE DOCUMENT DE VOYAGE N’EST PAS REVÊTU DU CACHET D'ENTRÉE OU DE SORTIE"
+   },
+   {
+    "k": "f4",
+    "l": "",
+    "t": "Le … à (heure) … , à (lieu) … devant l’autorité soussignée, … s’est présenté(e):"
+   },
+   {
+    "k": "f5",
+    "l": "",
+    "t": "Nom … Prénom …"
+   },
+   {
+    "k": "f6",
+    "l": "",
+    "t": "Né(e) le … à … Sexe …"
+   },
+   {
+    "k": "f7",
+    "l": "",
+    "t": "Nationalité … résidant à …"
+   },
+   {
+    "k": "f8",
+    "l": "",
+    "t": "document de voyage: … numéro …"
+   },
+   {
+    "k": "f9",
+    "l": "",
+    "t": "délivré à … le …"
+   },
+   {
+    "k": "f10",
+    "l": "",
+    "t": "n<sup>o</sup> de visa … (s’il y a lieu) délivré par …"
+   },
+   {
+    "k": "f11",
+    "l": "",
+    "t": "d’une durée de … jours pour les raisons suivantes …"
+   },
+   {
+    "k": "f12",
+    "l": "",
+    "t": "Eu égard aux éléments de preuve présentés par la personne susmentionnée concernant la durée de son séjour sur le territoire des États membres, ladite personne est considérée comme étant entrée sur le/sortie du territoire de … (État membre), le … à … par le point de passage frontalier …"
+   },
+   {
+    "k": "f13",
+    "l": "",
+    "t": "Coordonnées de l’autorité soussignée:"
+   },
+   {
+    "k": "f13.n1",
+    "l": "",
+    "t": "Tél.: …"
+   },
+   {
+    "k": "f13.n2",
+    "l": "",
+    "t": "Fax: …"
+   },
+   {
+    "k": "f13.n3",
+    "l": "",
+    "t": "Courrier électronique: …"
+   },
+   {
+    "k": "f14",
+    "l": "",
+    "t": "Une copie du présent document a été remise â l’intéressé(e)."
+   },
+   {
+    "k": "f15",
+    "l": "",
+    "t": "L’intéressé(e)"
+   },
+   {
+    "k": "f16",
+    "l": "",
+    "t": "Fonctionnaire responsable<br>+ cachet"
+   },
+   {
+    "k": "fn1",
+    "l": "(<sup>1</sup>)",
+    "t": "Symbole non applicable à l’Islande et à la Norvège."
+   }
+  ],
+  "layoutNote": {
+   "de": "Formular mit Rahmen; Ausfülllinien als «…». Unterschriftsfelder f15 und f16; Fussnote (1).",
+   "fr": "Formulaire encadré; lignes à remplir rendues par «…». Cases de signature f15 et f16; note (1).",
+   "en": "Framed form; blank lines rendered as “…”. Signature boxes f15 and f16; footnote (1)."
+  },
+  "method": "transcription",
+  "checked": "double",
+  "sic": [
+   {
+    "k": "f3",
+    "text": "LADURÉE"
+   },
+   {
+    "k": "f14",
+    "text": "remise â"
+   }
+  ]
+ },
+ {
+  "unit": "anx_VIII",
+  "key": "g1",
+  "lang": "en",
+  "asset": "847372fb34db23a2",
+  "stages": [
+   "s00",
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "Name of State"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "Logo of State … (Name of Office) … (<sup>1</sup>)"
+   },
+   {
+    "k": "f3",
+    "l": "",
+    "t": "APPROVAL OF THE EVIDENCE REGARDING THE RESPECT OF THE CONDITION OF THE DURATION OF A SHORT STAY IN CASES WHERE THE TRAVEL DOCUMENT DOES NOT BEAR AN ENTRY OR EXIT STAMP"
+   },
+   {
+    "k": "f4",
+    "l": "",
+    "t": "On … at (time) … at (place) … We, the undersigning authority, … have before us:"
+   },
+   {
+    "k": "f5",
+    "l": "",
+    "t": "Surname … First name …"
+   },
+   {
+    "k": "f6",
+    "l": "",
+    "t": "Date of birth … Place of birth … Sex: …"
+   },
+   {
+    "k": "f7",
+    "l": "",
+    "t": "Nationality … Resident in …"
+   },
+   {
+    "k": "f8",
+    "l": "",
+    "t": "Travel document … number …"
+   },
+   {
+    "k": "f9",
+    "l": "",
+    "t": "Issued in … on …"
+   },
+   {
+    "k": "f10",
+    "l": "",
+    "t": "Visa number … (if applicable) issued by …"
+   },
+   {
+    "k": "f11",
+    "l": "",
+    "t": "for a period of … days on the following grounds: …"
+   },
+   {
+    "k": "f12",
+    "l": "",
+    "t": "Having regard to the evidence relating to the duration of his/her stay on the territory of the Member States that he/she) has provided, he/she) is considered to have entered or left the territory of the Member State … on … at … at the border crossing point …"
+   },
+   {
+    "k": "f13",
+    "l": "",
+    "t": "Contact details of the undersigning authority:"
+   },
+   {
+    "k": "f13.n1",
+    "l": "",
+    "t": "Tel …"
+   },
+   {
+    "k": "f13.n2",
+    "l": "",
+    "t": "Fax: …"
+   },
+   {
+    "k": "f13.n3",
+    "l": "",
+    "t": "e-mail: …"
+   },
+   {
+    "k": "f14",
+    "l": "",
+    "t": "The person concerned will receive a copy of this document."
+   },
+   {
+    "k": "f15",
+    "l": "",
+    "t": "Person concerned"
+   },
+   {
+    "k": "f16",
+    "l": "",
+    "t": "Officer responsible<br>+ stamp"
+   },
+   {
+    "k": "fn1",
+    "l": "(<sup>1</sup>)",
+    "t": "No logo is required for Norway and Iceland."
+   }
+  ],
+  "layoutNote": {
+   "de": "Formular mit Rahmen; Ausfülllinien als «…». Unterschriftsfelder f15 und f16; Fussnote (1).",
+   "fr": "Formulaire encadré; lignes à remplir rendues par «…». Cases de signature f15 et f16; note (1).",
+   "en": "Framed form; blank lines rendered as “…”. Signature boxes f15 and f16; footnote (1)."
+  },
+  "method": "transcription",
+  "checked": "double",
+  "sic": [
+   {
+    "k": "f12",
+    "text": "he/she) has provided, he/she)"
+   }
+  ]
+ },
+ {
+  "unit": "anx_XII",
+  "key": "ptB.g1",
+  "lang": "de",
+  "asset": "0f085ae791f83c2e",
+  "stages": [
+   "s07",
+   "s08"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "Name des Staates"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "Staatsemblem (Name der Dienststelle) …"
+   },
+   {
+    "k": "f3",
+    "l": "",
+    "t": "VERFAHREN ZUR ÜBERSTELLUNG IN BINNENGRENZGEBIETEN"
+   },
+   {
+    "k": "f4",
+    "l": "",
+    "t": "Am (Datum) … um (Uhrzeit) … (Ort — bitte die Art der nächstgelegenen Binnengrenze oder sonstige relevante Informationen im Zusammenhang mit dem Aufgriff gemäß Artikel 23a des Schengener Grenzkodex angeben) …"
+   },
+   {
+    "k": "f5",
+    "l": "",
+    "t": "ist dem Unterzeichnenden, … die folgende Person vorgeführt worden:"
+   },
+   {
+    "k": "f6",
+    "l": "",
+    "t": "Personenbezogene Daten (sofern verfügbar)"
+   },
+   {
+    "k": "f7",
+    "l": "",
+    "t": "Nachname … Vorname …"
+   },
+   {
+    "k": "f8",
+    "l": "",
+    "t": "Geburtsdatum … Geburtsort … Geschlecht …"
+   },
+   {
+    "k": "f9",
+    "l": "",
+    "t": "Staatsangehörigkeit … wohnhaft in …"
+   },
+   {
+    "k": "f10",
+    "l": "",
+    "t": "Art des Identitätsdokuments … Nummer …"
+   },
+   {
+    "k": "f11",
+    "l": "",
+    "t": "Ausgestellt in … am …"
+   },
+   {
+    "k": "f12",
+    "l": "",
+    "t": "Visa Nr. (falls vorhanden) … Art … erteilt von …"
+   },
+   {
+    "k": "f13",
+    "l": "",
+    "t": "Gültig von … bis …"
+   },
+   {
+    "k": "f14",
+    "l": "",
+    "t": "Gültigkeitsdauer … Tage: …"
+   },
+   {
+    "k": "f15",
+    "l": "",
+    "t": "Er/sie kam aus … mit … (benutztes Transportmittel, z. B. Flugnummer, angeben) und wird hiermit davon in Kenntnis gesetzt, dass er/sie gemäß Artikel 23a des Schengener Grenzkodex nach … überstellt wird."
+   },
+   {
+    "k": "f16",
+    "l": "",
+    "t": "Gründe für die Verweigerung des Aufenthalts in dem Mitgliedstaat:"
+   },
+   {
+    "k": "f17",
+    "l": "",
+    "t": "Bemerkungen"
+   },
+   {
+    "k": "f17.n1",
+    "l": "☐",
+    "t": "Er/sie hat die Unterzeichnung dieses Formulars verweigert."
+   },
+   {
+    "k": "f18",
+    "l": "",
+    "t": "Die betroffene Person … Die zuständigen Behörden …"
+   },
+   {
+    "k": "f19",
+    "l": "",
+    "t": "Der/die Betroffene kann gemäß den nationalen Rechtsvorschriften Rechtsmittel gegen die Überstellung einlegen. Dem/der Betroffenen wird eine Kopie dieses Dokuments ausgehändigt. (Jeder Staat muss in Bezug auf das Rechtsmittel und die Kontaktstellen, die ihn/sie über eine rechtliche Vertretung, die im Namen des Drittstaatsangehörigen vorgehen kann, unterrichten können, Angaben zu den einschlägigen nationalen Rechtsvorschriften und Verfahren machen.)"
+   }
+  ],
+  "layoutNote": {
+   "de": "Formular; Emblem links neben f1; Ausfülllinien als «…». Ankreuzfeld f17.n1; Unterschriftslinien in f18.",
+   "fr": "Formulaire; emblème à gauche de f1; lignes à remplir rendues par «…». Case à cocher f17.n1; lignes de signature en f18.",
+   "en": "Form; emblem to the left of f1; blank lines rendered as “…”. Tick box f17.n1; signature lines in f18."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_XII",
+  "key": "ptB.g1",
+  "lang": "fr",
+  "asset": "7c4ab6a9b28172c2",
+  "stages": [
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "Indication de l’État"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "Logo de l’État (Indication du bureau) …"
+   },
+   {
+    "k": "f3",
+    "l": "",
+    "t": "PROCÉDURE DE TRANSFERT DANS LES ZONES FRONTALIÈRES INTÉRIEURES"
+   },
+   {
+    "k": "f4",
+    "l": "",
+    "t": "Le … à (heure) … au lieu dénommé (indiquer le type de frontière intérieure à proximité ou toute autre information utile relative à l’arrestation conformément à l’article 23 <i>bis</i> du code frontières Schengen) …"
+   },
+   {
+    "k": "f5",
+    "l": "",
+    "t": "Devant les soussignés … s’est présenté(e):"
+   },
+   {
+    "k": "f6",
+    "l": "",
+    "t": "Données à caractère personnel (si disponibles)"
+   },
+   {
+    "k": "f7",
+    "l": "",
+    "t": "Nom … Prénom …"
+   },
+   {
+    "k": "f8",
+    "l": "",
+    "t": "Né(e) le … à … Sexe …"
+   },
+   {
+    "k": "f9",
+    "l": "",
+    "t": "Nationalité … résidant à …"
+   },
+   {
+    "k": "f10",
+    "l": "",
+    "t": "identifié(e) au moyen de … numéro …"
+   },
+   {
+    "k": "f11",
+    "l": "",
+    "t": "délivré à … le …"
+   },
+   {
+    "k": "f12",
+    "l": "",
+    "t": "muni(e) d’un visa n<sup>o</sup> … de type … délivré par …"
+   },
+   {
+    "k": "f13",
+    "l": "",
+    "t": "valide du … au …"
+   },
+   {
+    "k": "f14",
+    "l": "",
+    "t": "d’une durée de … jours: …"
+   },
+   {
+    "k": "f15",
+    "l": "",
+    "t": "en provenance de …, arrivé(e) par … (identifier le moyen de transport utilisé, par exemple le numéro de vol), il ou elle a été informé(e) de son transfert vers … en vertu de l’article 23 <i>bis</i> du code frontières Schengen:"
+   },
+   {
+    "k": "f16",
+    "l": "",
+    "t": "Motifs pour lesquels une personne n’a pas le droit de séjourner sur le territoire de l’État membre:"
+   },
+   {
+    "k": "f17",
+    "l": "",
+    "t": "Observations"
+   },
+   {
+    "k": "f17.n1",
+    "l": "☐",
+    "t": "L’intéressé(e) a refusé de signer le formulaire."
+   },
+   {
+    "k": "f18",
+    "l": "",
+    "t": "L’intéressé(e) … Les autorités compétentes …"
+   },
+   {
+    "k": "f19",
+    "l": "",
+    "t": "L’intéressé(e) peut former un recours contre le transfert conformément au droit national. Copie de la présente décision est remise à l’intéressé(e) (chaque État doit indiquer les références à sa réglementation et à sa procédure nationales relatives au droit de recours ainsi que les points de contact en mesure de communiquer des informations sur des représentants compétents pour agir au nom du ressortissant de pays tiers)."
+   }
+  ],
+  "layoutNote": {
+   "de": "Formular; Emblem links neben f1; Ausfülllinien als «…». Ankreuzfeld f17.n1; Unterschriftslinien in f18.",
+   "fr": "Formulaire; emblème à gauche de f1; lignes à remplir rendues par «…». Case à cocher f17.n1; lignes de signature en f18.",
+   "en": "Form; emblem to the left of f1; blank lines rendered as “…”. Tick box f17.n1; signature lines in f18."
+  },
+  "method": "transcription",
+  "checked": "double"
+ },
+ {
+  "unit": "anx_XII",
+  "key": "ptB.g1",
+  "lang": "en",
+  "asset": "9c30f9123a79d571",
+  "stages": [
+   "s07"
+  ],
+  "blocks": [
+   {
+    "k": "f1",
+    "l": "",
+    "t": "Name of State"
+   },
+   {
+    "k": "f2",
+    "l": "",
+    "t": "Logo of State (Name of Office) …"
+   },
+   {
+    "k": "f3",
+    "l": "",
+    "t": "TRANSFER PROCEDURE IN INTERNAL BORDER AREAS"
+   },
+   {
+    "k": "f4",
+    "l": "",
+    "t": "On … at (time) … at the location (indicate type of the internal border nearby or other relevant information related to the apprehension in accordance with Article 23a of the Schengen Borders Code) …"
+   },
+   {
+    "k": "f5",
+    "l": "",
+    "t": "We, the undersigned, … have before us"
+   },
+   {
+    "k": "f6",
+    "l": "",
+    "t": "Personal data (subject to availability)"
+   },
+   {
+    "k": "f7",
+    "l": "",
+    "t": "Surname … First name …"
+   },
+   {
+    "k": "f8",
+    "l": "",
+    "t": "Date of birth … Place of birth … Sex …"
+   },
+   {
+    "k": "f9",
+    "l": "",
+    "t": "Nationality … Resident in …"
+   },
+   {
+    "k": "f10",
+    "l": "",
+    "t": "Type of identity document … number …"
+   },
+   {
+    "k": "f11",
+    "l": "",
+    "t": "Issued in … on …"
+   },
+   {
+    "k": "f12",
+    "l": "",
+    "t": "Visa number, if any … type … issued by …"
+   },
+   {
+    "k": "f13",
+    "l": "",
+    "t": "Valid from … until …"
+   },
+   {
+    "k": "f14",
+    "l": "",
+    "t": "For a period of … days: …"
+   },
+   {
+    "k": "f15",
+    "l": "",
+    "t": "Coming from … by means of … (indicate means of transport used, e.g. flight number), he/she is hereby informed that he/she will be transferred to … pursuant to Article 23a of the Schengen Borders Code:"
+   },
+   {
+    "k": "f16",
+    "l": "",
+    "t": "Grounds for finding that a person has no right to stay in the Member State:"
+   },
+   {
+    "k": "f17",
+    "l": "",
+    "t": "Comments"
+   },
+   {
+    "k": "f17.n1",
+    "l": "☐",
+    "t": "The person concerned declined to sign the form."
+   },
+   {
+    "k": "f18",
+    "l": "",
+    "t": "Person Concerned … Responsible authorities …"
+   },
+   {
+    "k": "f19",
+    "l": "",
+    "t": "The person concerned may appeal against the transfer in accordance with national law. The person concerned receives a copy of this document (each State must indicate the references to the national law and procedure relating to the right of appeal as well as contact points able to provide information on representatives competent to act on behalf of the third-country national)."
+   }
+  ],
+  "layoutNote": {
+   "de": "Formular; Emblem links neben f1; Ausfülllinien als «…». Ankreuzfeld f17.n1; Unterschriftslinien in f18.",
+   "fr": "Formulaire; emblème à gauche de f1; lignes à remplir rendues par «…». Case à cocher f17.n1; lignes de signature en f18.",
+   "en": "Form; emblem to the left of f1; blank lines rendered as “…”. Tick box f17.n1; signature lines in f18."
+  },
+  "method": "transcription",
+  "checked": "double"
+ }
+]

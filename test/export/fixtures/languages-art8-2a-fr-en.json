@@ -1,0 +1,433 @@
+{
+ "kind": "comparison",
+ "title": "Art. 8, par. 2 bis à 2 quinquies, CFS",
+ "subtitle": "Comparaison linguistique FR et EN, après le rectificatif R(01) au règlement (UE) 2024/1717",
+ "unitLine": "Art. 8: Vérifications aux frontières portant sur les personnes",
+ "brand": "SGK-Navigator",
+ "work": "Code frontières Schengen",
+ "textLang": "fr",
+ "uiLang": "fr",
+ "sections": [],
+ "columns": [
+  {
+   "heading": "Français (FR)",
+   "lang": "fr"
+  },
+  {
+   "heading": "Anglais (EN)",
+   "lang": "en"
+  }
+ ],
+ "labelHeading": "Disposition",
+ "rows": [
+  {
+   "label": "par. 2 bis",
+   "cells": [
+    {
+     "blocks": [
+      {
+       "key": "p2a",
+       "label": "2 bis.",
+       "depth": 0,
+       "lang": "fr",
+       "runs": [
+        {
+         "t": "Lorsque les vérifications effectuées dans les bases de données visées au paragraphe 2, points a) et b), risquent d’avoir un effet disproportionné sur la fluidité du trafic, un État membre peut décider de procéder à ces vérifications de manière ciblée à des points de passage frontaliers spécifiques, à la suite d’une évaluation des risques liés à l’ordre public, la sécurité intérieure, la santé publique ou les relations internationales de l’un des États membres."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "key": "p2a",
+       "label": "2a.",
+       "depth": 0,
+       "lang": "en",
+       "runs": [
+        {
+         "t": "Where the checks against the databases referred to in points (a) and (b) of paragraph 2 would have a disproportionate impact on the flow of traffic, a Member State may decide to carry out those checks on a targeted basis at specified border crossing points, following an assessment of the risks related to the public policy, internal security, public health or international relations of any of the Member States."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "par. 2 bis, al. 2",
+   "cells": [
+    {
+     "blocks": [
+      {
+       "key": "p2a.s2",
+       "label": "",
+       "depth": 0,
+       "lang": "fr",
+       "runs": [
+        {
+         "t": "La portée et la durée de la limitation temporaire à des vérifications ciblées dans les bases de données n’excèdent pas ce qui est strictement nécessaire et sont définies sur la base d’une évaluation des risques effectuée par l’État membre concerné. L’évaluation des risques expose les raisons de la limitation temporaire à des vérifications ciblées dans les bases de données, tient compte, entre autres, de l’effet disproportionné sur la fluidité du trafic et donne lieu à des statistiques sur les passagers et les incidents liés à la criminalité transfrontalière. Elle est mise à jour régulièrement."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "key": "p2a.s2",
+       "label": "",
+       "depth": 0,
+       "lang": "en",
+       "runs": [
+        {
+         "t": "The scope and duration of the temporary reduction to targeted checks against the databases shall not exceed what is strictly necessary and shall be defined in accordance with a risk assessment carried out by the Member State concerned. The risk assessment shall state the reasons for the temporary reduction to targeted checks against the databases, take into account, inter alia, the disproportionate impact on the flow of traffic and provide statistics on passengers and incidents related to cross-border crime. It shall be updated regularly."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "par. 2 bis, al. 3",
+   "cells": [
+    {
+     "blocks": [
+      {
+       "key": "p2a.s3",
+       "label": "",
+       "depth": 0,
+       "lang": "fr",
+       "runs": [
+        {
+         "t": "Les personnes qui, en principe, ne sont pas soumises à des vérifications ciblées dans les bases de données font, au minimum, l’objet d’une vérification en vue d’établir leur identité sur production ou sur présentation de leurs documents de voyage. Cette vérification consiste en un examen rapide et simple de la validité du document de voyage pour le franchissement de la frontière, et de la présence d’indices de falsification ou de contrefaçon, le cas échéant en recourant à des dispositifs techniques et, en cas de doute sur le document de voyage ou lorsque des éléments indiquent qu’une telle personne pourrait représenter une menace pour l’ordre public, la sécurité intérieure, la santé publique ou les relations internationales des États membres, le garde-frontière consulte les bases de données visées au paragraphe 2, points a) et b)."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "key": "p2a.s3",
+       "label": "",
+       "depth": 0,
+       "lang": "en",
+       "runs": [
+        {
+         "t": "Persons who, in principle, are not subject to targeted checks against the databases, shall, as a minimum, be subject to a check with a view to establishing their identity on the basis of the production or presentation of travel documents. Such a check shall consist of a rapid and straightforward verification of the validity of the travel document for crossing the border, and of the presence of signs of falsification or counterfeiting, where appropriate by using technical devices, and, in cases where there are doubts about the travel document or where there are indications that such a person could represent a threat to the public policy, internal security, public health or international relations of the Member States, the border guard shall consult the databases referred to in points (a) and (b) of paragraph 2."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "par. 2 bis, al. 4",
+   "cells": [
+    {
+     "blocks": [
+      {
+       "key": "p2a.s4",
+       "label": "",
+       "depth": 0,
+       "lang": "fr",
+       "runs": [
+        {
+         "t": "L’État membre concerné transmet son évaluation des risques et les mises à jour de celle-ci à l’Agence européenne de garde-frontières et de garde-côtes (ci-après dénommée «Agence») instituée par le règlement (UE) 2016/1624 du Parlement européen et du Conseil sans tarder et fait rapport tous les six mois à la Commission et à l’Agence sur l’application des vérifications effectuées de manière ciblée dans les bases de données. L’État membre concerné peut décider de classifier tout ou partie de l’évaluation des risques."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "key": "p2a.s4",
+       "label": "",
+       "depth": 0,
+       "lang": "en",
+       "runs": [
+        {
+         "t": "The Member State concerned shall transmit its risk assessment and updates thereto to the European Border and Coast Guard Agency (‘the Agency’), established by Regulation (EU) 2016/1624 of the European Parliament and of the Council, without delay and shall report every six months to the Commission and to the Agency on the application of the checks against the databases carried out on a targeted basis. The Member State concerned may decide to classify the risk assessment or parts thereof."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "par. 2 ter",
+   "cells": [
+    {
+     "blocks": [
+      {
+       "key": "p2b",
+       "label": "2 ter.",
+       "depth": 0,
+       "lang": "fr",
+       "runs": [
+        {
+         "t": "Lorsqu’un État membre a l’intention de procéder à des vérifications ciblées dans les bases de données conformément au paragraphe 2 "
+        },
+        {
+         "t": "bis",
+         "i": true
+        },
+        {
+         "t": ", il le notifie aux autres États membres, à l’Agence et à la Commission sans tarder. L’État membre concerné peut décider de classifier tout ou partie de la notification."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "key": "p2b",
+       "label": "2b.",
+       "depth": 0,
+       "lang": "en",
+       "runs": [
+        {
+         "t": "Where a Member State intends to carry out targeted checks against the databases pursuant to paragraph 2a, it shall notify the other Member States, the Agency and the Commission accordingly without delay. The Member State concerned may decide to classify the notification or parts thereof."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "par. 2 ter, al. 2",
+   "cells": [
+    {
+     "blocks": [
+      {
+       "key": "p2b.s2",
+       "label": "",
+       "depth": 0,
+       "lang": "fr",
+       "runs": [
+        {
+         "t": "Si les États membres, l’Agence ou la Commission sont préoccupés par l’intention de procéder à des vérifications ciblées dans les bases de données, ils en font part sans tarder à l’État membre en question. L’État membre en question tient compte de ces préoccupations."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "key": "p2b.s2",
+       "label": "",
+       "depth": 0,
+       "lang": "en",
+       "runs": [
+        {
+         "t": "Where the Member States, the Agency or the Commission have concerns about the intention to carry out targeted checks against the databases, they shall notify the Member State in question of those concerns without delay. The Member State in question shall take those concerns into account."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "par. 2 quater",
+   "cells": [
+    {
+     "blocks": [
+      {
+       "key": "p2c",
+       "label": "2 quater.",
+       "depth": 0,
+       "lang": "fr",
+       "runs": [
+        {
+         "t": "La Commission transmet au Parlement européen et au Conseil au plus tard le 8 avril 2019, une évaluation de la mise en œuvre et des conséquences du paragraphe 2."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "key": "p2c",
+       "label": "2c.",
+       "depth": 0,
+       "lang": "en",
+       "runs": [
+        {
+         "t": "The Commission shall, by 8 April 2019, transmit to the European Parliament and the Council an evaluation of the implementation and consequences of paragraph 2."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "par. 2 quinquies",
+   "cells": [
+    {
+     "blocks": [
+      {
+       "key": "p2d",
+       "label": "2 quinquies.",
+       "depth": 0,
+       "lang": "fr",
+       "runs": [
+        {
+         "t": "En ce qui concerne les frontières aériennes, les paragraphes 2 "
+        },
+        {
+         "t": "bis",
+         "i": true
+        },
+        {
+         "t": " et 2 "
+        },
+        {
+         "t": "ter",
+         "i": true
+        },
+        {
+         "t": " s’appliquent pendant une période transitoire maximale de six mois à compter du 7 avril 2017."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "key": "p2d",
+       "label": "2d.",
+       "depth": 0,
+       "lang": "en",
+       "runs": [
+        {
+         "t": "With regard to air borders, paragraphs 2a and 2b shall apply for a maximum transitional period of six months from 7 April 2017."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "par. 2 quinquies, al. 2",
+   "cells": [
+    {
+     "blocks": [
+      {
+       "key": "p2d.s2",
+       "label": "",
+       "depth": 0,
+       "lang": "fr",
+       "runs": [
+        {
+         "t": "Dans des cas exceptionnels, lorsque les infrastructures d’un aéroport donné posent des problèmes spécifiques nécessitant une plus longue période pour procéder aux adaptations requises afin de rendre possible la réalisation de vérifications systématiques dans les bases de données sans que cela ait un effet disproportionné sur la fluidité du trafic, la période transitoire de six mois visée au premier alinéa peut être prolongée pour cet aéroport en particulier, de dix-huit mois au maximum, conformément à la procédure décrite au troisième alinéa."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "key": "p2d.s2",
+       "label": "",
+       "depth": 0,
+       "lang": "en",
+       "runs": [
+        {
+         "t": "In exceptional cases, where, at a particular airport, there are specific infrastructural difficulties requiring a longer period of time for adaptations in order to allow for the carrying-out of systematic checks against the databases without having a disproportionate impact on the flow of traffic, the six-month transitional period referred to in the first subparagraph may be prolonged for that particular airport by a maximum of 18 months in accordance with the procedure specified in the third subparagraph."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "par. 2 quinquies, al. 3",
+   "cells": [
+    {
+     "blocks": [
+      {
+       "key": "p2d.s3",
+       "label": "",
+       "depth": 0,
+       "lang": "fr",
+       "runs": [
+        {
+         "t": "À cet effet, l’État membre notifie, au plus tard trois mois avant l’expiration de la période transitoire visée au premier alinéa, à la Commission, à l’Agence et aux autres États membres les problèmes spécifiques que posent les infrastructures de l’aéroport concerné, les mesures envisagées pour y remédier et la période nécessaire pour leur mise en œuvre."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "key": "p2d.s3",
+       "label": "",
+       "depth": 0,
+       "lang": "en",
+       "runs": [
+        {
+         "t": "For that purpose, the Member State shall, at the latest three months before the expiry of the transitional period referred to in the first subparagraph, notify the Commission, the Agency and the other Member States of the specific infrastructural difficulties in the airport concerned, the envisaged measures to remedy them and the required period of time for their implementation."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "par. 2 quinquies, al. 4",
+   "cells": [
+    {
+     "blocks": [
+      {
+       "key": "p2d.s4",
+       "label": "",
+       "depth": 0,
+       "lang": "fr",
+       "runs": [
+        {
+         "t": "Lorsque les problèmes spécifiques que posent les infrastructures nécessitent une plus longue période pour procéder aux adaptations requises, la Commission, dans un délai d’un mois à compter de la réception de la notification visée au troisième alinéa et après consultation de l’Agence, autorise l’État membre concerné à prolonger la période transitoire pour l’aéroport concerné et, le cas échéant, fixe la durée de cette prolongation."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "key": "p2d.s4",
+       "label": "",
+       "depth": 0,
+       "lang": "en",
+       "runs": [
+        {
+         "t": "Where specific infrastructural difficulties requiring a longer period for adaptations exist, the Commission, within one month of receipt of the notification referred to in the third subparagraph and after consulting the Agency, shall authorise the Member State concerned to prolong the transitional period for the airport concerned and, where relevant, shall set the length of such prolongation."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legend": [],
+ "source": "Source: EUR-Lex, règlement (UE) 2016/399 (CFS), état après le rectificatif R(01) au règlement (UE) 2024/1717 (12 octobre 2025).",
+ "disclaimer": "Seule la publication au Journal officiel de l’UE fait foi; les versions consolidées et reconstituées n’ont pas de valeur juridique. Établi le 12 novembre 2026 avec SGK-Navigator."
+}

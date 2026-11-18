@@ -1,0 +1,39 @@
+<!-- @dsCard group="Rechtsakte" height=470 -->
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>body{margin:0;background:var(--canvas)}</style>
+</head>
+<body>
+<div class="ui-root" style="padding: 24px; background: var(--canvas)">
+<div class="ui-legal">
+<div class="ui-legal-block" data-depth="0"><span class="ui-legal-num ui-legal-num--para">(1)</span><p>Der grenzüberschreitende Verkehr an den Außengrenzen unterliegt den Kontrollen durch die Grenzschutzbeamten. Die Kontrollen erfolgen nach Maßgabe dieses Kapitels.</p></div>
+<div class="ui-legal-block" data-depth="0"><span class="ui-origin" data-act="sys" aria-hidden="true"></span><span class="ui-origin-label">Syst. Abfr.</span><span class="ui-legal-num ui-legal-num--para">(2)</span><p>Personen, die nach Unionsrecht Anspruch auf freien Personenverkehr haben, werden bei der Ein- und Ausreise folgenden Kontrollen unterzogen:</p></div>
+<div class="ui-legal-block" data-depth="1"><span class="ui-origin" data-act="sys" aria-hidden="true"></span><span class="ui-origin-label">Syst. Abfr.</span><span class="ui-legal-num">a)</span><p>Überprüfung der Identität und der Staatsangehörigkeit der Person sowie der Echtheit des Reisedokuments und seiner Gültigkeit für den Grenzübertritt, unter anderem durch Abfrage der einschlägigen Datenbanken, insbesondere</p></div>
+<div class="ui-legal-block" data-depth="2"><span class="ui-origin" data-act="sys" aria-hidden="true"></span><span class="ui-origin-label">Syst. Abfr.</span><span class="ui-legal-num">1.</span><p>des SIS,</p></div>
+<div class="ui-legal-block" data-depth="1"><span class="ui-origin" data-act="ees" aria-hidden="true"></span><span class="ui-origin-label">EES</span><span class="ui-legal-num"></span><p>Enthält das Reisedokument ein elektronisches Speichermedium (Chip), werden die Echtheit und Integrität der Daten auf dem elektronischen Speichermedium (Chip) anhand der vollständigen gültigen Zertifikatkette bestätigt, sofern dies nicht aus technischen Gründen oder mangels gültiger Zertifikate unmöglich ist.</p></div>
+</div>
+</div>
+<script>
+document.querySelectorAll('.ui-seg').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('[role="tablist"]').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('[role="tab"]'); if (!b) return;
+    g.querySelectorAll('[role="tab"]').forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('.ui-stagebar').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('.ui-stage'); if (!b) return;
+    g.querySelectorAll('.ui-stage').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+</script>
+</body>
+</html>

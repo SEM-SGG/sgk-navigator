@@ -1,0 +1,2010 @@
+{
+ "_doc": "Durchgang 1: Transkription vom Bild aus data/assets.json (max. 1050 px), je Asset-Hash. blocks: [k, l, t, {box, d}?]. '…' = Leerzeile zum Ausfüllen. '<br>' = Zeilenumbruch auf Schildern. 'base' + 'insertAfter': Blöcke einer anderen Transkription übernehmen und ergänzen (nur in Durchgang 1).",
+ "5cd48ff41e48bbff": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "EU<br>EWR<br>CH"
+   ],
+   [
+    "f2",
+    "",
+    "BÜRGER"
+   ]
+  ]
+ },
+ "182393e02e8cf0f0": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "UE<br>EEE<br>CH"
+   ],
+   [
+    "f2",
+    "",
+    "CITOYENS"
+   ]
+  ]
+ },
+ "05f5b24e38d77724": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "EU<br>EEA<br>CH"
+   ],
+   [
+    "f2",
+    "",
+    "CITIZENS"
+   ]
+  ]
+ },
+ "b534829cb83bd3e2": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "VISUM<br><i>NICHT<br>ERFORDERLICH</i>"
+   ]
+  ]
+ },
+ "d41a31c10470e381": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "VISA<br><i>NON REQUIS</i>"
+   ]
+  ]
+ },
+ "69ead3154b5b5724": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "VISA<br><i>NOT REQUIRED</i>"
+   ]
+  ]
+ },
+ "408d834f9d9c4f22": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "ALLE<br>PÄSSE"
+   ]
+  ]
+ },
+ "9b8930cca1a89981": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "TOUS<br>PASSEPORTS"
+   ]
+  ]
+ },
+ "0397ebeac71d44c7": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "ALL<br>PASSPORTS"
+   ]
+  ]
+ },
+ "ff8fb0d4e50eb7eb": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "EU<br>EWR<br>CH"
+   ],
+   [
+    "f2",
+    "",
+    "PKW"
+   ]
+  ]
+ },
+ "7462e242b83bdb49": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "UE<br>EEE<br>CH"
+   ],
+   [
+    "f2",
+    "",
+    "VOITURES"
+   ]
+  ]
+ },
+ "578dc71f0715b54c": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "EU<br>EEA<br>CH"
+   ],
+   [
+    "f2",
+    "",
+    "CARS"
+   ]
+  ]
+ },
+ "168dbba703dc447e": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "EU<br>EWR<br>CH"
+   ],
+   [
+    "f2",
+    "",
+    "BUSSE"
+   ]
+  ]
+ },
+ "4f51ae9eea7daf1d": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "UE<br>EEE<br>CH"
+   ],
+   [
+    "f2",
+    "",
+    "BUS"
+   ]
+  ]
+ },
+ "3ce1f007caf9ff43": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "EU<br>EEA<br>CH"
+   ],
+   [
+    "f2",
+    "",
+    "BUSES"
+   ]
+  ]
+ },
+ "dc95497d317d3b08": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "EU<br>EWR<br>CH"
+   ],
+   [
+    "f2",
+    "",
+    "LKW"
+   ]
+  ]
+ },
+ "443d26f114259886": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "UE<br>EEE<br>CH"
+   ],
+   [
+    "f2",
+    "",
+    "CAMIONS"
+   ]
+  ]
+ },
+ "d06c8e03969d0ebe": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "EU<br>EEA<br>CH"
+   ],
+   [
+    "f2",
+    "",
+    "LORRIES"
+   ]
+  ]
+ },
+ "cf95043b12fa1186": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "NICHT<br>VISUMPFLICH-<br>TIG"
+   ],
+   [
+    "f2",
+    "",
+    "PKW"
+   ]
+  ]
+ },
+ "1a5f7a56eeac32a0": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "VISA<br>NON REQUIS"
+   ],
+   [
+    "f2",
+    "",
+    "VOITURE"
+   ]
+  ]
+ },
+ "010e35f1341ff563": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "VISA<br>NOT REQUIRED"
+   ],
+   [
+    "f2",
+    "",
+    "CARS"
+   ]
+  ]
+ },
+ "eb0b124000de7ca6": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "NICHT<br>VISUMPFLICH-<br>TIG"
+   ],
+   [
+    "f2",
+    "",
+    "BUSSE"
+   ]
+  ]
+ },
+ "7fcc4dc65a7d4aa4": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "VISA<br>NON REQUIS"
+   ],
+   [
+    "f2",
+    "",
+    "BUS"
+   ]
+  ]
+ },
+ "67dcd25d6087e679": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "VISA<br>NOT REQUIRED"
+   ],
+   [
+    "f2",
+    "",
+    "BUSES"
+   ]
+  ]
+ },
+ "1acc80d51227b6be": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "NICHT<br>VISUMPFLICH-<br>TIG"
+   ],
+   [
+    "f2",
+    "",
+    "LKW"
+   ]
+  ]
+ },
+ "6b884205f0ddbf5a": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "VISA<br>NON REQUIS"
+   ],
+   [
+    "f2",
+    "",
+    "CAMIONS"
+   ]
+  ]
+ },
+ "15b06bdd3ca1fcea": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "VISA<br>NOT REQUIRED"
+   ],
+   [
+    "f2",
+    "",
+    "LORRIES"
+   ]
+  ]
+ },
+ "1828cfcb21f2dd7a": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "ALLE<br>PÄSSE"
+   ],
+   [
+    "f2",
+    "",
+    "PKW"
+   ]
+  ]
+ },
+ "5664284f79b3047a": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "TOUS<br>PASSEPORTS"
+   ],
+   [
+    "f2",
+    "",
+    "VOITURES"
+   ]
+  ]
+ },
+ "28ed06361141dc8d": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "ALL<br>PASSPORTS"
+   ],
+   [
+    "f2",
+    "",
+    "CARS"
+   ]
+  ]
+ },
+ "d63f661929f41cad": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "ALLE<br>PÄSSE"
+   ],
+   [
+    "f2",
+    "",
+    "BUSSE"
+   ]
+  ]
+ },
+ "50eb31ee40c861dd": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "TOUS<br>PASSEPORTS"
+   ],
+   [
+    "f2",
+    "",
+    "BUS"
+   ]
+  ]
+ },
+ "4deccacef98a8b60": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "ALL<br>PASSPORTS"
+   ],
+   [
+    "f2",
+    "",
+    "BUSES"
+   ]
+  ]
+ },
+ "ad883f3b2a16d926": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "ALLE<br>PÄSSE"
+   ],
+   [
+    "f2",
+    "",
+    "LKW"
+   ]
+  ]
+ },
+ "56a70140963b0114": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "TOUS<br>PASSEPORTS"
+   ],
+   [
+    "f2",
+    "",
+    "CAMIONS"
+   ]
+  ]
+ },
+ "b78062308af65e76": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "ALL<br>PASSPORTS"
+   ],
+   [
+    "f2",
+    "",
+    "LORRIES"
+   ]
+  ]
+ },
+ "7264ef5ef36dfec5": {
+  "blocks": []
+ },
+ "b145889f8bbb7f10": {
+  "blocks": []
+ },
+ "90f3332aa5ae3fab": {
+  "blocks": []
+ },
+ "3636ee9cf4f75df2": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "EU / EWR / CH<br>Bürger"
+   ]
+  ]
+ },
+ "3a8092fcfd6d0782": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "UE / EEE / CH<br>CITOYENS"
+   ]
+  ]
+ },
+ "b0d4aecea165ef09": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "EU / EEA / CH<br>CITIZENS"
+   ]
+  ]
+ },
+ "f6d9e85b6934e941": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "DRITTSTAATS-<br>ANGEHÖRIGE"
+   ]
+  ]
+ },
+ "d3ed7a1e2bdfb240": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "RESSORTISSANTS DE<br>PAYS TIERS"
+   ]
+  ]
+ },
+ "513e51ea15ab5abd": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "THIRD-COUNTRY<br>NATIONALS"
+   ]
+  ]
+ },
+ "b086e25b34ff9daa": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "ALLE PÄSSE"
+   ]
+  ]
+ },
+ "9702ef0bf424667a": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "TOUS PASSEPORTS"
+   ]
+  ]
+ },
+ "64593db2105e4a3e": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "ALL PASSPORTS"
+   ]
+  ]
+ },
+ "178bf3a31f6a9951": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "REGISTRIERTE<br>REISENDE"
+   ]
+  ]
+ },
+ "b2babf785cb46240": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "VOYAGEURS<br>ENREGISTRÉS"
+   ]
+  ]
+ },
+ "0a77b682f40e5901": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "REGISTERED<br>TRAVELERS"
+   ]
+  ]
+ },
+ "620ddf9db6ceee5d": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "Name des Staates"
+   ],
+   [
+    "f2",
+    "",
+    "Staatsemblem (Name der Dienststelle) …"
+   ],
+   [
+    "f3",
+    "",
+    "… (<sup>1</sup>)"
+   ],
+   [
+    "f4",
+    "",
+    "EINREISEVERWEIGERUNG"
+   ],
+   [
+    "f5",
+    "",
+    "Am … um (Uhrzeit) … ist an der Grenzübergangsstelle … vor dem Unterzeichnenden … vorstellig geworden:"
+   ],
+   [
+    "f6",
+    "",
+    "Name … Vorname …"
+   ],
+   [
+    "f7",
+    "",
+    "geboren am … in … Geschlecht …"
+   ],
+   [
+    "f8",
+    "",
+    "Staatsangehörigkeit … wohnhaft in …"
+   ],
+   [
+    "f9",
+    "",
+    "Art des Identitätsdokuments … Nummer …"
+   ],
+   [
+    "f10",
+    "",
+    "ausgestellt in … am …"
+   ],
+   [
+    "f11",
+    "",
+    "Visum Nr. … Art … erteilt von …"
+   ],
+   [
+    "f12",
+    "",
+    "gültig vom … bis zum …"
+   ],
+   [
+    "f13",
+    "",
+    "mit einer Gültigkeitsdauer von … Tagen zum Zwecke von …"
+   ],
+   [
+    "f14",
+    "",
+    "Er/sie, der/die aus … mit … (benutztes Transportmittel, z.B. Flugnummer, angeben) kommt, wird hiermit davon in Kenntnis gesetzt, dass gegen ihn/sie gemäß … <i>(genaue Angabe der geltenden nationalen Rechtsvorschriften)</i> aus folgenden Gründen eine Einreiseverweigerung verfügt wird:"
+   ],
+   [
+    "fA",
+    "(A)",
+    "ohne gültige(s) Reisedokument(e)",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fB",
+    "(B)",
+    "im Besitz eines falschen, gefälschten oder verfälschten Reisedokuments",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fC",
+    "(C)",
+    "ohne gültiges Visum oder gültigen Aufenthaltstitel",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fD",
+    "(D)",
+    "im Besitz eines falschen, gefälschten oder verfälschten Visums oder Aufenthaltstitels",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fE",
+    "(E)",
+    "verfügt nicht über die erforderlichen Dokumente zum Nachweis von Aufenthaltszweck und -bedingungen.",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fE.s1",
+    "",
+    "Folgende(s) Dokument(e) wurde(n) nicht vorgelegt: …",
+    {
+     "d": 1
+    }
+   ],
+   [
+    "fF",
+    "(F)",
+    "hat sich bereits 90 Tage innerhalb eines Zeitraums von 180 Tagen im Gebiet der Mitgliedstaaten aufgehalten",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fG",
+    "(G)",
+    "verfügt nicht über ausreichende Mittel zur Bestreitung des Lebensunterhalts im Verhältnis zur Dauer und zu den Umständen des Aufenthalts oder für die Rückkehr in das Herkunfts- oder Durchreiseland",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fH",
+    "(H)",
+    "ist zur Einreiseverweigerung ausgeschrieben",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fH.1",
+    "",
+    "im SIS",
+    {
+     "box": true,
+     "d": 1
+    }
+   ],
+   [
+    "fH.2",
+    "",
+    "im nationalen Verzeichnis",
+    {
+     "box": true,
+     "d": 1
+    }
+   ],
+   [
+    "fI",
+    "(I)",
+    "stellt eine Gefahr für die öffentliche Ordnung, die innere Sicherheit, die öffentliche Gesundheit oder die internationalen Beziehungen eines oder mehrerer der Mitgliedstaaten der Europäischen Union dar <i>(Jeder Staat muss Angaben zu den einschlägigen nationalen Rechtsvorschriften für diese Fälle der Einreiseverweigerung machen.)</i>",
+    {
+     "box": true
+    }
+   ],
+   [
+    "f15",
+    "",
+    "Bemerkungen"
+   ],
+   [
+    "f16",
+    "",
+    "Der/die Betroffene kann nach Maßgabe der nationalen Rechtsvorschriften Rechtsmittel gegen die verfügte Einreiseverweigerung einlegen. Dem/der Betroffenen wird eine Kopie dieses Dokuments ausgehändigt. <i>(Jeder Staat muss Angaben zu den nationalen Rechtsvorschriften und Verfahren betreffend das Rechtsmittel machen.)</i>"
+   ],
+   [
+    "f17",
+    "",
+    "Der/die Betroffene"
+   ],
+   [
+    "f18",
+    "",
+    "Der Kontrollbeamte"
+   ],
+   [
+    "fn1",
+    "(<sup>1</sup>)",
+    "Für Norwegen und Island ist kein Logo erforderlich."
+   ]
+  ]
+ },
+ "fb750e52db7119e8": {
+  "base": "620ddf9db6ceee5d",
+  "insertAfter": {
+   "fI": [
+    [
+     "fJ",
+     "(J)",
+     "hat sich geweigert, seine biometrischen Daten bereitzustellen, falls dies erforderlich ist, um",
+     {
+      "box": true
+     }
+    ],
+    [
+     "fJ.1",
+     "",
+     "sein persönliches Dossier im Einreise-/Ausreisesystem anzulegen",
+     {
+      "box": true,
+      "d": 1
+     }
+    ],
+    [
+     "fJ.2",
+     "",
+     "die Grenzübertrittskontrolle durchzuführen.",
+     {
+      "box": true,
+      "d": 1
+     }
+    ]
+   ],
+   "f15": [
+    [
+     "f15.1",
+     "",
+     "(vom Grenzschutzbeamten anzukreuzen, wenn die Daten im Einreise-/Ausreisesystem gespeichert werden)",
+     {
+      "box": true
+     }
+    ],
+    [
+     "f15.2",
+     "",
+     "Hiermit wird die betreffende Person darüber informiert, dass ihre persönlichen Daten sowie Informationen zu der Verweigerung der Einreise gemäß Artikel 18 der Verordnung (EU) 2017/2226 in das Einreise-/Ausreisesystem eingegeben werden.",
+     {
+      "d": 1
+     }
+    ],
+    [
+     "f15.3",
+     "",
+     "Gemäß Artikel 52 der Verordnung (EU) 2017/2226 hat die betreffende Person das Recht auf Auskunft über die im Einreise-/Ausreisesystem aufgezeichneten Daten, die sie betreffen, und darf verlangen, dass unrichtige Daten über sie berichtigt und unrechtmäßig gespeicherte Daten über sie gelöscht werden.",
+     {
+      "d": 1
+     }
+    ]
+   ]
+  }
+ },
+ "4fe081b8a4db27cc": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "Indication de l’État"
+   ],
+   [
+    "f2",
+    "",
+    "Logo de l’État (Indication du bureau) …"
+   ],
+   [
+    "f3",
+    "",
+    "… (<sup>1</sup>)"
+   ],
+   [
+    "f4",
+    "",
+    "REFUS D’ENTRÉE À LA FRONTIÈRE"
+   ],
+   [
+    "f5",
+    "",
+    "Le … à … au point de passage frontalier de … devant les soussignés … s’est présenté(e):"
+   ],
+   [
+    "f6",
+    "",
+    "Nom … Prénom …"
+   ],
+   [
+    "f7",
+    "",
+    "Né(e) le … à … Sexe …"
+   ],
+   [
+    "f8",
+    "",
+    "Nationalité … résidant à …"
+   ],
+   [
+    "f9",
+    "",
+    "identifié(e) au moyen de … numéro …"
+   ],
+   [
+    "f10",
+    "",
+    "délivré à … le …"
+   ],
+   [
+    "f11",
+    "",
+    "muni(e) d’un visa n<sup>o</sup> … de type … délivré par …"
+   ],
+   [
+    "f12",
+    "",
+    "valide du … au …"
+   ],
+   [
+    "f13",
+    "",
+    "d’une durée de … jours pour les raisons suivantes: …"
+   ],
+   [
+    "f14",
+    "",
+    "En provenance de …, arrivé(e) par … (identifier le moyen de transport utilisé, par exemple le numéro de vol), lequel ou laquelle a été informé qu’une décision de refus d’entrée a été prise à son encontre en vertu de <i>(indiquer les références au droit national en vigueur)</i> pour les motifs suivants:"
+   ],
+   [
+    "fA",
+    "(A)",
+    "n’est pas détenteur de documents de voyage valables",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fB",
+    "(B)",
+    "est en possession d’un document de voyage faux, falsifié, ou altéré",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fC",
+    "(C)",
+    "n’est pas détenteur d’un visa ou d’un permis de séjour valable",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fD",
+    "(D)",
+    "est en possession d’un visa ou d’un permis de séjour faux, falsifié ou altéré",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fE",
+    "(E)",
+    "n’est pas détenteur du ou des document(s) approprié(s) attestant du but et des conditions de séjour.",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fE.s1",
+    "",
+    "Le(s) document(s) suivant(s) n’a (n’ont) pas pu être produit(s): …",
+    {
+     "d": 1
+    }
+   ],
+   [
+    "fF",
+    "(F)",
+    "à déjà séjourné 90 jours sur le territoire des États membres de l’Union européenne au cours de la période précédente de 180 jours",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fG",
+    "(G)",
+    "ne dispose pas de moyens de subsistance suffisants correspondant à la période et aux modalités de séjour, au retour vers le pays d’origine ou de transit",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fH",
+    "(H)",
+    "est signalé(e) aux fins de non-admission",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fH.1",
+    "",
+    "dans le SIS",
+    {
+     "box": true,
+     "d": 1
+    }
+   ],
+   [
+    "fH.2",
+    "",
+    "dans le fichier national",
+    {
+     "box": true,
+     "d": 1
+    }
+   ],
+   [
+    "fI",
+    "(I)",
+    "est considéré(e) comme représentant un danger pour l’ordre public, la sécurité intérieure, la santé publique ou les relations internationales d’un ou de plusieurs États membres de l’Union européenne <i>(chaque État doit indiquer les références à sa réglementation nationale relatives à ces cas de refus d'entrée)</i>.",
+    {
+     "box": true
+    }
+   ],
+   [
+    "f15",
+    "",
+    "Observations"
+   ],
+   [
+    "f16",
+    "",
+    "L’intéressé(e) peut former un recours contre la décision de refus d’entrée conformément à ce qui est prévu par le droit national. Copie de la présente décision est remise à l’intéressé(e) <i>(chaque État doit indiquer les références à sa réglementation et à sa procédure nationales relatives au droit de recours)</i>."
+   ],
+   [
+    "f17",
+    "",
+    "L’intéressé(e)"
+   ],
+   [
+    "f18",
+    "",
+    "L’agent préposé<br>au contrôle"
+   ],
+   [
+    "fn1",
+    "(<sup>1</sup>)",
+    "Aucun symbole n’est requis pour la Norvège et l'Islande."
+   ]
+  ]
+ },
+ "3e0813af8e8324b5": {
+  "base": "4fe081b8a4db27cc",
+  "insertAfter": {
+   "fI": [
+    [
+     "fJ",
+     "(J)",
+     "a refusé de fournir les données biométriques requises",
+     {
+      "box": true
+     }
+    ],
+    [
+     "fJ.1",
+     "",
+     "pour créer le dossier individuel dans le système d’entrée/de sortie",
+     {
+      "box": true,
+      "d": 1
+     }
+    ],
+    [
+     "fJ.2",
+     "",
+     "pour effectuer les vérifications aux frontières.",
+     {
+      "box": true,
+      "d": 1
+     }
+    ]
+   ],
+   "f15": [
+    [
+     "f15.1",
+     "",
+     "(à cocher par le garde-frontière si des données sont stockées dans le système d’entrée/de sortie)",
+     {
+      "box": true
+     }
+    ],
+    [
+     "f15.2",
+     "",
+     "La personne intéressée est informée que ses données à caractère personnel et les informations relatives au présent refus d’entrée sont introduites dans le système d’entrée/de sortie conformément à l’article 18 du règlement (UE) 2017/2226.",
+     {
+      "d": 1
+     }
+    ],
+    [
+     "f15.3",
+     "",
+     "Conformément à l’article 52 du règlement (UE) 2017/2226, la personne intéressée a le droit d’obtenir les données la concernant qui sont enregistrées dans le système d’entrée/de sortie et peut demander la rectification des données la concernant qui sont erronées et l’effacement des données enregistrées de façon illicite.",
+     {
+      "d": 1
+     }
+    ]
+   ]
+  }
+ },
+ "d91a0d752a6f6743": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "Name of State"
+   ],
+   [
+    "f2",
+    "",
+    "Logo of State (Name of Office) …"
+   ],
+   [
+    "f3",
+    "",
+    "… (<sup>1</sup>)"
+   ],
+   [
+    "f4",
+    "",
+    "REFUSAL OF ENTRY AT THE BORDER"
+   ],
+   [
+    "f5",
+    "",
+    "On … at (time) … at the border crossing point … We, the undersigned, … have before us:"
+   ],
+   [
+    "f6",
+    "",
+    "Surname … First name …"
+   ],
+   [
+    "f7",
+    "",
+    "Date of birth … Place of birth … Sex …"
+   ],
+   [
+    "f8",
+    "",
+    "Nationality … Resident in …"
+   ],
+   [
+    "f9",
+    "",
+    "Type of identity document … number …"
+   ],
+   [
+    "f10",
+    "",
+    "Issued in … on …"
+   ],
+   [
+    "f11",
+    "",
+    "Visa number … type … issued by …"
+   ],
+   [
+    "f12",
+    "",
+    "valid from … until …"
+   ],
+   [
+    "f13",
+    "",
+    "For a period of … days on the following grounds: …"
+   ],
+   [
+    "f14",
+    "",
+    "Coming from … by means of … (indicate means of transport used, e.g. flight number), he/she is hereby informed that he/she is refused entry into the country pursuant to <i>(indicate references to the national law in force)</i>, for the following reasons:"
+   ],
+   [
+    "fA",
+    "(A)",
+    "has no valid travel document(s)",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fB",
+    "(B)",
+    "has a false/counterfeit/forged travel document",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fC",
+    "(C)",
+    "has no valid visa or residence permit",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fD",
+    "(D)",
+    "has a false/counterfeit/forged visa or residence permit",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fE",
+    "(E)",
+    "has no appropriate documentaion justifying the purpose and conditions of stay.",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fE.s1",
+    "",
+    "The following document(s) colud not be provided: …",
+    {
+     "d": 1
+    }
+   ],
+   [
+    "fF",
+    "(F)",
+    "has already stayed for 90 days in the preceding 180-day period on the territory of the Member States of the European Union",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fG",
+    "(G)",
+    "does not have sufficient means of subsistence in relation to the period and form of stay, or the means to return to the country of origin or transit",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fH",
+    "(H)",
+    "is a person for whom an alert has been issued for the purposes of refusing entry",
+    {
+     "box": true
+    }
+   ],
+   [
+    "fH.1",
+    "",
+    "in the SIS",
+    {
+     "box": true,
+     "d": 1
+    }
+   ],
+   [
+    "fH.2",
+    "",
+    "in the national register",
+    {
+     "box": true,
+     "d": 1
+    }
+   ],
+   [
+    "fI",
+    "(I)",
+    "is considered to be a <i>threat to public policy, internal security, public health or the international relations</i> of one or more of the Member States of the European Union <i>(each State must indicate the references to national law relating to such cases of refusal of entry)</i>.",
+    {
+     "box": true
+    }
+   ],
+   [
+    "f15",
+    "",
+    "Comments"
+   ],
+   [
+    "f16",
+    "",
+    "The person concerned may appeal against the decision to refuse entry as provided for in national law. The person concerned receives a copy of this document (<i>each State must indicate the references to the national law and procedure relating to the right of appeal</i>)."
+   ],
+   [
+    "f17",
+    "",
+    "Person concerned"
+   ],
+   [
+    "f18",
+    "",
+    "Officer responsible<br>for checks"
+   ],
+   [
+    "fn1",
+    "(<sup>1</sup>)",
+    "No logo is required for Norway and Iceland."
+   ]
+  ]
+ },
+ "1498afb43939b68f": {
+  "base": "d91a0d752a6f6743",
+  "insertAfter": {
+   "fI": [
+    [
+     "fJ",
+     "(J)",
+     "has refused to provide biometric data, if required",
+     {
+      "box": true
+     }
+    ],
+    [
+     "fJ.1",
+     "",
+     "for the creation of the individual file in the Entry/Exit System",
+     {
+      "box": true,
+      "d": 1
+     }
+    ],
+    [
+     "fJ.2",
+     "",
+     "to carry out the border checks.",
+     {
+      "box": true,
+      "d": 1
+     }
+    ]
+   ],
+   "f15": [
+    [
+     "f15.1",
+     "",
+     "(to be marked by the border guard if data is stored in the Entry/Exit System)",
+     {
+      "box": true
+     }
+    ],
+    [
+     "f15.2",
+     "",
+     "The person concerned is hereby informed that her/his personal data and information on this refusal of entry are entered in the Entry/Exit System in accordance with Article 18 of Regulation (EU) 2017/2226.",
+     {
+      "d": 1
+     }
+    ],
+    [
+     "f15.3",
+     "",
+     "In accordance with Article 52 of Regulation (EU) 2017/2226, the person concerned has the right to obtain the data relating to her/him which are recorded in the Entry/Exit System and may request that data relating to her/him which are inaccurate be rectified and that data recorded unlawfully be erased.",
+     {
+      "d": 1
+     }
+    ]
+   ]
+  }
+ },
+ "f26c73a070ca7c36": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "Name des Staates"
+   ],
+   [
+    "f2",
+    "",
+    "Staatsemblem … (Name der Dienststelle) …"
+   ],
+   [
+    "f3",
+    "",
+    "… (<sup>1</sup>)"
+   ],
+   [
+    "f4",
+    "",
+    "BESTÄTIGUNG DES NACHWEISES FÜR DIE EINHALTUNG DER VORAUSSETZUNGEN FÜR DIE DAUER EINES KURZFRISTIGEN AUFENTHALTS, FALLS DAS REISEDOKUMENT KEINEN EINREISE- ODER AUSREISESTEMPEL AUFWEIST"
+   ],
+   [
+    "f5",
+    "",
+    "Am … um (Uhrzeit) … ist in (Ort) … vor der unterzeichnenden Behörde … vorstellig geworden:"
+   ],
+   [
+    "f6",
+    "",
+    "Name … Vorname …"
+   ],
+   [
+    "f7",
+    "",
+    "Geburtsdatum … Geburtsort … Geschlecht …"
+   ],
+   [
+    "f8",
+    "",
+    "Staatsangehörigkeit … wohnhaft in …"
+   ],
+   [
+    "f9",
+    "",
+    "Reisedokument … Nummer …"
+   ],
+   [
+    "f10",
+    "",
+    "ausgestellt in … am …"
+   ],
+   [
+    "f11",
+    "",
+    "Visumnummer … (gegebenenfalls) erteilt von …"
+   ],
+   [
+    "f13",
+    "",
+    "mit einer Gültigkeitsdauer von … Tagen zum Zwecke von …"
+   ],
+   [
+    "f14",
+    "",
+    "Aufgrund der Nachweise für die Dauer seines (ihres) Aufenthalts im Hoheitsgebiet der Mitgliedstaaten, die er (sie) erbracht hat, wird davon ausgegangen, dass er (sie) am … in … an der Grenzübergangsstelle … in den Mitgliedstaat … eingereist oder daraus ausgereist ist."
+   ],
+   [
+    "f15",
+    "",
+    "Kontaktaufnahme mit der unterzeichnenden Behörde über:"
+   ],
+   [
+    "f15.1",
+    "",
+    "Tel.: …"
+   ],
+   [
+    "f15.2",
+    "",
+    "Fax: …"
+   ],
+   [
+    "f15.3",
+    "",
+    "E-Mail: …"
+   ],
+   [
+    "f16",
+    "",
+    "Der/die Betroffene erhält eine Kopie dieses Dokuments."
+   ],
+   [
+    "f17",
+    "",
+    "Der/die Betroffene"
+   ],
+   [
+    "f18",
+    "",
+    "Der zuständige Beamte<br>+ Stempel"
+   ],
+   [
+    "fn1",
+    "(<sup>1</sup>)",
+    "Für Island und Norwegen ist kein Logo erforderlich."
+   ]
+  ]
+ },
+ "2a3c6e55d18d6f7d": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "Indication de l’État"
+   ],
+   [
+    "f2",
+    "",
+    "Logo de l'État … (Indication du bureau) …"
+   ],
+   [
+    "f3",
+    "",
+    "… (<sup>1</sup>)"
+   ],
+   [
+    "f4",
+    "",
+    "ACCEPTATION DES ÉLÉMENTS DE PREUVE CONCERNANT LE RESPECT DES CONDITIONS RELATIVES À LADURÉE D'UN COURT SÉJOUR DANS LE CAS OÙ LE DOCUMENT DE VOYAGE N’EST PAS REVÊTU DU CACHET D'ENTRÉE OU DE SORTIE"
+   ],
+   [
+    "f5",
+    "",
+    "Le … à (heure) … , à (lieu) … devant l’autorité soussignée, … s’est présenté(e):"
+   ],
+   [
+    "f6",
+    "",
+    "Nom … Prénom …"
+   ],
+   [
+    "f7",
+    "",
+    "Né(e) le … à … Sexe …"
+   ],
+   [
+    "f8",
+    "",
+    "Nationalité … résidant à …"
+   ],
+   [
+    "f9",
+    "",
+    "document de voyage: … numéro …"
+   ],
+   [
+    "f10",
+    "",
+    "délivré à … le …"
+   ],
+   [
+    "f11",
+    "",
+    "n<sup>o</sup> de visa … (s’il y a lieu) délivré par …"
+   ],
+   [
+    "f13",
+    "",
+    "d’une durée de … jours pour les raisons suivantes …"
+   ],
+   [
+    "f14",
+    "",
+    "Eu égard aux éléments de preuve présentés par la personne susmentionnée concernant la durée de son séjour sur le territoire des États membres, ladite personne est considérée comme étant entrée sur le/sortie du territoire de … (État membre), le … à … par le point de passage frontalier …"
+   ],
+   [
+    "f15",
+    "",
+    "Coordonnées de l’autorité soussignée:"
+   ],
+   [
+    "f15.1",
+    "",
+    "Tél.: …"
+   ],
+   [
+    "f15.2",
+    "",
+    "Fax: …"
+   ],
+   [
+    "f15.3",
+    "",
+    "Courrier électronique: …"
+   ],
+   [
+    "f16",
+    "",
+    "Une copie du présent document a été remise â l’intéressé(e)."
+   ],
+   [
+    "f17",
+    "",
+    "L’intéressé(e)"
+   ],
+   [
+    "f18",
+    "",
+    "Fonctionnaire responsable<br>+ cachet"
+   ],
+   [
+    "fn1",
+    "(<sup>1</sup>)",
+    "Symbole non applicable à l’Islande et à la Norvège."
+   ]
+  ]
+ },
+ "847372fb34db23a2": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "Name of State"
+   ],
+   [
+    "f2",
+    "",
+    "Logo of State … (Name of Office) …"
+   ],
+   [
+    "f3",
+    "",
+    "… (<sup>1</sup>)"
+   ],
+   [
+    "f4",
+    "",
+    "APPROVAL OF THE EVIDENCE REGARDING THE RESPECT OF THE CONDITION OF THE DURATION OF A SHORT STAY IN CASES WHERE THE TRAVEL DOCUMENT DOES NOT BEAR AN ENTRY OR EXIT STAMP"
+   ],
+   [
+    "f5",
+    "",
+    "On … at (time) … at (place) … We, the undersigning authority, … have before us:"
+   ],
+   [
+    "f6",
+    "",
+    "Surname … First name …"
+   ],
+   [
+    "f7",
+    "",
+    "Date of birth … Place of birth … Sex: …"
+   ],
+   [
+    "f8",
+    "",
+    "Nationality … Resident in …"
+   ],
+   [
+    "f9",
+    "",
+    "Travel document … number …"
+   ],
+   [
+    "f10",
+    "",
+    "Issued in … on …"
+   ],
+   [
+    "f11",
+    "",
+    "Visa number … (if applicable) issued by …"
+   ],
+   [
+    "f13",
+    "",
+    "for a period of … days on the following grounds: …"
+   ],
+   [
+    "f14",
+    "",
+    "Having regard to the evidence relating to the duration of his/her stay on the territory of the Member States that he/she) has provided, he/she) is considered to have entered or left the territory of the Member State … on … at … at the border crossing point …"
+   ],
+   [
+    "f15",
+    "",
+    "Contact details of the undersigning authority:"
+   ],
+   [
+    "f15.1",
+    "",
+    "Tel …"
+   ],
+   [
+    "f15.2",
+    "",
+    "Fax: …"
+   ],
+   [
+    "f15.3",
+    "",
+    "e-mail: …"
+   ],
+   [
+    "f16",
+    "",
+    "The person concerned will receive a copy of this document."
+   ],
+   [
+    "f17",
+    "",
+    "Person concerned"
+   ],
+   [
+    "f18",
+    "",
+    "Officer responsible<br>+ stamp"
+   ],
+   [
+    "fn1",
+    "(<sup>1</sup>)",
+    "No logo is required for Norway and Iceland."
+   ]
+  ]
+ },
+ "0f085ae791f83c2e": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "Name des Staates"
+   ],
+   [
+    "f2",
+    "",
+    "Staatsemblem (Name der Dienststelle) …"
+   ],
+   [
+    "f4",
+    "",
+    "VERFAHREN ZUR ÜBERSTELLUNG IN BINNENGRENZGEBIETEN"
+   ],
+   [
+    "f5",
+    "",
+    "Am (Datum) … um (Uhrzeit) … (Ort — bitte die Art der nächstgelegenen Binnengrenze oder sonstige relevante Informationen im Zusammenhang mit dem Aufgriff gemäß Artikel 23a des Schengener Grenzkodex angeben) …"
+   ],
+   [
+    "f5a",
+    "",
+    "ist dem Unterzeichnenden, … die folgende Person vorgeführt worden:"
+   ],
+   [
+    "f5b",
+    "",
+    "Personenbezogene Daten (sofern verfügbar)"
+   ],
+   [
+    "f6",
+    "",
+    "Nachname … Vorname …"
+   ],
+   [
+    "f7",
+    "",
+    "Geburtsdatum … Geburtsort … Geschlecht …"
+   ],
+   [
+    "f8",
+    "",
+    "Staatsangehörigkeit … wohnhaft in …"
+   ],
+   [
+    "f9",
+    "",
+    "Art des Identitätsdokuments … Nummer …"
+   ],
+   [
+    "f10",
+    "",
+    "Ausgestellt in … am …"
+   ],
+   [
+    "f11",
+    "",
+    "Visa Nr. (falls vorhanden) … Art … erteilt von …"
+   ],
+   [
+    "f12",
+    "",
+    "Gültig von … bis …"
+   ],
+   [
+    "f13",
+    "",
+    "Gültigkeitsdauer … Tage: …"
+   ],
+   [
+    "f14",
+    "",
+    "Er/sie kam aus … mit … (benutztes Transportmittel, z. B. Flugnummer, angeben) und wird hiermit davon in Kenntnis gesetzt, dass er/sie gemäß Artikel 23a des Schengener Grenzkodex nach … überstellt wird."
+   ],
+   [
+    "f14a",
+    "",
+    "Gründe für die Verweigerung des Aufenthalts in dem Mitgliedstaat:"
+   ],
+   [
+    "f15",
+    "",
+    "Bemerkungen"
+   ],
+   [
+    "f15.1",
+    "",
+    "Er/sie hat die Unterzeichnung dieses Formulars verweigert.",
+    {
+     "box": true
+    }
+   ],
+   [
+    "f16",
+    "",
+    "Die betroffene Person … Die zuständigen Behörden …"
+   ],
+   [
+    "f17",
+    "",
+    "Der/die Betroffene kann gemäß den nationalen Rechtsvorschriften Rechtsmittel gegen die Überstellung einlegen. Dem/der Betroffenen wird eine Kopie dieses Dokuments ausgehändigt. (Jeder Staat muss in Bezug auf das Rechtsmittel und die Kontaktstellen, die ihn/sie über eine rechtliche Vertretung, die im Namen des Drittstaatsangehörigen vorgehen kann, unterrichten können, Angaben zu den einschlägigen nationalen Rechtsvorschriften und Verfahren machen.)"
+   ]
+  ]
+ },
+ "7c4ab6a9b28172c2": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "Indication de l’État"
+   ],
+   [
+    "f2",
+    "",
+    "Logo de l’État (Indication du bureau) …"
+   ],
+   [
+    "f4",
+    "",
+    "PROCÉDURE DE TRANSFERT DANS LES ZONES FRONTALIÈRES INTÉRIEURES"
+   ],
+   [
+    "f5",
+    "",
+    "Le … à (heure) … au lieu dénommé (indiquer le type de frontière intérieure à proximité ou toute autre information utile relative à l’arrestation conformément à l’article 23 <i>bis</i> du code frontières Schengen) …"
+   ],
+   [
+    "f5a",
+    "",
+    "Devant les soussignés … s’est présenté(e):"
+   ],
+   [
+    "f5b",
+    "",
+    "Données à caractère personnel (si disponibles)"
+   ],
+   [
+    "f6",
+    "",
+    "Nom … Prénom …"
+   ],
+   [
+    "f7",
+    "",
+    "Né(e) le … à … Sexe …"
+   ],
+   [
+    "f8",
+    "",
+    "Nationalité … résidant à …"
+   ],
+   [
+    "f9",
+    "",
+    "identifié(e) au moyen de … numéro …"
+   ],
+   [
+    "f10",
+    "",
+    "délivré à … le …"
+   ],
+   [
+    "f11",
+    "",
+    "muni(e) d’un visa n<sup>o</sup> … de type … délivré par …"
+   ],
+   [
+    "f12",
+    "",
+    "valide du … au …"
+   ],
+   [
+    "f13",
+    "",
+    "d’une durée de … jours: …"
+   ],
+   [
+    "f14",
+    "",
+    "en provenance de …, arrivé(e) par … (identifier le moyen de transport utilisé, par exemple le numéro de vol), il ou elle a été informé(e) de son transfert vers … en vertu de l’article 23 <i>bis</i> du code frontières Schengen:"
+   ],
+   [
+    "f14a",
+    "",
+    "Motifs pour lesquels une personne n’a pas le droit de séjourner sur le territoire de l’État membre:"
+   ],
+   [
+    "f15",
+    "",
+    "Observations"
+   ],
+   [
+    "f15.1",
+    "",
+    "L’intéressé(e) a refusé de signer le formulaire.",
+    {
+     "box": true
+    }
+   ],
+   [
+    "f16",
+    "",
+    "L’intéressé(e) … Les autorités compétentes …"
+   ],
+   [
+    "f17",
+    "",
+    "L’intéressé(e) peut former un recours contre le transfert conformément au droit national. Copie de la présente décision est remise à l’intéressé(e) (chaque État doit indiquer les références à sa réglementation et à sa procédure nationales relatives au droit de recours ainsi que les points de contact en mesure de communiquer des informations sur des représentants compétents pour agir au nom du ressortissant de pays tiers)."
+   ]
+  ]
+ },
+ "9c30f9123a79d571": {
+  "blocks": [
+   [
+    "f1",
+    "",
+    "Name of State"
+   ],
+   [
+    "f2",
+    "",
+    "Logo of State (Name of Office) …"
+   ],
+   [
+    "f4",
+    "",
+    "TRANSFER PROCEDURE IN INTERNAL BORDER AREAS"
+   ],
+   [
+    "f5",
+    "",
+    "On … at (time) … at the location (indicate type of the internal border nearby or other relevant information related to the apprehension in accordance with Article 23a of the Schengen Borders Code)…"
+   ],
+   [
+    "f5a",
+    "",
+    "We, the undersigned, …have before us"
+   ],
+   [
+    "f5b",
+    "",
+    "Personal data (subject to availability)"
+   ],
+   [
+    "f6",
+    "",
+    "Surname… First name …"
+   ],
+   [
+    "f7",
+    "",
+    "Date of birth… Place of birth … Sex …"
+   ],
+   [
+    "f8",
+    "",
+    "Nationality … Resident in …"
+   ],
+   [
+    "f9",
+    "",
+    "Type of identity document … number …"
+   ],
+   [
+    "f10",
+    "",
+    "Issued in … on …"
+   ],
+   [
+    "f11",
+    "",
+    "Visa number, if any … type … issued by …"
+   ],
+   [
+    "f12",
+    "",
+    "Valid from … until …"
+   ],
+   [
+    "f13",
+    "",
+    "For a period of … days: …"
+   ],
+   [
+    "f14",
+    "",
+    "Coming from … by means of … (indicate means of transport used, e.g. flight number), he/she is hereby informed that he/she will be transferred to … pursuant to Article 23a of the Schengen Borders Code:"
+   ],
+   [
+    "f14a",
+    "",
+    "Grounds for finding that a person has no right to stay in the Member State:"
+   ],
+   [
+    "f15",
+    "",
+    "Comments"
+   ],
+   [
+    "f15.1",
+    "",
+    "The person concerned declined to sign the form.",
+    {
+     "box": true
+    }
+   ],
+   [
+    "f16",
+    "",
+    "Person Concerned … Responsible authorities …"
+   ],
+   [
+    "f17",
+    "",
+    "The person concerned may appeal against the transfer in accordance with national law. The person concerned receives a copy of this document (each State must indicate the references to the national law and procedure relating to the right of appeal as well as contact points able to provide information on representatives competent to act on behalf of the third-country national)."
+   ]
+  ]
+ }
+}

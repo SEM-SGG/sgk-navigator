@@ -1,0 +1,522 @@
+[
+ {
+  "celex": "32025R1534",
+  "from": "2025-10-12",
+  "until": "2026-04-09",
+  "period": {
+   "de": "Schrittweise Inbetriebnahme des EES (180 Tage ab 12. Oktober 2025)",
+   "fr": "Mise en service progressive de l’EES (180 jours à compter du 12 octobre 2025)",
+   "en": "Progressive start of operations of the EES (180 days from 12 October 2025)"
+  },
+  "periodBasis": {
+   "de": "Art. 2 Nr. 1 und Art. 8 der VO (EU) 2025/1534 i. V. m. Art. 1 des Durchführungsbeschlusses (EU) 2025/1544",
+   "fr": "art. 2, point 1), et art. 8 du règlement (UE) 2025/1534 en liaison avec l’art. 1er de la décision d’exécution (UE) 2025/1544",
+   "en": "point (1) of Article 2 and Article 8 of Regulation (EU) 2025/1534 in conjunction with Article 1 of Implementing Decision (EU) 2025/1544"
+  },
+  "affects": [
+   {
+    "unit": "art_8",
+    "key": "p9",
+    "effect": "suspended",
+    "note": {
+     "de": "Anwendung ausgesetzt.",
+     "fr": "Application suspendue.",
+     "en": "Application suspended."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 12 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 12, du règlement (UE) 2025/1534",
+     "en": "Article 5(12) of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_9",
+    "key": "p3",
+    "effect": "suspended",
+    "note": {
+     "de": "Anwendung ausgesetzt.",
+     "fr": "Application suspendue.",
+     "en": "Application suspended."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 4 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, quatrième alinéa, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), fourth subparagraph, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_12",
+    "key": null,
+    "effect": "suspended",
+    "note": {
+     "de": "Anwendung ausgesetzt; an ihrer Stelle gilt die Vermutungsregel von Art. 5 Abs. 4 der VO (EU) 2025/1534.",
+     "fr": "Application suspendue; la présomption de l’art. 5, par. 4, du règlement (UE) 2025/1534 s’applique à sa place.",
+     "en": "Application suspended; the presumption in Article 5(4) of Regulation (EU) 2025/1534 applies instead."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 4 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, quatrième alinéa, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), fourth subparagraph, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_12a",
+    "key": null,
+    "effect": "suspended",
+    "note": {
+     "de": "Übergangszeitraum und Übergangsmassnahmen gelten erst ab 10. April 2026.",
+     "fr": "La période et les mesures transitoires ne s’appliquent qu’à partir du 10 avril 2026.",
+     "en": "The transitional period and measures apply only from 10 April 2026."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 13 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 13, du règlement (UE) 2025/1534",
+     "en": "Article 5(13) of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_6",
+    "key": "p1.f.i",
+    "effect": "conditional",
+    "note": {
+     "de": "Gilt nicht an Grenzübergangsstellen, an denen das EES ohne biometrische Funktionen eingesetzt wird.",
+     "fr": "Ne s’applique pas aux points de passage où l’EES est mis en œuvre sans les fonctionnalités biométriques.",
+     "en": "Does not apply at border crossing points where the EES is operated without biometric functionalities."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 3 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, troisième alinéa, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), third subparagraph, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_6",
+    "key": "p1.f.ii",
+    "effect": "conditional",
+    "note": {
+     "de": "Biometrische Überprüfung für die Zwecke des EES gilt nicht an Grenzübergangsstellen mit EES ohne biometrische Funktionen.",
+     "fr": "La vérification biométrique aux fins de l’EES ne s’applique pas aux points de passage où l’EES fonctionne sans fonctionnalités biométriques.",
+     "en": "Biometric verification for EES purposes does not apply at border crossing points where the EES is operated without biometric functionalities."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 3 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, troisième alinéa, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), third subparagraph, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.a",
+    "effect": "conditional",
+    "note": {
+     "de": "Biometrische Überprüfung für die Zwecke des EES gilt nicht an Grenzübergangsstellen mit EES ohne biometrische Funktionen.",
+     "fr": "La vérification biométrique aux fins de l’EES ne s’applique pas aux points de passage où l’EES fonctionne sans fonctionnalités biométriques.",
+     "en": "Biometric verification for EES purposes does not apply at border crossing points where the EES is operated without biometric functionalities."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 3 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, troisième alinéa, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), third subparagraph, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_8",
+    "key": "p3.g",
+    "effect": "conditional",
+    "note": {
+     "de": "Biometrische Überprüfung für die Zwecke des EES gilt nicht an Grenzübergangsstellen mit EES ohne biometrische Funktionen.",
+     "fr": "La vérification biométrique aux fins de l’EES ne s’applique pas aux points de passage où l’EES fonctionne sans fonctionnalités biométriques.",
+     "en": "Biometric verification for EES purposes does not apply at border crossing points where the EES is operated without biometric functionalities."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 3 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, troisième alinéa, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), third subparagraph, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_42a",
+    "key": "p1.s2",
+    "effect": "modified",
+    "note": {
+     "de": "Stempelpflicht gilt sinngemäss auch in den Mitgliedstaaten, die das EES betreiben.",
+     "fr": "L’obligation d’apposer un cachet s’applique mutatis mutandis dans les États membres qui mettent en œuvre l’EES.",
+     "en": "The stamping obligation applies mutatis mutandis in the Member States operating the EES."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 2 Unterabs. 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 2, deuxième alinéa, du règlement (UE) 2025/1534",
+     "en": "Article 5(2), second subparagraph, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_42a",
+    "key": "p2",
+    "effect": "modified",
+    "note": {
+     "de": "Stempelpflicht gilt sinngemäss auch in den Mitgliedstaaten, die das EES betreiben.",
+     "fr": "L’obligation d’apposer un cachet s’applique mutatis mutandis dans les États membres qui mettent en œuvre l’EES.",
+     "en": "The stamping obligation applies mutatis mutandis in the Member States operating the EES."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 2 Unterabs. 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 2, deuxième alinéa, du règlement (UE) 2025/1534",
+     "en": "Article 5(2), second subparagraph, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_42a",
+    "key": "p5",
+    "effect": "modified",
+    "note": {
+     "de": "Stempelpflicht gilt sinngemäss auch in den Mitgliedstaaten, die das EES betreiben.",
+     "fr": "L’obligation d’apposer un cachet s’applique mutatis mutandis dans les États membres qui mettent en œuvre l’EES.",
+     "en": "The stamping obligation applies mutatis mutandis in the Member States operating the EES."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 2 Unterabs. 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 2, deuxième alinéa, du règlement (UE) 2025/1534",
+     "en": "Article 5(2), second subparagraph, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_42a",
+    "key": "p6",
+    "effect": "modified",
+    "note": {
+     "de": "Stempelpflicht gilt sinngemäss auch in den Mitgliedstaaten, die das EES betreiben.",
+     "fr": "L’obligation d’apposer un cachet s’applique mutatis mutandis dans les États membres qui mettent en œuvre l’EES.",
+     "en": "The stamping obligation applies mutatis mutandis in the Member States operating the EES."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 2 Unterabs. 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 2, deuxième alinéa, du règlement (UE) 2025/1534",
+     "en": "Article 5(2), second subparagraph, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_11",
+    "key": null,
+    "effect": "modified",
+    "note": {
+     "de": "Reisedokumente von Drittstaatsangehörigen nach Art. 2 Abs. 1 und 2 der VO (EU) 2017/2226 werden bei Ein- und Ausreise systematisch abgestempelt.",
+     "fr": "Les documents de voyage des ressortissants de pays tiers visés à l’art. 2, par. 1 et 2, du règlement (UE) 2017/2226 sont systématiquement revêtus d’un cachet à l’entrée et à la sortie.",
+     "en": "Travel documents of third-country nationals referred to in Article 2(1) and (2) of Regulation (EU) 2017/2226 are systematically stamped on entry and exit."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 2 Unterabs. 1 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 2, premier alinéa, du règlement (UE) 2025/1534",
+     "en": "Article 5(2), first subparagraph, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_2",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_6",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_6a",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_8",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_8a",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_8b",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_8c",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_8d",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_9",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_10",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_11",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_12",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_12a",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_14",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_20",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "art_42a",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "anx_III",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "anx_IV",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "anx_V",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   },
+   {
+    "unit": "anx_VII",
+    "key": null,
+    "effect": "conditional",
+    "note": {
+     "de": "Änderungen durch die VO (EU) 2017/2225 gelten nur an Grenzübergangsstellen mit EES; an den übrigen gilt der SGK in der Fassung vom 11. Oktober 2025.",
+     "fr": "Les modifications du règlement (UE) 2017/2225 ne s’appliquent qu’aux points de passage où l’EES est mis en œuvre; aux autres, le CFS s’applique dans sa version du 11 octobre 2025.",
+     "en": "The amendments made by Regulation (EU) 2017/2225 apply only at border crossing points where the EES is operated; at the others the SBC as applicable on 11 October 2025 applies."
+    },
+    "basis": {
+     "de": "Art. 5 Abs. 14 Unterabs. 1 und 2 der VO (EU) 2025/1534",
+     "fr": "art. 5, par. 14, premier et deuxième alinéas, du règlement (UE) 2025/1534",
+     "en": "Article 5(14), first and second subparagraphs, of Regulation (EU) 2025/1534"
+    }
+   }
+  ],
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32025R1534",
+   "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32025R1534",
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R1534",
+   "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32025D1544",
+   "https://commission.europa.eu/news-and-media/news/more-secure-efficient-and-convenient-way-travelling-non-eu-nationals-2026-04-10_en"
+  ],
+  "confidence": "verified"
+ }
+]

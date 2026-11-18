@@ -1,0 +1,39 @@
+<!-- @dsCard group="Formulare" height=190 -->
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>body{margin:0;background:var(--canvas)}</style>
+</head>
+<body>
+<div class="ui-root" style="padding: 24px; background: var(--canvas)">
+<div style="display: grid; grid-template-columns: 340px 220px 300px; gap: 24px; align-items: end">
+<label class="ui-field"><span class="ui-label">Einheit</span><span class="ui-select-wrap"><select class="ui-select"><option>Art. 8: Grenzübertrittskontrollen von Personen</option></select><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg></span></label>
+<label class="ui-field"><span class="ui-label">Bestimmung</span><span class="ui-select-wrap"><select class="ui-select"><option>Art. 8 Abs. 3 Bst. a Ziff. i</option></select><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg></span></label>
+<label class="ui-field"><span class="ui-label">Suche</span><span class="ui-input-wrap"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l4.5 4.5"></path></svg><input class="ui-input ui-input--search" placeholder="Art. 8a, Anhang V oder Stichwort"></span></label>
+<label class="ui-field"><span class="ui-label">Stichtag</span><input class="ui-input" value="12.10.2025"></label>
+<label class="ui-field is-error"><span class="ui-label">Zuständige Stelle</span><input class="ui-input" value=""><span class="ui-helper">Pflichtfeld, z. B. SEM/SGG</span></label>
+</div>
+</div>
+<script>
+document.querySelectorAll('.ui-seg').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('[role="tablist"]').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('[role="tab"]'); if (!b) return;
+    g.querySelectorAll('[role="tab"]').forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('.ui-stagebar').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('.ui-stage'); if (!b) return;
+    g.querySelectorAll('.ui-stage').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+</script>
+</body>
+</html>

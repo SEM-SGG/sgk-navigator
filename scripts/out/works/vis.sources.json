@@ -1,0 +1,1207 @@
+{
+ "id": "vis",
+ "celex": "32008R0767",
+ "versionsFrom": "cache",
+ "versions": [
+  "02008R0767-20100405",
+  "02008R0767-20131018",
+  "02008R0767-20171229",
+  "02008R0767-20190611",
+  "02008R0767-20210803",
+  "02008R0767-20220803",
+  "02008R0767-20230803",
+  "02008R0767-20231227",
+  "02008R0767-20251012",
+  "02008R0767-20260612"
+ ],
+ "skipped": [],
+ "availability": {
+  "32008R0767": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02008R0767-20100405": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02008R0767-20131018": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02008R0767-20171229": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02008R0767-20190611": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02008R0767-20210803": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02008R0767-20220803": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02008R0767-20230803": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02008R0767-20231227": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02008R0767-20251012": [
+   "de",
+   "fr",
+   "en"
+  ],
+  "02008R0767-20260612": [
+   "de",
+   "fr",
+   "en"
+  ]
+ },
+ "stages": [
+  {
+   "id": "s00",
+   "celex": "32008R0767",
+   "date": "2008-08-13",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32008R0767"
+   ],
+   "modifiers": [],
+   "droppedFromList": []
+  },
+  {
+   "id": "s01",
+   "celex": "02008R0767-20100405",
+   "date": "2010-04-05",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32009R0810"
+   ],
+   "modifiers": [
+    "32009R0810"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s02",
+   "celex": "02008R0767-20131018",
+   "date": "2013-10-18",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32013R0610"
+   ],
+   "modifiers": [
+    "32009R0810",
+    "32013R0610"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s03",
+   "celex": "02008R0767-20171229",
+   "date": "2017-12-29",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32017R2226",
+    "32008R0767R(05)"
+   ],
+   "modifiers": [
+    "32009R0810",
+    "32013R0610",
+    "32017R2226",
+    "32008R0767R(05)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s04",
+   "celex": "02008R0767-20190611",
+   "date": "2019-06-11",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32019R0817",
+    "32017R2226R(01)",
+    "32017R2226R(03)"
+   ],
+   "modifiers": [
+    "32009R0810",
+    "32013R0610",
+    "32017R2226",
+    "32019R0817",
+    "32017R2226R(01)",
+    "32008R0767R(05)",
+    "32017R2226R(03)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s05",
+   "celex": "02008R0767-20210803",
+   "date": "2021-08-03",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32021R1134",
+    "32021R1152"
+   ],
+   "modifiers": [
+    "32009R0810",
+    "32013R0610",
+    "32017R2226",
+    "32019R0817",
+    "32021R1134",
+    "32021R1152",
+    "32017R2226R(01)",
+    "32008R0767R(05)",
+    "32017R2226R(03)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s06",
+   "celex": "02008R0767-20220803",
+   "date": "2022-08-03",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32021R1134"
+   ],
+   "modifiers": [
+    "32009R0810",
+    "32013R0610",
+    "32017R2226",
+    "32019R0817",
+    "32021R1134",
+    "32021R1152",
+    "32017R2226R(01)",
+    "32008R0767R(05)",
+    "32017R2226R(03)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s07",
+   "celex": "02008R0767-20230803",
+   "date": "2023-08-03",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32021R1134"
+   ],
+   "modifiers": [
+    "32009R0810",
+    "32013R0610",
+    "32017R2226",
+    "32019R0817",
+    "32021R1134",
+    "32021R1152",
+    "32017R2226R(01)",
+    "32008R0767R(05)",
+    "32017R2226R(03)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s08",
+   "celex": "02008R0767-20231227",
+   "date": "2023-12-27",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32023R2667"
+   ],
+   "modifiers": [
+    "32009R0810",
+    "32013R0610",
+    "32017R2226",
+    "32019R0817",
+    "32021R1134",
+    "32021R1152",
+    "32023R2667",
+    "32017R2226R(01)",
+    "32008R0767R(05)",
+    "32017R2226R(03)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s09",
+   "celex": "02008R0767-20251012",
+   "date": "2025-10-12",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [],
+   "modifiers": [
+    "32009R0810",
+    "32013R0610",
+    "32017R2226",
+    "32019R0817",
+    "32021R1134",
+    "32021R1152",
+    "32023R2667",
+    "32017R2226R(01)",
+    "32008R0767R(05)",
+    "32017R2226R(03)"
+   ],
+   "droppedFromList": []
+  },
+  {
+   "id": "s10",
+   "celex": "02008R0767-20260612",
+   "date": "2026-06-12",
+   "langs": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "acts": [
+    "32024R1356",
+    "32024R1356R(01)"
+   ],
+   "modifiers": [
+    "32009R0810",
+    "32013R0610",
+    "32017R2226",
+    "32019R0817",
+    "32021R1134",
+    "32021R1152",
+    "32023R2667",
+    "32024R1356",
+    "32017R2226R(01)",
+    "32024R1356R(01)",
+    "32008R0767R(05)",
+    "32017R2226R(03)"
+   ],
+   "droppedFromList": []
+  }
+ ],
+ "recitals": {
+  "de": {
+   "recitals": 33,
+   "blocks": 34
+  },
+  "fr": {
+   "recitals": 33,
+   "blocks": 34
+  },
+  "en": {
+   "recitals": 33,
+   "blocks": 34
+  }
+ },
+ "attributions": {
+  "total": 930,
+  "unexplained": [
+   {
+    "stage": "s03",
+    "lang": "fr",
+    "unit": "art_23",
+    "key": "p1.d",
+    "change": "editorial",
+    "act": "32009R0810",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s07",
+    "lang": "en",
+    "unit": "art_19",
+    "key": "p2.c",
+    "change": "editorial",
+    "act": "32009R0810",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s07",
+    "lang": "en",
+    "unit": "art_20",
+    "key": "p2.d",
+    "change": "editorial",
+    "act": "32009R0810",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s07",
+    "lang": "en",
+    "unit": "art_22",
+    "key": "p2.d",
+    "change": "editorial",
+    "act": "32009R0810",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s07",
+    "lang": "en",
+    "unit": "art_23",
+    "key": "p1.d",
+    "change": "editorial",
+    "act": "32009R0810",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s08",
+    "lang": "en",
+    "unit": "art_19",
+    "key": "p2.c",
+    "change": "editorial",
+    "act": "32009R0810",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s08",
+    "lang": "en",
+    "unit": "art_20",
+    "key": "p2.d",
+    "change": "editorial",
+    "act": "32009R0810",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s08",
+    "lang": "en",
+    "unit": "art_22",
+    "key": "p2.d",
+    "change": "editorial",
+    "act": "32009R0810",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   },
+   {
+    "stage": "s08",
+    "lang": "en",
+    "unit": "art_23",
+    "key": "p1.d",
+    "change": "editorial",
+    "act": "32009R0810",
+    "how": "Herkunft o",
+    "x": "editorial",
+    "explained": false,
+    "why": null
+   }
+  ]
+ },
+ "meta": {
+  "32008R0767": {
+   "title": {
+    "fr": "Règlement (CE) n o 767/2008 du Parlement européen et du Conseil du 9 juillet 2008 concernant le système d'information sur les visas (VIS) et l'échange de données entre les États membres sur les visas de court séjour (règlement VIS)",
+    "en": "Regulation (EC) No 767/2008 of the European Parliament and of the Council of 9 July 2008 concerning the Visa Information System (VIS) and the exchange of data between Member States on short-stay visas (VIS Regulation)",
+    "de": "Verordnung (EG) Nr. 767/2008 des Europäischen Parlaments und des Rates vom 9. Juli 2008 über das Visa-Informationssystem (VIS) und den Datenaustausch zwischen den Mitgliedstaaten über Visa für einen kurzfristigen Aufenthalt (VIS-Verordnung)"
+   },
+   "adopted": "2008-07-09",
+   "eif": [
+    "2008-09-02"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2008/767/oj"
+  },
+  "32009R0810": {
+   "title": {
+    "fr": "Règlement (CE) n o 810/2009 du Parlement européen et du Conseil du 13 juillet 2009 établissant un code communautaire des visas (code des visas)",
+    "en": "Regulation (EC) No 810/2009 of the European Parliament and of the Council of 13 July 2009 establishing a Community Code on Visas (Visa Code)",
+    "de": "Verordnung (EG) Nr. 810/2009 des Europäischen Parlaments und des Rates vom 13. Juli 2009 über einen Visakodex der Gemeinschaft (Visakodex)"
+   },
+   "adopted": "2009-07-13",
+   "eif": [
+    "2009-10-05",
+    "2010-04-05"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2009/810/oj"
+  },
+  "32013R0610": {
+   "title": {
+    "en": "Regulation (EU) No 610/2013 of the European Parliament and of the Council of 26 June 2013 amending Regulation (EC) No 562/2006 of the European Parliament and of the Council establishing a Community Code on the rules governing the movement of persons across borders (Schengen Borders Code), the Convention implementing the Schengen Agreement, Council Regulations (EC) No 1683/95 and (EC) No 539/2001 and Regulations (EC) No 767/2008 and (EC) No 810/2009 of the European Parliament and of the Council",
+    "de": "Verordnung (EU) Nr. 610/2013 des Europäischen Parlaments und des Rates vom 26. Juni 2013 zur Änderung der Verordnung (EG) Nr. 562/2006 des Europäischen Parlaments und des Rates über einen Gemeinschaftskodex für das Überschreiten der Grenzen durch Personen (Schengener Grenzkodex), des Übereinkommens zur Durchführung des Übereinkommens von Schengen, die Verordnungen (EG) Nr. 1683/95 und (EG) Nr. 539/2001 des Rates sowie die Verordnungen (EG) Nr. 767/2008 und (EG) Nr. 810/2009 des Europäischen Parlaments und des Rates",
+    "fr": "Règlement (UE) n ° 610/2013 du Parlement européen et du Conseil du 26 juin 2013 modifiant le règlement (CE) n ° 562/2006 du Parlement européen et du Conseil établissant un code communautaire relatif au régime de franchissement des frontières par les personnes (code frontières Schengen), la convention d'application de l'accord de Schengen, les règlements (CE) n ° 1683/95 et (CE) n ° 539/2001 du Conseil et les règlements (CE) n ° 767/2008 et (CE) n ° 810/2009 du Parlement européen et du Conseil"
+   },
+   "adopted": "2013-06-26",
+   "eif": [
+    "2013-07-19",
+    "2013-10-18"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2013/610/oj"
+  },
+  "32017R2226": {
+   "title": {
+    "de": "Verordnung (EU) 2017/2226 des Europäischen Parlaments und des Rates vom 30. November 2017 über ein Einreise-/Ausreisesystem (EES) zur Erfassung der Ein- und Ausreisedaten sowie der Einreiseverweigerungsdaten von Drittstaatsangehörigen an den Außengrenzen der Mitgliedstaaten und zur Festlegung der Bedingungen für den Zugang zum EES zu Gefahrenabwehr- und Strafverfolgungszwecken und zur Änderung des Übereinkommens zur Durchführung des Übereinkommens von Schengen sowie der Verordnungen (EG) Nr. 767/2008 und (EU) Nr. 1077/2011",
+    "fr": "Règlement (UE) 2017/2226 du Parlement européen et du Conseil du 30 novembre 2017 portant création d’un système d’entrée/de sortie (EES) pour enregistrer les données relatives aux entrées, aux sorties et aux refus d’entrée concernant les ressortissants de pays tiers qui franchissent les frontières extérieures des États membres et portant détermination des conditions d’accès à l’EES à des fins répressives, et modifiant la convention d’application de l’accord de Schengen et les règlements (CE) no 767/2008 et (UE) no 1077/2011",
+    "en": "Regulation (EU) 2017/2226 of the European Parliament and of the Council of 30 November 2017 establishing an Entry/Exit System (EES) to register entry and exit data and refusal of entry data of third-country nationals crossing the external borders of the Member States and determining the conditions for access to the EES for law enforcement purposes, and amending the Convention implementing the Schengen Agreement and Regulations (EC) No 767/2008 and (EU) No 1077/2011"
+   },
+   "adopted": "2017-11-30",
+   "eif": [
+    "2017-12-29",
+    "2025-10-12"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2017/2226/oj"
+  },
+  "32019R0817": {
+   "title": {
+    "fr": "Règlement (UE) 2019/817 du Parlement européen et du Conseil du 20 mai 2019 portant établissement d'un cadre pour l'interopérabilité des systèmes d'information de l'UE dans le domaine des frontières et des visas et modifiant les règlements (CE) n° 767/2008, (UE) 2016/399, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1726 et (UE) 2018/1861 du Parlement européen et du Conseil et les décisions 2004/512/CE et 2008/633/JAI du Conseil",
+    "de": "Verordnung (EU) 2019/817 des Europäischen Parlaments und des Rates vom 20. Mai 2019 zur Errichtung eines Rahmens für die Interoperabilität zwischen EU-Informationssystemen in den Bereichen Grenzen und Visa und zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 und (EU) 2018/1861 des Europäischen Parlaments und des Rates, der Entscheidung 2004/512/EG des Rates und des Beschlusses 2008/633/JI des Rates",
+    "en": "Regulation (EU) 2019/817 of the European Parliament and of the Council of 20 May 2019 on establishing a framework for interoperability between EU information systems in the field of borders and visa and amending Regulations (EC) No 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 and (EU) 2018/1861 of the European Parliament and of the Council and Council Decisions 2004/512/EC and 2008/633/JHA"
+   },
+   "adopted": "2019-05-20",
+   "eif": [
+    "2019-06-11",
+    "2025-05-19",
+    "2026-06-12"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2019/817/oj"
+  },
+  "32021R1134": {
+   "title": {
+    "fr": "Règlement (UE) 2021/1134 du Parlement européen et du Conseil du 7 juillet 2021 modifiant les règlements (CE) no 767/2008, (CE) no 810/2009, (UE) 2016/399, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1860, (UE) 2018/1861, (UE) 2019/817 et (UE) 2019/1896 du Parlement européen et du Conseil et abrogeant les décisions 2004/512/CE et 2008/633/JAI du Conseil, aux fins de réformer le système d’information sur les visas",
+    "en": "Regulation (EU) 2021/1134 of the European Parliament and of the Council of 7 July 2021 amending Regulations (EC) No 767/2008, (EC) No 810/2009, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861, (EU) 2019/817 and (EU) 2019/1896 of the European Parliament and of the Council and repealing Council Decisions 2004/512/EC and 2008/633/JHA, for the purpose of reforming the Visa Information System",
+    "de": "Verordnung (EU) 2021/1134 des Europäischen Parlaments und des Rates vom 7. Juli 2021 zur Änderung der Verordnungen (EG) Nr. 767/2008, (EG) Nr. 810/2009, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861, (EU) 2019/817 und (EU) 2019/1896 des Europäischen Parlaments und des Rates und zur Aufhebung der Entscheidung 2004/512/EG und des Beschlusses 2008/633/JI des Rates zur Reform des Visa-Informationssystems"
+   },
+   "adopted": "2021-07-07",
+   "eif": [
+    "2021-08-02",
+    "2022-08-03",
+    "2023-08-03"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2021/1134/oj"
+  },
+  "32021R1152": {
+   "title": {
+    "en": "Regulation (EU) 2021/1152 of the European Parliament and of the Council of 7 July 2021 amending Regulations (EC) No 767/2008, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861 and (EU) 2019/817 as regards the establishment of the conditions for accessing other EU information systems for the purposes of the European Travel Information and Authorisation System",
+    "de": "Verordnung (EU) 2021/1152 des Europäischen Parlaments und des Rates vom 7. Juli 2021 zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1860, (EU) 2018/1861 und (EU) 2019/817 hinsichtlich der Festlegung der Bedingungen für den Zugang zu anderen EU-Informationssystemen für die Zwecke des Europäischen Reiseinformations- und -genehmigungssystems",
+    "fr": "Règlement (UE) 2021/1152 du Parlement européen et du Conseil du 7 juillet 2021 modifiant les règlements (CE) no 767/2008, (UE) 2017/2226, (UE) 2018/1240, (UE) 2018/1860, (UE) 2018/1861 et (UE) 2019/817 en ce qui concerne l’établissement des conditions d’accès aux autres systèmes d’information de l’UE aux fins du système européen d’information et d’autorisation concernant les voyages"
+   },
+   "adopted": "2021-07-07",
+   "eif": [
+    "2021-08-03"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2021/1152/oj"
+  },
+  "32024R1356": {
+   "title": {
+    "de": "Verordnung (EU) 2024/1356 des Europäischen Parlaments und des Rates vom 14. Mai 2024 zur Einführung der Überprüfung von Drittstaatsangehörigen an den Außengrenzen und zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2017/2226, (EU) 2018/1240 und (EU) 2019/817",
+    "fr": "Règlement (UE) 2024/1356 du Parlement européen et du Conseil du 14 mai 2024 établissant le filtrage des ressortissants de pays tiers aux frontières extérieures et modifiant les règlements (CE) n° 767/2008, (UE) 2017/2226, (UE) 2018/1240 et (UE) 2019/817",
+    "en": "Regulation (EU) 2024/1356 of the European Parliament and of the Council of 14 May 2024 introducing the screening of third-country nationals at the external borders and amending Regulations (EC) No 767/2008, (EU) 2017/2226, (EU) 2018/1240 and (EU) 2019/817"
+   },
+   "adopted": "2024-05-14",
+   "eif": [
+    "2024-06-11",
+    "2026-06-12"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2024/1356/oj"
+  },
+  "32023R2667": {
+   "title": {
+    "de": "Verordnung (EU) 2023/2667 des Europäischen Parlaments und des Rates vom 22. November 2023 zur Änderung der Verordnungen (EG) Nr. 767/2008, (EG) Nr. 810/2009 und (EU) 2017/2226 des Europäischen Parlaments und des Rates, der Verordnungen (EG) Nr. 693/2003 und (EG) Nr. 694/2003 des Rates und des Übereinkommens zur Durchführung des Übereinkommens von Schengen in Hinblick auf die Digitalisierung des Visumverfahrens",
+    "fr": "Règlement (UE) 2023/2667 du Parlement européen et du Conseil du 22 novembre 2023 modifiant les règlements (CE) no 767/2008, (CE) no 810/2009 et (UE) 2017/2226 du Parlement européen et du Conseil, les règlements (CE) no 693/2003 et (CE) no 694/2003 du Conseil ainsi que la convention d’application de l’accord de Schengen, en ce qui concerne la numérisation de la procédure de demande de visa",
+    "en": "Regulation (EU) 2023/2667 of the European Parliament and of the Council of 22 November 2023 amending Regulations (EC) No 767/2008, (EC) No 810/2009 and (EU) 2017/2226 of the European Parliament and of the Council, Council Regulations (EC) No 693/2003 and (EC) No 694/2003 and Convention implementing the Schengen Agreement, as regards the digitalisation of the visa procedure"
+   },
+   "adopted": "2023-11-22",
+   "eif": [
+    "2023-12-27",
+    "2024-06-28"
+   ],
+   "eli": "http://data.europa.eu/eli/reg/2023/2667/oj"
+  },
+  "32017R2226R(01)": {
+   "title": {
+    "de": "Berichtigung der Verordnung (EU) 2017/2226 des Europäischen Parlaments und des Rates vom 30. November 2017 über ein Einreise-/Ausreisesystem (EES) zur Erfassung der Ein- und Ausreisedaten sowie der Einreiseverweigerungsdaten von Drittstaatsangehörigen an den Außengrenzen der Mitgliedstaaten und zur Festlegung der Bedingungen für den Zugang zum EES zu Gefahrenabwehr- und Strafverfolgungszwecken und zur Änderung des Übereinkommens zur Durchführung des Übereinkommens von Schengen sowie der Verordnungen (EG) Nr. 767/2008 und (EU) Nr. 1077/2011 (ABl. L 327 vom 9.12.2017)",
+    "en": "Corrigendum to Regulation (EU) 2017/2226 of the European Parliament and of the Council of 30 November 2017 establishing an Entry/Exit System (EES) to register entry and exit data and refusal of entry data of third-country nationals crossing the external borders of the Member States and determining the conditions for access to the EES for law enforcement purposes, and amending the Convention implementing the Schengen Agreement and Regulations (EC) No 767/2008 and (EU) No 1077/2011 (OJ L 327, 9.12.2017)",
+    "fr": "Rectificatif au règlement (UE) 2017/2226 du Parlement européen et du Conseil du 30 novembre 2017 portant création d’un système d’entrée/de sortie (EES) pour enregistrer les données relatives aux entrées, aux sorties et aux refus d’entrée concernant les ressortissants de pays tiers qui franchissent les frontières extérieures des États membres et portant détermination des conditions d’accès à l’EES à des fins répressives, et modifiant la convention d’application de l’accord de Schengen et les règlements (CE) no 767/2008 et (UE) no 1077/2011 (JO L 327 du 9.12.2017)"
+   },
+   "adopted": "2018-10-15",
+   "eif": [],
+   "eli": "http://data.europa.eu/eli/reg/2017/2226/corrigendum/2018-10-15/oj"
+  },
+  "32008R0767R(05)": {
+   "title": {
+    "en": "Corrigendum to Regulation (EC) No 767/2008 of the European Parliament and of the Council of 9 July 2008 concerning the Visa Information System (VIS) and the exchange of data between Member States on short-stay visas (VIS Regulation) (OJ L 218, 13.8.2008)",
+    "fr": "Rectificatif au règlement (CE) no 767/2008 du Parlement européen et du Conseil du 9 juillet 2008 concernant le système d’information sur les visas (VIS) et l’échange de données entre les États membres sur les visas de court séjour (règlement VIS) (JO L 218 du 13.8.2008)"
+   },
+   "adopted": "2018-11-12",
+   "eif": [],
+   "eli": "http://data.europa.eu/eli/reg/2008/767/corrigendum/2018-11-12/oj"
+  },
+  "32017R2226R(03)": {
+   "title": {
+    "en": "Corrigendum to Regulation (EU) 2017/2226 of the European Parliament and of the Council of 30 November 2017 establishing an Entry/Exit System (EES) to register entry and exit data and refusal of entry data of third-country nationals crossing the external borders of the Member States and determining the conditions for access to the EES for law enforcement purposes, and amending the Convention implementing the Schengen Agreement and Regulations (EC) No 767/2008 and (EU) No 1077/2011 (OJ L 327, 9.12.2017)"
+   },
+   "adopted": "2019-05-03",
+   "eif": [],
+   "eli": "http://data.europa.eu/eli/reg/2017/2226/corrigendum/2019-05-03/oj"
+  },
+  "32024R1356R(01)": {
+   "title": {
+    "de": "Berichtigung der Verordnung (EU) 2024/1356 des Europäischen Parlaments und des Rates vom 14. Mai 2024 zur Einführung der Überprüfung von Drittstaatsangehörigen an den Außengrenzen und zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2017/2226, (EU) 2018/1240 und (EU) 2019/817 (ABl. L, 2024/1356, 22.5.2024)",
+    "en": "Corrigendum to Regulation (EU) 2024/1356 of the European Parliament and of the Council of 14 May 2024 introducing the screening of third-country nationals at the external borders and amending Regulations (EC) No 767/2008, (EU) 2017/2226, (EU) 2018/1240 and (EU) 2019/817 (OJ L, 2024/1356, 22.5.2024)",
+    "fr": "Rectificatif au règlement (UE) 2024/1356 du Parlement européen et du Conseil du 14 mai 2024 établissant le filtrage des ressortissants de pays tiers aux frontières extérieures et modifiant les règlements (CE) n° 767/2008, (UE) 2017/2226, (UE) 2018/1240 et (UE) 2019/817 (JO L, 2024/1356, 22.5.2024)"
+   },
+   "adopted": "2025-11-25",
+   "eif": [],
+   "eli": "http://data.europa.eu/eli/reg/2024/1356/corrigendum/2025-11-25/oj"
+  }
+ },
+ "output": {
+  "dataset": {
+   "bytes": 881665,
+   "sha256": "2ef1b36c87ced2c3747c70fe8cd75708bfe250fd61badd5eca4bd18cc5bd1f73"
+  },
+  "acts": {
+   "bytes": 41548,
+   "sha256": "b88f8324b9f470a2b24d6536f86ad5ee840da583a33342ab3d43e0ce3cc169db"
+  }
+ },
+ "editorial": [
+  {
+   "unit": "art_10",
+   "key": "p1.j",
+   "lang": "de",
+   "stage": "s01",
+   "kind": "editorial",
+   "before": "gegebenenfalls die Angabe, dass das Visum gemäß der Verordnung (EG) Nr. 333/2002 des Rates vom 18. Februar 2002 über die einheitliche Gestaltung des Formblatts für die Anbringung eines Visums, das die Mitgliedstaaten den Inhabern eines von dem betreffenden Mitgliedstaat nicht anerkannten Reisedokuments erteilen, auf einem gesonderten Formblatt erteilt wurde.",
+   "after": "gegebenenfalls die Angabe, dass das Visum gemäß der Verordnung (EG) Nr. 333/2002 des Rates vom 18. Februar 2002 über die einheitliche Gestaltung des Formblatts für die Anbringung eines Visums, das die Mitgliedstaaten den Inhabern eines von dem betreffenden Mitgliedstaat nicht anerkannten Reisedokuments erteilen, auf einem gesonderten Formblatt erteilt wurde;"
+  },
+  {
+   "unit": "art_10",
+   "key": "p1.j",
+   "lang": "fr",
+   "stage": "s01",
+   "kind": "editorial",
+   "before": "s'il y a lieu, les informations indiquant que le visa a été délivré sur un feuillet séparé, conformément au règlement (CE) n<sup>o</sup> 333/2002 du Conseil du 18 février 2002 établissant un modèle uniforme de feuillet pour l'apposition d'un visa délivré par les États membres aux titulaires d'un document de voyage non reconnu par l'État membre qui établit le feuillet.",
+   "after": "s'il y a lieu, les informations indiquant que le visa a été délivré sur un feuillet séparé, conformément au règlement (CE) n<sup>o</sup> 333/2002 du Conseil du 18 février 2002 établissant un modèle uniforme de feuillet pour l'apposition d'un visa délivré par les États membres aux titulaires d'un document de voyage non reconnu par l'État membre qui établit le feuillet;"
+  },
+  {
+   "unit": "art_10",
+   "key": "p1.j",
+   "lang": "en",
+   "stage": "s01",
+   "kind": "editorial",
+   "before": "if applicable, the information indicating that the visa has been issued on a separate sheet in accordance with Council Regulation (EC) No 333/2002 of 18 February 2002 on a uniform format for forms for affixing the visa issued by Member States to persons holding travel documents not recognised by the Member State drawing up the form.",
+   "after": "if applicable, the information indicating that the visa has been issued on a separate sheet in accordance with Council Regulation (EC) No 333/2002 of 18 February 2002 on a uniform format for forms for affixing the visa issued by Member States to persons holding travel documents not recognised by the Member State drawing up the form;"
+  },
+  {
+   "unit": "art_10",
+   "key": "p1.k",
+   "lang": "de",
+   "stage": "s03",
+   "kind": "editorial",
+   "before": "gegebenenfalls die Angabe, dass die Visummarke handschriftlich ausgefüllt wurde.",
+   "after": "gegebenenfalls die Angabe, dass die Visummarke handschriftlich ausgefüllt wurde;"
+  },
+  {
+   "unit": "art_10",
+   "key": "p1.k",
+   "lang": "fr",
+   "stage": "s03",
+   "kind": "editorial",
+   "before": "s’il y a lieu, les informations indiquant que la vignette-visa a été remplie à la main.",
+   "after": "s’il y a lieu, les informations indiquant que la vignette-visa a été remplie à la main;"
+  },
+  {
+   "unit": "art_10",
+   "key": "p1.k",
+   "lang": "en",
+   "stage": "s03",
+   "kind": "editorial",
+   "before": "if applicable, the information indicating that the visa sticker has been filled in manually.",
+   "after": "if applicable, the information indicating that the visa sticker has been filled in manually;"
+  },
+  {
+   "unit": "art_23",
+   "key": "p1.d",
+   "lang": "fr",
+   "stage": "s03",
+   "kind": "editorial",
+   "before": "à la date de la décision de l'autorité chargée des visas, en cas de refus, d'annulation de retrait d'un visa.",
+   "after": "à la date de la décision de l'autorité chargée des visas, en cas de refus, d'annulation ou de retrait d'un visa."
+  },
+  {
+   "unit": "art_4",
+   "key": "n11",
+   "lang": "de",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "„alphanumerische Daten“: Daten in Form von Buchstaben, Ziffern, Sonderzeichen, Leerzeichen und Satzzeichen.",
+   "after": "„alphanumerische Daten“: Daten in Form von Buchstaben, Ziffern, Sonderzeichen, Leerzeichen und Satzzeichen;"
+  },
+  {
+   "unit": "art_4",
+   "key": "n11",
+   "lang": "fr",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "«données alphanumériques», les données représentées par des lettres, des chiffres, des caractères spéciaux, des espaces et des signes de ponctuation.",
+   "after": "«données alphanumériques», les données représentées par des lettres, des chiffres, des caractères spéciaux, des espaces et des signes de ponctuation;"
+  },
+  {
+   "unit": "art_4",
+   "key": "n11",
+   "lang": "en",
+   "stage": "s04",
+   "kind": "editorial",
+   "before": "‘alphanumeric data’ means data represented by letters, digits, special characters, spaces and punctuation marks.",
+   "after": "‘alphanumeric data’ means data represented by letters, digits, special characters, spaces and punctuation marks;"
+  },
+  {
+   "unit": "art_19",
+   "key": "p2.c",
+   "lang": "en",
+   "stage": "s07",
+   "kind": "editorial",
+   "before": "the data entered in respect of the visa(s) issued, annulled, revoked or whose validity is extended, referred to in Articles 10, 13 and 14.",
+   "after": "the data entered in respect of the visa(s) issued, annulled, revoked or whose validity is extended or shortened, referred to in Articles 10, 13 and 14."
+  },
+  {
+   "unit": "art_20",
+   "key": "p2.d",
+   "lang": "en",
+   "stage": "s07",
+   "kind": "editorial",
+   "before": "the data entered in respect of any visa issued, refused, annulled, revoked or whose validity is extended, or of applications where examination has been discontinued, referred to in Articles 10 to 14.",
+   "after": "the data entered in respect of any visa issued, refused, annulled, revoked or whose validity is extended or shortened, or of applications where examination has been discontinued, referred to in Articles 10 to 14."
+  },
+  {
+   "unit": "art_22",
+   "key": "p2.d",
+   "lang": "en",
+   "stage": "s07",
+   "kind": "editorial",
+   "before": "the data entered in respect of any visa issued, annulled, revoked, or whose validity is extended, referred to in Articles 10, 13 and 14;",
+   "after": "the data entered in respect of any visa issued, annulled, revoked, or whose validity is extended or shortened, referred to in Articles 10, 13 and 14;"
+  },
+  {
+   "unit": "art_23",
+   "key": "p1.d",
+   "lang": "en",
+   "stage": "s07",
+   "kind": "editorial",
+   "before": "on the date of the decision of the visa authority if a visa has been refused, annulled or revoked.",
+   "after": "on the date of the decision of the visa authority if a visa has been refused, annulled , shortened or revoked."
+  },
+  {
+   "unit": "art_19",
+   "key": "p2.c",
+   "lang": "en",
+   "stage": "s08",
+   "kind": "editorial",
+   "before": "the data entered in respect of the visa(s) issued, annulled, revoked or whose validity is extended or shortened, referred to in Articles 10, 13 and 14.",
+   "after": "the data entered in respect of the visa(s) issued, annulled, revoked or whose validity is extended, referred to in Articles 10, 13 and 14."
+  },
+  {
+   "unit": "art_20",
+   "key": "p2.d",
+   "lang": "en",
+   "stage": "s08",
+   "kind": "editorial",
+   "before": "the data entered in respect of any visa issued, refused, annulled, revoked or whose validity is extended or shortened, or of applications where examination has been discontinued, referred to in Articles 10 to 14.",
+   "after": "the data entered in respect of any visa issued, refused, annulled, revoked or whose validity is extended, or of applications where examination has been discontinued, referred to in Articles 10 to 14."
+  },
+  {
+   "unit": "art_22",
+   "key": "p2.d",
+   "lang": "en",
+   "stage": "s08",
+   "kind": "editorial",
+   "before": "the data entered in respect of any visa issued, annulled, revoked, or whose validity is extended or shortened, referred to in Articles 10, 13 and 14;",
+   "after": "the data entered in respect of any visa issued, annulled, revoked, or whose validity is extended, referred to in Articles 10, 13 and 14;"
+  },
+  {
+   "unit": "art_23",
+   "key": "p1.d",
+   "lang": "en",
+   "stage": "s08",
+   "kind": "editorial",
+   "before": "on the date of the decision of the visa authority if a visa has been refused, annulled , shortened or revoked.",
+   "after": "on the date of the decision of the visa authority if a visa has been refused, annulled or revoked."
+  },
+  {
+   "unit": "art_45",
+   "key": "p2.f",
+   "lang": "de",
+   "stage": "s08",
+   "kind": "editorial",
+   "before": "für den Zugriff auf die Daten für die Zwecke der Erstellung von Berichten und Statistiken gemäß Artikel 45a.",
+   "after": "für den Zugriff auf die Daten für die Zwecke der Erstellung von Berichten und Statistiken gemäß Artikel 45a;"
+  },
+  {
+   "unit": "art_45",
+   "key": "p2.f",
+   "lang": "fr",
+   "stage": "s08",
+   "kind": "editorial",
+   "before": "pour l’accès aux données à des fins d’établissement de rapports et de statistiques, conformément à l’article 45 <i>bis</i>.",
+   "after": "pour l’accès aux données à des fins d’établissement de rapports et de statistiques, conformément à l’article 45 <i>bis</i>;"
+  },
+  {
+   "unit": "art_45",
+   "key": "p2.f",
+   "lang": "en",
+   "stage": "s08",
+   "kind": "editorial",
+   "before": "for accessing the data for the purposes of reporting and statistics in accordance with Article 45a.",
+   "after": "for accessing the data for the purposes of reporting and statistics in accordance with Article 45a;"
+  }
+ ],
+ "originKept": [
+  {
+   "unit": "art_5",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p1",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_5",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p1.d",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_5",
+   "lang": "fr",
+   "stage": "s04",
+   "key": "p1",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_5",
+   "lang": "fr",
+   "stage": "s04",
+   "key": "p1.d",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_5",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p1",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_5",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p1.d",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_5",
+   "lang": "en",
+   "stage": "s04",
+   "key": "p1",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_5",
+   "lang": "en",
+   "stage": "s04",
+   "key": "p1.d",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_6",
+   "lang": "de",
+   "stage": "s10",
+   "key": "p2",
+   "marker": "32024R1356",
+   "kept": "32021R1152"
+  },
+  {
+   "unit": "art_6",
+   "lang": "fr",
+   "stage": "s10",
+   "key": "p2",
+   "marker": "32024R1356",
+   "kept": "32021R1152"
+  },
+  {
+   "unit": "art_18",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p4.b",
+   "marker": "32017R2226",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_18",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p4.a",
+   "marker": "32017R2226",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_18",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p4.b",
+   "marker": "32017R2226",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_18",
+   "lang": "en",
+   "stage": "s04",
+   "key": "p4.b",
+   "marker": "32017R2226",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_21",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_21",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2.a",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_21",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2.c",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_21",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2.d",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_21",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2.e",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_21",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p2.f",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_21",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p3",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_21",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p1",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_21",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_21",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.a",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_21",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.c",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_21",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.d",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_21",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.e",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_21",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p2.f",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_21",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p3",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p1.a",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p1.b",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p1.c",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p1.d",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p1.e",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p1.f",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "fr",
+   "stage": "s03",
+   "key": "p3.s2",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "fr",
+   "stage": "s06",
+   "key": "p1.b",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "fr",
+   "stage": "s06",
+   "key": "p1.d",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "fr",
+   "stage": "s06",
+   "key": "p1.e",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p1.a",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p1.b",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p1.c",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p1.d",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p1.e",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p1.f",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "en",
+   "stage": "s03",
+   "key": "p3.s2",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "en",
+   "stage": "s06",
+   "key": "p1.b",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "en",
+   "stage": "s06",
+   "key": "p1.d",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  },
+  {
+   "unit": "art_37",
+   "lang": "en",
+   "stage": "s06",
+   "key": "p1.e",
+   "marker": "32008R0767R(05)",
+   "kept": "32008R0767"
+  }
+ ],
+ "keysAligned": []
+}

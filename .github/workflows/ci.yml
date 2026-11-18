@@ -1,0 +1,69 @@
+# Prüft jeden Push und jeden Pull Request: Einheitstests, Build, Oberflächentests (Playwright, Chromium headless).
+# Nicht in dieser Auswahl: Tests mit Netz (@netz) und Tests mit Dateien ausserhalb des Repos (@daten: raw/, raw-neg/,
+# test/app/fixtures-live/); sie laufen lokal mit `npm run test:app` (siehe MAINTAINING.md).
+name: CI
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Tests und Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      OFFLINE: '1'
+      SGK_CHROME: bundled
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Abhängigkeiten installieren
+        run: npm ci
+
+      - name: Einheitstests Kern (Tests mit raw/ werden übersprungen)
+        run: npm run test:core
+
+      - name: Einheitstests Anwendung
+        run: npm run test:app:unit
+
+      - name: Einheitstests Modul Verhandlung
+        run: npm run test:neg
+
+      - name: Build und Download-Seite (Probe)
+        run: |
+          v="$(TZ=Europe/Zurich date +%Y.%m.%d)"
+          node build.mjs --version "$v" --out dist/SGK-Navigator.html
+          node scripts/build-site.mjs --version "$v" --file dist/SGK-Navigator.html --out dist/site
+
+      - name: Chromium für Playwright installieren
+        run: npx playwright install --with-deps chromium
+
+      - name: Oberflächentests (ohne Netz und ohne Dateien ausserhalb des Repos)
+        run: npm run test:app:ci
+
+      - name: Ergebnisse der Oberflächentests sichern (nur bei Fehlern)
+        if: failure()
+        uses: actions/upload-artifact@v6
+        with:
+          name: playwright-ergebnisse
+          path: |
+            test-results/
+            test/app/test-results/
+            test/app/screenshots/
+          if-no-files-found: ignore
+          retention-days: 7

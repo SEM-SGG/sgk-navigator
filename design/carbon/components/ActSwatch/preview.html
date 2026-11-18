@@ -1,0 +1,33 @@
+<!-- @dsCard group="Rechtsakte" height=150 -->
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>body{margin:0;background:var(--canvas)}</style>
+</head>
+<body>
+<div class="ui-root" style="padding: 24px; background: var(--canvas)">
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px 24px"><span style="display: flex; align-items: center; gap: 10px; font-size: 14px"><i class="ui-swatch" data-act="base" aria-hidden="true"></i>Basis 2016/399</span><span style="display: flex; align-items: center; gap: 10px; font-size: 14px"><i class="ui-swatch" data-act="frontex" aria-hidden="true"></i>Frontex 2016/1624</span><span style="display: flex; align-items: center; gap: 10px; font-size: 14px"><i class="ui-swatch" data-act="sys" aria-hidden="true"></i>Syst. Abfr. 2017/458</span><span style="display: flex; align-items: center; gap: 10px; font-size: 14px"><i class="ui-swatch" data-act="ees" aria-hidden="true"></i>EES 2017/2225</span><span style="display: flex; align-items: center; gap: 10px; font-size: 14px"><i class="ui-swatch ui-swatch--pending" data-act="etias" aria-hidden="true"></i>ETIAS 2018/1240</span><span style="display: flex; align-items: center; gap: 10px; font-size: 14px"><i class="ui-swatch ui-swatch--pending" data-act="interop" aria-hidden="true"></i>Interop. 2019/817</span><span style="display: flex; align-items: center; gap: 10px; font-size: 14px"><i class="ui-swatch ui-swatch--pending" data-act="vis" aria-hidden="true"></i>VIS 2021/1134</span><span style="display: flex; align-items: center; gap: 10px; font-size: 14px"><i class="ui-swatch" data-act="reform" aria-hidden="true"></i>Reform 2024 2024/1717</span><span style="display: flex; align-items: center; gap: 10px; font-size: 14px"><i class="ui-swatch" data-act="derogation" aria-hidden="true"></i>EES-Start 2025/1534</span><span style="display: flex; align-items: center; gap: 10px; font-size: 14px"><i class="ui-swatch" data-act="proposal" aria-hidden="true"></i>COM(2024) 670</span></div>
+</div>
+<script>
+document.querySelectorAll('.ui-seg').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('[role="tablist"]').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('[role="tab"]'); if (!b) return;
+    g.querySelectorAll('[role="tab"]').forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+  });
+});
+document.querySelectorAll('.ui-stagebar').forEach(function (g) {
+  g.addEventListener('click', function (e) {
+    var b = e.target.closest('.ui-stage'); if (!b) return;
+    g.querySelectorAll('.ui-stage').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+</script>
+</body>
+</html>

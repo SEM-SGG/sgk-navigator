@@ -1,0 +1,51 @@
+name: Fehler melden
+description: Etwas funktioniert nicht oder ein Text stimmt nicht.
+title: 'Fehler: '
+labels: ['fehler']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für die Meldung. **Dieses Issue ist öffentlich.** Bitte keine vertraulichen, klassifizierten oder internen Inhalte eintragen: keine Positionen, Notizen, Dossiers, Namen oder Bildschirmfotos mit solchen Inhalten.
+  - type: input
+    id: version
+    attributes:
+      label: Version des Tools
+      description: Steht im Tool unter «Info» → «Version», z. B. 2026.11.18.
+      placeholder: '2026.11.18'
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Edge
+        - anderer
+    validations:
+      required: true
+  - type: textarea
+    id: was
+    attributes:
+      label: Was ist passiert?
+      description: Was haben Sie getan, was haben Sie erwartet, was ist stattdessen geschehen?
+      placeholder: |
+        1. Ansicht «Vergleich», SGK, Stände s07 und s08 gewählt
+        2. …
+        Erwartet: …
+        Tatsächlich: …
+    validations:
+      required: true
+  - type: input
+    id: stelle
+    attributes:
+      label: Betroffene Stelle (falls ein Rechtstext betroffen ist)
+      description: Rechtsakt, Bestimmung und Sprache, z. B. «SGK Art. 8 Abs. 3 Bst. a, FR». Ein Link aus dem Tool (Adresszeile) hilft.
+  - type: checkboxes
+    id: vertraulich
+    attributes:
+      label: Bestätigung
+      options:
+        - label: Die Meldung enthält keine vertraulichen oder internen Inhalte.
+          required: true
