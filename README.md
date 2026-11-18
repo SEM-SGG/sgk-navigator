@@ -56,7 +56,7 @@ Le SGK-Navigator suit les modifications du code frontières Schengen et d’autr
 (EES, ETIAS, VIS, interopérabilité). Il s’agit d’un seul fichier HTML qui s’ouvre dans Chrome ou Edge, sans installation.
 [Page de téléchargement](https://sem-sgg.github.io/sgk-navigator/) · [Télécharger directement](https://github.com/SEM-SGG/sgk-navigator/releases/latest/download/SGK-Navigator.html)
 (aucun compte GitHub nécessaire). Ouvrir les nouvelles versions dans le même navigateur afin de conserver les données. Pas une
-publication officielle : seul le Journal officiel de l’Union européenne fait foi. Contact : Sektion Grundlagen Grenze (SGG),
+publication officielle : seul le Journal officiel de l’Union européenne fait foi. Contact : Section Base Frontières,
 Secrétariat d’État aux migrations SEM.
 
 ---

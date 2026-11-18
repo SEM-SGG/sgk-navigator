@@ -262,7 +262,7 @@ export default fixPunct({
         title: 'Projet',
         page: 'Page du projet et téléchargement', pageNote: 'télécharger la dernière version, sans compte GitHub',
         source: 'Code source sur GitHub',
-        issues: 'Signaler une erreur', issuesNote: 'sur GitHub, un compte est nécessaire\u202f; ne saisir aucun contenu confidentiel. Sans compte\u00a0: Sektion Grundlagen Grenze (SGG), SEM',
+        issues: 'Signaler une erreur', issuesNote: 'sur GitHub, un compte est nécessaire\u202f; ne saisir aucun contenu confidentiel. Sans compte\u00a0: Section Base Frontières, SEM',
       },
       err: {
         offline: 'La recherche a échoué : pas de connexion au service. Vérifier la connexion réseau et réessayer plus tard.',
