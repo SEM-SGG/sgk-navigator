@@ -25,6 +25,11 @@ Für den Download ist kein GitHub-Konto nötig. Der Link führt immer zur neuest
    Verhandlung speichert der Browser, nicht die Datei; im selben Browser stehen sie in der neuen Version wieder zur Verfügung.
    Zur Sicherheit vor dem Wechsel im Tool unter «Aktualisieren» eine Projektdatei exportieren.
 
+### Produktdokumentation
+
+Die [Produktdokumentation](docs/sgk-navigator-dokumentation.html) beschreibt den SGK-Navigator in Deutsch, Französisch und Italienisch. Sie ist eine eigenständige HTML-Datei mit Sprachumschalter und lässt sich offline lesen. GitHub zeigt HTML-Dateien als Quelltext an und eine Datei dieser Grösse gar nicht:
+«Download raw file» auf der Dateiseite wählen und die heruntergeladene Datei im Browser öffnen.
+
 ### Datenstand
 
 Der Datenstand je Rechtsakt steht im Tool unter «Info» und auf der [Download-Seite](https://sem-sgg.github.io/sgk-navigator/).
@@ -78,6 +83,7 @@ was tun bei roter CI). Hier die Übersicht.
 | `site/` | Vorlage der Download-Seite (GitHub Pages) |
 | `test/` | Tests: `core` und `neg` (Node), `app` (Node und Playwright) |
 | `design/carbon/` | Design System (Carbon, IBM Plex) |
+| `docs/` | Produktdokumentation als eigenständige HTML-Datei (DE, FR, IT) |
 | `docs/entwicklung/` | Spezifikationen und Statusberichte aus der Entwicklung |
 | `build.mjs` | baut die eine HTML-Datei (JS, CSS, Schriften, Daten eingebettet) |
 | `.github/workflows/` | CI, Release, wöchentliche Fassungsprüfung |
