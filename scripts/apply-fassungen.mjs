@@ -1,6 +1,6 @@
 // Baut neue konsolidierte Fassungen in die Daten ein (Workflow «Fassungen», MAINTAINING.md, «Neue Fassung einbauen»):
 //   1. Rohdaten von EUR-Lex bzw. Cellar laden (scripts/fetch-raw-sgk.mjs; die weiteren Rechtsakte lädt build-work.mjs selbst)
-//   2. Prüfberichte des bisherigen Stands erzeugen (Vergleichswerte)
+//   2. Prüfberichte des bisherigen Stands erzeugen (Vergleichswerte; dafür den bisherigen SGK-Stand neu bauen)
 //   3. SGK: neue Fassung als weiteren Stand in data/sgk-fassungen.json eintragen (Akt aus der Liste der Änderungsakte)
 //   4. Daten bauen: scripts/build-data.mjs (SGK), scripts/build-work.mjs all (EES, ETIAS, VIS, IO)
 //   5. Prüfberichte erzeugen: scripts/validate.mjs, scripts/validate-works.mjs
@@ -90,7 +90,10 @@ export async function main(argv = process.argv.slice(2)) {
 
   try {
     // 2 Vergleichswerte
+    // validate.mjs liest das Protokoll des Baus (scripts/out/build-log.json); der Neubau des bisherigen Stands ergibt
+    // dieselben Daten.
     await step('Prüfberichte vorher', () => {
+      run('node', ['scripts/build-data.mjs']);
       run('node', ['scripts/validate.mjs']);
       before.sgk = readJson('scripts/out/validation-results.json');
     });
