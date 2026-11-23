@@ -70,7 +70,8 @@ export function Notice({ kind = 'info', title, children, icon }) {
 export function Menu({ label, icon, items, align = 'left', className = '', variant = 'secondary', small }) {
   const [open, setOpen] = useState(false);
   const ref = useRef();
-  useEffect(() => {
+  // useLayoutEffect: Fokus und Listener stehen, sobald das Menü im DOM ist (useEffect liefe erst nach dem Zeichnen)
+  useLayoutEffect(() => {
     if (!open) return;
     const f = (e) => { if (ref.current && !ref.current.contains(e.target)) setOpen(false); };
     const k = (e) => { if (e.key === 'Escape') { setOpen(false); const b = ref.current && ref.current.querySelector('button'); if (b) b.focus(); } };
@@ -164,13 +165,15 @@ export function Portal({ children }) {
  */
 export function Modal({ title, sub, onClose, children, foot, wide, id = 'nmodal', closeLabel, className = '', lockScroll = false }) {
   const ref = useRef();
-  useEffect(() => {
+  // Fokus in den Dialog und Sperre des Scrollens im selben Durchlauf wie das Öffnen und Schliessen (wie der Escape-Listener
+  // unten); useEffect liefe erst nach dem Zeichnen.
+  useLayoutEffect(() => {
     const prev = document.activeElement;
     const el = ref.current && (ref.current.querySelector('[autofocus], input, select, textarea, button.btn-primary') || ref.current);
     if (el) el.focus();
     return () => { if (prev && prev.focus && prev.isConnected !== false) prev.focus(); };
   }, []);
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (!lockScroll) return undefined;
     const de = document.documentElement, b = document.body;
     const old = [de.style.overflow, b.style.overflow];
