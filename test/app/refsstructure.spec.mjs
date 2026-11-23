@@ -30,8 +30,11 @@ const clickCol = async (page, i) => {
   const yLab = await page.evaluate(() => { const g = document.querySelector('.rs-col .rs-col-hit'); const ax = document.querySelector('.rs-axis-l'); return Number(ax.getAttribute('y1')) - Number(g.getAttribute('y')) + 10; });
   await page.locator('#rs-u-' + i).click({ position: { x: 4, y: yLab } });
 };
+// Vor der Prüfung laufende CSS-Übergänge abwarten: Wird eine Schaltfläche gerade aktiv (z. B. «PNG» nach dem Neuberechnen
+// des Modells), misst axe sonst die Kontraste mitten im Farbübergang.
 const axeSection = (page) => page.evaluate(async (src) => {
   if (!window.axe) { const sc = document.createElement('script'); sc.textContent = src; document.head.appendChild(sc); }
+  await Promise.all(document.getAnimations().map((a) => a.finished.catch(() => {})));
   const r = await window.axe.run(document.querySelector('.rs-sec'), { resultTypes: ['violations'], rules: { region: { enabled: false } } });
   return r.violations.map((v) => v.id + ': ' + v.nodes.map((n) => n.target.join(' ')).slice(0, 3).join(', '));
 }, AXE);

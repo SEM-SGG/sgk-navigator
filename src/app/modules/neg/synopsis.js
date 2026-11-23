@@ -1,7 +1,7 @@
 // Synopse: Zeilen × Spuren mit Fassungswahl je Spur, Diff-Modi, Status, CH-Position, Filtern und Gliederung.
 // Seitenweises Rendern: zuerst 60 Zeilen, weitere beim Scrollen (IntersectionObserver); Sprünge erweitern den Bereich.
 import { html } from 'htm/preact';
-import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'preact/hooks';
 import { t, uiLang, has } from '../../lib/i18n.js';
 import { go } from '../../state.js';
 import { Icon, HelpLink } from '../../ui/common.js';
@@ -63,7 +63,9 @@ function Synopsis({ d, route }) {
   }, []);
   const navRef = useRef();
   const closeNav = (focusBtn) => { setNavOpen(false); if (focusBtn) requestAnimationFrame(() => { const b = document.getElementById('syn-outline-btn'); if (b) b.focus(); }); };
-  useEffect(() => {
+  // Fokus und Listener im selben Durchlauf wie das Overlay (useLayoutEffect): useEffect liefe erst nach dem Zeichnen, und
+  // bis dahin stünde das Overlay ohne Fokus und ohne Escape und Klick daneben da.
+  useLayoutEffect(() => {
     if (!navOpen || !narrow) return undefined;
     const first = navRef.current && navRef.current.querySelector('.syn-g:not(:disabled), button');
     if (first) first.focus();

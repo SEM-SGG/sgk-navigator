@@ -107,6 +107,7 @@ test('Vergrössern: Dialog über der Seite, Hash unverändert, Esc schliesst nur
   // axe-Prüfung des Dialogs
   const violations = await page.evaluate(async (src) => {
     if (!window.axe) { const sc = document.createElement('script'); sc.textContent = src; document.head.appendChild(sc); }
+    await Promise.all(document.getAnimations().map((a) => a.finished.catch(() => {}))); // Farbübergänge abwarten
     const r = await window.axe.run(document.querySelector('[role="dialog"]'), { resultTypes: ['violations'], rules: { region: { enabled: false } } });
     return r.violations.map((v) => v.id + ': ' + v.nodes.map((n) => n.target.join(' ')).slice(0, 3).join(', '));
   }, AXE);
