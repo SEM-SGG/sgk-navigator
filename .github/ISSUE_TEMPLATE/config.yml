@@ -3,7 +3,13 @@ blank_issues_enabled: false
 contact_links:
   - name: SGK-Navigator herunterladen
     url: https://sem-sgg.github.io/sgk-navigator/
-    about: Neueste Version, Anleitung in drei Schritten (ohne GitHub-Konto).
+    about: Neueste Version und Anleitung in drei Schritten (ohne GitHub-Konto).
+  - name: Produktdokumentation
+    url: https://sem-sgg.github.io/sgk-navigator/dokumentation.html
+    about: Funktionen, Bedienung und Datenregel in Deutsch, Französisch und Italienisch.
+  - name: Rückmeldung ohne GitHub-Konto
+    url: mailto:sektion-grenze@sem.admin.ch
+    about: E-Mail an sektion-grenze@sem.admin.ch, Sektion Grundlagen Grenze (SGG) im Staatssekretariat für Migration (SEM). Issues sind dagegen öffentlich sichtbar.
   - name: Wichtig vor dem Eintragen
-    url: https://github.com/SEM-SGG/sgk-navigator#kontakt
-    about: Issues sind öffentlich und brauchen ein GitHub-Konto. Keine vertraulichen, klassifizierten oder internen Inhalte eintragen (keine Positionen, Dossiers, Notizen, Namen). Ohne Konto an die Sektion Grundlagen Grenze (SGG), SEM wenden.
+    url: https://github.com/SEM-SGG/sgk-navigator#datenregel
+    about: Issues sind öffentlich. Keine Inhalte mit dem Vermerk INTERN, VERTRAULICH oder GEHEIM, keine Personendaten, keine Positionen, Dossiers oder Notizen eintragen (Datenregel der SGG).

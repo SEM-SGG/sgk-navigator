@@ -50,7 +50,7 @@ test('Quelle: leer = aus; github-release und manifest; nur https; Vorgabe des Nu
   assert.deepEqual(m.origins, ['https://raw.githubusercontent.com']);
   // ungültige Ersatzquelle wird ignoriert
   assert.deepEqual(sourceInfo({ kind: 'manifest', url: 'https://example.org/v.json', fallback: { kind: 'github-release', owner: '', repo: '' } }).origins, ['https://example.org']);
-  assert.deepEqual(PROJECT, { owner: 'SEM-SGG', repo: 'sgk-navigator', asset: 'SGK-Navigator.html', page: 'https://sem-sgg.github.io/sgk-navigator/', source: 'https://github.com/SEM-SGG/sgk-navigator', issues: 'https://github.com/SEM-SGG/sgk-navigator/issues/new/choose', releases: 'https://github.com/SEM-SGG/sgk-navigator/releases', latest: 'https://github.com/SEM-SGG/sgk-navigator/releases/latest/download/SGK-Navigator.html' });
+  assert.deepEqual(PROJECT, { owner: 'SEM-SGG', repo: 'sgk-navigator', asset: 'SGK-Navigator.html', page: 'https://sem-sgg.github.io/sgk-navigator/', source: 'https://github.com/SEM-SGG/sgk-navigator', issues: 'https://github.com/SEM-SGG/sgk-navigator/issues/new/choose', releases: 'https://github.com/SEM-SGG/sgk-navigator/releases', latest: 'https://github.com/SEM-SGG/sgk-navigator/releases/latest/download/SGK-Navigator.html', docs: 'https://sem-sgg.github.io/sgk-navigator/dokumentation.html', contact: 'sektion-grenze@sem.admin.ch' });
 });
 
 test('Antwort: GitHub-Release (Asset, sonst Release-Seite; Entwurf/Vorabversion abgewiesen) und Manifest', () => {

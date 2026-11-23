@@ -6,7 +6,7 @@ import { createRequire } from 'node:module';
 import { hashString } from '../../src/core/text.js';
 import { getVersion } from '../../src/core/model.js';
 const require = createRequire(import.meta.url);
-let sharp; try { sharp = require('sharp'); } catch { sharp = require('/opt/npm-tools/node_modules/sharp'); }
+const sharp = require('sharp');
 
 const ROOT = new URL('../../', import.meta.url).pathname;
 const W = ROOT + 'scripts/forms/work/';

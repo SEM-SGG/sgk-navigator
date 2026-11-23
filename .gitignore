@@ -27,3 +27,4 @@ playwright-report/
 !design/**/*.png
 !src/**/*.png
 feedback/
+scripts/forms/work/

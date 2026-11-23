@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // SGK-Navigator — erzeugt data/dataset.json (und data/assets.json) aus den EUR-Lex-Dateien in raw/.
-// Aufruf: node scripts/build-data.mjs [--snapshots-only] [--no-assets] [--recitals] [--without=02016R0399-20251012]
+// Aufruf: node scripts/build-data.mjs [--snapshots-only] [--no-assets] [--recitals] [--without=<CELEX einer Fassung aus data/sgk-fassungen.json>]
+// Stände ab s08 stehen in data/sgk-fassungen.json; die Bilder verkleinert das Paket sharp (devDependency).
 // raw/ wird nur gelesen und geparst, nie ausgefuehrt.
 
 import { readFileSync, writeFileSync, renameSync, existsSync, mkdirSync } from 'node:fs';
@@ -35,6 +36,21 @@ export function parseRaw(celex, lang) {
   return cache.get(k);
 }
 
+// Konsolidierte Fassungen nach s07 (Stand, CELEX, Datum, Akt, Herkunftsangabe): data/sgk-fassungen.json
+export const FASSUNGEN_FILE = resolve(DATA, 'sgk-fassungen.json');
+export function sgkFassungen(file = FASSUNGEN_FILE) {
+  const j = JSON.parse(readFileSync(file, 'utf8'));
+  const stages = Array.isArray(j.stages) ? j.stages : [];
+  for (const st of stages) {
+    if (!/^s\d{2,}$/.test(st.id || '') || !/^02016R0399-\d{8}$/.test(st.celex || '') || !/^\d{4}-\d{2}-\d{2}$/.test(st.date || '') || !st.act || !st.note) {
+      throw new Error(`data/sgk-fassungen.json: Eintrag unvollständig (${JSON.stringify(st).slice(0, 120)})`);
+    }
+  }
+  return stages;
+}
+/** Jüngste konsolidierte Fassung des SGK (CELEX); ohne Eintrag in data/sgk-fassungen.json die Fassung von s07 */
+export const latestSgkCelex = () => (sgkFassungen().at(-1) || { celex: '02016R0399-20240710' }).celex;
+
 export function writeAtomic(file, content) {
   const tmp = file + '.tmp-' + process.pid;
   writeFileSync(tmp, content);
@@ -68,7 +84,6 @@ export const NOTE = {
   c20170407: { de: 'Konsolidierte Fassung vom 7.4.2017, direkt von EUR-Lex.', fr: 'Version consolidée du 7.4.2017, directement depuis EUR-Lex.', en: 'Consolidated version of 7.4.2017, directly from EUR-Lex.' },
   c20240710: { de: 'Konsolidierte Fassung vom 10.7.2024 von EUR-Lex; ergänzt um die Änderungen durch Art. 80 der Verordnung (EU) 2018/1240 (ETIAS), die EUR-Lex nicht konsolidiert hat.', fr: 'Version consolidée du 10.7.2024 (EUR-Lex), complétée par les modifications de l’article 80 du règlement (UE) 2018/1240 (ETIAS), non consolidées par EUR-Lex.', en: 'Consolidated version of 10.7.2024 (EUR-Lex), supplemented by the amendments made by Article 80 of Regulation (EU) 2018/1240 (ETIAS), which EUR-Lex has not consolidated.' },
   c20240710a: { de: 'Konsolidierte Fassung vom 10.7.2024, direkt von EUR-Lex (vorläufig ohne ETIAS-Ergänzung).', fr: 'Version consolidée du 10.7.2024, directement depuis EUR-Lex (provisoire, sans ETIAS).', en: 'Consolidated version of 10.7.2024, directly from EUR-Lex (provisional, without ETIAS).' },
-  c20251012: { de: 'Konsolidierte Fassung vom 12.10.2025 von EUR-Lex (enthält die Berichtigung 32024R1717R(01), nur DE betroffen); ergänzt um Art. 80 der Verordnung (EU) 2018/1240.', fr: 'Version consolidée du 12.10.2025 (EUR-Lex), avec le rectificatif 32024R1717R(01) (seule la version allemande est concernée); complétée par l’article 80 du règlement (UE) 2018/1240.', en: 'Consolidated version of 12.10.2025 (EUR-Lex), including corrigendum 32024R1717R(01) (German only); supplemented by Article 80 of Regulation (EU) 2018/1240.' },
 };
 
 export function snapshotStages(opts = {}) {
@@ -83,7 +98,8 @@ export function snapshotStages(opts = {}) {
 export function buildAll({ snapshotsOnly = false, without = null } = {}) {
   const log = [];
   const assets = {};
-  for (const lang of LANGS) checkTitle(parseRaw('02016R0399-20251012', lang), lang);
+  const fassungen = sgkFassungen();
+  for (const lang of LANGS) checkTitle(parseRaw(latestSgkCelex(), lang), lang);
   const snaps = snapshotStages();
   const input = [];
   for (const s of snaps) input.push({ stage: s.stage, byLang: Object.fromEntries(LANGS.map((l) => [l, parseRaw(s.celex, l)])) });
@@ -99,17 +115,15 @@ export function buildAll({ snapshotsOnly = false, without = null } = {}) {
   }
   const guides = { s02: Object.fromEntries(LANGS.map((l) => [l, parseRaw('02016R0399-20240710', l)])) };
   const ds = buildDataset(input, null, { work: WORK, generated: '2026-11-11', assets, log, guides, patches });
-  // 20251012 als weiterer Stand per addSnapshot (gleicher Weg wie Upload im Browser)
-  if (without !== '02016R0399-20251012') {
-    const order = ds.stages.map((s) => s.act);
+  // Konsolidierte Fassungen ab s08 als weitere Stände per addSnapshot (gleicher Weg wie Upload im Browser), aus data/sgk-fassungen.json
+  for (const f of fassungen) {
+    if (without === f.celex) continue;
+    const order = [...ds.stages.map((s) => s.act), f.act];
     for (const lang of LANGS) {
-      addSnapshot(ds, parseRaw('02016R0399-20251012', lang), {
-        actCelex: '32024R1717R(01)', date: '2025-10-12', stageId: 's08', assets, log,
-        note: NOTE.c20251012, actOrder: [...order, '32024R1717R(01)'],
-      });
+      addSnapshot(ds, parseRaw(f.celex, lang), { actCelex: f.act, date: f.date, stageId: f.id, assets, log, note: f.note, actOrder: order });
     }
-    const s08 = ds.stages.find((s) => s.id === 's08');
-    if (s08) { s08.source = { kind: snapshotsOnly ? 'consolidated' : 'patched', celex: '02016R0399-20251012', note: NOTE.c20251012 }; }
+    const st = ds.stages.find((s) => s.id === f.id);
+    if (st) st.source = { kind: snapshotsOnly ? 'consolidated' : 'patched', celex: f.celex, note: f.note };
   }
   return { ds, log, assets, recon };
 }

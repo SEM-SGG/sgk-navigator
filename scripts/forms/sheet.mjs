@@ -3,7 +3,7 @@
 // node scripts/forms/sheet.mjs out.png --crop img x y w h [scale]   (Ausschnitt in relativen Koordinaten 0..1)
 import { createRequire } from 'node:module';
 const require = createRequire(import.meta.url);
-let sharp; try { sharp = require('sharp'); } catch { sharp = require('/opt/npm-tools/node_modules/sharp'); }
+const sharp = require('sharp');
 const [out, ...rest] = process.argv.slice(2);
 if (rest[0] === '--crop') {
   const [, img, x, y, w, h, scale = '1'] = rest;

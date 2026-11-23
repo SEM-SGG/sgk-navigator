@@ -250,8 +250,10 @@ export default {
       project: {
         title: 'Projekt',
         page: 'Projektseite und Download', pageNote: 'neueste Version herunterladen, ohne GitHub-Konto',
+        docs: 'Produktdokumentation', docsNote: 'Funktionen, Bedienung und Datenregel (DE, FR, IT)',
         source: 'Quellcode auf GitHub',
-        issues: 'Fehler melden', issuesNote: 'auf GitHub, dafür ist ein Konto nötig; keine vertraulichen Inhalte eintragen. Ohne Konto: Sektion Grundlagen Grenze (SGG), SEM',
+        issues: 'Fehler melden', issuesNote: 'auf GitHub, dafür ist ein Konto nötig; Issues sind öffentlich: keine Inhalte mit dem Vermerk INTERN oder höher, keine Personendaten',
+        contact: 'Rückmeldungen ohne GitHub-Konto an die Sektion Grundlagen Grenze (SGG), SEM:',
       },
       err: {
         offline: 'Die Suche ist fehlgeschlagen: keine Verbindung zum Dienst. Netzverbindung prüfen und später erneut versuchen.',
@@ -288,7 +290,7 @@ export default {
     openEurlex: 'Auf EUR-Lex öffnen ({lang})', openEurlexInfo: 'Auf EUR-Lex öffnen ({lang}), nur zur Information',
     st: {
       inData: 'im Datensatz (Stand {stages})', uploaded: 'hochgeladen (Stand {stages})', missing: 'fehlt: {langs}', new: 'neu', newOnly: 'neu, nur {langs}', noLangs: 'nicht in {langs} verfügbar',
-      onlyLangs: 'betrifft nur {langs}', listed: 'erfasst', listedProposal: 'erfasst, Vorschlag', listedNoStage: 'erfasst, ohne eigenen Stand',
+      onlyLangs: 'betrifft nur {langs}', listed: 'erfasst', listedProposal: 'erfasst, Vorschlag', listedNoStage: 'erfasst, ohne eigenen Stand', acknowledged: 'zur Kenntnis genommen',
       unlisted: 'nicht erfasst (älter als der jüngste erfasste Akt)',
     },
     upload: {

@@ -114,8 +114,10 @@ export function ProjectLinks() {
     <h3 class="info-sub">${t('update.v.project.title')}</h3>
     <ul class="info-list">
       <li><a id="lnk-project" href=${PROJECT.page} ...${ext}>${t('update.v.project.page')}</a><span class="muted"> · ${t('update.v.project.pageNote')}</span></li>
+      <li><a id="lnk-docs" href=${PROJECT.docs} ...${ext}>${t('update.v.project.docs')}</a><span class="muted"> · ${t('update.v.project.docsNote')}</span></li>
       <li><a id="lnk-source" href=${PROJECT.source} ...${ext}>${t('update.v.project.source')}</a></li>
       <li><a id="lnk-issues" href=${PROJECT.issues} ...${ext}>${t('update.v.project.issues')}</a><span class="muted"> · ${t('update.v.project.issuesNote')}</span></li>
+      <li>${t('update.v.project.contact')} <a id="lnk-contact" href=${'mailto:' + PROJECT.contact}>${PROJECT.contact}</a></li>
     </ul>
   </div>`;
 }

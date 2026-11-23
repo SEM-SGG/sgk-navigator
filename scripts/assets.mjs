@@ -1,9 +1,8 @@
-// Bilder verkleinern und deduplizieren (sharp, global installiert)
+// Bilder verkleinern und deduplizieren (Paket sharp, devDependency in package.json)
 import { createRequire } from 'node:module';
 import { writeFileSync, renameSync } from 'node:fs';
 const require = createRequire(import.meta.url);
-let sharp;
-try { sharp = require('sharp'); } catch { sharp = require('/opt/npm-tools/node_modules/sharp'); }
+const sharp = require('sharp');
 
 const BUDGET = 2.5e6;
 

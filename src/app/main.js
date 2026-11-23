@@ -20,6 +20,7 @@ import { workData, workById, setLibraryMeta, useLibrary, validWork, workShort, w
 import { setLibraryContext } from './data.js';
 import { dataFor } from './preview.js';
 import { UpdateNotice, initUpdate } from './ui/updatenotice.js';
+import { setAcknowledged } from './modules/sgk/updatelogic.js';
 
 registerStrings('de', de);
 registerStrings('fr', fr);
@@ -201,6 +202,7 @@ async function boot() {
     const bundle = loadEmbedded();
     if (!bundle.dataset) throw new Error(t('app.noDataset'));
     setLibraryMeta(bundle.meta);
+    setAcknowledged(bundle.meta.acknowledged);
     setLibraryContext({ worksIndex: works(), derogations: () => sgkExtras().derogations, formOf: formFor });
     const sgkBundle = { ...bundle, work: workById('sgk') };
     setBase(sgkBundle);

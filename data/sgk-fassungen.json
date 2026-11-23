@@ -1,0 +1,16 @@
+{
+ "_info": "Konsolidierte Fassungen des Schengener Grenzkodex, die als eigene Stände nach s07 in data/dataset.json eingehen (scripts/build-data.mjs). Die Stände s00 bis s07 sind fest im Code (Amtsblatt, Momentaufnahmen, Rekonstruktion). Der Workflow «Fassungen» ergänzt hier neue Fassungen (scripts/apply-fassungen.mjs). id: Stand; celex: konsolidierte Fassung; date: Datum der Fassung; act: Akt, mit dem die Fassung den Stand bildet (jüngster neuer Eintrag der Liste der Änderungsakte von EUR-Lex); note: Herkunftsangabe DE, FR, EN.",
+ "stages": [
+  {
+   "id": "s08",
+   "celex": "02016R0399-20251012",
+   "date": "2025-10-12",
+   "act": "32024R1717R(01)",
+   "note": {
+    "de": "Konsolidierte Fassung vom 12.10.2025 von EUR-Lex (enthält die Berichtigung 32024R1717R(01), nur DE betroffen); ergänzt um Art. 80 der Verordnung (EU) 2018/1240.",
+    "fr": "Version consolidée du 12.10.2025 (EUR-Lex), avec le rectificatif 32024R1717R(01) (seule la version allemande est concernée); complétée par l’article 80 du règlement (UE) 2018/1240.",
+    "en": "Consolidated version of 12.10.2025 (EUR-Lex), including corrigendum 32024R1717R(01) (German only); supplemented by Article 80 of Regulation (EU) 2018/1240."
+   }
+  }
+ ]
+}

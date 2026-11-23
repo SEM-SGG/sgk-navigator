@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Eine wöchentliche Prüfung meldet neue Fassungen automatisch im Issue «Neue Fassungen verfügbar». Bitte zuerst dort nachsehen.
+        Eine wöchentliche Prüfung meldet neue Fassungen automatisch im Issue «Neue Fassungen auf EUR-Lex» und baut sie selbst ein. Bitte zuerst dort nachsehen.
         **Dieses Issue ist öffentlich.** Bitte keine vertraulichen oder internen Inhalte eintragen.
   - type: dropdown
     id: werk

@@ -28,6 +28,9 @@ export const PROJECT = {
   issues: `https://github.com/${OWNER}/${REPO}/issues/new/choose`,
   releases: `https://github.com/${OWNER}/${REPO}/releases`,
   latest: `https://github.com/${OWNER}/${REPO}/releases/latest/download/${ASSET}`,
+  docs: `https://${OWNER.toLowerCase()}.github.io/${REPO}/dokumentation.html`,
+  // Funktionsadresse für Rückmeldungen ohne GitHub-Konto (keine Personenadresse)
+  contact: 'sektion-grenze@sem.admin.ch',
 };
 
 export const DEFAULT_UPDATE_SOURCE = {

@@ -1,8 +1,16 @@
-# Hält die Versionen der GitHub Actions aktuell (Pull Request einmal im Monat). npm-Abhängigkeiten bewusst nicht automatisch:
-# Ein Update kann die gebaute Datei verändern und soll gezielt mit allen Tests erfolgen.
+# Hält die Versionen der GitHub Actions aktuell: einmal im Monat ein Pull Request mit allen Updates zusammen (Gruppe).
+# Die Fachperson führt ihn zusammen, wenn alle Prüfungen grün sind (MAINTAINING.md, «Pull Requests von Dependabot»).
+# npm-Abhängigkeiten bewusst nicht automatisch: Ein Update kann die gebaute Datei verändern und soll gezielt mit allen
+# Tests erfolgen.
 version: 2
 updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: monthly
+    groups:
+      github-actions:
+        patterns:
+          - '*'
+    commit-message:
+      prefix: 'GitHub Actions'

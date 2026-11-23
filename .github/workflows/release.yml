@@ -1,28 +1,26 @@
-# Erstellt eine neue Version: Build aus dem Quellcode mit der angegebenen Version, Tests, Release mit der Datei
-# SGK-Navigator.html, danach die Download-Seite mit version.json auf GitHub Pages.
-#
-# Auslösen (siehe MAINTAINING.md, «Release erstellen»):
-#   - Actions → «Release» → «Run workflow»: Version eintragen (z. B. 2026.12.12), optional Kurztext DE/FR. Der Workflow legt
-#     den Tag v2026.12.12 selbst an. Nur vom Branch main.
-#   - oder einen Tag v2026.12.12 pushen (dafür muss die Umgebung github-pages Tags v* zulassen, siehe MAINTAINING.md).
-# Die gebaute HTML-Datei wird nicht ins Repo committet; sie liegt nur im Release.
 name: Release
 
+# Veröffentlicht eine neue Version, sobald auf main ein neuer oberster Abschnitt in CHANGELOG.md steht (Form
+# «## 2026.12.02 (2. Dezember 2026)»), und stellt danach die Download-Seite mit version.json und der Produktdokumentation
+# (dokumentation.html) auf GitHub Pages bereit. Ohne Abschnitt im Changelog gibt es keine Release. Vor der Veröffentlichung
+# prüft der Lauf CHANGELOG.md (scripts/release-info.mjs), die Version in der Produktdokumentation
+# (scripts/check-dokumentation.mjs) und die Tests. Die gebaute Datei liegt nur in der Release, nie im Repository.
+# Ändern sich nur Produktdokumentation oder Download-Seite, baut der Lauf die Seite neu, ohne neue Release.
+# Zusatzweg: Actions → «Release» → «Run workflow». Ohne Angabe gilt die Version zuoberst in CHANGELOG.md; eine Angabe wie
+# 2026.12.02, 20261202 oder 2026-12-02 braucht ebenfalls einen Abschnitt im Changelog. Der Start von Hand wiederholt auch
+# einen abgebrochenen Lauf: Besteht die Release schon, baut er nur die Download-Seite neu.
 on:
   push:
-    tags: ['v*']
+    branches: [main]
+    paths:
+      - CHANGELOG.md
+      - docs/sgk-navigator-dokumentation.html
+      - site/**
+      - scripts/build-site.mjs
   workflow_dispatch:
     inputs:
       version:
-        description: 'Version JJJJ.MM.TT, z. B. 2026.12.12 (leer = heutiges Datum; zweite Version am selben Tag: 2026.12.12-2)'
-        required: false
-        type: string
-      notes_de:
-        description: 'Was ist neu (Deutsch, ein bis zwei Sätze; leer = Standardtext)'
-        required: false
-        type: string
-      notes_fr:
-        description: 'Nouveautés (français, une ou deux phrases; vide = texte standard)'
+        description: 'Version JJJJ.MM.TT (leer = oberster Abschnitt in CHANGELOG.md); die Version braucht einen Abschnitt in CHANGELOG.md'
         required: false
         type: string
 
@@ -36,6 +34,7 @@ concurrency:
 jobs:
   release:
     name: Bauen, testen, Release erstellen
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 40
     permissions:
@@ -45,6 +44,8 @@ jobs:
     env:
       OFFLINE: '1'
       SGK_CHROME: bundled
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
     steps:
       - uses: actions/checkout@v6
 
@@ -56,74 +57,96 @@ jobs:
       - name: Version bestimmen und prüfen
         id: v
         env:
-          GH_TOKEN: ${{ github.token }}
           INPUT_VERSION: ${{ inputs.version }}
         run: |
-          if [ "$GITHUB_EVENT_NAME" = "push" ]; then v="${GITHUB_REF_NAME#v}"; else
-            v="$(printf '%s' "$INPUT_VERSION" | tr -d '[:space:]')"; v="${v#v}"
-            # Nachsicht bei der Eingabe: leer = heutiges Datum (Zürich); 20261118 oder 2026-11-18 = 2026.11.18
-            if [ -z "$v" ]; then v="$(TZ=Europe/Zurich date +%Y.%m.%d)"; fi
-            if printf '%s' "$v" | grep -Eq '^[0-9]{8}(-[0-9]+)?$'; then v="${v:0:4}.${v:4:2}.${v:6}"; fi
-            if printf '%s' "$v" | grep -Eq '^[0-9]{4}-[0-9]{2}-[0-9]{2}(-[0-9]+)?$'; then v="${v:0:4}.${v:5:2}.${v:8}"; fi
-            if [ "$GITHUB_REF" != "refs/heads/main" ]; then echo "::error::Release nur vom Branch main (gewählt: $GITHUB_REF_NAME)."; exit 1; fi
-          fi
+          node scripts/release-info.mjs
+          v="$(printf '%s' "$INPUT_VERSION" | tr -d '[:space:]')"; v="${v#v}"
+          # Nachsicht bei der Eingabe: 20261202 oder 2026-12-02 = 2026.12.02
+          if printf '%s' "$v" | grep -Eq '^[0-9]{8}(-[0-9]+)?$'; then v="${v:0:4}.${v:4:2}.${v:6}"; fi
+          if printf '%s' "$v" | grep -Eq '^[0-9]{4}-[0-9]{2}-[0-9]{2}(-[0-9]+)?$'; then v="${v:0:4}.${v:5:2}.${v:8}"; fi
+          if [ -z "$v" ]; then v="$(node scripts/release-info.mjs --version)"; fi
           if ! printf '%s' "$v" | grep -Eq '^[0-9]{4}\.[0-9]{2}\.[0-9]{2}(-[0-9]+)?$'; then
-            echo "::error::Version «$v» entspricht nicht dem Schema JJJJ.MM.TT oder JJJJ.MM.TT-n (z. B. 2026.12.12)."; exit 1
+            echo "::error::Version «$v» entspricht nicht dem Schema JJJJ.MM.TT oder JJJJ.MM.TT-n (z. B. 2026.12.02)."; exit 1
           fi
-          if gh release view "v$v" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            echo "::error::Das Release v$v gibt es schon. Andere Version wählen, z. B. $v-2."; exit 1
+          node scripts/release-info.mjs --has "$v" || { echo "::error::CHANGELOG.md hat keinen Abschnitt «## $v (Datum)». Ohne Abschnitt gibt es keine Release."; exit 1; }
+          build=true
+          if gh release view "v$v" >/dev/null 2>&1; then
+            build=false
+            echo "Die Release v$v besteht schon. Der Lauf baut nur die Download-Seite neu." | tee -a "$GITHUB_STEP_SUMMARY"
           fi
-          echo "version=$v" >> "$GITHUB_OUTPUT"
-          echo "Version: $v"
+          { echo "version=$v"; echo "build=$build"; } >> "$GITHUB_OUTPUT"
+          echo "Version: $v, neue Release: $build"
+
+      - name: Version in der Produktdokumentation prüfen
+        if: steps.v.outputs.build == 'true'
+        run: node scripts/check-dokumentation.mjs --version "${{ steps.v.outputs.version }}"
 
       - name: Abhängigkeiten installieren
+        if: steps.v.outputs.build == 'true'
         run: npm ci
 
       - name: Einheitstests
+        if: steps.v.outputs.build == 'true'
         run: npm run test:unit
 
       - name: SGK-Navigator.html bauen
+        if: steps.v.outputs.build == 'true'
         run: node build.mjs --version "${{ steps.v.outputs.version }}" --out dist/SGK-Navigator.html
 
       - name: Kurzprüfung der Oberfläche (Start, Hinweis auf neue Versionen)
+        if: steps.v.outputs.build == 'true'
         run: |
           npx playwright install --with-deps chromium
           sudo apt-get install --yes --no-install-recommends poppler-utils
           npx playwright test -c test/app/playwright.config.mjs app.spec.mjs version.spec.mjs --grep-invert "@netz|@daten"
 
-      - name: Download-Seite und version.json bauen
-        env:
-          SGK_NOTES_DE: ${{ inputs.notes_de }}
-          SGK_NOTES_FR: ${{ inputs.notes_fr }}
-        run: node scripts/build-site.mjs --version "${{ steps.v.outputs.version }}" --file dist/SGK-Navigator.html --out dist/site --release-notes dist/release-notes.md
-
       - name: Release erstellen
+        if: steps.v.outputs.build == 'true'
         env:
-          GH_TOKEN: ${{ github.token }}
           V: ${{ steps.v.outputs.version }}
         run: |
-          target=()
-          if [ "$GITHUB_EVENT_NAME" != "push" ]; then target=(--target "$GITHUB_SHA"); fi
-          gh release create "v$V" dist/SGK-Navigator.html --repo "$GITHUB_REPOSITORY" "${target[@]}" \
+          node scripts/build-site.mjs --version "$V" --file dist/SGK-Navigator.html --out dist/site-probe --release-notes dist/release-notes.md
+          gh release create "v$V" dist/SGK-Navigator.html --target "$GITHUB_SHA" \
             --title "SGK-Navigator $V" --notes-file dist/release-notes.md --latest
+          echo "SGK-Navigator $V veröffentlicht: Release \`v$V\`." >> "$GITHUB_STEP_SUMMARY"
+
+  pages:
+    name: Download-Seite veröffentlichen
+    needs: release
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      V: ${{ needs.release.outputs.version }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Abhängigkeiten installieren
+        run: npm ci
+
+      - name: Download-Seite für die veröffentlichte Version bauen
+        run: |
+          gh release download "v$V" --pattern SGK-Navigator.html --dir dist
+          node scripts/build-site.mjs --version "$V" --file dist/SGK-Navigator.html --out dist/site
 
       - name: Download-Seite für GitHub Pages bereitstellen
         uses: actions/upload-pages-artifact@v5
         with:
           path: dist/site
 
-  pages:
-    name: Download-Seite veröffentlichen
-    needs: release
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
       - name: Auf GitHub Pages veröffentlichen
         id: deployment
         uses: actions/deploy-pages@v5

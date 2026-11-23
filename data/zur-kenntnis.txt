@@ -1,0 +1,8 @@
+# Zur Kenntnis genommen: Akte und Vorschläge, welche die wöchentliche Prüfung (Workflow «Fassungen») und «Aktualisieren» im
+# SGK-Navigator nicht mehr als neu melden. Der Wortlaut eines Akts kommt mit der nächsten konsolidierten Fassung ohnehin in
+# den Navigator; ein Eintrag hier ändert keine Daten.
+#
+# Je Zeile eine CELEX-Nummer, danach auf Wunsch eine kurze Bemerkung, zum Beispiel:
+#   52024PC0567  Vorschlag; abgeschlossen mit VO (EU) 2025/1534
+# Die zu kopierenden Zeilen stehen im Issue «Neue Fassungen auf EUR-Lex». Anleitung: MAINTAINING.md, Abschnitt
+# «Akte und Vorschläge zur Kenntnis nehmen». Konsolidierte Fassungen (CELEX mit 0 am Anfang) gehören nicht hierher.
