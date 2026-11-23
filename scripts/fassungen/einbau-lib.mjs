@@ -230,6 +230,11 @@ export function prText(e, tests, ctx = {}) {
     for (const r of e.validation.rows) L.push(`| ${cell(r.label)} | ${cell(r.before)} | ${cell(r.after)} | ${VERDICT[r.verdict]}${r.text ? ': ' + cell(r.text) : ''} |`);
     L.push('', '«Hinweis» hindert das Zusammenführen nicht, verlangt aber einen Blick in den genannten Bericht. «nicht bestanden» macht den Pull Request zum Entwurf.', '');
   }
+  if (e.fetched) {
+    const SRC = { 'eur-lex': 'EUR-Lex', 'cellar-xhtml': 'Cellar (XHTML)', 'cellar-html': 'Cellar (HTML)' };
+    const parts = Object.entries(e.fetched).map(([k, n]) => `${n} von ${SRC[k] || k}`);
+    L.push(`Rohdaten: ${parts.length ? `in diesem Lauf geladen ${parts.join(', ')}` : 'alle aus dem Zwischenspeicher des Workflows'}.`, '');
+  }
   if (e.foreign) {
     L.push('## Übrige Stände', '');
     if (!e.foreign.length) L.push('Alle bisherigen Stände aller Rechtsakte sind inhaltlich unverändert.');

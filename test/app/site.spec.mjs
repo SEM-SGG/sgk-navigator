@@ -150,8 +150,11 @@ test('Download-Seite ohne --notes: Kurztext aus CHANGELOG.md, Französisch aus �
   execFileSync('node', ['scripts/build-site.mjs', '--version', v, '--out', out], { cwd: ROOT, encoding: 'utf8' });
   const m = JSON.parse(readFileSync(join(ROOT, out, 'version.json'), 'utf8'));
   const md = readFileSync(join(ROOT, 'CHANGELOG.md'), 'utf8');
-  const first = md.split(`## ${v} `)[1].split('\n').find((l) => l.startsWith('- ')).slice(2).replace(/`/g, '');
+  const section = md.split(`## ${v} `)[1].split(/\n## /)[0];
+  const first = section.split('\n').find((l) => l.startsWith('- ')).slice(2).replace(/`/g, '');
   expect(m.notes.de.startsWith(first.slice(0, 60))).toBe(true);
-  expect(m.notes.fr).not.toMatch(/Nouvelle version du SGK-Navigator/);
+  // Französisch aus «### Français», sonst der Standardtext (zum Beispiel beim automatischen Einbau neuer Fassungen)
+  if (/^### Fran(ç|c)ais/m.test(section)) expect(m.notes.fr).not.toMatch(/Nouvelle version du SGK-Navigator/);
+  else expect(m.notes.fr).toMatch(/Nouvelle version du SGK-Navigator/);
   expect(existsSync(join(ROOT, out, 'dokumentation.html'))).toBe(true);
 });

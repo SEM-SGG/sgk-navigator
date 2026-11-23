@@ -97,8 +97,10 @@ jobs:
       - name: Abhängigkeiten installieren
         run: npm ci
 
-      # Der Zwischenspeicher beschleunigt nur. Ohne ihn lädt der Einbau alle Rohdaten neu (rund 100 MB).
+      # Der Zwischenspeicher beschleunigt nur. Ohne ihn lädt der Einbau alle Rohdaten neu (rund 100 MB). «Alles neu bauen»
+      # im Probelauf lädt bewusst alles neu und prüft so den Abruf von EUR-Lex und Cellar.
       - name: Rohdaten aus dem Zwischenspeicher holen
+        if: env.REBUILD != 'true'
         uses: actions/cache/restore@v6
         with:
           path: raw

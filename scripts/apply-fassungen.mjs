@@ -67,6 +67,7 @@ export async function main(argv = process.argv.slice(2)) {
     today, versionBefore: latestVersion(before.changelog), version: null, cons: befund.cons || [], issue: befund.issue || null,
     issueHasInfo: !!befund.issueHasInfo, fingerprint: befund.fingerprint, rebuild: !!opt.rebuild, subject: null, changelog: null,
     works: [], fachangaben: [], foreign: null, validation: null, step: null, error: null, durations: {},
+    started: new Date().toISOString(), fetched: null,
   };
   const save = () => writeFileSync(join(out, 'einbau.json'), JSON.stringify(e, null, 1));
   const step = async (name, fn) => { e.step = name; const t0 = Date.now(); try { return await fn(); } finally { e.durations[name] = Date.now() - t0; } };
@@ -130,6 +131,11 @@ export async function main(argv = process.argv.slice(2)) {
       run('node', ['scripts/build-data.mjs']);
       run('node', ['scripts/build-work.mjs', 'all']);
       run('node', ['scripts/forms/extract-images.mjs']);
+      // Herkunft der in diesem Lauf geladenen Dateien (scripts/lib-fetch.mjs: EUR-Lex, sonst Cellar)
+      const log = readJson('scripts/out/fetch-log.json') || [];
+      e.fetched = {};
+      for (const x of log.filter((x) => x.at >= e.started)) { const k = x.src || 'nicht ladbar'; e.fetched[k] = (e.fetched[k] || 0) + 1; }
+      console.log(`Abruf in diesem Lauf: ${Object.entries(e.fetched).map(([k, n]) => `${k} ${n}`).join(', ') || 'keine Datei (alle schon vorhanden)'}`);
     });
     // 5 Prüfberichte
     await step('Prüfberichte erzeugen', () => {
