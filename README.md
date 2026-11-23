@@ -33,7 +33,7 @@ Die **[Produktdokumentation](https://sem-sgg.github.io/sgk-navigator/dokumentati
 
 Der Datenstand je Rechtsakt steht im Tool unter «Info» und auf der [Download-Seite](https://sem-sgg.github.io/sgk-navigator/).
 Grundlage sind die Amtsblattfassungen und die konsolidierten Fassungen von EUR-Lex. Neuere konsolidierte Fassungen lassen sich im
-Tool unter «Aktualisieren» selbst laden; eine wöchentliche Prüfung in diesem Repo baut sie zudem ein und schlägt sie mit
+Tool unter «Aktualisieren» selbst laden; eine wöchentliche Prüfung in diesem Repository baut sie zudem ein und schlägt sie mit
 einer neuen Version zur Veröffentlichung vor.
 
 ### Neue Versionen
@@ -66,11 +66,12 @@ Ohne GitHub-Konto: [sektion-grenze@sem.admin.ch](mailto:sektion-grenze@sem.admin
 >
 > Als klassifiziert gilt, was einen Klassifizierungsvermerk trägt. Die Regel ergänzt die Weisungen des SEM und ersetzt sie nicht.
 
-Für den SGK-Navigator heisst das: Die Rechtstexte sind öffentlich. Eigene Inhalte, besonders Positionen, Konsultationen und
-Notizen im Modul Verhandlung, hochgeladene Fassungen und der Sammelkorb, speichert der Browser lokal (IndexedDB); die Suche
-nach neuen Versionen ruft nur `version.json` ab, und «Aktualisieren» sendet nur CELEX-Nummern der Rechtsakte an den
-SPARQL-Endpunkt. Diese Inhalte fallen unter Punkt 1. Exportierte Projektdateien, Word- und PDF-Dateien mit dem Vermerk
-INTERN oder höher gibst du nur in der Arbeitsumgebung des Bundes weiter (Punkt 4). Issues sind öffentlich (Punkt 2).
+Für den SGK-Navigator heisst das: Die Rechtstexte sind öffentlich. Eigene Inhalte – besonders Positionen, Konsultationen und
+Notizen im Modul Verhandlung, hochgeladene Fassungen und der Sammelkorb – bleiben im Speicher deines Browsers und fallen
+unter Punkt 1. Die Suche nach neuen Versionen ruft nur `version.json` ab, und «Aktualisieren» sendet nur CELEX-Nummern der
+Rechtsakte an den Abfragedienst (SPARQL-Endpunkt) des Amts für Veröffentlichungen der EU. Exportierte Projektdateien, Word-
+und PDF-Dateien mit dem Vermerk INTERN oder höher gibst du nur in der Arbeitsumgebung des Bundes weiter (Punkt 4). Issues
+sind öffentlich (Punkt 2).
 
 ### En bref (français)
 
@@ -86,10 +87,11 @@ Secrétariat d’État aux migrations SEM, [sektion-grenze@sem.admin.ch](mailto:
 
 ## Für Pflegende
 
-Die Pflege geht im Browser: **[MAINTAINING.md](MAINTAINING.md)** beschreibt Schritt für Schritt, wie eine neue Version
-erscheint, wie ein Pull Request des Workflows «Fassungen» geprüft wird und was bei einem roten Lauf zu tun ist. Was Code
-verlangt, erledigt ein Agent nach **[AGENTS.md](AGENTS.md)** (kopierbare Aufträge). Änderungen je Version:
-[CHANGELOG.md](CHANGELOG.md). Hier die Übersicht für die Arbeit mit Node.js.
+Die Pflege geht im Browser: **[MAINTAINING.md](MAINTAINING.md)** beschreibt Schritt für Schritt, wie du eine neue Version
+veröffentlichst, wie du einen Pull Request (Änderungsvorschlag auf GitHub) des Workflows «Fassungen» prüfst und was bei
+einem fehlgeschlagenen Lauf zu tun ist. Was Programmcode verlangt, erledigt ein Agent (ein KI-Werkzeug wie Claude Code im
+Browser oder Codex mit angebundenem Repository) nach **[AGENTS.md](AGENTS.md)** (mit kopierbaren Aufträgen). Änderungen je
+Version stehen in [CHANGELOG.md](CHANGELOG.md). Es folgt die Übersicht für die Arbeit mit Node.js.
 
 ### Aufbau
 
@@ -138,11 +140,11 @@ Ohne `/usr/bin/google-chrome`: `npx playwright install chromium` und `SGK_CHROME
 ### Release
 
 Eine Release entsteht von selbst, wenn auf `main` ein neuer oberster Abschnitt in `CHANGELOG.md` zusammengeführt ist (Workflow
-«Release», `.github/workflows/release.yml`). Die Version heisst nach dem Datum (`JJJJ.MM.TT`, zweite am selben Tag
+«Release», `.github/workflows/release.yml`). Die Version richtet sich nach dem Datum (`JJJJ.MM.TT`, zweite am selben Tag
 `JJJJ.MM.TT-2`); verteilte Kopien lesen nur diese Form. Vor der Veröffentlichung prüft der Lauf den Changelog, die Version in der
 Produktdokumentation und die Tests. Er legt die Release mit `SGK-Navigator.html` an und stellt Download-Seite, `version.json`
-und `dokumentation.html` auf GitHub Pages bereit. Die gebaute Datei wird nie ins Repo committet. Zusatzweg: «Actions» →
-«Release» → «Run workflow» (Version leer = oberster Abschnitt). Einzelheiten in [MAINTAINING.md](MAINTAINING.md#neue-version-veröffentlichen).
+und `dokumentation.html` auf GitHub Pages bereit. Die gebaute Datei wird nie ins Repository committet. Zusatzweg: **Actions** →
+**Release** → **Run workflow** (Feld für die Version leer = oberster Abschnitt). Einzelheiten in [MAINTAINING.md](MAINTAINING.md#neue-version-veröffentlichen).
 
 ### Fassungen: Prüfung und Einbau
 
@@ -150,7 +152,7 @@ Der Workflow «Fassungen» (`.github/workflows/fassungen.yml`) läuft jeden Mont
 fünf Rechtsakte beim SPARQL-Endpunkt des Amts für Veröffentlichungen nach neuen konsolidierten Fassungen und Akten (dieselben
 Abfragen und dieselbe Logik wie «Aktualisieren» im Tool) und führt das Issue «Neue Fassungen auf EUR-Lex». Neue konsolidierte
 Fassungen baut er mit `scripts/apply-fassungen.mjs` ein und eröffnet mit `scripts/fassungen-pr.mjs` einen Pull Request mit
-Befund, geänderten Bestimmungen je Sprache, Prüfberichten und Tests. Neue Akte und Vorschläge sind Information; was in
+Befund, geänderten Bestimmungen je Sprache, Prüfberichten und Tests. Neue Akte und Vorschläge erscheinen zur Information; was in
 `data/zur-kenntnis.txt` steht, gilt als zur Kenntnis genommen. Lokal ohne Wirkung:
 `node scripts/check-fassungen.mjs --dry-run --out befund.json` (hinter einem Proxy mit `NODE_USE_ENV_PROXY=1`), danach
 `node scripts/apply-fassungen.mjs --befund befund.json --out <ordner>`.

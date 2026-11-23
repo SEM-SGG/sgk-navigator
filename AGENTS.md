@@ -26,7 +26,7 @@ Weitere Quellen: [`README.md`](README.md) (Aufbau, Befehle, Datenregel), [`MAINT
   1. Füge zuoberst in `CHANGELOG.md` (unter dem einleitenden Absatz) einen Abschnitt `## <version> (<Tag>. <Monat> <Jahr>)` ein, zum Beispiel `## 2026.12.02 (2. Dezember 2026)`, mit je einer Zeile `- ` pro Änderung, verständlich für Nutzende. Auf Wunsch folgt ein Unterabschnitt `### Français` mit dem französischen Text für die Download-Seite. Der Abschnitt wird zum Text der Release.
   2. Setze die Version in der Produktdokumentation: `node scripts/check-dokumentation.mjs --fix`.
 
-  Lautet der Auftrag, in einem bestehenden Pull Request die Version in der Produktdokumentation nachzusetzen (`MAINTAINING.md`, «Neue Version veröffentlichen»), führst du auf dessen Zweig `node scripts/check-dokumentation.mjs --fix` aus, committest und pushst ohne `--force`. Änderungen nur an `MAINTAINING.md`, `AGENTS.md`, Tests, Skripten der Pflege oder Workflows brauchen keine neue Version. Eine Änderung an `docs/sgk-navigator-dokumentation.html` oder `site/` ohne neue Version stellt die Download-Seite nach dem Merge neu bereit.
+  Lautet der Auftrag, in einem bestehenden Pull Request die Version in der Produktdokumentation nachzuführen (`MAINTAINING.md`, «Neue Version veröffentlichen», Schritt 6), führst du auf dessen Zweig `node scripts/check-dokumentation.mjs --fix` aus, committest und pushst ohne `--force`. Änderungen nur an `MAINTAINING.md`, `AGENTS.md`, Tests, Skripten der Pflege oder Workflows brauchen keine neue Version. Eine Änderung an `docs/sgk-navigator-dokumentation.html` oder `site/` ohne neue Version stellt die Download-Seite nach dem Merge neu bereit.
 
 ## Prüfbefehle
 
@@ -61,18 +61,18 @@ Nach dem Eröffnen wartest du den Lauf «CI / Tests und Build» im Pull Request 
 
 ## Abläufe
 
-Jeder Ablauf beginnt mit dem Auftrag, den eine Fachperson kopiert und dir gibt. Die Pünktchen ersetzt sie durch Nummer, Datum oder Angabe.
+Jeder Ablauf beginnt mit dem Auftrag, den eine Fachperson kopiert und dir gibt. Dabei ersetzt sie `…` durch die Nummer des Pull Requests oder des Issues, das Datum oder die geforderten Fachangaben.
 
 ### Gescheiterter Einbau neuer Fassungen
 
 ```
-Der Einbau ist gescheitert, Pull Request #… im Repository SEM-SGG/sgk-navigator ist ein Entwurf: Bring ihn in Ordnung. Halte dich an AGENTS.md, Ablauf «Gescheiterter Einbau neuer Fassungen».
+Der Einbau der neuen Fassungen ist gescheitert. Pull Request #… im Repository SEM-SGG/sgk-navigator ist ein Entwurf: Bring ihn in Ordnung. Halte dich an AGENTS.md, Ablauf «Gescheiterter Einbau neuer Fassungen».
 ```
 
 Hintergrund: Der Workflow «Fassungen» (`.github/workflows/fassungen.yml`) prüft jeden Montag mit `scripts/check-fassungen.mjs`, führt das Issue «Neue Fassungen auf EUR-Lex» nach, baut neue konsolidierte Fassungen mit `scripts/apply-fassungen.mjs` ein und eröffnet mit `scripts/fassungen-pr.mjs` einen Pull Request auf dem Zweig `fassungen/einbau`. Scheitert der Einbau, eine Prüfung oder ein Test, ist der Pull Request ein Entwurf mit dem Vermerk «Nicht zusammenführen».
 
 1. Lies den Entwurf: die Gründe im Kasten am Anfang, dann «Befund», «Was sich ändert», «Prüfberichte», «Übrige Stände» und «Tests». Lies den roten Lauf «Fassungen» (`gh run list --workflow fassungen.yml`, `gh run view <lauf> --log-failed`) und das Artefakt «einbau» des Laufs mit `einbau.json`, `tests.json` und `pr.md` (`gh run download <lauf> -n einbau`).
-2. Liegt die Ursache bei EUR-Lex, Cellar oder im Netz (zum Beispiel `nicht ladbar`, `HTTP 503`, Zeitüberschreitung), änderst du nichts. Antworte der Fachperson, dass sie den Workflow unter **Actions** über **Run workflow** neu startet (`MAINTAINING.md`, «Wenn der Pull Request ein Entwurf ist», Schritt 3).
+2. Liegt die Ursache bei EUR-Lex, Cellar oder im Netz (zum Beispiel `nicht ladbar`, `HTTP 503`, Zeitüberschreitung), änderst du nichts. Antworte der Fachperson, dass sie den Workflow unter **Actions** über **Run workflow** neu startet (`MAINTAINING.md`, Abschnitt «Wenn der Pull Request ein Entwurf ist», Schritt 3).
 3. Sonst legst du einen Zweig ab `origin/main` an, zum Beispiel `agent/fassungen-2026-12-07`.
 4. Lade den Befund (`befund.json` steht nicht im Artefakt; erzeuge ihn mit `node scripts/check-fassungen.mjs --dry-run --out befund.json`) und führe `npm ci` und `node scripts/apply-fassungen.mjs --befund befund.json --out <ordner>` aus. Das Skript lädt die Rohdaten, baut alle Datensätze, erzeugt die Prüfberichte, legt die Version und den Abschnitt in `CHANGELOG.md` an und setzt die Version in der Produktdokumentation. Das Ergebnis steht in `<ordner>/einbau.json`.
 5. Scheitert ein Schritt, eine Prüfung (`validation.passed` ist `false`) oder meldet `foreign` eine inhaltliche Änderung an einem bestehenden Stand, suche die Ursache im Code: Parser `src/core/parser.js`, Datenmodell `src/core/model.js`, Bau `scripts/build-data.mjs` (SGK, Stände ab s08 aus `data/sgk-fassungen.json`), `scripts/build-work.mjs` (weitere Rechtsakte), Prüfskripte `scripts/validate.mjs` und `scripts/validate-works.mjs`. Behebe sie dort und belege die Korrektur mit einem Test in `test/core/` oder `test/app/`. Setze vor einem zweiten Lauf `CHANGELOG.md`, `docs/sgk-navigator-dokumentation.html`, `data/` und `scripts/out/works/` auf den Stand von `origin/main` zurück (`git checkout origin/main -- <dateien>`), sonst steigt die Version zweimal.
@@ -80,7 +80,7 @@ Hintergrund: Der Workflow «Fassungen» (`.github/workflows/fassungen.yml`) prü
 7. Lies `data/VALIDATION.md` und `data/VALIDATION_WORKS.md`. Jede gestiegene Zahl braucht dort eine Begründung.
 8. Führe die Prüfbefehle aus, dazu die Datentests mit Rohdaten.
 9. Committe die Dateien aus `COMMIT_FILES` in `scripts/fassungen-pr.mjs`, dazu deine Korrekturen und Tests. `raw/` ist von Git ausgeschlossen.
-10. Eröffne den Pull Request gegen `main`. Titel wie der Workflow (Feld `subject` in `einbau.json`), zum Beispiel «SGK-Navigator 2026.12.07: SGK-Fassung vom 1. Dezember 2026 nachgeführt». In der Beschreibung nennt «Ausgangslage» den Entwurf und den Grund, «Von der prüfenden Person zu kontrollieren» übernimmt «Befund», «Was sich ändert», «Prüfberichte» aus `pr.md` und den Text im Changelog. Schreibe dazu: «Nach dem Zusammenführen den Entwurf #… schliessen.» Schliesse mit `Closes #<nummer>` für das Issue «Neue Fassungen auf EUR-Lex», ausser es nennt noch Akte zur Information.
+10. Eröffne den Pull Request gegen `main`. Titel wie der Workflow (Feld `subject` in `einbau.json`), zum Beispiel «SGK-Navigator 2026.12.07: SGK-Fassung vom 1. Dezember 2026 nachgeführt». In der Beschreibung nennt «Ausgangslage» den Entwurf und den Grund, «Von der prüfenden Person zu kontrollieren» übernimmt «Befund», «Was sich ändert», «Prüfberichte» aus `pr.md` und den Text im Changelog. Schreibe dazu: «Nach dem Zusammenführen den Entwurf #… mit **Close pull request** schliessen.» Schliesse mit `Closes #<nummer>` für das Issue «Neue Fassungen auf EUR-Lex», ausser es nennt noch Akte zur Information.
 
 ### Neue Fassung des SGK einbauen
 
@@ -101,7 +101,7 @@ Den Normalfall erledigt der Workflow «Fassungen» selbst: Er trägt die Fassung
 ### Akt erfassen
 
 ```
-Erfasse den Akt … in acts.json im Repository SEM-SGG/sgk-navigator; die Anwendbarkeit lautet …. Halte dich an AGENTS.md, Ablauf «Akt erfassen».
+Erfasse den Akt … in data/acts.json im Repository SEM-SGG/sgk-navigator. Die Anwendbarkeit lautet: … (ab wann, Fundstelle; abweichende Daten einzelner Bestimmungen). Die Kurzbezeichnung lautet: … (DE), … (FR), … (EN). Halte dich an AGENTS.md, Ablauf «Akt erfassen».
 ```
 
 Ein Akt in `data/acts.json` (SGK) erscheint im Navigator in der Liste der Akte mit Anwendbarkeit. Die weiteren Rechtsakte haben eigene Listen `data/works/<werk>.acts.json`, die `scripts/build-work.mjs` aus EUR-Lex erzeugt (Anwendbarkeit dort «nicht erhoben»); erfasse dort nur, wenn der Auftrag es ausdrücklich verlangt.
@@ -113,7 +113,7 @@ Ein Akt in `data/acts.json` (SGK) erscheint im Navigator in der Liste der Akte m
 5. Setze `confidence` auf `check` und schreibe in `checkNote`, welche Angaben die Fachperson geliefert hat.
 6. Lege eine neue Version an (Abschnitt «Grundregeln», «Version und Changelog»).
 7. Führe die Prüfbefehle aus. Mit Rohdaten zeigt `node scripts/validate.mjs` im Abschnitt «Abgleich mit data/acts.json» den neuen Akt.
-8. Eröffne den Pull Request. Unter «Von der prüfenden Person zu kontrollieren» zeigst du den neuen Eintrag als Tabelle (Feld, Wert, Quelle: EUR-Lex oder Auftrag). Kommt der Auftrag aus einem Entwurf des Workflows «Fassungen», schreibe: «Nach dem Zusammenführen den Workflow «Fassungen» über **Run workflow** neu starten; er baut den Entwurf #… mit dem neuen Eintrag neu.»
+8. Eröffne den Pull Request. Unter «Von der prüfenden Person zu kontrollieren» zeigst du den neuen Eintrag als Tabelle (Feld, Wert, Quelle: EUR-Lex oder Auftrag). Kommt der Auftrag aus einem Entwurf des Workflows «Fassungen», schreibe: «Nach dem Zusammenführen unter **Actions** → **Fassungen** → **Run workflow** den Workflow neu starten; er baut den Entwurf #… mit dem neuen Eintrag neu.»
 
 ### Fehler aus einem Issue beheben
 
@@ -139,8 +139,8 @@ Bearbeite den Pull Request von Dependabot #… im Repository SEM-SGG/sgk-navigat
 Dependabot schlägt einmal im Monat neue Versionen der GitHub Actions vor, gruppiert in einem Pull Request (`.github/dependabot.yml`). npm-Pakete aktualisiert er nicht, weil ein Update die gebaute Datei verändern kann. Die Fachperson führt einen grünen Pull Request selbst zusammen; diesen Auftrag gibt sie, wenn ein Lauf rot ist oder sie unsicher ist.
 
 1. Lies den Pull Request und die Versionshinweise der aktualisierten Actions (Links im Text von Dependabot). Achte auf geänderte Eingaben, entfallene Optionen und eine neue Mindestversion von Node.js.
-2. Ist «CI» rot, lies den Lauf (`gh pr checks <nummer>`, `gh run view <lauf> --log-failed`). Liegt die Ursache in der Änderung, lege einen Zweig ab `origin/main` an, übernimm die Versionen aus dem Pull Request, passe die Workflows an und eröffne einen eigenen Pull Request. Schreibe: «Ersetzt #…; nach dem Zusammenführen #… schliessen.»
-3. Betrifft das Update `actions/upload-pages-artifact` oder `actions/deploy-pages`, prüfe es auch im Workflow «Release», der nur nach einem Merge läuft: Schreibe unter «Von der prüfenden Person zu kontrollieren», dass nach dem nächsten Merge mit neuer Version der Lauf «Release» und die Download-Seite zu prüfen sind (`MAINTAINING.md`, «Prüfen, ob die Veröffentlichung geklappt hat»).
+2. Ist «CI» rot, lies den Lauf (`gh pr checks <nummer>`, `gh run view <lauf> --log-failed`). Liegt die Ursache in der Änderung, lege einen Zweig ab `origin/main` an, übernimm die Versionen aus dem Pull Request, passe die Workflows an und eröffne einen eigenen Pull Request. Schreibe: «Ersetzt #…; nach dem Zusammenführen #… mit **Close pull request** schliessen.»
+3. Betrifft das Update `actions/upload-pages-artifact` oder `actions/deploy-pages`, prüfe es auch im Workflow «Release», der nur nach einem Merge läuft: Schreibe unter «Von der prüfenden Person zu kontrollieren», dass nach dem nächsten Merge mit neuer Version der Lauf «Release» und die Download-Seite zu prüfen sind (`MAINTAINING.md`, Abschnitt «Prüfen, ob die Veröffentlichung geklappt hat»).
 4. Ist alles grün und unbedenklich, antworte der Fachperson, dass sie den Pull Request zusammenführen kann, mit einem Satz zum Inhalt.
 
 ## Beschreibung des Pull Requests
@@ -148,11 +148,11 @@ Dependabot schlägt einmal im Monat neue Versionen der GitHub Actions vor, grupp
 Die prüfende Person ist eine Fachperson ohne GitHub-Erfahrung. Sie liest die Beschreibung im Browser und entscheidet danach über das Zusammenführen. Die Vorlage `.github/pull_request_template.md` gibt die Abschnitte vor:
 
 1. **Ausgangslage:** Welches Problem gab es, für wen, und wer hat den Auftrag gegeben (Issue, Entwurf)? Ohne Fachjargon.
-2. **Änderungen:** Was sich für Nutzende und für die pflegende Person ändert, in ganzen Sätzen. Dateinamen nur, wo sie beim Prüfen helfen.
-3. **Von der prüfenden Person zu kontrollieren:** Was die Person im Browser ansehen oder entscheiden soll, als nummerierte Schritte mit den Namen der Knöpfe, zum Beispiel «Öffne **Files changed** und lies `CHANGELOG.md`». Dazu, was nach dem Zusammenführen geschieht (Release, Download-Seite).
-4. **Testing:** Welche Prüfbefehle mit welchem Ergebnis gelaufen sind, und was du nicht prüfen konntest (zum Beispiel Edge, die Download-Seite auf GitHub Pages).
+2. **Änderungen:** Was sich für Nutzende und für die pflegende Person ändert, in ganzen Sätzen. Nenne Dateinamen nur, wo sie beim Prüfen helfen.
+3. **Von der prüfenden Person zu kontrollieren:** Was die Person im Browser ansehen oder entscheiden soll, als nummerierte Schritte mit den Namen der Knöpfe, zum Beispiel «Öffne **Files changed** und lies `CHANGELOG.md`». Nenne ausserdem, was nach dem Zusammenführen geschieht (zum Beispiel neue Release, Aktualisierung der Download-Seite).
+4. **Testing:** Welche Prüfbefehle mit welchem Ergebnis gelaufen sind und was du nicht prüfen konntest (zum Beispiel Edge, die Download-Seite auf GitHub Pages).
 5. **Risiko:** Was schlimmstenfalls passiert und woran die Person es merkt.
-6. **Rückgängig machen:** Wie sich die Änderung zurücknehmen lässt, meist «Revert des Merge-Commits und eine neue Version».
+6. **Rückgängig machen:** Wie sich die Änderung zurücknehmen lässt, meist: den zusammengeführten Pull Request auf GitHub über **Revert** rückgängig machen und danach eine neue Version veröffentlichen.
 
 Am Ende steht genau eine dieser Zeilen:
 

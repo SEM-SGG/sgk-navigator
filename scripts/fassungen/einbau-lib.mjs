@@ -113,7 +113,7 @@ export function judgeValidation(before, after) {
     const bad = sum(S.actText || [], (x) => x.bad.length);
     add('SGK: Wortlaut der Änderungsakte, Abweichungen', SB ? sum(SB.actText || [], (x) => x.bad.length) : '–', bad, bad === 0 ? 'ok' : 'fehler');
     add('SGK: Schlüssel in DE, FR, EN verschieden', SB ? (SB.lang || []).length : '–', (S.lang || []).length, (S.lang || []).length === 0 ? 'ok' : 'fehler');
-    if ((S.reverseSkipped || []).length) add('SGK: Umkehrprüfung (Wortlaut des Akts im Stand)', '–', `nicht eingerichtet für ${S.reverseSkipped.join(', ')}`, 'hinweis', 'die ändernden Bestimmungen des Akts sind in scripts/validate.mjs (AMEND) nachzutragen; Auftrag an einen Agenten');
+    if ((S.reverseSkipped || []).length) add('SGK: Umkehrprüfung (Wortlaut des Akts im Stand)', '–', `nicht eingerichtet für ${S.reverseSkipped.join(', ')}`, 'hinweis', 'ein Agent trägt die ändernden Bestimmungen des Akts in scripts/validate.mjs (AMEND) nach');
     const ud = (R) => (R.stageDiff || []).filter((x) => !x.expected && !x.explained).length;
     const u = ud(S), ub = SB ? ud(SB) : null;
     add('SGK: Änderungen zwischen Ständen ohne Erklärung', ub ?? '–', u, ub !== null && u > ub ? 'hinweis' : 'ok', ub !== null && u > ub ? 'gestiegen; data/VALIDATION.md, Abschnitt Standdifferenzen, nennt jeden Fall' : null);
@@ -203,9 +203,9 @@ export function prText(e, tests, ctx = {}) {
     L.push('## Von dir zu liefern', '');
     for (const n of needs) {
       L.push(`### ${n.title}`, '', n.text, '');
-      if (n.task) L.push('Gib einem Agenten (Claude Code im Browser oder Codex mit angebundenem Repository) diesen Auftrag. Ersetze die Pünktchen durch deine Angabe:', '', '```', n.task, '```', '');
+      if (n.task) L.push('Kopiere diesen Auftrag für einen Agenten (ein KI-Werkzeug wie Claude Code im Browser oder Codex mit angebundenem Repository) und ersetze `…` durch deine Angaben:', '', '```', n.task, '```', '');
     }
-    L.push('Der Agent eröffnet einen eigenen Pull Request. Führe ihn zusammen. Starte danach den Workflow «Fassungen» neu (**Actions** → **Fassungen** → **Run workflow**). Er baut diesen Pull Request mit den neuen Angaben neu.', '');
+    L.push('Der Agent eröffnet einen eigenen Pull Request. Prüfe ihn und führe ihn zusammen. Starte danach den Workflow «Fassungen» neu (**Actions** → **Fassungen** → **Run workflow**). Er baut diesen Pull Request mit den neuen Angaben neu.', '');
   }
   if (checks.length) {
     L.push('## Besonders zu prüfen', '');
@@ -233,7 +233,7 @@ export function prText(e, tests, ctx = {}) {
   if (e.fetched) {
     const SRC = { 'eur-lex': 'EUR-Lex', 'cellar-xhtml': 'Cellar (XHTML)', 'cellar-html': 'Cellar (HTML)' };
     const parts = Object.entries(e.fetched).map(([k, n]) => `${n} von ${SRC[k] || k}`);
-    L.push(`Rohdaten: ${parts.length ? `in diesem Lauf geladen ${parts.join(', ')}` : 'alle aus dem Zwischenspeicher des Workflows'}.`, '');
+    L.push(`Rohdaten: ${parts.length ? `in diesem Lauf geladen: ${parts.join(', ')}` : 'alle aus dem Zwischenspeicher des Workflows'}.`, '');
   }
   if (e.foreign) {
     L.push('## Übrige Stände', '');
@@ -255,11 +255,11 @@ export function prText(e, tests, ctx = {}) {
   L.push('', '## So prüfst du diesen Pull Request', '');
   L.push(
     '1. Vergleiche den Abschnitt «Befund» mit EUR-Lex. Die Links in der Tabelle führen zur Fassung.',
-    '2. Lies «Was sich ändert». Dort stehen nur die Rechtsakte aus dem Befund, je Sprache mit den geänderten Bestimmungen.',
-    '3. Prüfe «Prüfberichte», «Übrige Stände» und «Tests»: Jede Prüfung zeigt «bestanden» oder «Hinweis», unter «Übrige Stände» steht keine Warnung, jeder Test zeigt «bestanden».',
-    '4. Gib den Lauf «CI» frei: Unten im Pull Request steht «Some checks are waiting for approval». Wähle dort **Approve workflows to run**. GitHub verlangt diese Freigabe, weil der Pull Request von einem Workflow stammt. Fehlt **Approve workflows to run** und erscheint kein Lauf «CI», wähle unten **Close pull request** und danach **Reopen pull request**.',
-    '5. Lies «Text im Changelog». Du darfst ihn verbessern: **Files changed** → bei `CHANGELOG.md` das Menü **…** → **Edit file**, danach **Commit changes** im selben Zweig.',
-    `6. Wähle **Merge pull request** und **Confirm merge**. Der Workflow «Release» veröffentlicht danach die Version ${e.version || 'mit der neuen Nummer'} und aktualisiert die Download-Seite.`,
+    '2. Lies den Abschnitt «Was sich ändert». Dort stehen nur die Rechtsakte aus dem Befund, je Sprache mit den geänderten Bestimmungen.',
+    '3. Prüfe die Abschnitte «Prüfberichte», «Übrige Stände» und «Tests»: Jede Prüfung zeigt «bestanden» oder «Hinweis», unter «Übrige Stände» steht keine Warnung, und jeder Test zeigt «bestanden».',
+    '4. Gib den Lauf «CI» (Continuous Integration, automatische Prüfung) frei: Unten im Pull Request steht «Some checks are waiting for approval». Wähle dort **Approve workflows to run**. Nach einigen Minuten zeigt der Pull Request «CI / Tests und Build» mit grünem Haken. GitHub verlangt diese Freigabe, weil der Pull Request von einem Workflow stammt. Fehlt **Approve workflows to run** und erscheint kein Lauf «CI», wähle unten **Close pull request** und danach **Reopen pull request**. Das startet «CI».',
+    '5. Lies den Abschnitt «Text im Changelog». Du darfst ihn vor dem Zusammenführen verbessern: Öffne **Files changed**, klicke bei `CHANGELOG.md` auf das Menü **…** und wähle **Edit file**. Speichere mit **Commit changes** im selben Zweig.',
+    `6. Sobald «CI» grün ist, wähle **Merge pull request** und **Confirm merge**. Der Workflow «Release» veröffentlicht danach die Version ${e.version || 'mit der neuen Nummer'} und aktualisiert die Download-Seite.`,
     '',
     'Ist der Pull Request ein Entwurf, führe ihn nicht zusammen. Das Vorgehen steht in `MAINTAINING.md`, Abschnitt «Neue Fassung einbauen».',
   );

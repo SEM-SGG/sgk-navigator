@@ -125,7 +125,7 @@ export function issueBody(results, ctx = {}) {
   const day = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zurich' }).format(now);
   const L = [];
   L.push(`<!-- ${MARKER} ${JSON.stringify({ items: keys })} -->`);
-  L.push('Die wöchentliche Prüfung beim Amt für Veröffentlichungen der EU (SPARQL-Endpunkt von Cellar) hat Einträge gefunden, die in den Daten dieses Repositorys fehlen. Es ist dieselbe Prüfung wie im SGK-Navigator unter «Aktualisieren» → «Alle Rechtsakte prüfen».');
+  L.push('Die wöchentliche Prüfung beim Amt für Veröffentlichungen der EU (Abfragedienst Cellar) hat Einträge gefunden, die in den Daten dieses Repositorys fehlen. Es ist dieselbe Prüfung wie im SGK-Navigator unter «Aktualisieren» → «Alle Rechtsakte prüfen».');
   L.push('');
   L.push(`Geprüft am ${dateDe(day)}, ${time} Uhr${ctx.commit ? `, Datenstand des Repositorys: Commit \`${String(ctx.commit).slice(0, 7)}\`` : ''}.`);
   L.push('');
@@ -133,21 +133,21 @@ export function issueBody(results, ctx = {}) {
   if (b.cons.length) {
     L.push('| Rechtsakt | CELEX | Datum | Status | EUR-Lex |', '| --- | --- | --- | --- | --- |');
     for (const x of b.cons) L.push(`| ${esc(x.abbr)} | \`${esc(x.celex)}\` | ${dateDe(x.date)} | ${esc(x.status)} | ${links(x)} |`);
-    L.push('', 'Der Workflow «Fassungen» baut diese Fassungen selbst ein und eröffnet dazu einen Pull Request. Prüfe ihn und führe ihn zusammen; danach erscheint die neue Version von selbst. Anleitung: ' + `[MAINTAINING.md, «Neue Fassung einbauen»](${repoUrl}/blob/main/MAINTAINING.md#neue-fassung-einbauen). Der Pull Request schliesst dieses Issue, sofern es keine Akte und Vorschläge zur Information mehr nennt.`);
+    L.push('', 'Der Workflow «Fassungen» baut diese Fassungen selbst ein und eröffnet dazu einen Pull Request (Änderungsvorschlag unter **Pull requests**). Prüfe ihn und führe ihn zusammen; danach veröffentlicht der Workflow «Release» die neue Version von selbst. Anleitung: ' + `[MAINTAINING.md, «Neue Fassung einbauen»](${repoUrl}/blob/main/MAINTAINING.md#neue-fassung-einbauen). Der Pull Request schliesst dieses Issue automatisch, sofern es keine Akte und Vorschläge zur Information mehr nennt.`);
   } else L.push('Keine. Alle konsolidierten Fassungen sind in den Daten.');
   L.push('');
   L.push('## Zur Information: neue Akte und Vorschläge', '');
   if (b.info.length) {
     L.push('| Rechtsakt | Art | CELEX | Datum | EUR-Lex |', '| --- | --- | --- | --- | --- |');
     for (const x of b.info) L.push(`| ${esc(x.abbr)} | ${esc(withUiLang('de', () => D.kindLabel(x.kind)))} | \`${esc(x.celex)}\` | ${dateDe(x.date)} | ${links(x)} |`);
-    L.push('', 'Hier besteht kein Handlungsbedarf: Den Wortlaut eines Änderungsakts übernimmt der Navigator mit der nächsten konsolidierten Fassung. Wer einen Eintrag gesehen hat, nimmt ihn zur Kenntnis. Dann meldet ihn weder diese Prüfung noch der Navigator weiter als neu:', '');
+    L.push('', 'Hier besteht kein Handlungsbedarf: Den Wortlaut eines Änderungsakts übernimmt der Navigator mit der nächsten konsolidierten Fassung. Wenn du einen Eintrag gesehen hast, nimm ihn zur Kenntnis. Danach meldet ihn weder diese Prüfung noch der Navigator weiter als neu:', '');
     const uniq = [...new Map(b.info.map((x) => [x.celex, x])).values()];
-    L.push(`1. Öffne [data/zur-kenntnis.txt zum Bearbeiten](${repoUrl}/edit/main/data/zur-kenntnis.txt).`);
-    L.push('2. Kopiere die folgenden Zeilen ans Ende der Datei. Lösche die Zeilen, die du noch nicht zur Kenntnis nehmen willst. Die Bemerkung nach der CELEX-Nummer darfst du ändern.');
+    L.push(`1. Öffne [data/zur-kenntnis.txt zum Bearbeiten](${repoUrl}/edit/main/data/zur-kenntnis.txt). GitHub öffnet die Datei direkt im Bearbeitungsmodus.`);
+    L.push('2. Kopiere die folgenden Zeilen ans Ende der Datei. Lösche Zeilen, die du noch nicht zur Kenntnis nehmen willst. Die Bemerkung nach der CELEX-Nummer darfst du ändern.');
     L.push('', '   ```', ...uniq.map((x) => `   ${x.celex}  ${x.abbr}: ${withUiLang('de', () => D.kindLabel(x.kind))} vom ${dateDe(x.date)}`), '   ```', '');
     L.push('3. Wähle **Commit changes…**, dann **Create a new branch for this commit and start a pull request** und **Propose changes**, danach **Create pull request**.');
-    L.push('4. Führe den Pull Request zusammen, sobald der Lauf «CI» grün ist. Die nächste Prüfung schliesst dieses Issue, wenn nichts mehr offen ist.');
-    L.push('', `Soll ein Akt im Navigator in der Liste der Akte erscheinen, mit Anwendbarkeit für die Schweiz, gib einem Agenten den Auftrag aus [AGENTS.md, Ablauf «Akt erfassen»](${repoUrl}/blob/main/AGENTS.md#akt-erfassen).`);
+    L.push('4. Sobald der Lauf «CI» grün ist, führe den Pull Request zusammen (**Merge pull request**, **Confirm merge**). Die nächste Prüfung schliesst dieses Issue, wenn nichts mehr offen ist.');
+    L.push('', `Soll ein Akt im Navigator in der Liste der Akte erscheinen (mit Anwendbarkeit für die Schweiz), gib einem Agenten den Auftrag aus [AGENTS.md, Ablauf «Akt erfassen»](${repoUrl}/blob/main/AGENTS.md#akt-erfassen).`);
   } else L.push('Keine.');
   L.push('');
   if (ctx.acknowledgedCount) L.push(`${ctx.acknowledgedCount} Einträge aus \`data/zur-kenntnis.txt\` sind zur Kenntnis genommen und hier nicht aufgeführt.`, '');
