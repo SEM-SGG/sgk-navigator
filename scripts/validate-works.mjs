@@ -180,7 +180,7 @@ console.log(`Grösse: ${mb(rawTotal)} roh, ${mb(gzTotal)} gzip (Budget 2,50 MB):
 // Tests (nur eigene Testdateien; alle Kerntests laufen separat)
 let tests = null;
 try {
-  const out = execFileSync(process.execPath, ['--test', 'test/core/parser-works.test.mjs', 'test/core/library.test.mjs'], { cwd: ROOT, encoding: 'utf8', maxBuffer: 16 << 20 });
+  const out = execFileSync(process.execPath, ['--test', '--test-reporter=tap', 'test/core/parser-works.test.mjs', 'test/core/library.test.mjs'], { cwd: ROOT, encoding: 'utf8', maxBuffer: 16 << 20 });
   tests = { pass: +(out.match(/# pass (\d+)/) || [0, 0])[1], fail: +(out.match(/# fail (\d+)/) || [0, 0])[1] };
 } catch (e) { const out = String(e.stdout || ''); tests = { pass: +(out.match(/# pass (\d+)/) || [0, 0])[1], fail: +(out.match(/# fail (\d+)/) || [0, 0])[1] || 1 }; }
 R.tests = tests;

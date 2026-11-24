@@ -1,33 +1,57 @@
-# Prüft jede Woche (Montag früh) und auf Knopfdruck beim Amt für Veröffentlichungen der EU, ob es für die fünf Rechtsakte
-# neue konsolidierte Fassungen oder neue Akte gibt, die in den Daten des Repos fehlen. Gleiche Abfragen und Logik wie
-# «Aktualisieren» → «Alle Rechtsakte prüfen» im Tool. Ist etwas neu, eröffnet bzw. aktualisiert der Workflow das Issue
-# «Neue Fassungen verfügbar»; sonst geschieht nichts.
-name: Fassungen prüfen
+name: Fassungen
 
+# Prüft jeden Montag früh (und auf Knopfdruck) beim Amt für Veröffentlichungen der EU, ob es für die fünf Rechtsakte neue
+# konsolidierte Fassungen oder neue Akte und Vorschläge gibt (scripts/check-fassungen.mjs; dieselbe Prüfung wie
+# «Aktualisieren» im Werkzeug). Das Issue «Neue Fassungen auf EUR-Lex» trennt Handlungsbedarf (neue Fassungen) von
+# Information (Akte, Vorschläge; zur Kenntnis nehmen über data/zur-kenntnis.txt). Ist nichts mehr offen, schliesst es sich.
+# Bei einer neuen Fassung baut der Job «einbau» sie ein (scripts/apply-fassungen.mjs), lässt Prüfberichte und Tests laufen
+# und eröffnet einen Pull Request auf dem Zweig fassungen/einbau (scripts/fassungen-pr.mjs). Scheitert der Einbau, eine
+# Prüfung oder ein Test, ist der Pull Request ein Entwurf mit «Nicht zusammenführen» und der Lauf endet rot. Fehlen
+# Fachangaben (zum Beispiel die Anwendbarkeit eines neuen Änderungsakts), ist er ein Entwurf, der sie benennt.
+# Ein offener Pull Request mit demselben Befund (Fingerabdruck) bleibt unverändert; ein offenes Issue wird aktualisiert.
+# Wiederholte Läufe eröffnen also keine doppelten Issues oder Pull Requests.
+# Der Probelauf (Start von Hand) ändert nichts auf GitHub: kein Issue, kein Push, kein Pull Request. Mit «Alles neu bauen»
+# lädt er die Rohdaten auch ohne neue Fassung und baut und testet alles; der Text des Pull Requests steht dann im Artefakt.
 on:
   schedule:
     - cron: '17 4 * * 1'
   workflow_dispatch:
     inputs:
-      dry_run:
-        description: 'Nur anzeigen (kein Issue eröffnen oder ändern)'
-        required: false
+      probelauf:
+        description: 'Probelauf: nichts eröffnen und nichts ändern (kein Issue, kein Pull Request)'
+        type: boolean
+        default: false
+      neu_bauen:
+        description: 'Nur im Probelauf: Rohdaten laden und alles neu bauen und testen, auch ohne neue Fassung'
         type: boolean
         default: false
 
-permissions:
-  contents: read
-  issues: write
+permissions: {}
 
 concurrency:
-  group: fassungen
+  group: fassungen-${{ github.ref }}
   cancel-in-progress: false
+
+env:
+  BASE: ${{ github.ref_name }}
+  PROBELAUF: ${{ inputs.probelauf && 'true' || 'false' }}
+  REBUILD: ${{ inputs.probelauf && inputs.neu_bauen && 'true' || 'false' }}
 
 jobs:
   check:
     name: Neue Fassungen suchen
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: read
+    outputs:
+      einbau: ${{ steps.plan.outputs.einbau }}
+      befund: ${{ steps.plan.outputs.befund }}
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
     steps:
       - uses: actions/checkout@v6
 
@@ -39,11 +63,87 @@ jobs:
       - name: Abhängigkeiten installieren
         run: npm ci
 
-      - name: Prüfen und Issue eröffnen bzw. aktualisieren
-        env:
-          GH_TOKEN: ${{ github.token }}
-          DRY_RUN: ${{ inputs.dry_run }}
+      - name: Mit EUR-Lex vergleichen und Issue nachführen
         run: |
           args=()
-          if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
-          node scripts/check-fassungen.mjs "${args[@]}"
+          if [ "$PROBELAUF" = "true" ]; then args+=(--dry-run); fi
+          node scripts/check-fassungen.mjs "${args[@]}" --out "$RUNNER_TEMP/befund.json"
+
+      - name: Über den Einbau entscheiden
+        id: plan
+        run: node scripts/fassungen-pr.mjs plan --befund "$RUNNER_TEMP/befund.json"
+
+  einbau:
+    name: Fassungen einbauen und Pull Request eröffnen
+    needs: check
+    if: needs.check.outputs.einbau == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      BEFUND: ${{ needs.check.outputs.befund }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Abhängigkeiten installieren
+        run: npm ci
+
+      # Der Zwischenspeicher beschleunigt nur. Ohne ihn lädt der Einbau alle Rohdaten neu (rund 100 MB). «Alles neu bauen»
+      # im Probelauf lädt bewusst alles neu und prüft so den Abruf von EUR-Lex und Cellar.
+      - name: Rohdaten aus dem Zwischenspeicher holen
+        if: env.REBUILD != 'true'
+        uses: actions/cache/restore@v6
+        with:
+          path: raw
+          key: eurlex-raw-${{ github.run_id }}
+          restore-keys: eurlex-raw-
+
+      - name: Fassungen einbauen
+        id: apply
+        continue-on-error: true
+        run: |
+          printf '%s' "$BEFUND" > "$RUNNER_TEMP/befund.json"
+          args=()
+          if [ "$REBUILD" = "true" ]; then args+=(--rebuild); fi
+          node scripts/apply-fassungen.mjs --befund "$RUNNER_TEMP/befund.json" --out "$RUNNER_TEMP/einbau" "${args[@]}"
+
+      - name: Rohdaten im Zwischenspeicher ablegen
+        if: ${{ !cancelled() }}
+        uses: actions/cache/save@v6
+        with:
+          path: raw
+          key: eurlex-raw-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Chromium für die Oberflächentests und pdftotext installieren
+        if: steps.apply.outcome == 'success'
+        run: |
+          npx playwright install --with-deps chromium
+          sudo apt-get install --yes --no-install-recommends poppler-utils
+
+      - name: Tests ausführen
+        id: tests
+        if: steps.apply.outcome == 'success'
+        continue-on-error: true
+        run: node scripts/fassungen-pr.mjs tests --out "$RUNNER_TEMP/einbau"
+
+      - name: Pull Request eröffnen oder aktualisieren
+        if: ${{ !cancelled() }}
+        run: node scripts/fassungen-pr.mjs publish --einbau "$RUNNER_TEMP/einbau"
+
+      - name: Zusammenfassung des Einbaus sichern
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: einbau
+          path: ${{ runner.temp }}/einbau
+          if-no-files-found: ignore
+          retention-days: 14

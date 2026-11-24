@@ -3,6 +3,12 @@
 import { t } from '../../lib/i18n.js';
 import { resolveCelex } from '../../../core/library.js';
 
+// Akte und Vorschläge, welche die Pflegenden als «zur Kenntnis genommen» führen (data/zur-kenntnis.txt, beim Build
+// eingebettet). Sie gelten als bekannt und zählen nicht als neu, solange sie nicht erfasst sind.
+let acknowledged = new Set();
+export function setAcknowledged(list) { acknowledged = new Set((list || []).map((x) => (typeof x === 'string' ? x : x && x.celex)).filter(Boolean)); }
+export const isAcknowledged = (celex) => acknowledged.has(celex);
+
 /** Stand, in dem ein Akt eingearbeitet ist: stage.act (SGK) oder stage.acts (weitere Werke). */
 export function stageOfActIn(data, celex) {
   const s = data.stageOfAct && data.stageOfAct.get(celex);
@@ -40,6 +46,7 @@ export function statusOf(data, item, kind, uploads = []) {
   }
   if (stage) return { known: true, label: t('update.st.inData', { stages: stage }) };
   if (a) return { known: true, label: a.kind === 'proposal' ? t('update.st.listedProposal') : t('update.st.listedNoStage') };
+  if (acknowledged.has(item.celex)) return { known: true, acknowledged: true, label: t('update.st.acknowledged') };
   if (item.date && item.date > since) return { known: false, label: t('update.st.new') };
   return { known: true, unlisted: true, label: t('update.st.unlisted') };
 }

@@ -9,7 +9,7 @@ import { DOMParser } from './lib-dom.mjs';
 import { parseEurLex, sourceText } from '../src/core/parser.js';
 import { normText, tokens } from '../src/core/text.js';
 import { getVersion, changesOfStage, composeAt, blockHistory, applyPatches } from '../src/core/model.js';
-import { ROOT, RAW, DATA, LANGS, readRaw, parseRaw, writeAtomic } from './build-data.mjs';
+import { ROOT, RAW, DATA, LANGS, readRaw, parseRaw, writeAtomic, sgkFassungen, latestSgkCelex } from './build-data.mjs';
 import { actOf, ACT_ORDER } from './reconstruct.mjs';
 
 const ds = JSON.parse(readFileSync(resolve(DATA, 'dataset.json'), 'utf8'));
@@ -66,7 +66,7 @@ function concatImageText(stageId, lang) {
     for (const b of v.blocks) if (b.ty === 'img') parts.push(b.t || '');
   }
   // Bildtexte der juengsten konsolidierten Fassung (EUR-Lex "Text von Bild"), falls der Stand keine hat
-  const p = parseRaw('02016R0399-20251012', lang);
+  const p = parseRaw(latestSgkCelex(), lang);
   for (const u of p.units) for (const b of u.blocks) if (b.ty === 'img') parts.push(b.t || '');
   return parts.join(' ');
 }
@@ -88,7 +88,8 @@ function compareTokens(srcText, outText) {
 }
 
 const SOURCES = [
-  ['s00', '32016R0399'], ['s01', '02016R0399-20161006'], ['s02', '02016R0399-20170407'], ['s07', '02016R0399-20240710'], ['s08', '02016R0399-20251012'],
+  ['s00', '32016R0399'], ['s01', '02016R0399-20161006'], ['s02', '02016R0399-20170407'], ['s07', '02016R0399-20240710'],
+  ...sgkFassungen().map((f) => [f.id, f.celex]),
 ];
 for (const [sid, celex] of SOURCES) {
   for (const lang of LANGS) {
@@ -102,7 +103,8 @@ for (const [sid, celex] of SOURCES) {
     const useStage = sid === 's08' && !st.langs.includes(lang) ? 's08' : sid;
     const rd = compareTokens(src, concatDataset(useStage, lang));
     R.coverageDs.push({ stage: sid, celex, lang, ...rd });
-    if (ds.patches && (sid === 's07' || sid === 's08')) {
+    // Stände mit ETIAS-Ergänzung: s07 und alle Stände aus data/sgk-fassungen.json (ab s08)
+    if (ds.patches && (sid === 's07' || sgkFassungen().some((f) => f.id === sid))) {
       const pp = applyPatches(p, ds.patches, { lang, actRank: (c) => { try { return ACT_ORDER.indexOf(actOf(c)); } catch { return -1; } } }).parsed;
       const rp = compareTokens(concatParsed(pp), concatDataset(useStage, lang));
       R.coverageDsPatched = R.coverageDsPatched || [];
@@ -113,8 +115,10 @@ for (const [sid, celex] of SOURCES) {
 }
 
 // ------------------------------------------------------------ B Akttext
+// Akt je Stand: s01 bis s07 fest, ab s08 aus data/sgk-fassungen.json (Berichtigungen getrennt)
 const ACT_STAGE = { '32016R1624': 's01', '32017R0458': 's02', '32017R2225': 's03', '32019R0817': 's05', '32021R1134': 's06', '32024R1717': 's07' };
-const CORR = { '32017R2225R(01)': 's03', '32024R1717R(01)': 's08' };
+const CORR = { '32017R2225R(01)': 's03' };
+for (const f of sgkFassungen()) (/R\(\d+\)$/.test(f.act) ? CORR : ACT_STAGE)[f.act] = f.id;
 const actTextCache = new Map();
 function actText(celex, lang) {
   const k = celex + lang;
@@ -184,6 +188,7 @@ function corrigendumTarget(celex, lang) {
   return m[1].replace(/^(\.\.\.|…)\s*/, '').replace(/^(\(?[a-z]{1,4}\)|\d+\.)\s+/, '');
 }
 for (const [act, sid] of Object.entries({ ...ACT_STAGE, ...CORR })) {
+  if (!stageById.get(sid)) continue;
   for (const lang of LANGS) {
     if (!stageById.get(sid).langs.includes(lang) && CORR[act]) continue;
     let srcCelex = act;
@@ -246,11 +251,15 @@ function passages(p) {
   }
   return res;
 }
+// Ändernde Bestimmungen je Akt. Ein neuer Akt aus data/sgk-fassungen.json hat hier noch keinen Eintrag: Die Umkehrprüfung
+// entfällt dann für ihn und steht als Hinweis in R.reverseSkipped (Pull Request des Workflows «Fassungen», «Prüfberichte»).
+const AMEND = { '32016R1624': ['art_80'], '32017R0458': ['art_1'], '32017R2225': ['art_1', 'anx'], '32019R0817': ['art_59'], '32021R1134': ['art_3'], '32024R1717': ['art_1', 'anx'] };
+R.reverseSkipped = [];
 for (const [act, sid] of Object.entries(ACT_STAGE)) {
+  if (!AMEND[act] || !stageById.get(sid)) { R.reverseSkipped.push(act); continue; }
   for (const lang of LANGS) {
     const p = parseRaw(act, lang);
     const stageText = normText(concatDataset(sid, lang));
-    const AMEND = { '32016R1624': ['art_80'], '32017R0458': ['art_1'], '32017R2225': ['art_1', 'anx'], '32019R0817': ['art_59'], '32021R1134': ['art_3'], '32024R1717': ['art_1', 'anx'] };
     const ps = passages(p).filter((x) => AMEND[act].includes(x.unit));
     const res = { act, stage: sid, lang, passages: ps.length, blocks: 0, ok: 0, missing: [] };
     for (const pa of ps) {
@@ -368,7 +377,7 @@ console.log('acts.json:', JSON.stringify(R.actsJson.reduce((m, x) => { m[x.statu
 import { spawnSync } from 'node:child_process';
 import { readdirSync } from 'node:fs';
 const testFiles = readdirSync(resolve(ROOT, 'test/core')).filter((f) => f.endsWith('.test.mjs')).map((f) => 'test/core/' + f);
-const tr = spawnSync(process.execPath, ['--test', ...testFiles], { cwd: ROOT, encoding: 'utf8' });
+const tr = spawnSync(process.execPath, ['--test', '--test-reporter=tap', ...testFiles], { cwd: ROOT, encoding: 'utf8' });
 const tPass = +(tr.stdout.match(/# pass (\d+)/) || [0, 0])[1];
 const tFail = +(tr.stdout.match(/# fail (\d+)/) || [0, 0])[1];
 const tNames = [...tr.stdout.matchAll(/^(ok|not ok) \d+ - (.*)$/gm)].map((m) => `${m[1] === 'ok' ? 'bestanden' : 'FEHLGESCHLAGEN'}: ${m[2]}`);

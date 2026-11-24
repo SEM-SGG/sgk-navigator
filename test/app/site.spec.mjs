@@ -73,6 +73,12 @@ test('Download-Seite DE: Inhalt, Schaltfläche aufs Release-Asset, Version, drei
   await expect(de).toContainText('Erste Version im Repo der Sektion Grundlagen Grenze.');
   await expect(de.locator('.facts li')).toHaveCount(5);
   await expect(de.locator('.facts')).toContainText('Schengener Grenzkodex (Verordnung (EU) 2016/399): Fassung vom 12. Oktober 2025');
+  // Produktdokumentation unter dokumentation.html, Kontakt ohne GitHub-Konto
+  await expect(page.locator('#docs-de')).toHaveAttribute('href', 'dokumentation.html');
+  const doc = await page.request.get(base + 'dokumentation.html');
+  expect(doc.ok()).toBe(true);
+  expect(await doc.text()).toContain('SGK-Navigator');
+  await expect(de.locator('a[href="mailto:sektion-grenze@sem.admin.ch"]')).toHaveText('sektion-grenze@sem.admin.ch');
   expect(await page.locator('body').innerText()).not.toMatch(/ß/);
   expect(log.external).toEqual([]);
   expect(log.errors).toEqual([]);
@@ -98,6 +104,8 @@ test('Download-Seite FR: Sprachwahl per Schaltfläche und Browsersprache, gespei
   await expect(frb).toContainText('Version 2026.11.18 du 18 novembre 2026');
   await expect(frb).toContainText('Pas une publication officielle.');
   await expect(frb.locator('.steps li')).toHaveCount(3);
+  await expect(page.locator('#docs-fr')).toHaveText('Documentation du produit');
+  await expect(frb.locator('a[href="mailto:sektion-grenze@sem.admin.ch"]')).toBeVisible();
   await expect(page.locator('[data-l="de"].lang-block')).toBeHidden();
   await page.reload();
   await expect(page.locator('html')).toHaveAttribute('lang', 'fr-CH'); // gespeichert
@@ -134,4 +142,19 @@ test('Download-Seite schmal (375 px): kein horizontaler Scroll, Schaltfläche vo
   await expect(page.locator('[data-l="fr"].lang-block')).toBeVisible();
   await expect(page.locator('.lang-switch')).toBeHidden();
   await ctx.close();
+});
+
+test('Download-Seite ohne --notes: Kurztext aus CHANGELOG.md, Französisch aus «### Français»', () => {
+  const out = 'test/app/out/site-changelog';
+  const v = execFileSync('node', ['scripts/release-info.mjs', '--version'], { cwd: ROOT, encoding: 'utf8' }).trim();
+  execFileSync('node', ['scripts/build-site.mjs', '--version', v, '--out', out], { cwd: ROOT, encoding: 'utf8' });
+  const m = JSON.parse(readFileSync(join(ROOT, out, 'version.json'), 'utf8'));
+  const md = readFileSync(join(ROOT, 'CHANGELOG.md'), 'utf8');
+  const section = md.split(`## ${v} `)[1].split(/\n## /)[0];
+  const first = section.split('\n').find((l) => l.startsWith('- ')).slice(2).replace(/`/g, '');
+  expect(m.notes.de.startsWith(first.slice(0, 60))).toBe(true);
+  // Französisch aus «### Français», sonst der Standardtext (zum Beispiel beim automatischen Einbau neuer Fassungen)
+  if (/^### Fran(ç|c)ais/m.test(section)) expect(m.notes.fr).not.toMatch(/Nouvelle version du SGK-Navigator/);
+  else expect(m.notes.fr).toMatch(/Nouvelle version du SGK-Navigator/);
+  expect(existsSync(join(ROOT, out, 'dokumentation.html'))).toBe(true);
 });

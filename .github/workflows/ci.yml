@@ -1,4 +1,5 @@
-# Prüft jeden Push und jeden Pull Request: Einheitstests, Build, Oberflächentests (Playwright, Chromium headless).
+# Prüft jeden Push und jeden Pull Request: Changelog und Version der Produktdokumentation (scripts/release-info.mjs,
+# scripts/check-dokumentation.mjs), Einheitstests, Build, Oberflächentests (Playwright, Chromium headless).
 # Nicht in dieser Auswahl: Tests mit Netz (@netz) und Tests mit Dateien ausserhalb des Repos (@daten: raw/, raw-neg/,
 # test/app/fixtures-live/); sie laufen lokal mit `npm run test:app` (siehe MAINTAINING.md).
 name: CI
@@ -32,6 +33,12 @@ jobs:
           node-version: 22
           cache: npm
 
+      - name: Version und Changelog prüfen
+        run: node scripts/release-info.mjs
+
+      - name: Version in der Produktdokumentation prüfen
+        run: node scripts/check-dokumentation.mjs
+
       - name: Abhängigkeiten installieren
         run: npm ci
 
@@ -46,7 +53,7 @@ jobs:
 
       - name: Build und Download-Seite (Probe)
         run: |
-          v="$(TZ=Europe/Zurich date +%Y.%m.%d)"
+          v="$(node scripts/release-info.mjs --version)"
           node build.mjs --version "$v" --out dist/SGK-Navigator.html
           node scripts/build-site.mjs --version "$v" --file dist/SGK-Navigator.html --out dist/site
 

@@ -261,8 +261,10 @@ export default fixPunct({
       project: {
         title: 'Projet',
         page: 'Page du projet et téléchargement', pageNote: 'télécharger la dernière version, sans compte GitHub',
+        docs: 'Documentation du produit', docsNote: 'fonctions, utilisation et règle sur les données (DE, FR, IT)',
         source: 'Code source sur GitHub',
-        issues: 'Signaler une erreur', issuesNote: 'sur GitHub, un compte est nécessaire\u202f; ne saisir aucun contenu confidentiel. Sans compte\u00a0: Section Base Frontières, SEM',
+        issues: 'Signaler une erreur', issuesNote: 'sur GitHub, un compte est nécessaire\u202f; les issues sont publiques\u00a0: aucun contenu portant la mention INTERNE ou supérieure, aucune donnée personnelle',
+        contact: 'Retours sans compte GitHub à la Section Base Frontières, SEM\u00a0:',
       },
       err: {
         offline: 'La recherche a échoué : pas de connexion au service. Vérifier la connexion réseau et réessayer plus tard.',
@@ -300,7 +302,7 @@ export default fixPunct({
     openEurlex: 'Ouvrir sur EUR-Lex ({lang})', openEurlexInfo: 'Ouvrir sur EUR-Lex ({lang}), pour information',
     st: {
       inData: 'dans le jeu de données (état {stages})', uploaded: 'importé (état {stages})', missing: 'manque : {langs}', new: 'nouveau', newOnly: 'nouveau, uniquement {langs}', noLangs: 'non disponible en {langs}',
-      onlyLangs: 'concerne uniquement {langs}', listed: 'répertorié', listedProposal: 'répertorié, proposition', listedNoStage: 'répertorié, sans état propre',
+      onlyLangs: 'concerne uniquement {langs}', listed: 'répertorié', listedProposal: 'répertorié, proposition', listedNoStage: 'répertorié, sans état propre', acknowledged: 'noté',
       unlisted: 'non répertorié (antérieur au dernier acte répertorié)',
     },
     upload: {

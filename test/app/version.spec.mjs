@@ -274,7 +274,11 @@ test('Vorgabe SEM-SGG: Manifest auf GitHub Pages, Download aufs Release-Asset, �
   await expect(page.locator('#lnk-source')).toHaveText('Quellcode auf GitHub');
   await expect(page.locator('#lnk-issues')).toHaveAttribute('href', 'https://github.com/SEM-SGG/sgk-navigator/issues/new/choose');
   await expect(page.locator('#info-project')).toContainText('dafür ist ein Konto nötig');
-  for (const id of ['#lnk-project', '#lnk-source', '#lnk-issues']) { await expect(page.locator(id)).toHaveAttribute('target', '_blank'); await expect(page.locator(id)).toHaveAttribute('rel', 'noopener noreferrer'); }
+  await expect(page.locator('#lnk-docs')).toHaveAttribute('href', 'https://sem-sgg.github.io/sgk-navigator/dokumentation.html');
+  await expect(page.locator('#lnk-docs')).toHaveText('Produktdokumentation');
+  await expect(page.locator('#lnk-contact')).toHaveAttribute('href', 'mailto:sektion-grenze@sem.admin.ch');
+  await expect(page.locator('#info-project')).toContainText('Rückmeldungen ohne GitHub-Konto an die Sektion Grundlagen Grenze (SGG), SEM: sektion-grenze@sem.admin.ch');
+  for (const id of ['#lnk-project', '#lnk-docs', '#lnk-source', '#lnk-issues']) { await expect(page.locator(id)).toHaveAttribute('target', '_blank'); await expect(page.locator(id)).toHaveAttribute('rel', 'noopener noreferrer'); }
   await page.locator('#btn-update-check').click();
   await expect(page.locator('#update-msg')).toContainText('Eine neue Version ist verfügbar (Stand 12. Dezember 2026).');
   await expect(page.locator('#update-msg a').nth(1)).toHaveText('Was ist neu');
@@ -284,6 +288,8 @@ test('Vorgabe SEM-SGG: Manifest auf GitHub Pages, Download aufs Release-Asset, �
   await page.waitForFunction(() => window.__sgk && window.__sgk.ready);
   await expect(page.locator('#lnk-project')).toHaveText('Page du projet et téléchargement');
   await expect(page.locator('#lnk-issues')).toHaveText('Signaler une erreur');
+  await expect(page.locator('#lnk-docs')).toHaveText('Documentation du produit');
+  await expect(page.locator('#info-project')).toContainText('Section Base Frontières');
   await expect(page.locator('#update-whatsnew')).toHaveText('Nouveautés');
   await page.locator('#info-version').scrollIntoViewIfNeeded();
   await page.screenshot({ path: join(SHOTS, 'info-projekt-fr.png') });

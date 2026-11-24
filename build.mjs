@@ -10,6 +10,7 @@ import { fileURLToPath } from 'node:url';
 import { lastStage, lastConsolidatedStage, dropStage } from './scripts/lib-variant.mjs';
 import { DEFAULT_UPDATE_SOURCE } from './src/app/config/update-source.js';
 import { sourceInfo, versionOfBuild, parseVersion } from './src/app/lib/updatecheck.js';
+import { readKenntnis } from './scripts/fassungen/kenntnis.mjs';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const args = process.argv.slice(2);
@@ -189,7 +190,9 @@ const icons = readFileSync(p('src/app/assets/icons.svg'), 'utf8').replace(/<\?xm
 
 // ------------------------------------------------------------ Daten einbetten
 const gz = (obj) => gzipSync(Buffer.from(JSON.stringify(obj)), { level: 9 }).toString('base64');
-const meta = { version: VERSION, built: new Date().toISOString(), fixtures: useFix, status, sources: { dataset: dsFile.replace(ROOT + '/', ''), acts: actsFile.replace(ROOT + '/', ''), assets: existsSync(assetsFile) ? assetsFile.replace(ROOT + '/', '') : null }, dropped: DROP || null };
+// Akte und Vorschläge «zur Kenntnis genommen» (data/zur-kenntnis.txt): zählen in «Aktualisieren» nicht als neu
+const acknowledged = !useFix && existsSync(p('data/zur-kenntnis.txt')) ? readKenntnis(readFileSync(p('data/zur-kenntnis.txt'), 'utf8')).map((x) => x.celex) : [];
+const meta = { version: VERSION, acknowledged, built: new Date().toISOString(), fixtures: useFix, status, sources: { dataset: dsFile.replace(ROOT + '/', ''), acts: actsFile.replace(ROOT + '/', ''), assets: existsSync(assetsFile) ? assetsFile.replace(ROOT + '/', '') : null }, dropped: DROP || null };
 // script-src: zusätzlich genau der SPARQL-Endpunkt (Pfad, nicht der ganze Ursprung) für die Prüfung auf neue Fassungen
 // per JSONP (src/app/lib/sparql.js); der Endpunkt sendet keine CORS-Freigabe, fetch() aus file:// ist blockiert.
 // connect-src: zusätzlich die Ursprünge der Versionsangabe, nur wenn eine Quelle eingerichtet ist (Manifest auf GitHub Pages,
