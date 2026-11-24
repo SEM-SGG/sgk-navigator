@@ -33,6 +33,13 @@ export const PROJECT = {
   contact: 'sektion-grenze@sem.admin.ch',
 };
 
+/**
+ * Etikett «BETA» rechts neben dem Produktnamen in der Kopfzeile (src/app/ui/brandextras.js), während der Erprobung.
+ * Auf false setzen, um das Etikett zu entfernen (AGENTS.md, Ablauf «BETA-Kennzeichnung entfernen»). Das Symbol «Fehler
+ * melden oder Änderung vorschlagen» daneben hängt nicht an diesem Schalter, sondern an PROJECT.issues.
+ */
+export const BETA = true;
+
 export const DEFAULT_UPDATE_SOURCE = {
   kind: 'manifest',
   url: `${PROJECT.page}version.json`,

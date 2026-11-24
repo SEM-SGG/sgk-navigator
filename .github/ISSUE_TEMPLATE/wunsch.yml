@@ -1,0 +1,36 @@
+name: Wunsch oder Änderungsvorschlag
+description: Eine Funktion fehlt, ein Ablauf liesse sich verbessern oder ein Text sollte anders lauten.
+title: 'Wunsch: '
+labels: ['wunsch']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für den Vorschlag. **Dieses Issue ist öffentlich.** Bitte keine vertraulichen, klassifizierten oder internen Inhalte eintragen: keine Inhalte mit dem Vermerk INTERN oder höher, keine Personendaten, keine Positionen, Notizen, Dossiers oder Bildschirmfotos mit solchen Inhalten (Datenregel der SGG).
+        Ohne GitHub-Konto oder bei internen Inhalten: E-Mail an sektion-grenze@sem.admin.ch.
+  - type: textarea
+    id: worum
+    attributes:
+      label: Worum geht es?
+      description: Was möchten Sie ändern oder ergänzen? Nennen Sie, wenn möglich, die Ansicht und den Rechtsakt.
+    validations:
+      required: true
+  - type: textarea
+    id: wozu
+    attributes:
+      label: Wozu dient es?
+      description: Welche Arbeit wird damit einfacher oder sicherer?
+    validations:
+      required: true
+  - type: textarea
+    id: aussehen
+    attributes:
+      label: Wie sollte es aussehen? (optional)
+      description: Eine kurze Beschreibung oder ein Beispiel genügt.
+  - type: checkboxes
+    id: vertraulich
+    attributes:
+      label: Bestätigung
+      options:
+        - label: Die Meldung enthält keine vertraulichen oder internen Inhalte.
+          required: true

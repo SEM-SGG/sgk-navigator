@@ -415,3 +415,77 @@ test('Sammelkorb: Fokusfalle, Escape schliesst immer, schliesst beim Modulwechse
   await expect(dr).toHaveCount(0);
   expect(log.errors).toEqual([]);
 });
+
+test('Kopfzeile: Etikett BETA und Rückmelde-Symbol in allen Ansichten beider Module, 375 px ohne Überlauf, nicht im Druck', async ({ page }) => {
+  const ISSUES = 'https://github.com/SEM-SGG/sgk-navigator/issues/new/choose';
+  const log = await open(page, '#/uebersicht?ui=de');
+  const tag = page.locator('.app-head #beta-tag');
+  const fb = page.locator('.app-head #lnk-feedback');
+  // Etikett und Symbol liegen ausserhalb des Links .brand, Reihenfolge Wortmarke, Etikett, Symbol
+  const geo = () => page.evaluate(() => {
+    const r = (s) => document.querySelector(s).getBoundingClientRect();
+    const b = r('.app-head .brand'), g = r('#beta-tag'), f = r('#lnk-feedback'), h = r('.app-head');
+    return { nested: !!document.querySelector('.brand #beta-tag, .brand #lnk-feedback, #beta-tag a, #beta-tag button'), order: b.right <= g.left && g.right <= f.left + 1, gap: g.left - b.right,
+      fb: [f.width, f.height], right: f.right, head: h.height, sw: document.documentElement.scrollWidth, w: innerWidth };
+  });
+  // Alle Ansichten der Top-Navigation in beiden Modulen
+  for (const mod of ['#/uebersicht?ui=de', '#/dossiers?ui=de']) {
+    await nav(page, mod);
+    const hrefs = await page.locator('.app-head .views a').evaluateAll((l) => l.map((a) => a.getAttribute('href')));
+    expect(hrefs.length).toBeGreaterThan(3);
+    for (const h of hrefs) {
+      await nav(page, h);
+      await expect(tag, h).toBeVisible();
+      await expect(fb, h).toBeVisible();
+    }
+  }
+  await nav(page, '#/uebersicht?ui=de');
+  await expect(tag).toHaveText('BETA' + 'Beta: Dieses Tool ist in Erprobung. Rückmeldungen sind willkommen.');
+  await expect(tag).toHaveAttribute('title', 'Beta: Dieses Tool ist in Erprobung. Rückmeldungen sind willkommen.');
+  await expect(fb).toHaveAttribute('href', ISSUES);
+  await expect(fb).toHaveAttribute('target', '_blank');
+  await expect(fb).toHaveAttribute('rel', 'noopener noreferrer');
+  await expect(fb).toHaveAccessibleName('Fehler melden oder Änderung vorschlagen');
+  await expect(fb).toHaveAttribute('title', /^Fehler melden oder Änderung vorschlagen\. Öffnet GitHub in einem neuen Tab\. Meldungen sind öffentlich: keine Inhalte mit dem Vermerk INTERN oder höher, keine Personendaten\.$/);
+  // Neutrales Grau, Kontrast mindestens 4.5:1, kleine Schrift
+  const look = await tag.evaluate((e) => { const s = getComputedStyle(e); return { color: s.color, bg: s.backgroundColor, size: parseFloat(s.fontSize) }; });
+  const lum = (c) => { const v = c.match(/\d+(\.\d+)?/g).slice(0, 3).map(Number).map((x) => { x /= 255; return x <= 0.03928 ? x / 12.92 : ((x + 0.055) / 1.055) ** 2.4; }); return 0.2126 * v[0] + 0.7152 * v[1] + 0.0722 * v[2]; };
+  const [l1, l2] = [lum(look.color), lum(look.bg)].sort((a, b) => b - a);
+  expect((l1 + 0.05) / (l2 + 0.05)).toBeGreaterThanOrEqual(4.5);
+  expect(look.size).toBeGreaterThanOrEqual(11);
+  expect(look.size).toBeLessThanOrEqual(12);
+  // Klickfläche wie die übrigen Werkzeuge der Top-Navigation (48 px), Fokus mit der Tastatur
+  let g = await geo();
+  expect(g.nested).toBe(false);
+  expect(g.order).toBe(true);
+  expect(g.fb).toEqual([48, 48]);
+  await page.locator('.app-head .brand').focus();
+  await page.keyboard.press('Tab');
+  await expect(fb).toBeFocused();
+  expect(await fb.evaluate((e) => getComputedStyle(e).outlineStyle)).not.toBe('none');
+  // FR
+  await nav(page, '#/uebersicht?ui=fr');
+  await expect(tag.locator('[aria-hidden="true"]')).toHaveText('BÊTA');
+  await expect(fb).toHaveAccessibleName('Signaler une erreur ou proposer une modification');
+  // 375 px in beiden Modulen und Sprachen: eine Zeile, kein Überlauf, beide sichtbar
+  await page.setViewportSize({ width: 375, height: 800 });
+  for (const h of ['#/uebersicht?ui=de', '#/lesen?u=art_8&ui=de', '#/dossiers?ui=de', '#/uebersicht?ui=fr']) {
+    await nav(page, h);
+    await expect(tag, h).toBeVisible();
+    await expect(fb, h).toBeVisible();
+    g = await geo();
+    expect(g.sw, h).toBeLessThanOrEqual(g.w);
+    expect(g.head, h).toBe(48);
+    expect(g.right, h).toBeLessThanOrEqual(375);
+    expect(g.fb, h).toEqual([48, 48]);
+    expect((await page.evaluate(layoutCheck)).filter((x) => /Kopfzeile|Seite scrollt horizontal|Überlauf .*(app-head|brand|head-tools|tag-beta|head-feedback)/.test(x)), h).toEqual([]);
+  }
+  // Druck: Kopfzeile mit Etikett und Symbol ausgeblendet
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.emulateMedia({ media: 'print' });
+  await expect(tag).toBeHidden();
+  await expect(fb).toBeHidden();
+  await page.emulateMedia({ media: 'screen' });
+  expect(log.errors).toEqual([]);
+  expect(log.requests).toEqual([]);
+});
