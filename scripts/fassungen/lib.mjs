@@ -150,7 +150,7 @@ export function issueBody(results, ctx = {}) {
     L.push('', `Soll ein Akt im Navigator in der Liste der Akte erscheinen (mit Anwendbarkeit für die Schweiz), gib einem Agenten den Auftrag aus [AGENTS.md, Ablauf «Akt erfassen»](${repoUrl}/blob/main/AGENTS.md#akt-erfassen).`);
   } else L.push('Keine.');
   L.push('');
-  if (ctx.acknowledgedCount) L.push(`${ctx.acknowledgedCount} Einträge aus \`data/zur-kenntnis.txt\` sind zur Kenntnis genommen und hier nicht aufgeführt.`, '');
+  if (ctx.acknowledgedCount) L.push(ctx.acknowledgedCount === 1 ? 'Ein Eintrag aus `data/zur-kenntnis.txt` ist zur Kenntnis genommen und hier nicht aufgeführt.' : `${ctx.acknowledgedCount} Einträge aus \`data/zur-kenntnis.txt\` sind zur Kenntnis genommen und hier nicht aufgeführt.`, '');
   if (ctx.kenntnisErrors && ctx.kenntnisErrors.length) L.push(`**Achtung:** \`data/zur-kenntnis.txt\` enthält Zeilen, die nicht mit einer CELEX-Nummer eines Akts beginnen: ${ctx.kenntnisErrors.map((e) => `Zeile ${e.line} («${esc(e.text.slice(0, 40))}»)`).join(', ')}. Diese Zeilen zählen nicht.`, '');
   if (b.failed.length) L.push(`Nicht geprüft (Fehler bei der Abfrage): ${b.failed.map((r) => `${esc(r.abbr)} (${esc(r.error)})`).join('; ')}. Die nächste Prüfung versucht es erneut.`, '');
   L.push('_Automatisch erstellt vom Workflow «Fassungen» (`.github/workflows/fassungen.yml`, `scripts/check-fassungen.mjs`). Das Issue wird bei jeder Prüfung aktualisiert, solange es offen ist, und geschlossen, wenn nichts mehr offen ist._');

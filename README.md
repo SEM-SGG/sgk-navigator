@@ -67,11 +67,14 @@ Ohne GitHub-Konto: [sektion-grenze@sem.admin.ch](mailto:sektion-grenze@sem.admin
 > Als klassifiziert gilt, was einen Klassifizierungsvermerk trägt. Die Regel ergänzt die Weisungen des SEM und ersetzt sie nicht.
 
 Für den SGK-Navigator heisst das: Die Rechtstexte sind öffentlich. Eigene Inhalte – besonders Positionen, Konsultationen und
-Notizen im Modul Verhandlung, hochgeladene Fassungen und der Sammelkorb – bleiben im Speicher deines Browsers und fallen
-unter Punkt 1. Die Suche nach neuen Versionen ruft nur `version.json` ab, und «Aktualisieren» sendet nur CELEX-Nummern der
+Notizen im Modul Verhandlung, die dort eingelesenen Rückmeldungen zur Konsultation (Word-Dateien), hochgeladene Fassungen und
+der Sammelkorb – liest und speichert der Navigator nur im Speicher deines Browsers; sie fallen unter Punkt 1. Die Suche nach
+neuen Versionen ruft nur die Versionsangabe `version.json` auf GitHub Pages ab, ersatzweise die Angabe zur neuesten Release
+bei `api.github.com`; dabei überträgt sie keine Inhalte aus dem Navigator. «Aktualisieren» sendet nur CELEX-Nummern der
 Rechtsakte an den Abfragedienst (SPARQL-Endpunkt) des Amts für Veröffentlichungen der EU. Exportierte Projektdateien, Word-
-und PDF-Dateien mit dem Vermerk INTERN oder höher gibst du nur in der Arbeitsumgebung des Bundes weiter (Punkt 4). Issues
-sind öffentlich (Punkt 2).
+und PDF-Dateien mit dem Vermerk INTERN oder höher gibst du nur in der Arbeitsumgebung des Bundes weiter (Punkt 4). Issues und
+Pull Requests sind öffentlich (Punkt 2); besonders schützenswerte Personendaten und Falldaten zu Personen aus Verfahren gehören
+auch dann nicht hinein, wenn sie keinen Klassifizierungsvermerk tragen (Punkt 3).
 
 ### En bref (français)
 

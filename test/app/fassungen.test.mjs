@@ -79,6 +79,8 @@ test('Issue: Handlungsbedarf (Fassungen) getrennt von Information (Akte), Marker
   assert.match(info, /https:\/\/github\.com\/org\/repo\/edit\/main\/data\/zur-kenntnis\.txt/);
   assert.match(info, /^ {3}52099PC0001 {2}SGK: Änderungsakt vom 1\. Januar 2099$/m);
   assert.match(body, /2 Einträge aus `data\/zur-kenntnis\.txt` sind zur Kenntnis genommen/);
+  assert.match(issueBody(res, { acknowledgedCount: 1 }).body, /Ein Eintrag aus `data\/zur-kenntnis\.txt` ist zur Kenntnis genommen und hier nicht aufgeführt\./);
+  assert.doesNotMatch(issueBody(res, { acknowledgedCount: 0 }).body, /zur Kenntnis genommen und hier nicht/);
   assert.match(body, /Nicht geprüft \(Fehler bei der Abfrage\): EES-VO \(HTTP 503\)/);
   assert.ok(!/ß/.test(body));
   assert.equal(keysOfBody('ohne Marker'), null);

@@ -302,7 +302,7 @@ export default fixPunct({
     openEurlex: 'Ouvrir sur EUR-Lex ({lang})', openEurlexInfo: 'Ouvrir sur EUR-Lex ({lang}), pour information',
     st: {
       inData: 'dans le jeu de données (état {stages})', uploaded: 'importé (état {stages})', missing: 'manque : {langs}', new: 'nouveau', newOnly: 'nouveau, uniquement {langs}', noLangs: 'non disponible en {langs}',
-      onlyLangs: 'concerne uniquement {langs}', listed: 'répertorié', listedProposal: 'répertorié, proposition', listedNoStage: 'répertorié, sans état propre', acknowledged: 'pris acte',
+      onlyLangs: 'concerne uniquement {langs}', listed: 'répertorié', listedProposal: 'répertorié, proposition', listedNoStage: 'répertorié, sans état propre', acknowledged: 'noté',
       unlisted: 'non répertorié (antérieur au dernier acte répertorié)',
     },
     upload: {

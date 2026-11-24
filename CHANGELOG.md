@@ -11,7 +11,7 @@ Jede Version hat hier einen Abschnitt. Der oberste Abschnitt ist die aktuelle Ve
 ### Français
 
 - La documentation du produit se trouve sur la page de téléchargement (`dokumentation.html`). La vue « Info » y renvoie et indique l’adresse sektion-grenze@sem.admin.ch pour les retours sans compte GitHub.
-- « Mise à jour » signale comme « pris acte » les actes et propositions dont l’équipe de maintenance a pris connaissance et ne les compte plus comme nouveaux.
+- « Mise à jour » signale comme « noté » les actes et propositions dont l’équipe de maintenance a pris connaissance et ne les compte plus comme nouveaux.
 
 ## 2026.11.18 (18. November 2026)
 

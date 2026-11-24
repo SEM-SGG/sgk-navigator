@@ -134,7 +134,7 @@ Ein rotes Kreuz bei einem Pull Request oder Lauf heisst: Eine Prüfung ist fehlg
 | Fehler im Schritt «Auf GitHub Pages veröffentlichen» | Download-Seite ist nicht eingerichtet | Abschnitt «Einmalige Einrichtung» |
 | Ein Test schlägt fehl (`✘`, `not ok`) | Die Änderung hat ein Verhalten verändert | Änderung zurücknehmen oder berichtigen; bei Unklarheit ein Issue eröffnen und einem Agenten den Auftrag «Behebe den Fehler aus Issue #…» (`AGENTS.md`) geben |
 | Lauf «Fassungen» rot, Pull Request ist ein Entwurf | Einbau, Prüfung oder Test gescheitert | Abschnitt «Wenn der Pull Request ein Entwurf ist» |
-| Lauf «Fassungen» rot im Schritt «Mit EUR-Lex vergleichen»: `Kein Rechtsakt konnte geprüft werden` | Der Endpunkt des Amts für Veröffentlichungen war nicht erreichbar | Später über **Run workflow** neu starten oder die nächste Woche abwarten |
+| Lauf «Fassungen» rot im Schritt «Mit EUR-Lex vergleichen und Issue nachführen»: `Kein Rechtsakt konnte geprüft werden` | Der Endpunkt des Amts für Veröffentlichungen war nicht erreichbar | Später über **Run workflow** neu starten oder die nächste Woche abwarten |
 | `Rohdaten von EUR-Lex und Cellar nicht geladen` | EUR-Lex und Cellar waren nicht erreichbar | Workflow «Fassungen» später über **Run workflow** neu starten |
 | `GitHub Actions is not permitted to create or approve pull requests` | Einstellung für Pull Requests fehlt | Abschnitt «Einmalige Einrichtung», Schritt 4 |
 | Am Montag ist kein Lauf «Fassungen» erschienen | GitHub hat den zeitgesteuerten Lauf verzögert, ausgelassen oder abgeschaltet | Abschnitt «Zeitgesteuerter Lauf: Übergabe, Verspätung, Start von Hand» |
@@ -170,7 +170,7 @@ Der Workflow «Fassungen» startet von selbst am Montagmorgen. GitHub führt ihn
 
 **Wenn GitHub den Workflow abgeschaltet hat:** Bei öffentlichen Repositories schaltet GitHub zeitgesteuerte Workflows nach 60 Tagen ohne Aktivität im Repository ab. Zeigt **Actions** einen entsprechenden Hinweis, wähle den Workflow «Fassungen» und klicke **Enable workflow**. Wer das tut, erhält ab dann die Fehlermails.
 
-**Probelauf:** Mit **Run workflow** und dem Schalter **Probelauf** prüfst du den Ablauf, ohne etwas zu ändern: kein Issue, kein Push, kein Pull Request. Mit dem zusätzlichen Schalter **Nur im Probelauf: Rohdaten laden und alles neu bauen und testen** lädt der Lauf auch ohne neue Fassung alle Rohdaten von EUR-Lex und Cellar, baut alles und lässt alle Tests laufen. Den Text, den der Pull Request hätte, findest du in der Zusammenfassung des Laufs und im Artefakt «einbau» (`pr.md`).
+**Probelauf:** Mit **Run workflow** und dem Schalter **Probelauf: nichts eröffnen und nichts ändern (kein Issue, kein Pull Request)** prüfst du den Ablauf, ohne etwas zu ändern: kein Issue, kein Push, kein Pull Request. Mit dem zusätzlichen Schalter **Nur im Probelauf: Rohdaten laden und alles neu bauen und testen, auch ohne neue Fassung** lädt der Lauf auch ohne neue Fassung alle Rohdaten von EUR-Lex und Cellar, baut alles und lässt alle Tests laufen. Den Text, den der Pull Request hätte, findest du in der Zusammenfassung des Laufs und im Artefakt «einbau» (`pr.md`). Ein Artefakt ist eine ZIP-Datei mit Ergebnissen des Laufs; du lädst sie auf der Seite des Laufs unten unter **Artifacts** herunter.
 
 ## Einmalige Einrichtung
 
@@ -182,7 +182,7 @@ Diese Einstellungen nimmt einmalig eine Person mit Administratorrecht im Reposit
 4. **Pull Requests durch Workflows erlauben:** Setze im selben Abschnitt das Häkchen bei **Allow GitHub Actions to create and approve pull requests** und wähle **Save**. Ohne diese Einstellung eröffnet der Workflow «Fassungen» keinen Pull Request. Ist das Häkchen ausgegraut, sperrt die Organisation die Einstellung: Eine Person mit Admin-Recht in der Organisation setzt dasselbe Häkchen zuerst dort (Organisation **SEM-SGG** → **Settings** → **Actions** → **General** → **Workflow permissions**); danach lässt es sich im Repository setzen.
 5. **Labels (optional):** Lege unter **Issues** → **Labels** die Labels `fehler` und `fassung` an, damit die Vorlagen für Issues sie automatisch setzen können.
 
-Wird das Repository umbenannt oder zieht es in eine andere Organisation um, passt ein Agent `src/app/config/update-source.js` (Owner, Repo) und die Links in `README.md`, `.github/ISSUE_TEMPLATE/config.yml`, `site/` und `package.json` an. Erst die danach gebauten Versionen finden die neue Adresse.
+Wird das Repository umbenannt oder zieht es in eine andere Organisation um, passt ein Agent `src/app/config/update-source.js` (Owner, Repo) und die festen Adressen in `README.md`, `MAINTAINING.md`, `AGENTS.md`, der Produktdokumentation `docs/sgk-navigator-dokumentation.html`, der Anleitung im Werkzeug (`src/app/i18n/de-ra.js`, `fr-ra.js`), `.github/ISSUE_TEMPLATE/config.yml`, `site/`, `package.json` und `scripts/apply-fassungen.mjs` sowie `scripts/fassungen/einbau-lib.mjs` (Aufträge und Links im Pull Request des Workflows) an. Erst die danach gebauten Versionen finden die neue Adresse.
 
 ## Lokal arbeiten
 
@@ -205,4 +205,5 @@ Diesen Weg geht ein Agent oder eine Person mit Node.js auf ihrem Gerät. Einmali
 3. SGK: Eine neue Fassung kommt als weiterer Eintrag in `data/sgk-fassungen.json` dazu (Stand, CELEX, Datum, Akt, Herkunftsangabe DE, FR, EN). `node scripts/fetch-raw-sgk.mjs` lädt sie, `node scripts/build-data.mjs` baut `data/dataset.json`, `node scripts/validate.mjs` schreibt `data/VALIDATION.md`. Der Akt braucht einen Eintrag in `data/acts.json` mit Anwendbarkeit (Fachangabe).
 4. Für die Datentests: `node scripts/forms/extract-images.mjs`, danach `npm run test:core` (mit `raw/` ohne übersprungene Tests).
 5. Neue Version im Changelog anlegen, `node scripts/check-dokumentation.mjs --fix`, Pull Request eröffnen.
-6. Modul Verhandlung: `node scripts/neg/fetch-raw.mjs` lädt die öffentlichen Ratsdokumente nach `raw-neg/`. Testdateien für die Upload-Tests: `node test/app/tools/fetch-eurlex.mjs …` (Chrome, Netz) nach `test/app/fixtures-live/`.
+
+**Testdateien ausserhalb des Repositorys** (nicht Teil des Einbaus): Für die Tests des Moduls Verhandlung lädt `node scripts/neg/fetch-raw.mjs` die öffentlichen Ratsdokumente nach `raw-neg/`. Für die Upload-Tests lädt `node test/app/tools/fetch-eurlex.mjs …` (Chrome, Netz) Dateien nach `test/app/fixtures-live/`. Ohne diese Ordner überspringen sich die betroffenen Tests.
