@@ -1,7 +1,7 @@
 // Einstieg: Sprache der Oberfläche, Daten laden, gespeicherte Uploads anwenden, Oberfläche rendern.
 import { html } from 'htm/preact';
 import { render } from 'preact';
-import { useEffect, useState } from 'preact/hooks';
+import { useEffect, useLayoutEffect, useState } from 'preact/hooks';
 import { Data, loadEmbedded } from './data.js';
 import { useRoute, go, getState, normalizeHash } from './state.js';
 import { dataStore, toastStore, basketStore, panelStore, loadPersisted, persistBasket, toast, useData } from './app.js';
@@ -37,9 +37,10 @@ function Basket({ data }) {
   const items = basketStore.use();
   const { basket: open } = panelStore.use();
   const [busy, setBusy] = useState(false);
-  useEffect(() => { if (open) { const b = document.querySelector('.drawer .btn-icon'); if (b) b.focus(); } }, [open]);
+  // Fokus, Fokusfalle und Escape im selben Durchlauf wie das Öffnen (useLayoutEffect; useEffect liefe erst nach dem Zeichnen)
+  useLayoutEffect(() => { if (open) { const b = document.querySelector('.drawer .btn-icon'); if (b) b.focus(); } }, [open]);
   // Fokusfalle, Escape schliesst immer; Höhe der Fusszeile für die Meldungen (liegen darüber)
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (!open) return undefined;
     const onKey = (e) => {
       const dr = document.querySelector('.drawer');
@@ -143,7 +144,7 @@ function Header({ route, mod }) {
   const views = mod.views.filter((v) => !v.hidden);
   const home = mod.views[0].id;
   useEffect(() => { setMenu(false); }, [route.view, mod.id]);
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (!menu) return;
     const k = (e) => { if (e.key === 'Escape') { setMenu(false); const b = document.getElementById('btn-menu'); if (b) b.focus(); } };
     document.addEventListener('keydown', k);

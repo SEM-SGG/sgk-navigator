@@ -183,7 +183,8 @@ export { Notice, getState };
 export function Popover({ label, icon, id, children, align = 'right' }) {
   const [open, setOpen] = useState(false);
   const ref = useRef();
-  useEffect(() => {
+  // useLayoutEffect: Escape und Klick daneben wirken, sobald der Bereich im DOM ist
+  useLayoutEffect(() => {
     if (!open) return undefined;
     const f = (e) => { if (ref.current && !ref.current.contains(e.target)) setOpen(false); };
     const k = (e) => { if (e.key === 'Escape') { setOpen(false); const b = ref.current && ref.current.querySelector('button'); if (b) b.focus(); } };
