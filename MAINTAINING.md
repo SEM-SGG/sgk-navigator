@@ -4,7 +4,7 @@ Diese Anleitung richtet sich an die Person, die den SGK-Navigator pflegt. Ausser
 
 Was Programmcode oder Node.js verlangt, erledigt ein Agent (ein KI-Werkzeug wie Claude Code im Browser oder Codex mit angebundenem Repository). Du kopierst einen der Aufträge aus [`AGENTS.md`](AGENTS.md), Abschnitt «Abläufe», gibst ihn dem Agenten und prüfst danach seinen Pull Request (Änderungsvorschlag auf GitHub).
 
-Inhalt: [Wie alles zusammenhängt](#wie-alles-zusammenhängt) · [Neue Version veröffentlichen](#neue-version-veröffentlichen) · [Prüfen, ob die Veröffentlichung geklappt hat](#prüfen-ob-die-veröffentlichung-geklappt-hat) · [Neue Fassung einbauen](#neue-fassung-einbauen) · [Akte und Vorschläge zur Kenntnis nehmen](#akte-und-vorschläge-zur-kenntnis-nehmen) · [Wenn ein Lauf rot ist](#wenn-ein-lauf-rot-ist) · [Pull Requests von Dependabot](#pull-requests-von-dependabot) · [Zeitgesteuerter Lauf](#zeitgesteuerter-lauf-übergabe-verspätung-start-von-hand) · [Einmalige Einrichtung](#einmalige-einrichtung) · [Lokal arbeiten](#lokal-arbeiten)
+Inhalt: [Wie alles zusammenhängt](#wie-alles-zusammenhängt) · [Neue Version veröffentlichen](#neue-version-veröffentlichen) · [Prüfen, ob die Veröffentlichung geklappt hat](#prüfen-ob-die-veröffentlichung-geklappt-hat) · [Neue Fassung einbauen](#neue-fassung-einbauen) · [Akte und Vorschläge zur Kenntnis nehmen](#akte-und-vorschläge-zur-kenntnis-nehmen) · [Wenn ein Lauf rot ist](#wenn-ein-lauf-rot-ist) · [Pull Requests von Dependabot](#pull-requests-von-dependabot) · [BETA-Kennzeichnung entfernen](#beta-kennzeichnung-entfernen) · [Zeitgesteuerter Lauf](#zeitgesteuerter-lauf-übergabe-verspätung-start-von-hand) · [Einmalige Einrichtung](#einmalige-einrichtung) · [Lokal arbeiten](#lokal-arbeiten)
 
 ## Wie alles zusammenhängt
 
@@ -156,6 +156,16 @@ Dependabot (der automatische Aktualisierungsdienst von GitHub) eröffnet einmal 
 
 Die Workflows «Release» und «Fassungen» laufen erst nach dem nächsten Merge bzw. am nächsten Montag. Prüfe nach ihrem nächsten Lauf unter **Actions**, ob sie grün sind.
 
+## BETA-Kennzeichnung entfernen
+
+Während der Erprobung steht in der Kopfzeile des Navigators rechts neben dem Produktnamen das Etikett «BETA». Ist die Erprobung abgeschlossen, kopiere diesen Auftrag für einen Agenten:
+
+```
+Entferne die BETA-Kennzeichnung im Repository SEM-SGG/sgk-navigator. Halte dich an AGENTS.md, Ablauf «BETA-Kennzeichnung entfernen».
+```
+
+Der Agent stellt den Schalter um, passt Tests und Texte an und eröffnet einen Pull Request mit neuer Version. Das Käfersymbol für Rückmeldungen bleibt. Prüfe den Pull Request und führe ihn zusammen; der Workflow «Release» veröffentlicht danach die Version ohne Etikett.
+
 ## Zeitgesteuerter Lauf: Übergabe, Verspätung, Start von Hand
 
 Der Workflow «Fassungen» startet von selbst am Montagmorgen. GitHub führt ihn auf das Konto der Person aus, die ihn zuletzt eingerichtet oder wieder eingeschaltet hat. Nur diese Person erhält die Fehlermail. Verlässt sie die Organisation, läuft der Workflow weiter, aber die Fehlermails gehen weiter an sie.
@@ -180,7 +190,7 @@ Diese Einstellungen nimmt einmalig eine Person mit Administratorrecht im Reposit
 2. **Actions erlauben:** Öffne **Settings** → **Actions** → **General** und wähle «Allow all actions and reusable workflows» (oder mindestens Actions von GitHub, `actions/*`).
 3. **Rechte der Workflows:** Unter **Workflow permissions** genügt «Read repository contents and packages permissions»; die Workflows fordern die nötigen Rechte selbst an.
 4. **Pull Requests durch Workflows erlauben:** Setze im selben Abschnitt das Häkchen bei **Allow GitHub Actions to create and approve pull requests** und wähle **Save**. Ohne diese Einstellung eröffnet der Workflow «Fassungen» keinen Pull Request. Ist das Häkchen ausgegraut, sperrt die Organisation die Einstellung: Eine Person mit Admin-Recht in der Organisation setzt dasselbe Häkchen zuerst dort (Organisation **SEM-SGG** → **Settings** → **Actions** → **General** → **Workflow permissions**); danach lässt es sich im Repository setzen.
-5. **Labels (optional):** Lege unter **Issues** → **Labels** die Labels `fehler` und `fassung` an, damit die Vorlagen für Issues sie automatisch setzen können.
+5. **Labels (optional):** Lege unter **Issues** → **Labels** die Labels `fehler`, `fassung` und `wunsch` an, damit die Vorlagen für Issues sie automatisch setzen können.
 
 Wird das Repository umbenannt oder zieht es in eine andere Organisation um, passt ein Agent `src/app/config/update-source.js` (Owner, Repo) und die festen Adressen in `README.md`, `MAINTAINING.md`, `AGENTS.md`, der Produktdokumentation `docs/sgk-navigator-dokumentation.html`, der Anleitung im Werkzeug (`src/app/i18n/de-ra.js`, `fr-ra.js`), `.github/ISSUE_TEMPLATE/config.yml`, `site/`, `package.json` und `scripts/apply-fassungen.mjs` sowie `scripts/fassungen/einbau-lib.mjs` (Aufträge und Links im Pull Request des Workflows) an. Erst die danach gebauten Versionen finden die neue Adresse.
 

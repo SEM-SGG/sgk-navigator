@@ -20,6 +20,7 @@ import { workData, workById, setLibraryMeta, useLibrary, validWork, workShort, w
 import { setLibraryContext } from './data.js';
 import { dataFor } from './preview.js';
 import { UpdateNotice, initUpdate } from './ui/updatenotice.js';
+import { BrandExtras } from './ui/brandextras.js';
 import { setAcknowledged } from './modules/sgk/updatelogic.js';
 
 registerStrings('de', de);
@@ -137,7 +138,7 @@ function ModBar({ mod, data }) {
   </div>`;
 }
 
-/** Top-Navigation (Carbon UiShell): Wortmarke, Ansichten, Werkzeuge; unter 672 px Ansichten und Module im Menü. */
+/** Top-Navigation (Carbon UiShell): Wortmarke mit Etikett «BETA» und Rückmelde-Symbol, Ansichten, Werkzeuge; unter 672 px Ansichten und Module im Menü. */
 function Header({ route, mod }) {
   const items = basketStore.use();
   const [menu, setMenu] = useState(false);
@@ -153,16 +154,19 @@ function Header({ route, mod }) {
   return html`<header class=${'app-head' + (menu ? ' is-menu' : '')}>
     <a class="skip" href="#main" onClick=${(e) => { e.preventDefault(); const m = document.getElementById('main'); if (m) m.focus(); }}>${t('common.skip')}</a>
     <button type="button" class="btn-icon is-bare head-menu" id="btn-menu" aria-expanded=${menu ? 'true' : 'false'} aria-controls="head-menu" aria-label=${t('nav.views')} title=${t('nav.views')} onClick=${() => setMenu(!menu)}><${Icon} name=${menu ? 'close' : 'menu'} /></button>
-    <a class="brand" href=${'#/' + home} title=${mod.id === 'sgk' ? t('ra.brandSub') : t('neg.subtitle')} onClick=${(e) => { e.preventDefault(); go({ view: home }); }}>
-      <span class="brand-name"><strong>SGK</strong> Navigator</span>
-    </a>
+    <div class="brand-group">
+      <a class="brand" href=${'#/' + home} title=${mod.id === 'sgk' ? t('ra.brandSub') : t('neg.subtitle')} onClick=${(e) => { e.preventDefault(); go({ view: home }); }}>
+        <span class="brand-name"><strong>SGK</strong> Navigator</span>
+      </a>
+      <${BrandExtras} />
+    </div>
     <nav class="views" id="head-menu" aria-label=${t('nav.views')}>
       ${views.map((v) => html`<a href=${'#/' + v.id} aria-current=${route.view === v.id ? 'page' : undefined} onClick=${(e) => { e.preventDefault(); setMenu(false); go({ view: v.id, sec: null }); }}>${t(v.labelKey)}</a>`)}
       ${menu ? html`<div class="views-mods" aria-label=${t('nav.modules')} role="group">${modLinks(mod, () => setMenu(false))}</div>
       <div class="views-lang"><${UiLangSwitch} id="lbl-ui-menu" /></div>` : null}
     </nav>
     <div class="head-tools">
-      ${mod.id === 'sgk' ? html`<button type="button" class="btn-basket" id="btn-basket" onClick=${() => panelStore.set({ basket: true })}><${Icon} name="basket" /><span class="btn-basket-l">${t('basket.title')}</span>${items.length ? html`<span class="badge" aria-label=${t('basket.count', { n: items.length })}>${items.length}</span>` : null}</button>` : null}
+      ${mod.id === 'sgk' ? html`<button type="button" class="btn-basket" id="btn-basket" title=${t('basket.title')} onClick=${() => panelStore.set({ basket: true })}><${Icon} name="basket" /><span class="btn-basket-l">${t('basket.title')}</span>${items.length ? html`<span class="badge" aria-label=${t('basket.count', { n: items.length })}>${items.length}</span>` : null}</button>` : null}
     </div>
   </header>`;
 }

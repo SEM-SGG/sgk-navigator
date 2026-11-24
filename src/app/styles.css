@@ -138,7 +138,12 @@ code, .code { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0;
 .app { display: flex; flex-direction: column; height: 100vh; }
 .app-head { height: var(--size-top-nav); flex: none; display: flex; align-items: stretch; gap: 0; padding: 0 0 0 var(--space-xl); border-bottom: 1px solid var(--hairline); background: var(--canvas); position: relative; z-index: 5; }
 .app-head.is-menu { z-index: 39; }
-.brand { display: flex; align-items: center; text-decoration: none; color: var(--ink); margin-right: var(--space-xl); flex: none; font-size: 14px; white-space: nowrap; }
+/* Wortmarke mit Etikett «BETA» (Tag, neutral) und Rückmelde-Symbol (48 px wie die übrigen Werkzeuge der Top-Navigation); beide ausserhalb des Links .brand */
+.brand-group { display: flex; align-items: center; flex: none; margin-right: var(--space-xl); }
+.brand { display: flex; align-items: center; align-self: stretch; text-decoration: none; color: var(--ink); flex: none; font-size: 14px; white-space: nowrap; }
+.app-head .tag-beta { flex: none; margin-left: var(--space-xs); min-height: 20px; padding: 0 var(--space-xxs); font-size: 11px; line-height: 20px; letter-spacing: 0.64px; background: var(--surface-1); color: var(--ink-muted); cursor: default; }
+.app-head .head-feedback { flex: none; width: var(--size-control-lg); height: var(--size-control-lg); }
+.app-head .head-feedback .ico { width: 20px; height: 20px; }
 .brand:hover { color: var(--ink); text-decoration: none; }
 .brand-name strong { font-weight: 600; }
 .app-head .head-menu { display: none; }
@@ -1493,7 +1498,7 @@ a.workbar-info .ico { width: 14px; height: 14px; }
 @media (max-width: 1311px) {
   :root { --page-x: var(--space-lg); --panel-w: 400px; }
   .app-head { padding-left: var(--space-lg); }
-  .brand { margin-right: var(--space-md); }
+  .brand-group { margin-right: var(--space-md); }
   .views a { padding: 0 var(--space-sm); }
   .modbar-desc { display: none; }
   .modbar-tab.is-current .modbar-desc { display: none; }
@@ -1542,7 +1547,7 @@ a.workbar-info .ico { width: 14px; height: 14px; }
   .cmp-headrow { position: static; }
   .ndl-dist, .nmerge-files, .nmt-forms { grid-template-columns: minmax(0, 1fr); }
   .views a { padding: 0 var(--space-xs); }
-  .brand { margin-right: var(--space-sm); }
+  .brand-group { margin-right: var(--space-sm); }
 }
 /* Unter 672 px wird die Navigation zum Menü; Utility-Leiste ausgeblendet, Modulwechsel und Oberflächensprache im Menü */
 @media (max-width: 671px) {
@@ -1551,7 +1556,7 @@ a.workbar-info .ico { width: 14px; height: 14px; }
   .app-head { padding-left: 0; }
   .app-head .head-menu { display: inline-flex; width: var(--size-control-lg); height: var(--size-control-lg); border-right: 1px solid var(--hairline); }
   .head-menu .ico { width: 20px; height: 20px; }
-  .brand { margin-left: var(--space-md); }
+  .brand-group { margin-left: var(--space-md); }
   .views { display: none; }
   .app-head.is-menu .views { display: flex; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; z-index: 30; background: var(--canvas); box-shadow: var(--shadow-overlay); max-height: calc(100vh - var(--size-top-nav)); overflow: auto; padding: var(--space-xs) 0; }
   .app-head.is-menu .views a { min-height: var(--size-control-lg); padding: 0 var(--space-md); border-bottom: 0; border-left: 3px solid transparent; }
@@ -1622,6 +1627,11 @@ a.workbar-info .ico { width: 14px; height: 14px; }
   .nsum-item { min-width: 50%; }
   .modal > .panel-foot { grid-auto-flow: row; }
   .modal > .panel-foot .btn { min-height: var(--size-control-lg); }
+}
+/* Unter 480 px: Sammelkorb nur mit Symbol (48-px-Werkzeug nach UiShell; der Name bleibt für Screenreader und im Tooltip),
+   damit Etikett «BETA» und Rückmelde-Symbol in der Kopfzeile Platz haben */
+@media (max-width: 479px) {
+  .btn-basket-l { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }
 

@@ -6,6 +6,11 @@ export default {
     fixtures: 'Beispieldaten: Dieser Build enthält Testdaten, nicht den Text des SGK.',
     loadFailed: 'Die Anwendung konnte die Daten nicht laden: {msg}',
     noDataset: 'Kein Datensatz eingebettet.',
+    beta: { label: 'BETA', tip: 'Beta: Dieses Tool ist in Erprobung. Rückmeldungen sind willkommen.' },
+    feedback: {
+      label: 'Fehler melden oder Änderung vorschlagen',
+      tip: 'Öffnet GitHub in einem neuen Tab. Meldungen sind öffentlich: keine Inhalte mit dem Vermerk INTERN oder höher, keine Personendaten.',
+    },
   },
   nav: {
     module: 'Rechtsakte', modules: 'Module', views: 'Ansichten', modSgk: 'Rechtsakte', modSgkDesc: 'SGK, EES, ETIAS, VIS, IO',

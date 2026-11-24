@@ -16,6 +16,11 @@ export default fixPunct({
     fixtures: 'Données d’exemple : cette version contient des données de test, pas le texte du CFS.',
     loadFailed: 'Impossible de charger les données : {msg}',
     noDataset: 'Aucun jeu de données intégré.',
+    beta: { label: 'BÊTA', tip: 'Bêta : cet outil est en phase d’essai. Vos retours sont les bienvenus.' },
+    feedback: {
+      label: 'Signaler une erreur ou proposer une modification',
+      tip: 'Ouvre GitHub dans un nouvel onglet. Les signalements sont publics : aucun contenu portant la mention INTERNE ou supérieure, aucune donnée personnelle.',
+    },
   },
   nav: {
     module: 'Actes juridiques', modules: 'Modules', views: 'Vues', modSgk: 'Actes juridiques', modSgkDesc: 'CFS, EES, ETIAS, VIS, IO',

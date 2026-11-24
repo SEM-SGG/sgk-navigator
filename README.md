@@ -51,8 +51,9 @@ rekonstruierte Stände sind im Tool als solche gekennzeichnet.
 
 Sektion Grundlagen Grenze (SGG), Staatssekretariat für Migration SEM.
 
-Fehler und fehlende Fassungen lassen sich unter [Issues](https://github.com/SEM-SGG/sgk-navigator/issues/new/choose) melden.
-Dafür ist ein GitHub-Konto nötig. Issues sind öffentlich: Es gilt die [Datenregel](#datenregel).
+Fehler, fehlende Fassungen und Änderungswünsche lassen sich unter [Issues](https://github.com/SEM-SGG/sgk-navigator/issues/new/choose) melden.
+Dafür ist ein GitHub-Konto nötig. Issues sind öffentlich: Es gilt die [Datenregel](#datenregel). Im Navigator führt das
+Käfersymbol rechts neben dem Produktnamen und dem Etikett «BETA» (während der Erprobung) direkt dorthin.
 Ohne GitHub-Konto: [sektion-grenze@sem.admin.ch](mailto:sektion-grenze@sem.admin.ch).
 
 ### Datenregel

@@ -143,6 +143,21 @@ Dependabot schlägt einmal im Monat neue Versionen der GitHub Actions vor, grupp
 3. Betrifft das Update `actions/upload-pages-artifact` oder `actions/deploy-pages`, prüfe es auch im Workflow «Release», der nur nach einem Merge läuft: Schreibe unter «Von der prüfenden Person zu kontrollieren», dass nach dem nächsten Merge mit neuer Version der Lauf «Release» und die Download-Seite zu prüfen sind (`MAINTAINING.md`, Abschnitt «Prüfen, ob die Veröffentlichung geklappt hat»).
 4. Ist alles grün und unbedenklich, antworte der Fachperson, dass sie den Pull Request zusammenführen kann, mit einem Satz zum Inhalt.
 
+### BETA-Kennzeichnung entfernen
+
+```
+Entferne die BETA-Kennzeichnung im Repository SEM-SGG/sgk-navigator. Halte dich an AGENTS.md, Ablauf «BETA-Kennzeichnung entfernen».
+```
+
+Während der Erprobung zeigt die Kopfzeile rechts neben dem Produktnamen das Etikett «BETA» (`src/app/ui/brandextras.js`). Das Käfersymbol «Fehler melden oder Änderung vorschlagen» daneben bleibt; es hängt an `PROJECT.issues`, nicht am Schalter.
+
+1. Lege einen Zweig ab `origin/main` an.
+2. Setze in `src/app/config/update-source.js` die Konstante `BETA` auf `false`. Ändere sonst nichts am Code.
+3. Passe den Oberflächentest «Kopfzeile: Etikett BETA und Rückmelde-Symbol …» in `test/app/ui.spec.mjs` an: Er erwartet danach kein Etikett (`#beta-tag` fehlt) und weiterhin das Symbol `#lnk-feedback` mit Ziel, `rel` und zugänglichem Namen. Die Einheitstests in `test/app/brandextras.test.mjs` bleiben unverändert.
+4. Entferne in der Produktdokumentation (DE, FR, IT, Abschnitt «Kontakt und Fehlermeldung») und in `README.md` (Abschnitt «Kontakt») die Hinweise auf die Erprobung und das Etikett; den Hinweis auf das Käfersymbol behältst du.
+5. Lege eine neue Version an (Abschnitt «Grundregeln», «Version und Changelog»), zum Beispiel «Das Etikett BETA in der Kopfzeile entfällt; die Erprobung ist abgeschlossen.»
+6. Führe die Prüfbefehle aus und eröffne den Pull Request.
+
 ## Beschreibung des Pull Requests
 
 Die prüfende Person ist eine Fachperson ohne GitHub-Erfahrung. Sie liest die Beschreibung im Browser und entscheidet danach über das Zusammenführen. Die Vorlage `.github/pull_request_template.md` gibt die Abschnitte vor:
